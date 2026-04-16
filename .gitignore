@@ -1,0 +1,28 @@
+# Virtual Environment
+# Exclude the entire folder containing your dependencies
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache
+# Exclude compiled bytecode and cache directories
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Scraping & Logs
+# Beautiful Soup projects often generate log files or temporary outputs
+*.log
+scraped_data/
+tmp/
+pieces_json
+
+# Environment Variables
+# Keep sensitive keys and local settings private
+.env
+
+# IDE / Editor Settings
+# Exclude folder-specific settings (e.g., VS Code or PyCharm)
+.vscode/
+.idea/
