@@ -1,0 +1,98 @@
+{
+  "journal": "New Orleans Review",
+  "issue_url": "https://www.neworleansreview.org/issue-52-summer-2024/",
+  "issue_title": "Issue 52: Summer / Fall 2024",
+  "piece_count": 15,
+  "pieces": [
+    {
+      "section": "Art",
+      "order_in_section": 1,
+      "piece_url": "https://www.neworleansreview.org/firm-decision-conviction/",
+      "link_text_raw": "“Firm Decision/Conviction” cover art by Kriston Banfield"
+    },
+    {
+      "section": "Art",
+      "order_in_section": 2,
+      "piece_url": "https://www.neworleansreview.org/water-damage/",
+      "link_text_raw": "“Water Damage” by Maggie Bard"
+    },
+    {
+      "section": "Fiction",
+      "order_in_section": 1,
+      "piece_url": "https://www.neworleansreview.org/the-albatross-riddle/",
+      "link_text_raw": "“The Albatross Riddle” by Matt Rossi"
+    },
+    {
+      "section": "Fiction",
+      "order_in_section": 2,
+      "piece_url": "https://www.neworleansreview.org/9000-2/",
+      "link_text_raw": "“$9000” by Saritha Ramakrishna"
+    },
+    {
+      "section": "Fiction",
+      "order_in_section": 3,
+      "piece_url": "https://www.neworleansreview.org/love-was-this-alone/",
+      "link_text_raw": "“Love Was This Alone” by David Schwartz"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 1,
+      "piece_url": "https://www.neworleansreview.org/sixty-seconds-in-the-body-of-a-cyborg/",
+      "link_text_raw": "“Sixty Seconds in the Body of a Cyborg” by Zaynab Bobi"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 2,
+      "piece_url": "https://www.neworleansreview.org/cavalry-self-portrait/",
+      "link_text_raw": "“Calvary” & “Self-Portrait” by Danielle Kotrla"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 3,
+      "piece_url": "https://www.neworleansreview.org/aubade-for-a-body-bejewelled-with-napalm/",
+      "link_text_raw": "“Aubade For A Boy Bejeweled with Napalm” (after Romeo Oriogun’s “Invisible Man”) by Nnamdi Ndiol"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 4,
+      "piece_url": "https://www.neworleansreview.org/field-38-field-53/",
+      "link_text_raw": "“Field 38” & “Field 53” by Alex Tretbar"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 5,
+      "piece_url": "https://www.neworleansreview.org/there-is-soot-in-your-nose-a-fire-at-your-door-a-noose-in-your-bed/",
+      "link_text_raw": "“THERE IS SOOT IN YOUR NOSE, A FIRE AT YOUR DOOR, A NOOSE IN YOUR BED” by Maud Acheampong"
+    },
+    {
+      "section": "Essays",
+      "order_in_section": 1,
+      "piece_url": "https://www.neworleansreview.org/in-love-you-learned/",
+      "link_text_raw": "“In Love You Learned” by Sophie Ezzell"
+    },
+    {
+      "section": "Essays",
+      "order_in_section": 2,
+      "piece_url": "https://www.neworleansreview.org/i-become-a-mind-reader/",
+      "link_text_raw": "“i become a mind reader” by Nadia Born"
+    },
+    {
+      "section": "Essays",
+      "order_in_section": 3,
+      "piece_url": "https://www.neworleansreview.org/a-missed-prayer/",
+      "link_text_raw": "“A Missed Prayer” by Summer Suleiman"
+    },
+    {
+      "section": "Essays",
+      "order_in_section": 4,
+      "piece_url": "https://www.neworleansreview.org/leavenworth/",
+      "link_text_raw": "“Leavenworth“ by Melissa Goodnight"
+    },
+    {
+      "section": "Essays",
+      "order_in_section": 5,
+      "piece_url": "https://www.neworleansreview.org/how-to-breathe/",
+      "link_text_raw": "“How to Breathe” by Court Harler"
+    }
+  ]
+}
