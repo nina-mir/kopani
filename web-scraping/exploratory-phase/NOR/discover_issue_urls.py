@@ -46,6 +46,21 @@ def gather_section_links(root: Tag, base_url: str):
     order_in_section = 0
     content_started = False
 
+    section_names = {
+        "art",
+        "fiction",
+        "poetry",
+        "nonfiction",
+        "essays",
+        "essay",
+        "interviews",
+        "interview",
+        "visual",
+        "video",
+        "reviews",
+        "review",
+    }
+
     for child in root.children:
         if isinstance(child, NavigableString):
             continue
@@ -53,28 +68,59 @@ def gather_section_links(root: Tag, base_url: str):
             continue
 
         name = child.name.lower()
-        if name == "h3":
-            current_section = clean_text(child.get_text(" ", strip=True))
+        child_text = clean_text(child.get_text(" ", strip=True))
+
+        # Heading-based sections: h2-h5
+        if name in {"h2", "h3", "h4", "h5"} and child_text:
+            current_section = child_text
             order_in_section = 0
             content_started = True
             continue
 
+        # Bold-only paragraph/div sections like **Art** or **Poetry**
+        if name in {"p", "div"}:
+            direct_bold = None
+            for node in child.children:
+                if isinstance(node, Tag) and node.name and node.name.lower() in {"strong", "b"}:
+                    direct_bold = node
+                    break
+
+            if direct_bold:
+                bold_text = clean_text(direct_bold.get_text(" ", strip=True))
+                if (
+                    bold_text
+                    and bold_text.lower() in section_names
+                    and clean_text(child.get_text(" ", strip=True)) == bold_text
+                ):
+                    current_section = bold_text
+                    order_in_section = 0
+                    content_started = True
+                    continue
+
         if not content_started or not current_section:
             continue
 
-        links = child.select("a[href]") if name in {"p", "div", "ul", "ol"} else []
+        if name not in {"p", "div", "ul", "ol", "blockquote"}:
+            continue
+
+        links = child.select("a[href]")
         for a in links:
             href = a.get("href", "").strip()
             if not href:
                 continue
+
             full_url = urljoin(base_url, href)
+
             if not full_url.startswith("https://www.neworleansreview.org/"):
                 continue
+
             if any(x in full_url for x in ["/writer/", "/category/", "/tag/", "/feed/", "/comments/"]):
                 continue
+
             text = clean_text(a.get_text(" ", strip=True))
             if not text:
                 continue
+
             order_in_section += 1
             rows.append(
                 {
@@ -93,7 +139,63 @@ def gather_section_links(root: Tag, base_url: str):
             continue
         seen.add(key)
         deduped.append(row)
+
     return deduped
+
+# def gather_section_links(root: Tag, base_url: str):
+#     rows = []
+#     current_section = None
+#     order_in_section = 0
+#     content_started = False
+
+#     for child in root.children:
+#         if isinstance(child, NavigableString):
+#             continue
+#         if not isinstance(child, Tag):
+#             continue
+
+#         name = child.name.lower()
+#         if name == "h3":
+#             current_section = clean_text(child.get_text(" ", strip=True))
+#             order_in_section = 0
+#             content_started = True
+#             continue
+
+#         if not content_started or not current_section:
+#             continue
+
+#         links = child.select("a[href]") if name in {"p", "div", "ul", "ol"} else []
+#         for a in links:
+#             href = a.get("href", "").strip()
+#             if not href:
+#                 continue
+#             full_url = urljoin(base_url, href)
+#             if not full_url.startswith("https://www.neworleansreview.org/"):
+#                 continue
+#             if any(x in full_url for x in ["/writer/", "/category/", "/tag/", "/feed/", "/comments/"]):
+#                 continue
+#             text = clean_text(a.get_text(" ", strip=True))
+#             if not text:
+#                 continue
+#             order_in_section += 1
+#             rows.append(
+#                 {
+#                     "section": current_section,
+#                     "order_in_section": order_in_section,
+#                     "piece_url": full_url,
+#                     "link_text_raw": text,
+#                 }
+#             )
+
+#     deduped = []
+#     seen = set()
+#     for row in rows:
+#         key = row["piece_url"]
+#         if key in seen:
+#             continue
+#         seen.add(key)
+#         deduped.append(row)
+#     return deduped
 
 
 def main():
@@ -107,6 +209,9 @@ def main():
         time.sleep(args.sleep)
 
     soup = get_soup(args.issue_url)
+
+    
+
     root = find_entry_content_root(soup)
     title = clean_text((soup.title.get_text() if soup.title else ""))
     pieces = gather_section_links(root, args.issue_url)

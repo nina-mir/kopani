@@ -16,8 +16,8 @@ __pycache__/
 *.log
 scraped_data/
 tmp/
-pieces_json
-/pieces_json*
+pieces_json*
+
 
 # Environment Variables
 # Keep sensitive keys and local settings private

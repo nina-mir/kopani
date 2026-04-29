@@ -447,6 +447,8 @@ def extract_poetry_subworks(content_node: Optional[Tag], authors_raw: List[Dict[
         notes.append("Poetry subworks segmented from inner headings and hr separators.")
     elif started and len(subworks) == 1:
         notes.append("Poetry page had inner heading structure but only one subwork block was captured.")
+        notes.append("manual_check_needed")
+
 
     if not subworks:
         body_chunks = []

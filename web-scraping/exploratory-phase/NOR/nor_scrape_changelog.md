@@ -1,4 +1,4 @@
-# Changelog: `scrape_issue_pieces.py`
+# Changelog: `scrape_issue_pieces.py` & `discover_issue_urls.py`
 
 ## Purpose
 
@@ -20,6 +20,8 @@ This script is for **exploratory journal scraping**, not final database ingestio
 
 ## Change history
 
+### `scrape_issue_pieces.py`
+
 ### v0.1
 - Initial exploratory scraper for one JSON file per piece URL.
 - Captured page-level metadata, raw authors, full main text, HTML, JSON-LD, and breadcrumbs.
@@ -38,3 +40,21 @@ This script is for **exploratory journal scraping**, not final database ingestio
 ## Known limitation
 
 The scraper now performs well on prose-like pages, but poetry remains the most structurally sensitive template and should still be spot-checked during QA. The main issue discovered in review was not basic metadata capture, but segmenting multiple poems correctly within one piece URL. [file:53]
+
+
+### discover_issue_urls.py — section detection fix for alternate issue layouts
+
+Updated `gather_section_links()` to support New Orleans Review issue pages that do not use only `h3` section headers.
+
+#### Change
+- broadened section detection from `h3`-only to `h2`–`h5`
+- added support for bold-only section labels inside `p`/`div` blocks (e.g. `Art`, `Poetry`)
+- kept existing anchor filtering and URL deduplication logic unchanged
+
+#### Why
+The Iran issue page (`/iran-issue/`) returned `0` piece URLs because its structure used mixed heading styles and bold section labels rather than the `h3` pattern seen in later issues.
+
+#### Result
+- issue discovery now works on `/iran-issue/`
+- re-tested on Issue 52 and returned the same results as before
+- improves compatibility across multiple New Orleans Review issue-layout variants without regression
