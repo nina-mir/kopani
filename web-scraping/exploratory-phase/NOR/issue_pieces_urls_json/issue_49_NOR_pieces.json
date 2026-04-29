@@ -1,0 +1,116 @@
+{
+  "journal": "New Orleans Review",
+  "issue_url": "https://www.neworleansreview.org/issue-49-fall-winter-2022/",
+  "issue_title": "Issue 49: Fall / Winter 2022",
+  "piece_count": 18,
+  "pieces": [
+    {
+      "section": "Interviews",
+      "order_in_section": 1,
+      "piece_url": "https://www.neworleansreview.org/naz-riahi/",
+      "link_text_raw": "Naz Riahi by Briana Bhola"
+    },
+    {
+      "section": "Interviews",
+      "order_in_section": 2,
+      "piece_url": "https://www.neworleansreview.org/tissa-hami/",
+      "link_text_raw": "Tissa Hami by Gabriela Barre"
+    },
+    {
+      "section": "Interviews",
+      "order_in_section": 3,
+      "piece_url": "https://www.neworleansreview.org/shahrzad-changalvaee/",
+      "link_text_raw": "Shahrzad Changalvaee by Diana Valenzuela"
+    },
+    {
+      "section": "Fiction",
+      "order_in_section": 1,
+      "piece_url": "https://www.neworleansreview.org/the-bridge-kids/",
+      "link_text_raw": "“The Bridge Kids” by Brandon Haffner"
+    },
+    {
+      "section": "Fiction",
+      "order_in_section": 2,
+      "piece_url": "https://www.neworleansreview.org/love-is-a-piano-dropped-from-a-fourth-story-window/",
+      "link_text_raw": "“Love Is a Piano Dropped from a Fourth-Story Window” by Darina Sikmashvili"
+    },
+    {
+      "section": "Fiction",
+      "order_in_section": 3,
+      "piece_url": "https://www.neworleansreview.org/good-luck-sweet-oriental-boy/",
+      "link_text_raw": "“Good Luck, Sweet Oriental Boy” by Wancy Young Cho"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 1,
+      "piece_url": "https://www.neworleansreview.org/resentful-and-ready/",
+      "link_text_raw": "“Resentful & Ready” by Adele Williams"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 2,
+      "piece_url": "https://www.neworleansreview.org/headcase/",
+      "link_text_raw": "“Headcase!” by Sarah Cavar"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 3,
+      "piece_url": "https://www.neworleansreview.org/bitter/",
+      "link_text_raw": "“Bitter” by Caroline Laganas"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 4,
+      "piece_url": "https://www.neworleansreview.org/after-an-argument-with-my-mother/",
+      "link_text_raw": "“After an Argument with my Mother” by Lilith Acadia"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 5,
+      "piece_url": "https://www.neworleansreview.org/the-children/",
+      "link_text_raw": "“The Children” by Mercedes Lawry"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 6,
+      "piece_url": "https://www.neworleansreview.org/fell-spectacle/",
+      "link_text_raw": "“Fell” & “Spectacle” by V. Batyko"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 7,
+      "piece_url": "https://www.neworleansreview.org/history/",
+      "link_text_raw": "“History” by Theodora Ziolkowski"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 8,
+      "piece_url": "https://www.neworleansreview.org/minor-league/",
+      "link_text_raw": "“Minor League” by Chrisopher Shipman"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 9,
+      "piece_url": "https://www.neworleansreview.org/i-try-to-track-my-thoughts-but-theres-only-sensation/",
+      "link_text_raw": "“I try to track my thoughts but there’s only sensation” by Rachel Rabbit White"
+    },
+    {
+      "section": "Nonfiction",
+      "order_in_section": 1,
+      "piece_url": "https://www.neworleansreview.org/blue-daniel/",
+      "link_text_raw": "“Blue Daniel” by Kyla Marshell"
+    },
+    {
+      "section": "Nonfiction",
+      "order_in_section": 2,
+      "piece_url": "https://www.neworleansreview.org/shadow-family/",
+      "link_text_raw": "“Shadow Family” by Kirie Pedersen"
+    },
+    {
+      "section": "Nonfiction",
+      "order_in_section": 3,
+      "piece_url": "https://www.neworleansreview.org/murky-waters-rising/",
+      "link_text_raw": "“Murky Waters Rising” by Elizabeth Rogers"
+    }
+  ]
+}

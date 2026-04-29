@@ -1,3 +1,11 @@
+# New Orleans Review issue pieces scraper v0.4.1
+
+### v0.4.2
+Expanded `HEADING_TAGS` from `{"h1", "h2", "h3", "h4"}` to include `h5`, fixing multi-poem pages where inner poem titles were marked up as `<h5>` and the second subwork was previously not captured.
+
+### v0.4.1
+Restricted author extraction to the main article header/meta area to prevent sidebar and aside content from being misread as additional authors. This fixed false multi-author captures on pages like “Calvary & Self-Portrait,” where unrelated `/writer/` links from sidebar content were being added to `authors_raw`.
+
 # New Orleans Review scraper v0.3
 
 This version keeps the Windows-safe filename logic and resume-by-default behavior, and adds a more specific parser for multi-poem pages.

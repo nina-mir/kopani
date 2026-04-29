@@ -15,10 +15,11 @@ Wrote 23 piece URLs to issue_51_NOR_pieces_urls.json
 ```
 - Iran Issue by Naz Riahi https://www.neworleansreview.org/iran-issue/
 
+- Issue 49: Fall / Winter 2022  https://www.neworleansreview.org/issue-49-fall-winter-2022/
+
 
 ## Issues to be scraped 
 
-- Issue 49: Fall / Winter 2022  https://www.neworleansreview.org/issue-49-fall-winter-2022/
 
 - Issue 48: Spring / Summer 2022 https://www.neworleansreview.org/issue-48-spring-summer-2022/
 

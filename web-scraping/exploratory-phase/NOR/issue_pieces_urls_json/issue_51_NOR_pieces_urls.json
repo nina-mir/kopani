@@ -1,0 +1,146 @@
+{
+  "journal": "New Orleans Review",
+  "issue_url": "https://www.neworleansreview.org/issue-51-fall-winter-2023/",
+  "issue_title": "Issue 51: Fall / Winter 2023",
+  "piece_count": 23,
+  "pieces": [
+    {
+      "section": "Art",
+      "order_in_section": 1,
+      "piece_url": "https://www.neworleansreview.org/roza/",
+      "link_text_raw": "Roza by Yara Ghabayen"
+    },
+    {
+      "section": "Interviews",
+      "order_in_section": 1,
+      "piece_url": "https://www.neworleansreview.org/james-baldwin/",
+      "link_text_raw": "James Baldwin by David C. Estes (1986)"
+    },
+    {
+      "section": "Interviews",
+      "order_in_section": 2,
+      "piece_url": "https://www.neworleansreview.org/jorge-luis-borges/",
+      "link_text_raw": "Jorge Luis Borges by John Biguenet & Tom Whalen (1982)"
+    },
+    {
+      "section": "Interviews",
+      "order_in_section": 3,
+      "piece_url": "https://www.neworleansreview.org/anais-nin/",
+      "link_text_raw": "Anaïs Nin by Jeffrey Bailey (1976)"
+    },
+    {
+      "section": "Interviews",
+      "order_in_section": 4,
+      "piece_url": "https://www.neworleansreview.org/christopher-isherwood/",
+      "link_text_raw": "Christopher Isherwood by Sarah Smith & Marcus Smith (1975)"
+    },
+    {
+      "section": "Fiction",
+      "order_in_section": 1,
+      "piece_url": "https://www.neworleansreview.org/paula-coles-2-am-walgreens-apology/",
+      "link_text_raw": "“Paula Cole’s 2 AM Walgreens Apology” by Lisa Nikolidakis"
+    },
+    {
+      "section": "Fiction",
+      "order_in_section": 2,
+      "piece_url": "https://www.neworleansreview.org/go-on-then/",
+      "link_text_raw": "Go On Then” by Siew David Hii"
+    },
+    {
+      "section": "Fiction",
+      "order_in_section": 3,
+      "piece_url": "https://www.neworleansreview.org/full-of-grace/",
+      "link_text_raw": "“Full of Grace” by Kasimma"
+    },
+    {
+      "section": "Fiction",
+      "order_in_section": 4,
+      "piece_url": "https://www.neworleansreview.org/the-lady-baguette/",
+      "link_text_raw": "“The Lady Baguette” by Elizabeth Brus"
+    },
+    {
+      "section": "Fiction",
+      "order_in_section": 5,
+      "piece_url": "https://www.neworleansreview.org/the-last-great-artist-of-moscow/",
+      "link_text_raw": "“The Last Great Artist of Moscow” by Nikita Andester"
+    },
+    {
+      "section": "Fiction",
+      "order_in_section": 6,
+      "piece_url": "https://www.neworleansreview.org/cake-2/",
+      "link_text_raw": "“Cake” by Nicole Hazan"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 1,
+      "piece_url": "https://www.neworleansreview.org/is-it-even-a-diaspora-poem-without-the-immigrant-parents-story/",
+      "link_text_raw": "“Is It Even A Diaspora Poem Without The Immigrant Parents’ Story?” by Rita Mookerjee"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 2,
+      "piece_url": "https://www.neworleansreview.org/score-iii-litany-of-torture/",
+      "link_text_raw": "“Score III // A Litany of Torture” by Sophia Terazawa"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 3,
+      "piece_url": "https://www.neworleansreview.org/credible-threats/",
+      "link_text_raw": "Credible Threats” by Ziya Wang"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 4,
+      "piece_url": "https://www.neworleansreview.org/glass-delusion/",
+      "link_text_raw": "“Glass Delusion” by Heather Gluck"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 5,
+      "piece_url": "https://www.neworleansreview.org/woman-bird-star-brown-sun-and-house-top/",
+      "link_text_raw": "“Woman, Bird, Star” and “Brown sun and house top” by Kirsten Kaschock"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 6,
+      "piece_url": "https://www.neworleansreview.org/and-joan-crawford-left-her-daughter-lucency/",
+      "link_text_raw": "“…and, Joan Crawford left her daughter” and “lucency” by Allison Whittenberg"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 7,
+      "piece_url": "https://www.neworleansreview.org/who-is-there-you-inform-our-regret-i-am-in-your-field/",
+      "link_text_raw": "“Who is There Who is There” and “You Inform Our Regret” and “I Am in Your Field” by Evan Williams"
+    },
+    {
+      "section": "Essays",
+      "order_in_section": 1,
+      "piece_url": "https://www.neworleansreview.org/this-time/",
+      "link_text_raw": "“This Time” by Isabella Kestermann"
+    },
+    {
+      "section": "Essays",
+      "order_in_section": 2,
+      "piece_url": "https://www.neworleansreview.org/children-of-the-stones/",
+      "link_text_raw": "“Children of the Stones” by Sama"
+    },
+    {
+      "section": "Essays",
+      "order_in_section": 3,
+      "piece_url": "https://www.neworleansreview.org/tradicion/",
+      "link_text_raw": "“Tradición” by Victoria Gudino"
+    },
+    {
+      "section": "Essays",
+      "order_in_section": 4,
+      "piece_url": "https://www.neworleansreview.org/trans-icons-from-the-farm/",
+      "link_text_raw": "“Trans Icons from the Farm” by Mukethe Kawinzi"
+    },
+    {
+      "section": "Essays",
+      "order_in_section": 5,
+      "piece_url": "https://www.neworleansreview.org/the-days-have-shed-their-names-march-27th-2020/",
+      "link_text_raw": "“The Days Have Shed Their Names” by Sara Seinberg"
+    }
+  ]
+}

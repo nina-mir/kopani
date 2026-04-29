@@ -41,6 +41,9 @@ This script is for **exploratory journal scraping**, not final database ingestio
 
 The scraper now performs well on prose-like pages, but poetry remains the most structurally sensitive template and should still be spot-checked during QA. The main issue discovered in review was not basic metadata capture, but segmenting multiple poems correctly within one piece URL. [file:53]
 
+### v0.4.2
+Expanded `HEADING_TAGS` from `{"h1", "h2", "h3", "h4"}` to include `h5`, fixing multi-poem pages where inner poem titles were marked up as `<h5>` and the second subwork was previously not captured.
+
 
 ### discover_issue_urls.py — section detection fix for alternate issue layouts
 

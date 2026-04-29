@@ -1,0 +1,104 @@
+{
+  "journal": "New Orleans Review",
+  "issue_url": "https://www.neworleansreview.org/iran-issue/",
+  "issue_title": "Iran Issue",
+  "piece_count": 16,
+  "pieces": [
+    {
+      "section": "Video",
+      "order_in_section": 1,
+      "piece_url": "https://www.neworleansreview.org/whisper-my-name-9272-70-miles/",
+      "link_text_raw": "9,272.70 Miles / Whisper My Name by Azin Seraj"
+    },
+    {
+      "section": "Video",
+      "order_in_section": 2,
+      "piece_url": "https://www.neworleansreview.org/lost-in-her-hair-monday/",
+      "link_text_raw": "lost in her hair(monday) by Pegah Pasalar"
+    },
+    {
+      "section": "Visual",
+      "order_in_section": 1,
+      "piece_url": "https://www.neworleansreview.org/nationhood-woman-unicorn/",
+      "link_text_raw": "Nationhood / Woman / Unicorn by Sabrina Mansouri"
+    },
+    {
+      "section": "Visual",
+      "order_in_section": 2,
+      "piece_url": "https://www.neworleansreview.org/hoss-kojast/",
+      "link_text_raw": "Hoss Kojast by Parisa Karami"
+    },
+    {
+      "section": "Visual",
+      "order_in_section": 3,
+      "piece_url": "https://www.neworleansreview.org/tohid/",
+      "link_text_raw": "Tohid by Anonymous"
+    },
+    {
+      "section": "Visual",
+      "order_in_section": 4,
+      "piece_url": "https://www.neworleansreview.org/the-hidden-sense/",
+      "link_text_raw": "The Hidden Sense by Elma Hashemi"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 1,
+      "piece_url": "https://www.neworleansreview.org/testing-a-pattern-replicas-swim-swam-swum/",
+      "link_text_raw": "“Testing a Pattern” / “Replicas” / “Swim, Swam, Swum” by Jenny Sadre Orafai"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 2,
+      "piece_url": "https://www.neworleansreview.org/ode-to-the-loghmeh/",
+      "link_text_raw": "“Ode to the loghmeh” by Mehrnoosh Torbatnejad"
+    },
+    {
+      "section": "Poetry",
+      "order_in_section": 3,
+      "piece_url": "https://www.neworleansreview.org/the-blue-sky/",
+      "link_text_raw": "“The Blue Sky” by Leila Sayedzadeh"
+    },
+    {
+      "section": "Nonfiction",
+      "order_in_section": 1,
+      "piece_url": "https://www.neworleansreview.org/third-person-or-nastaran-ahmadi-writes-personal-essays-about-nastaran-ahmadi/",
+      "link_text_raw": "“Third Person, or Nastaran Ahmadi writes personal essays about Nastaran Ahmadi” by Nastaran Ahmadi"
+    },
+    {
+      "section": "Nonfiction",
+      "order_in_section": 2,
+      "piece_url": "https://www.neworleansreview.org/testimonies-written-by-iranian-female-composers-association-ifca-members-inside-of-iran/",
+      "link_text_raw": "Testimonies written by Iranian Female Composers Association (IFCA) members inside of Iran"
+    },
+    {
+      "section": "Nonfiction",
+      "order_in_section": 3,
+      "piece_url": "https://www.neworleansreview.org/kesi-gir-dad/",
+      "link_text_raw": "“Kesi gir dad?” by Leila Gharagozlou"
+    },
+    {
+      "section": "Nonfiction",
+      "order_in_section": 4,
+      "piece_url": "https://www.neworleansreview.org/wrong-syntax/",
+      "link_text_raw": "“Wrong Syntax” by Mitra Parineh"
+    },
+    {
+      "section": "Nonfiction",
+      "order_in_section": 5,
+      "piece_url": "https://www.neworleansreview.org/passing-an-elegy-in-viii-parts/",
+      "link_text_raw": "“Passing: An Elegy in VII Parts” by Naseem Jamnia"
+    },
+    {
+      "section": "Nonfiction",
+      "order_in_section": 6,
+      "piece_url": "https://www.neworleansreview.org/the-rose-generation/",
+      "link_text_raw": "“The Rose Generation” by Mojgan Ghazirad"
+    },
+    {
+      "section": "Nonfiction",
+      "order_in_section": 7,
+      "piece_url": "https://www.neworleansreview.org/farsi-is-killing-me/",
+      "link_text_raw": "“Farsi is killing me” by Nina Ruth Mir"
+    }
+  ]
+}
