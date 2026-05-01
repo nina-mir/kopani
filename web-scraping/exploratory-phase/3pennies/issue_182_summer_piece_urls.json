@@ -1,0 +1,67 @@
+{
+  "journal": "The Threepenny Review",
+  "issue_url": "https://www.threepennyreview.com/issue-182-summer-2025/",
+  "issue_slug": "issue-182-summer-2025",
+  "issue_number": 182,
+  "issue_season": "summer",
+  "issue_year": 2025,
+  "piece_count": 7,
+  "pieces": [
+    {
+      "section": "Reflections",
+      "order_in_issue": 1,
+      "piece_url": "https://www.threepennyreview.com/things-that-disappear/",
+      "link_text_raw": "Reflections: Things That Disappear",
+      "title_from_issue": "Things That Disappear",
+      "author_from_issue_raw": "Jenny Erpenbeck"
+    },
+    {
+      "section": "Miscellany",
+      "order_in_issue": 2,
+      "piece_url": "https://www.threepennyreview.com/someday-these-separate-channels/",
+      "link_text_raw": "Miscellany: Someday These Separate Channels",
+      "title_from_issue": "Someday These Separate Channels",
+      "author_from_issue_raw": "Julia Franks"
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 3,
+      "piece_url": "https://www.threepennyreview.com/a-fox-and-a-chicken/",
+      "link_text_raw": "Poem: A Fox and a Chicken",
+      "title_from_issue": "A Fox and a Chicken",
+      "author_from_issue_raw": "Andrea Cohen"
+    },
+    {
+      "section": "Fiction",
+      "order_in_issue": 4,
+      "piece_url": "https://www.threepennyreview.com/the-flies/",
+      "link_text_raw": "Fiction: The Flies",
+      "title_from_issue": "The Flies",
+      "author_from_issue_raw": "Kate Busatto"
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 5,
+      "piece_url": "https://www.threepennyreview.com/the-community-college-teacher-teaches-the-emperor-of-ice-cream/",
+      "link_text_raw": "Poem: The Community College Teacher Teaches “The Emperor of Ice Cream”",
+      "title_from_issue": "The Community College Teacher Teaches “The Emperor of Ice Cream”",
+      "author_from_issue_raw": "Tom Sleigh"
+    },
+    {
+      "section": "Medicine",
+      "order_in_issue": 6,
+      "piece_url": "https://www.threepennyreview.com/a-geriatric-perspective/",
+      "link_text_raw": "Medicine: A Geriatric Perspective",
+      "title_from_issue": "A Geriatric Perspective",
+      "author_from_issue_raw": "Toni Martin"
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 7,
+      "piece_url": "https://www.threepennyreview.com/just-a-tool/",
+      "link_text_raw": "Poem: Just a Tool",
+      "title_from_issue": "Just a Tool",
+      "author_from_issue_raw": "Ujjvala Bagal Rahn"
+    }
+  ]
+}

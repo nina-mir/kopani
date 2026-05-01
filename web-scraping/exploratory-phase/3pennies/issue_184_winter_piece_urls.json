@@ -1,0 +1,67 @@
+{
+  "journal": "The Threepenny Review",
+  "issue_url": "https://www.threepennyreview.com/issue-184-winter-2026/",
+  "issue_slug": "issue-184-winter-2026",
+  "issue_number": 184,
+  "issue_season": "winter",
+  "issue_year": 2026,
+  "piece_count": 7,
+  "pieces": [
+    {
+      "section": "Poem",
+      "order_in_issue": 1,
+      "piece_url": "https://www.threepennyreview.com/my-face-in-transition-from-girl-to-woman/",
+      "link_text_raw": "Poem: My Face in Transition from Girl to Woman",
+      "title_from_issue": "My Face in Transition from Girl to Woman",
+      "author_from_issue_raw": "Sharon Olds"
+    },
+    {
+      "section": "Reflections",
+      "order_in_issue": 2,
+      "piece_url": "https://www.threepennyreview.com/why-read/",
+      "link_text_raw": "Reflections: Why Read?",
+      "title_from_issue": "Why Read?",
+      "author_from_issue_raw": "Caryl Phillips"
+    },
+    {
+      "section": "Miscellany",
+      "order_in_issue": 3,
+      "piece_url": "https://www.threepennyreview.com/laughter-in-the-dark/",
+      "link_text_raw": "Miscellany: Laughter in the Dark",
+      "title_from_issue": "Laughter in the Dark",
+      "author_from_issue_raw": "Jack Hanson"
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 4,
+      "piece_url": "https://www.threepennyreview.com/a-city-with-no-name/",
+      "link_text_raw": "Poem: A City with No Name",
+      "title_from_issue": "A City with No Name",
+      "author_from_issue_raw": "D. Nurkse"
+    },
+    {
+      "section": "Medicine",
+      "order_in_issue": 5,
+      "piece_url": "https://www.threepennyreview.com/my-grandfathers-caviar/",
+      "link_text_raw": "Medicine: My Grandfather’s Caviar",
+      "title_from_issue": "My Grandfather’s Caviar",
+      "author_from_issue_raw": "Leah Kosyakovsky"
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 6,
+      "piece_url": "https://www.threepennyreview.com/astronomical-winter/",
+      "link_text_raw": "Poem: Astronomical Winter",
+      "title_from_issue": "Astronomical Winter",
+      "author_from_issue_raw": "Catherine Goldhammer"
+    },
+    {
+      "section": "Theater",
+      "order_in_issue": 7,
+      "piece_url": "https://www.threepennyreview.com/all-by-themselves/",
+      "link_text_raw": "Theater: Vanya and The Picture of Dorian Gray",
+      "title_from_issue": "Vanya and The Picture of Dorian Gray",
+      "author_from_issue_raw": "Brian Seibert"
+    }
+  ]
+}

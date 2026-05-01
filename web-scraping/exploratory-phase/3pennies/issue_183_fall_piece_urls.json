@@ -1,0 +1,99 @@
+{
+  "journal": "The Threepenny Review",
+  "issue_url": "https://www.threepennyreview.com/issue-183-fall-2025/",
+  "issue_slug": "issue-183-fall-2025",
+  "issue_number": 183,
+  "issue_season": "fall",
+  "issue_year": 2025,
+  "piece_count": 11,
+  "pieces": [
+    {
+      "section": "Poem",
+      "order_in_issue": 1,
+      "piece_url": "https://www.threepennyreview.com/nabokov/",
+      "link_text_raw": "Poem: Nabokov",
+      "title_from_issue": "Nabokov",
+      "author_from_issue_raw": "A. Z. Foreman"
+    },
+    {
+      "section": "Perspective",
+      "order_in_issue": 2,
+      "piece_url": "https://www.threepennyreview.com/a-chain-reaction/",
+      "link_text_raw": "Perspective: A Chain Reaction",
+      "title_from_issue": "A Chain Reaction",
+      "author_from_issue_raw": "Sergey Gerasimov"
+    },
+    {
+      "section": "Fiction",
+      "order_in_issue": 3,
+      "piece_url": "https://www.threepennyreview.com/uber-talk/",
+      "link_text_raw": "Fiction: Uber Talk",
+      "title_from_issue": "Uber Talk",
+      "author_from_issue_raw": "E. C. Osondu"
+    },
+    {
+      "section": "Books",
+      "order_in_issue": 4,
+      "piece_url": "https://www.threepennyreview.com/the-mother-aquarium/",
+      "link_text_raw": "Books: Blue Light Hours by Bruna Dantas Lobato",
+      "title_from_issue": "Blue Light Hours by Bruna Dantas Lobato",
+      "author_from_issue_raw": "Evgeniya Dame"
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 5,
+      "piece_url": "https://www.threepennyreview.com/dear-a-i/",
+      "link_text_raw": "Poem: Dear A.I.,",
+      "title_from_issue": "Dear A.I.,",
+      "author_from_issue_raw": "Peter Krumbach"
+    },
+    {
+      "section": "Reflections",
+      "order_in_issue": 6,
+      "piece_url": "https://www.threepennyreview.com/half-heard-in-the-stillness/",
+      "link_text_raw": "Reflections: Half-Heard in the Stillness",
+      "title_from_issue": "Half-Heard in the Stillness",
+      "author_from_issue_raw": "Jeremy Faro"
+    },
+    {
+      "section": null,
+      "order_in_issue": 7,
+      "piece_url": "https://www.threepennyreview.com/lang-on-exile-and-cunning/",
+      "link_text_raw": "Kasra Lang",
+      "title_from_issue": "Kasra Lang",
+      "author_from_issue_raw": "Kasra Lang"
+    },
+    {
+      "section": null,
+      "order_in_issue": 8,
+      "piece_url": "https://www.threepennyreview.com/on-exile-and-cunning/",
+      "link_text_raw": "Elvis Bego",
+      "title_from_issue": "Kasra Lang",
+      "author_from_issue_raw": "Kasra Lang"
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 9,
+      "piece_url": "https://www.threepennyreview.com/being-and-time/",
+      "link_text_raw": "Poem: Being and Time",
+      "title_from_issue": "Being and Time",
+      "author_from_issue_raw": "Jane Zwart"
+    },
+    {
+      "section": "Memoir",
+      "order_in_issue": 10,
+      "piece_url": "https://www.threepennyreview.com/rosies-remedial-religion/",
+      "link_text_raw": "Memoir: Rosie’s Remedial Religion",
+      "title_from_issue": "Rosie’s Remedial Religion",
+      "author_from_issue_raw": "Tom Sleigh"
+    },
+    {
+      "section": "Photography",
+      "order_in_issue": 11,
+      "piece_url": "https://www.threepennyreview.com/layers-and-reflections/",
+      "link_text_raw": "Photography: Anastasia Samoylova and Walker Evans",
+      "title_from_issue": "Anastasia Samoylova and Walker Evans",
+      "author_from_issue_raw": "Arthur Lubow"
+    }
+  ]
+}
