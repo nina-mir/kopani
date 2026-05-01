@@ -1,0 +1,59 @@
+{
+  "journal": "The Threepenny Review",
+  "issue_url": "https://www.threepennyreview.com/135_f13/",
+  "issue_slug": "issue-135-fall-2013",
+  "issue_number": 135,
+  "issue_season": "fall",
+  "issue_year": 2013,
+  "piece_count": 6,
+  "pieces": [
+    {
+      "section": "Poem",
+      "order_in_issue": 1,
+      "piece_url": "https://threepennyreview.com/samples/berry_f13.html",
+      "link_text_raw": "Poem: From Sabbaths 2013",
+      "title_from_issue": "From Sabbaths 2013",
+      "author_from_issue_raw": null
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 2,
+      "piece_url": "https://threepennyreview.com/samples/levine_f13.html",
+      "link_text_raw": "Poem: Urban Myths",
+      "title_from_issue": "From Sabbaths 2013",
+      "author_from_issue_raw": null
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 3,
+      "piece_url": "https://threepennyreview.com/samples/pinckney_f13.html",
+      "link_text_raw": "Lives: The Ethics of Admiration",
+      "title_from_issue": "From Sabbaths 2013",
+      "author_from_issue_raw": null
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 4,
+      "piece_url": "https://threepennyreview.com/samples/cohenandrea_f13.html",
+      "link_text_raw": "Perspective: Three Walks",
+      "title_from_issue": "From Sabbaths 2013",
+      "author_from_issue_raw": null
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 5,
+      "piece_url": "https://threepennyreview.com/samples/gluck_f13.html",
+      "link_text_raw": "Louise Glück",
+      "title_from_issue": "From Sabbaths 2013",
+      "author_from_issue_raw": null
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 6,
+      "piece_url": "https://threepennyreview.com/samples/marias_f13.html",
+      "link_text_raw": "Fiction: A Sense of Camaraderie",
+      "title_from_issue": "From Sabbaths 2013",
+      "author_from_issue_raw": null
+    }
+  ]
+}

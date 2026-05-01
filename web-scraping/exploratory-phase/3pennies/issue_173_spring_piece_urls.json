@@ -1,0 +1,91 @@
+{
+  "journal": "The Threepenny Review",
+  "issue_url": "https://www.threepennyreview.com/tp_173_sp23/",
+  "issue_slug": "issue-173-spring-2023",
+  "issue_number": 173,
+  "issue_season": "spring",
+  "issue_year": 2023,
+  "piece_count": 10,
+  "pieces": [
+    {
+      "section": "Books",
+      "order_in_issue": 1,
+      "piece_url": "https://www.threepennyreview.com/the-man-and-the-artist/",
+      "link_text_raw": "Books: David Smith by Michael Brenson",
+      "title_from_issue": "David Smith by Michael Brenson",
+      "author_from_issue_raw": "Janna Malamud Smith"
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 2,
+      "piece_url": "https://www.threepennyreview.com/all-the-young-dudes/",
+      "link_text_raw": "Poem: All the Young Dudes",
+      "title_from_issue": "All the Young Dudes",
+      "author_from_issue_raw": "Rowan Ricardo Phillips"
+    },
+    {
+      "section": null,
+      "order_in_issue": 3,
+      "piece_url": "https://www.threepennyreview.com/on-loss-keizer/",
+      "link_text_raw": "Bert Keizer",
+      "title_from_issue": "Bert Keizer",
+      "author_from_issue_raw": "Elizabeth Tallent, T. J. Clark, Adam Phillips, Robert Pinsky, Wendy Lesser,"
+    },
+    {
+      "section": null,
+      "order_in_issue": 4,
+      "piece_url": "https://www.threepennyreview.com/on-loss-wineapple",
+      "link_text_raw": "Brenda Wineapple",
+      "title_from_issue": "Bert Keizer",
+      "author_from_issue_raw": "Elizabeth Tallent, T. J. Clark, Adam Phillips, Robert Pinsky, Wendy Lesser,"
+    },
+    {
+      "section": null,
+      "order_in_issue": 5,
+      "piece_url": "https://www.threepennyreview.com/on-loss-dyer/",
+      "link_text_raw": "Geoff Dyer",
+      "title_from_issue": "Bert Keizer",
+      "author_from_issue_raw": "Elizabeth Tallent, T. J. Clark, Adam Phillips, Robert Pinsky, Wendy Lesser,"
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 6,
+      "piece_url": "https://www.threepennyreview.com/if-only-i-could-find-again/",
+      "link_text_raw": "Poem: If Only I Could Find Again",
+      "title_from_issue": "If Only I Could Find Again",
+      "author_from_issue_raw": "Charles Simic"
+    },
+    {
+      "section": "Film",
+      "order_in_issue": 7,
+      "piece_url": "https://www.threepennyreview.com/they-feel-it-all/",
+      "link_text_raw": "Film: Melodrama",
+      "title_from_issue": "Melodrama",
+      "author_from_issue_raw": "Matthew Eng"
+    },
+    {
+      "section": "Fiction",
+      "order_in_issue": 8,
+      "piece_url": "https://www.threepennyreview.com/safety/",
+      "link_text_raw": "Fiction: Safety",
+      "title_from_issue": "Safety",
+      "author_from_issue_raw": "Ariel Dorfman"
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 9,
+      "piece_url": "https://www.threepennyreview.com/interpreting-dreams/",
+      "link_text_raw": "Poem: Interpreting Dreams",
+      "title_from_issue": "Interpreting Dreams",
+      "author_from_issue_raw": "Megan Nichols"
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 10,
+      "piece_url": "https://www.threepennyreview.com/sierra-valley-workshop/",
+      "link_text_raw": "Poem: Sierra Valley Workshop",
+      "title_from_issue": "Sierra Valley Workshop",
+      "author_from_issue_raw": "Sharon Olds"
+    }
+  ]
+}

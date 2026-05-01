@@ -1,12 +1,27 @@
-## April-30-2026
-Issue 135 shows wrong data scraped for the available pieces.
 
-It appears older issues (before 2014 approx.) have a weird structure for Table of Content such as using one parent p tag that in cludes a bunch of span tags for each item in the issue. 
+## How to run
 
-for now, i am only going to focus on scraping newer issues.
+```python
+python scrape_threepenny_samples.py --out threepenny_samples_urls.json
+```
+The script:
 
-## May-1-2026 
+- Extracts all <tr><td><a href="..."> links ending in .html
 
+- Skips any href starting with - or ../
+
+- Constructs full URLs as https://threepennyreview.com/samples/{filename}
+
+- Parses issue season/year from filename pattern (_f13 → fall 2013, _su09 → summer 2009)
+
+- Leaves title, author, section as null for later piece-level scraping
+
+
+
+## Motivation for this specific work
+
+
+## May 1, 2026
 I discovered that there exists a link https://threepennyreview.com/samples/
 where all the available pieces online from the earliest issues till issue 172, Winter 2023 issue inclusive that host all the URLs leading to those pieces. 
 The issues 173 till current issue have a different URL which the discover_threepenny_issue_urls.py script can handle more or less. 
@@ -35,61 +50,15 @@ I say that can be handled with a manual check.
 
 So, I need a scraper for https://threepennyreview.com/samples/ to scrape all the URLS after constructing them as illustrated above, then constructing the issue and that's it for now. 
 
-============================
-issue 182
-A good and active hyperlink of a Table Talk piece never got captured because no author was mentioned
-I had to manually add it to the discovery urls JSON file
+## structure of the output
 
-issue 183 
-could not handle the symposium links and authors names coreectly
+**Extract from each `<tr><td><a>` row:**
+- Construct full URL: `https://threepennyreview.com/samples/{href}`
+- Parse issue from filename pattern (e.g., `cohenandrea_f13.html` → fall 2013)
+- Skip any href starting with `-` or `../`
 
-issue 180
-the following null values could be filled in easily by looking at the <title> element of the page to be scrraped!!
-
-Example: 
-- <title>Issue 144, Winter 2016 – The Threepenny Review</title>
-- <title>Issue 142, Summer 2015 – The Threepenny Review</title>
-- <title>Issue 93, Spring 2003 – The Threepenny Review</title>
-
-{
-  "journal": "The Threepenny Review",
-  "issue_url": "https://www.threepennyreview.com/issue-180-winter-2025/",
-  "issue_slug": null,
-  "issue_number": null,
-  "issue_season": null,
-  "issue_year": null,
-  "piece_count": 8,
-  "pieces": [
-    {
-
-The same issue with 181:
-
-{
-  "journal": "The Threepenny Review",
-  "issue_url": "https://www.threepennyreview.com/issue-181-spring-2025/",
-  "issue_slug": null,
-  "issue_number": null,
-  "issue_season": null,
-  "issue_year": null,
-  "piece_count": 9,
-  "pieces": [
-    {
-and issue 184
-
-{
-  "journal": "The Threepenny Review",
-  "issue_url": "https://www.threepennyreview.com/issue-184-winter-2026/",
-  "issue_slug": null,
-  "issue_number": null,
-  "issue_season": null,
-  "issue_year": null,
-  "piece_count": 7,
-  "pieces": [
-    {
-
-
-===================
-
-
-
-# 
+**Output JSON with:**
+- `piece_url` (full constructed URL)
+- `issue_season` (parsed from `_su`/`_f`/`_wi`/`_sp`)
+- `issue_year` (parsed from last 2 digits → `13` = 2013)
+- Leave `title`, `author`, `section` as `null`

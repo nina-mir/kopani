@@ -1,0 +1,75 @@
+{
+  "journal": "The Threepenny Review",
+  "issue_url": "https://www.threepennyreview.com/145_sp16/",
+  "issue_slug": "issue-145-spring-2016",
+  "issue_number": 145,
+  "issue_season": "spring",
+  "issue_year": 2016,
+  "piece_count": 8,
+  "pieces": [
+    {
+      "section": "Poem",
+      "order_in_issue": 1,
+      "piece_url": "https://threepennyreview.com/samples/pinsky_sp16.html",
+      "link_text_raw": "Poem: The Orphan Quadrille",
+      "title_from_issue": "The Dancing Plague",
+      "author_from_issue_raw": null
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 2,
+      "piece_url": "https://threepennyreview.com/samples/ryankay_sp16.html",
+      "link_text_raw": "Kay Ryan",
+      "title_from_issue": "The Dancing Plague",
+      "author_from_issue_raw": null
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 3,
+      "piece_url": "https://threepennyreview.com/samples/dewaal_sp16.html",
+      "link_text_raw": "Edmund de Waal",
+      "title_from_issue": "The Dancing Plague",
+      "author_from_issue_raw": null
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 4,
+      "piece_url": "https://threepennyreview.com/samples/bynum_sp16.html",
+      "link_text_raw": "Art: Object",
+      "title_from_issue": "The Dancing Plague",
+      "author_from_issue_raw": null
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 5,
+      "piece_url": "https://threepennyreview.com/samples/volz_sp16.html",
+      "link_text_raw": "Memoir: Snakebit",
+      "title_from_issue": "The Dancing Plague",
+      "author_from_issue_raw": null
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 6,
+      "piece_url": "https://threepennyreview.com/samples/spagnuolo_sp16.html",
+      "link_text_raw": "Poem: Reliquary",
+      "title_from_issue": "The Dancing Plague",
+      "author_from_issue_raw": null
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 7,
+      "piece_url": "https://threepennyreview.com/samples/powell_sp16.html",
+      "link_text_raw": "Poem: The One Who Left",
+      "title_from_issue": "The Dancing Plague",
+      "author_from_issue_raw": null
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 8,
+      "piece_url": "https://threepennyreview.com/samples/lesser_sp16.html",
+      "link_text_raw": "Miscellany: Narrative Imagination",
+      "title_from_issue": "The Dancing Plague",
+      "author_from_issue_raw": null
+    }
+  ]
+}
