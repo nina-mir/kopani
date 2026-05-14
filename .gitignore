@@ -17,6 +17,7 @@ __pycache__/
 scraped_data/
 tmp/
 pieces_json*
+threepenny_outputs
 
 
 # Environment Variables

@@ -1,0 +1,542 @@
+[
+    {
+        "piece_url": "https://threepennyreview.com/samples/seshadri_sp98.html",
+        "filename": "seshadri_sp98.html",
+        "issue_season": "spring",
+        "issue_year": 1998,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/shapiro_w04.html",
+        "filename": "shapiro_w04.html",
+        "issue_season": "winter",
+        "issue_year": 2004,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/shapiro_w18.html",
+        "filename": "shapiro_w18.html",
+        "issue_season": "winter",
+        "issue_year": 2018,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/shapiro_w21.html",
+        "filename": "shapiro_w21.html",
+        "issue_season": "winter",
+        "issue_year": 2021,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/sheffer_sp20.html",
+        "filename": "sheffer_sp20.html",
+        "issue_season": "spring",
+        "issue_year": 2020,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/shteyngart_sp04.html",
+        "filename": "shteyngart_sp04.html",
+        "issue_season": "spring",
+        "issue_year": 2004,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/simic_f16.html",
+        "filename": "simic_f16.html",
+        "issue_season": "fall",
+        "issue_year": 2016,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/simic_f18.html",
+        "filename": "simic_f18.html",
+        "issue_season": "fall",
+        "issue_year": 2018,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/simic_f20.html",
+        "filename": "simic_f20.html",
+        "issue_season": "fall",
+        "issue_year": 2020,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/simic_f22.html",
+        "filename": "simic_f22.html",
+        "issue_season": "fall",
+        "issue_year": 2022,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/simic_sp17.html",
+        "filename": "simic_sp17.html",
+        "issue_season": "spring",
+        "issue_year": 2017,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/simic_sp18.html",
+        "filename": "simic_sp18.html",
+        "issue_season": "spring",
+        "issue_year": 2018,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/simic_sp20.html",
+        "filename": "simic_sp20.html",
+        "issue_season": "spring",
+        "issue_year": 2020,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/simic_sp22.html",
+        "filename": "simic_sp22.html",
+        "issue_season": "spring",
+        "issue_year": 2022,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/simic_su19.html",
+        "filename": "simic_su19.html",
+        "issue_season": "summer",
+        "issue_year": 2019,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/simic_w18.html",
+        "filename": "simic_w18.html",
+        "issue_season": "winter",
+        "issue_year": 2018,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/simic_w20.html",
+        "filename": "simic_w20.html",
+        "issue_season": "winter",
+        "issue_year": 2020,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/simic_w22.html",
+        "filename": "simic_w22.html",
+        "issue_season": "winter",
+        "issue_year": 2022,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/singer_su19.html",
+        "filename": "singer_su19.html",
+        "issue_season": "summer",
+        "issue_year": 2019,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/sleigh_f08.html",
+        "filename": "sleigh_f08.html",
+        "issue_season": "fall",
+        "issue_year": 2008,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/sleigh_su16.html",
+        "filename": "sleigh_su16.html",
+        "issue_season": "summer",
+        "issue_year": 2016,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/sleigh_su20.html",
+        "filename": "sleigh_su20.html",
+        "issue_season": "summer",
+        "issue_year": 2020,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/smith_f07.html",
+        "filename": "smith_f07.html",
+        "issue_season": "fall",
+        "issue_year": 2007,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/smith_su03.html",
+        "filename": "smith_su03.html",
+        "issue_season": "summer",
+        "issue_year": 2003,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/smith_w18.html",
+        "filename": "smith_w18.html",
+        "issue_season": "winter",
+        "issue_year": 2018,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/smithimogen_w15.html",
+        "filename": "smithimogen_w15.html",
+        "issue_season": "winter",
+        "issue_year": 2015,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/smithmatthew_su15.html",
+        "filename": "smithmatthew_su15.html",
+        "issue_season": "summer",
+        "issue_year": 2015,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/snyder_su94.html",
+        "filename": "snyder_su94.html",
+        "issue_season": "summer",
+        "issue_year": 1994,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/solomon_w16.html",
+        "filename": "solomon_w16.html",
+        "issue_season": "winter",
+        "issue_year": 2016,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/sontag_su96.html",
+        "filename": "sontag_su96.html",
+        "issue_season": "summer",
+        "issue_year": 1996,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/spagnuolo_sp16.html",
+        "filename": "spagnuolo_sp16.html",
+        "issue_season": "spring",
+        "issue_year": 2016,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/spagnuolo_w02.html",
+        "filename": "spagnuolo_w02.html",
+        "issue_season": "winter",
+        "issue_year": 2002,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/spagnuolo_w06.html",
+        "filename": "spagnuolo_w06.html",
+        "issue_season": "winter",
+        "issue_year": 2006,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/spagnuolo_w08.html",
+        "filename": "spagnuolo_w08.html",
+        "issue_season": "winter",
+        "issue_year": 2008,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/starmack_w20.html",
+        "filename": "starmack_w20.html",
+        "issue_season": "winter",
+        "issue_year": 2020,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/steele_sp04.html",
+        "filename": "steele_sp04.html",
+        "issue_season": "spring",
+        "issue_year": 2004,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/steele_sp06.html",
+        "filename": "steele_sp06.html",
+        "issue_season": "spring",
+        "issue_year": 2006,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/stevens_sp10.html",
+        "filename": "stevens_sp10.html",
+        "issue_season": "spring",
+        "issue_year": 2010,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/stone_f22.html",
+        "filename": "stone_f22.html",
+        "issue_season": "fall",
+        "issue_year": 2022,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/stone_sp03.html",
+        "filename": "stone_sp03.html",
+        "issue_season": "spring",
+        "issue_year": 2003,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/stone_su22.html",
+        "filename": "stone_su22.html",
+        "issue_season": "summer",
+        "issue_year": 2022,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/strelchenko_f22.html",
+        "filename": "strelchenko_f22.html",
+        "issue_season": "fall",
+        "issue_year": 2022,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/suarez_w20.html",
+        "filename": "suarez_w20.html",
+        "issue_season": "winter",
+        "issue_year": 2020,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/sundar_f21.html",
+        "filename": "sundar_f21.html",
+        "issue_season": "fall",
+        "issue_year": 2021,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/swope_su03.html",
+        "filename": "swope_su03.html",
+        "issue_season": "summer",
+        "issue_year": 2003,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/szymborska_su97.html",
+        "filename": "szymborska_su97.html",
+        "issue_season": "summer",
+        "issue_year": 1997,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/tallent_sp05.html",
+        "filename": "tallent_sp05.html",
+        "issue_season": "spring",
+        "issue_year": 2005,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/tallent_sp07.html",
+        "filename": "tallent_sp07.html",
+        "issue_season": "spring",
+        "issue_year": 2007,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/tallent_sp11.html",
+        "filename": "tallent_sp11.html",
+        "issue_season": "spring",
+        "issue_year": 2011,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/tallent_sp13.html",
+        "filename": "tallent_sp13.html",
+        "issue_season": "spring",
+        "issue_year": 2013,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/tallent_w10.html",
+        "filename": "tallent_w10.html",
+        "issue_season": "winter",
+        "issue_year": 2010,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/tallent_w12.html",
+        "filename": "tallent_w12.html",
+        "issue_season": "winter",
+        "issue_year": 2012,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/tallent_w21.html",
+        "filename": "tallent_w21.html",
+        "issue_season": "winter",
+        "issue_year": 2021,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/tate_f04.html",
+        "filename": "tate_f04.html",
+        "issue_season": "fall",
+        "issue_year": 2004,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/tate_sp01.html",
+        "filename": "tate_sp01.html",
+        "issue_season": "spring",
+        "issue_year": 2001,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/tharsing_sp17.html",
+        "filename": "tharsing_sp17.html",
+        "issue_season": "spring",
+        "issue_year": 2017,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/tharsing_w14.html",
+        "filename": "tharsing_w14.html",
+        "issue_season": "winter",
+        "issue_year": 2014,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/thompson_f04.html",
+        "filename": "thompson_f04.html",
+        "issue_season": "fall",
+        "issue_year": 2004,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/thompson_f07.html",
+        "filename": "thompson_f07.html",
+        "issue_season": "fall",
+        "issue_year": 2007,
+        "title": null,
+        "author": null,
+        "section": null
+    },
+    {
+        "piece_url": "https://threepennyreview.com/samples/thompson_f08.html",
+        "filename": "thompson_f08.html",
+        "issue_season": "fall",
+        "issue_year": 2008,
+        "title": null,
+        "author": null,
+        "section": null
+    }
+]
