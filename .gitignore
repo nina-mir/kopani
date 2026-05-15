@@ -16,9 +16,11 @@ __pycache__/
 *.log
 scraped_data/
 tmp/
-pieces_json*
-threepenny_outputs
 
+# scraped data must never be made public -- personal use only
+pieces_json*
+threepenny_outputs/
+evergreen_fw25_pieces/
 
 # Environment Variables
 # Keep sensitive keys and local settings private

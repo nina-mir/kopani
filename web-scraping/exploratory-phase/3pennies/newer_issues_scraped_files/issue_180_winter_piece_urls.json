@@ -1,0 +1,75 @@
+{
+  "journal": "The Threepenny Review",
+  "issue_url": "https://www.threepennyreview.com/issue-180-winter-2025/",
+  "issue_slug": "issue-180-winter-2025",
+  "issue_number": 180,
+  "issue_season": "winter",
+  "issue_year": 2025,
+  "piece_count": 8,
+  "pieces": [
+    {
+      "section": "Poem",
+      "order_in_issue": 1,
+      "piece_url": "https://www.threepennyreview.com/mineralogy/",
+      "link_text_raw": "Poem: Mineralogy",
+      "title_from_issue": "Mineralogy",
+      "author_from_issue_raw": "José A. Alcántara"
+    },
+    {
+      "section": "Books",
+      "order_in_issue": 2,
+      "piece_url": "https://www.threepennyreview.com/particles-of-the-genuine/",
+      "link_text_raw": "Books: Particles of the Genuine",
+      "title_from_issue": "Particles of the Genuine",
+      "author_from_issue_raw": "Drew Calvert"
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 3,
+      "piece_url": "https://www.threepennyreview.com/our-dark-garden/",
+      "link_text_raw": "Poem: Our Dark Garden",
+      "title_from_issue": "Our Dark Garden",
+      "author_from_issue_raw": "D. Nurkse"
+    },
+    {
+      "section": "Lives",
+      "order_in_issue": 4,
+      "piece_url": "https://www.threepennyreview.com/gunn-control/",
+      "link_text_raw": "Lives: Gunn Control",
+      "title_from_issue": "Gunn Control",
+      "author_from_issue_raw": "Mike Kitay"
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 5,
+      "piece_url": "https://www.threepennyreview.com/the-classroom-of-the-late-romantic/",
+      "link_text_raw": "Poem: The Classroom of the Late Romantic",
+      "title_from_issue": "The Classroom of the Late Romantic",
+      "author_from_issue_raw": "Peter Spagnuolo"
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 6,
+      "piece_url": "https://www.threepennyreview.com/tin-woman/",
+      "link_text_raw": "Poem: Tin Woman",
+      "title_from_issue": "Tin Woman",
+      "author_from_issue_raw": "Mary Noonan"
+    },
+    {
+      "section": "Theater",
+      "order_in_issue": 7,
+      "piece_url": "https://www.threepennyreview.com/king-falstaff/",
+      "link_text_raw": "Theater: Player Kings",
+      "title_from_issue": "Player Kings",
+      "author_from_issue_raw": "Steve Vineberg"
+    },
+    {
+      "section": "Opera",
+      "order_in_issue": 8,
+      "piece_url": "https://www.threepennyreview.com/a-problematic-opera/",
+      "link_text_raw": "Opera: The Magic Flute",
+      "title_from_issue": "The Magic Flute",
+      "author_from_issue_raw": "Wendy Lesser"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "journal": "The Threepenny Review",
+  "issue_url": "https://www.threepennyreview.com/issue-181-spring-2025/",
+  "issue_slug": "issue-181-spring-2025",
+  "issue_number": 181,
+  "issue_season": "spring",
+  "issue_year": 2025,
+  "piece_count": 9,
+  "pieces": [
+    {
+      "section": "Fiction",
+      "order_in_issue": 1,
+      "piece_url": "https://www.threepennyreview.com/roger/",
+      "link_text_raw": "Fiction: Roger",
+      "title_from_issue": "Roger",
+      "author_from_issue_raw": "Frank Bourne"
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 2,
+      "piece_url": "https://www.threepennyreview.com/lines-on-an-ex-friends-death/",
+      "link_text_raw": "Poem: Lines on an Ex-Friend’s Death",
+      "title_from_issue": "Lines on an Ex-Friend’s Death",
+      "author_from_issue_raw": "Alan Shapiro"
+    },
+    {
+      "section": null,
+      "order_in_issue": 3,
+      "piece_url": "https://www.threepennyreview.com/symposium-on-beginnings-and-endings-dellaira/",
+      "link_text_raw": "Michael Dellaira",
+      "title_from_issue": "Michael Dellaira",
+      "author_from_issue_raw": "Dounia Choukri,"
+    },
+    {
+      "section": null,
+      "order_in_issue": 4,
+      "piece_url": "https://www.threepennyreview.com/symposium-on-beginnings-and-endings-rothfeld/",
+      "link_text_raw": "Becca Rothfeld",
+      "title_from_issue": "Michael Dellaira",
+      "author_from_issue_raw": "Dounia Choukri,"
+    },
+    {
+      "section": null,
+      "order_in_issue": 5,
+      "piece_url": "https://www.threepennyreview.com/symposium-on-beginnings-and-endings-dame/",
+      "link_text_raw": "Evgeniya Dame",
+      "title_from_issue": "Michael Dellaira",
+      "author_from_issue_raw": "Dounia Choukri,"
+    },
+    {
+      "section": "Miscellany",
+      "order_in_issue": 6,
+      "piece_url": "https://www.threepennyreview.com/morning-coffee-august-7th-0458/",
+      "link_text_raw": "Miscellany: Morning Coffee",
+      "title_from_issue": "Morning Coffee",
+      "author_from_issue_raw": "Ibe Liebenberg"
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 7,
+      "piece_url": "https://www.threepennyreview.com/when-the-worst-happens/",
+      "link_text_raw": "Poem: When the Worst Happens",
+      "title_from_issue": "When the Worst Happens",
+      "author_from_issue_raw": "Jane Hirshfield"
+    },
+    {
+      "section": "Art",
+      "order_in_issue": 8,
+      "piece_url": "https://www.threepennyreview.com/neglected-seasons/",
+      "link_text_raw": "Art: Neglected Seasons",
+      "title_from_issue": "Neglected Seasons",
+      "author_from_issue_raw": "Matthew Zipf"
+    },
+    {
+      "section": "Poem",
+      "order_in_issue": 9,
+      "piece_url": "https://www.threepennyreview.com/hat-coat-gloves/",
+      "link_text_raw": "Poem: Hat, Coat, Gloves",
+      "title_from_issue": "Hat, Coat, Gloves",
+      "author_from_issue_raw": "César Vallejo"
+    }
+  ]
+}
