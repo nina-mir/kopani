@@ -21,7 +21,9 @@ tmp/
 pieces_json*
 threepenny_outputs/
 evergreen_fw25_pieces/
-evergreen/fw*/
+evergreen/fw*
+granta_pieces/
+*_20*_issue
 
 # Environment Variables
 # Keep sensitive keys and local settings private

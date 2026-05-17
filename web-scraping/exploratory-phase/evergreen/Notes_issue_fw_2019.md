@@ -8,3 +8,6 @@ I saw a short bio for a subject of an interview
         },
 
 but that bio was at the top of the piece.
+
+- As a result scrape_evergreen_piece_v0_2_3.py cannot obtain author's bio or artist's bio. 
+- This is not the scraper's fault.

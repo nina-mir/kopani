@@ -1,0 +1,2252 @@
+{
+  "source": "https://granta.com/issues/",
+  "total_issues": 20,
+  "total_pieces": 295,
+  "issues": [
+    {
+      "issue_url": "https://granta.com/products/granta-174-therapy/",
+      "issue_label": "Granta 174: Therapy",
+      "issue_number": 174,
+      "issue_date": "Winter 2026",
+      "piece_count": 23,
+      "pieces": [
+        {
+          "title": "The Animal Side of Life",
+          "url": "https://granta.com/the-animal-side-of-life/",
+          "author": "Thomas Meaney",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Two Poems",
+          "url": "https://granta.com/two-poems-shapero-2/",
+          "author": "Natalie Shapero",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "Two Poems",
+          "url": "https://granta.com/two-poems-franklin/",
+          "author": "Olive Franklin",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "Psychoanalytic Writings",
+          "url": "https://granta.com/psychoanalytic-writings-louise-bourgeois/",
+          "author": "Louise Bourgeois",
+          "type": "Art & Photography",
+          "edition": "Print"
+        },
+        {
+          "title": "Three Poems",
+          "url": "https://granta.com/three-poems-hass/",
+          "author": "Robert Hass",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "The Chinese Psyche",
+          "url": "https://granta.com/the-chinese-psyche/",
+          "author": "Zhang Yueran",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Four Poems",
+          "url": "https://granta.com/four-poems-armantrout/",
+          "author": "Rae Armantrout",
+          "type": "Poetry",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "My Millenarian Year",
+          "url": "https://granta.com/my-millenarian-year/",
+          "author": "Ralf Webb",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Titch",
+          "url": "https://granta.com/titch/",
+          "author": "Thomas Morris",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "The Pile",
+          "url": "https://granta.com/the-pile/",
+          "author": "Naoise Dolan",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "The Barefoot Boys of 1999",
+          "url": "https://granta.com/the-barefoot-boys-of-1999/",
+          "author": "Victor Heringer",
+          "type": "Poetry",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Principal Witness",
+          "url": "https://granta.com/principal-witness/",
+          "author": "Izabella Scott",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Mark Making",
+          "url": "https://granta.com/mark-making/",
+          "author": "Orlando Whitfield",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "My Mother Told Me Monsters Do Not Exist",
+          "url": "https://granta.com/my-mother-told-me-monsters-do-not-exist/",
+          "author": "Marie Darrieussecq",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Picture Me Crying",
+          "url": "https://granta.com/picture-me-crying/",
+          "author": "Rachel Connolly",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Running Behind",
+          "url": "https://granta.com/running-behind/",
+          "author": "Stephanie Wambugu",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Things on Places",
+          "url": "https://granta.com/things-on-places/",
+          "author": "Jeremy Atherton Lin",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Free Botox",
+          "url": "https://granta.com/free-botox/",
+          "author": "Amber Husain",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Crews Control",
+          "url": "https://granta.com/crews-control/",
+          "author": "Christian Lorentzen",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Podcast | Christopher Bollas",
+          "url": "https://granta.com/podcast-christopher-bollas/",
+          "author": "Christopher Bollas",
+          "type": "Podcasts",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Day Care",
+          "url": "https://granta.com/day-care/",
+          "author": "Nora Lange",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Two Poems",
+          "url": "https://granta.com/two-poems-franklin-2/",
+          "author": "Olive Franklin",
+          "type": "Poetry",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Issey Miyake",
+          "url": "https://granta.com/issey-miyake/",
+          "author": "Akshi Singh",
+          "type": "Essay",
+          "edition": "Online Edition"
+        }
+      ]
+    },
+    {
+      "issue_url": "https://granta.com/products/granta-173-india/",
+      "issue_label": "Granta 173: India",
+      "issue_number": 173,
+      "issue_date": "Autumn 2025",
+      "piece_count": 39,
+      "pieces": [
+        {
+          "title": "Introduction",
+          "url": "https://granta.com/india-introduction/",
+          "author": "Thomas Meaney",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Malayalam",
+          "url": "https://granta.com/malayalam/",
+          "author": "J. Devika",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "I Am My Mother’s Older Brother",
+          "url": "https://granta.com/i-am-my-mothers-older-brother/",
+          "author": "Sujatha Gidla",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Punjabi",
+          "url": "https://granta.com/punjabi/",
+          "author": "",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Gujarati",
+          "url": "https://granta.com/gujarati/",
+          "author": "Rita Kothari",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Telugu",
+          "url": "https://granta.com/telugu/",
+          "author": "Madhu H. Kaza",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Under the Ruins",
+          "url": "https://granta.com/under-the-ruins/",
+          "author": "Raghu Karnad",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Marathi",
+          "url": "https://granta.com/marathi/",
+          "author": "Jerry Pinto",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Urdu",
+          "url": "https://granta.com/urdu/",
+          "author": "Aatish Taseer",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "The Thin Red Corridor",
+          "url": "https://granta.com/the-thin-red-corridor/",
+          "author": "Snigdha Poonam",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "House Painting, Dead Poets Directory & Lineman",
+          "url": "https://granta.com/house-painting-dead-poets-directory-and-lineman/",
+          "author": "Arvind Krishna Mehrotra",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "Sanskrit",
+          "url": "https://granta.com/sanskrit/",
+          "author": "Arshia Sattar",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Kazhumaadan",
+          "url": "https://granta.com/jeyamohan/",
+          "author": "Jeyamohan",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Nepali",
+          "url": "https://granta.com/nepali/",
+          "author": "Manjushree Thapa",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Hindi",
+          "url": "https://granta.com/hindi/",
+          "author": "Rahul Soni",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Indian Temptations",
+          "url": "https://granta.com/indian-temptations/",
+          "author": "Sanjay Subrahmanyam",
+          "type": "Interview",
+          "edition": "Print"
+        },
+        {
+          "title": "Assamese",
+          "url": "https://granta.com/assamese/",
+          "author": "Aruni Kashyap",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Tamil",
+          "url": "https://granta.com/tamil/",
+          "author": "Priyamvada Ramkumar",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Bangla",
+          "url": "https://granta.com/bangla/",
+          "author": "V. Ramaswamy",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Elephant & Gadha",
+          "url": "https://granta.com/elephant-gadha/",
+          "author": "Sumana Roy",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "Kannada",
+          "url": "https://granta.com/kannada/",
+          "author": "Srinath Perur",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "The Complex",
+          "url": "https://granta.com/the-complex/",
+          "author": "Karan Mahajan",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Sivagalai",
+          "url": "https://granta.com/sivagalai/",
+          "author": "Sowmiya Ashok",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "The Laughing Face",
+          "url": "https://granta.com/the-laughing-face/",
+          "author": "Jeyamohan",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Podcast | Sujatha Gidla",
+          "url": "https://granta.com/podcast-sujatha-gidla/",
+          "author": "Sujatha Gidla",
+          "type": "Podcasts",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "A Bathroom of One’s Own",
+          "url": "https://granta.com/a-bathroom-of-ones-own/",
+          "author": "",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "As Usual",
+          "url": "https://granta.com/as-usual/",
+          "author": "H.R. Ramesha",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "The Marketplace",
+          "url": "https://granta.com/the-marketplace/",
+          "author": "Perumal Murugan",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Reflections on a Manuscript in Exile",
+          "url": "https://granta.com/reflections-on-a-manuscript-in-exile/",
+          "author": "Niyati Bhat",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "The Cost of Writing",
+          "url": "https://granta.com/the-cost-of-writing/",
+          "author": "Tariq Mir",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Hoesamuis",
+          "url": "https://granta.com/hoesamuis/",
+          "author": "Duboree Das",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Sudheer’s Mother",
+          "url": "https://granta.com/sudheers-mother/",
+          "author": "Vivek Shanbhag",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Folding Your Mother",
+          "url": "https://granta.com/folding-your-mother/",
+          "author": "Bhavika Govil",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Children’s Tales",
+          "url": "https://granta.com/childrens-tales/",
+          "author": "Amitava Kumar",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Progressives",
+          "url": "https://granta.com/progressives/",
+          "author": "Saadat Hasan Manto",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "The Bored Man",
+          "url": "https://granta.com/the-bored-man/",
+          "author": "Khalid Javed",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Appropriation",
+          "url": "https://granta.com/appropriation/",
+          "author": "Tanuj Solanki",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "The Fence-Sitter as Friend of the Genocidal State",
+          "url": "https://granta.com/the-fence-sitter-as-friend-of-the-genocidal-state/",
+          "author": "Meena Kandasamy",
+          "type": "Poetry",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "The Ancient",
+          "url": "https://granta.com/the-ancient/",
+          "author": "Anuradha Roy",
+          "type": "Essay",
+          "edition": "Online Edition"
+        }
+      ]
+    },
+    {
+      "issue_url": "https://granta.com/products/granta-172-badlands/",
+      "issue_label": "Granta 172: Badlands",
+      "issue_number": 172,
+      "issue_date": "Summer 2025",
+      "piece_count": 6,
+      "pieces": [
+        {
+          "title": "Badlands",
+          "url": "https://granta.com/badlands-intro/",
+          "author": "Thomas Meaney",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Constellations",
+          "url": "https://granta.com/constellations/",
+          "author": "Cian Oba-Smith",
+          "type": "Art & Photography",
+          "edition": "Print"
+        },
+        {
+          "title": "The Prisoners on Alcatraz",
+          "url": "https://granta.com/the-prisoners-on-alcatraz/",
+          "author": "Paul Muldoon",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "Carousel",
+          "url": "https://granta.com/carousel/",
+          "author": "Leopold O’Shea",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Four Stories",
+          "url": "https://granta.com/four-stories-diane-williams/",
+          "author": "Diane Williams",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Podcast | Diane Williams",
+          "url": "https://granta.com/podcast-diane-williams/",
+          "author": "Diane Williams",
+          "type": "Podcasts",
+          "edition": "Online Edition"
+        }
+      ]
+    },
+    {
+      "issue_url": "https://granta.com/products/granta-171-dead-friends/",
+      "issue_label": "Granta 171: Dead Friends",
+      "issue_number": 171,
+      "issue_date": "Spring 2025",
+      "piece_count": 25,
+      "pieces": [
+        {
+          "title": "Dead Friends",
+          "url": "https://granta.com/dead-friends-intro/",
+          "author": "Thomas Meaney",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Burning Mao",
+          "url": "https://granta.com/burning-mao/",
+          "author": "",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Posterity",
+          "url": "https://granta.com/posterity/",
+          "author": "Joshua Cohen",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "All Being Well",
+          "url": "https://granta.com/all-being-well/",
+          "author": "Susie Boyt",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Mark Cawson Lives",
+          "url": "https://granta.com/mark-cawson-lives/",
+          "author": "Mark Cawson",
+          "type": "Art & Photography",
+          "edition": "Print"
+        },
+        {
+          "title": "Watching, Content & Colombia",
+          "url": "https://granta.com/watching-content-colombia/",
+          "author": "Audun Mortensen",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "Note to Self & Gentle Rain",
+          "url": "https://granta.com/note-to-self-and-gentle-rain/",
+          "author": "Robert Walser",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "Benoît",
+          "url": "https://granta.com/benoit/",
+          "author": "Michel Houellebecq",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Cell Phone",
+          "url": "https://granta.com/cell-phone/",
+          "author": "Krystyna Dąbrowska",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "The Dead Revolution and the Living Page",
+          "url": "https://granta.com/the-dead-revolution-and-the-living-page/",
+          "author": "Carmen Boullosa",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Ride or Die",
+          "url": "https://granta.com/ride-or-die/",
+          "author": "Megan Nolan",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Exile’s Letter",
+          "url": "https://granta.com/exiles-letter/",
+          "author": "Michael Hofmann",
+          "type": "Poetry",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Podcast | Tao Lin",
+          "url": "https://granta.com/podcast-tao-lin/",
+          "author": "Tao Lin",
+          "type": "Podcasts",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "A Supposedly Close Friend I Might Never See Again",
+          "url": "https://granta.com/a-supposedly-close-friend-i-might-never-see-again/",
+          "author": "Audun Mortensen",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Thomas, Tommy",
+          "url": "https://granta.com/thomas-tommy/",
+          "author": "Ralf Webb",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Together",
+          "url": "https://granta.com/together-eileen-myles/",
+          "author": "Eileen Myles",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "C’mon Billy",
+          "url": "https://granta.com/cmon-billy/",
+          "author": "Lauren J. Joseph",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "GJ",
+          "url": "https://granta.com/gj-tao-lin/",
+          "author": "Tao Lin",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Playground Girls",
+          "url": "https://granta.com/playground-girls/",
+          "author": "Sophie Kemp",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Podcast | Susie Boyt",
+          "url": "https://granta.com/podcast-susie-boyt/",
+          "author": "Susie Boyt",
+          "type": "Podcasts",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "McDoone",
+          "url": "https://granta.com/mcdoone/",
+          "author": "Dan Hofstadter",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Playing Dead & On Haunting",
+          "url": "https://granta.com/playing-dead-on-haunting/",
+          "author": "Rae Armantrout",
+          "type": "Poetry",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Ending it in Turn",
+          "url": "https://granta.com/ending-it-in-turn/",
+          "author": "Anne Serre",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "From <em>Perverts</em>",
+          "url": "https://granta.com/perverts/",
+          "author": "Kay Gabriel",
+          "type": "Poetry",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Los Angeles, Indiana",
+          "url": "https://granta.com/los-angeles-indiana/",
+          "author": "Jesse Barron",
+          "type": "Essay",
+          "edition": "Online Edition"
+        }
+      ]
+    },
+    {
+      "issue_url": "https://granta.com/products/granta-170-winners/",
+      "issue_label": "Granta 170: Winners",
+      "issue_number": 170,
+      "issue_date": "Winter 2025",
+      "piece_count": 14,
+      "pieces": [
+        {
+          "title": "Introduction",
+          "url": "https://granta.com/introduction-winners/",
+          "author": "Thomas Meaney",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Mucker Play",
+          "url": "https://granta.com/mucker-play/",
+          "author": "Nico Walker",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Round One",
+          "url": "https://granta.com/round-one/",
+          "author": "Benjamin Nugent",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "The First Person",
+          "url": "https://granta.com/the-first-person/",
+          "author": "Kathryn Scanlan",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Champion",
+          "url": "https://granta.com/champion/",
+          "author": "Prarthna Singh",
+          "type": "Art & Photography",
+          "edition": "Print"
+        },
+        {
+          "title": "Keep Up",
+          "url": "https://granta.com/keep-up-mchugh/",
+          "author": "John Patrick McHugh",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Keep Up",
+          "url": "https://granta.com/keep-up-thakkar/",
+          "author": "Jonny Thakkar",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Keep Up",
+          "url": "https://granta.com/keep-up-sams/",
+          "author": "Saba Sams",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Keep Up",
+          "url": "https://granta.com/keep-up-wellesley/",
+          "author": "Mary Wellesley",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Keep Up",
+          "url": "https://granta.com/keep-up-kevin-brazil/",
+          "author": "Kevin Brazil",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "The Cage",
+          "url": "https://granta.com/the-cage/",
+          "author": "Tong Wei-Ger",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Podcast | Nico Walker",
+          "url": "https://granta.com/podcast-nico-walker/",
+          "author": "Nico Walker",
+          "type": "Podcasts",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "John Cena",
+          "url": "https://granta.com/john-cena/",
+          "author": "Dane Holt",
+          "type": "Poetry",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Podcast | Declan Ryan",
+          "url": "https://granta.com/podcast-declan-ryan/",
+          "author": "Declan Ryan",
+          "type": "Podcasts",
+          "edition": "Online Edition"
+        }
+      ]
+    },
+    {
+      "issue_url": "https://granta.com/products/granta-169-china/",
+      "issue_label": "Granta 169: China",
+      "issue_number": 169,
+      "issue_date": "Autumn 2024",
+      "piece_count": 28,
+      "pieces": [
+        {
+          "title": "China Time",
+          "url": "https://granta.com/china-time/",
+          "author": "Thomas Meaney",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "The Excitements of Spring",
+          "url": "https://granta.com/the-excitements-of-spring/",
+          "author": "Zou Jingzhi",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Picun",
+          "url": "https://granta.com/picun/",
+          "author": "Han Zhang",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "The Piranhas",
+          "url": "https://granta.com/the-piranhas/",
+          "author": "Jianan Qian",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Adrift in the South",
+          "url": "https://granta.com/adrift-in-the-south/",
+          "author": "Xiao Hai",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "New Year’s By the Sea, Spinning Top and Cup",
+          "url": "https://granta.com/huang_fan_three_poems/",
+          "author": "Huang Fan",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "Goodbye, Bridge of the East",
+          "url": "https://granta.com/goodbye-bridge-of-the-east/",
+          "author": "Wang Zhanhei",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "For Pessoa and My Cows Arrive",
+          "url": "https://granta.com/for-pessoa-and-my-cows-arrive/",
+          "author": "Lan Lan",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "The Civilian Level",
+          "url": "https://granta.com/the-civilian-level/",
+          "author": "Lie Jie",
+          "type": "Art & Photography",
+          "edition": "Print"
+        },
+        {
+          "title": "Birds",
+          "url": "https://granta.com/birds_zheng_xiaoqiong/",
+          "author": "Zheng Xiaoqiong",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "Song of the Bicycle and the Fence and Greenland",
+          "url": "https://granta.com/two-poems-hu-xudong/",
+          "author": "Hu Xudong",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "Never Again Crazy Like Wei Hui",
+          "url": "https://granta.com/never-again-crazy-like-wei-hui/",
+          "author": "Zhang Yueran",
+          "type": "Interview",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "中国时间",
+          "url": "https://granta.com/china-time-mandarin/",
+          "author": "Thomas Meaney",
+          "type": "",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Four Poems",
+          "url": "https://granta.com/four-poems-hu-xudong/",
+          "author": "Hu Xudong",
+          "type": "Poetry",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "The Suffering of Presence and Absence",
+          "url": "https://granta.com/the-suffering-of-presence-and-absence/",
+          "author": "Leslie Shang Zhefeng",
+          "type": "Art & Photography",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "In Her Room",
+          "url": "https://granta.com/in-her-room/",
+          "author": "Wang Anyi",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Podcast | Wang Xiaoshuai",
+          "url": "https://granta.com/podcast-wang-xiaoshuai/",
+          "author": "Wang Xiaoshuai",
+          "type": "Podcasts",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Two Poems",
+          "url": "https://granta.com/two-poems-yu-xiang/",
+          "author": "Yu Xiang",
+          "type": "Poetry",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Ancestors",
+          "url": "https://granta.com/ancestors/",
+          "author": "Ekhmetjan Osman",
+          "type": "Poetry",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "The Translator",
+          "url": "https://granta.com/the-translator/",
+          "author": "Tahir Hamut Izgil",
+          "type": "Poetry",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Friends",
+          "url": "https://granta.com/friends-jia-pingwa/",
+          "author": "Jia Pingwa",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Ocean Hotpot",
+          "url": "https://granta.com/ocean-hotpot/",
+          "author": "Si’an Chen",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "The Secret Pattern",
+          "url": "https://granta.com/the-secret-pattern/",
+          "author": "Aube Rey Lescure",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "How Asians Spend the Night Before Dawn",
+          "url": "https://granta.com/how-asians-spend-the-night-before-dawn/",
+          "author": "Vera Yijun Zhou",
+          "type": "Art & Photography",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Paper People",
+          "url": "https://granta.com/paper-people/",
+          "author": "Yun Sheng",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Lin Yan",
+          "url": "https://granta.com/lin-yan/",
+          "author": "Cao Kou",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Working Girls",
+          "url": "https://granta.com/working-girls/",
+          "author": "",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Piranhas and Us",
+          "url": "https://granta.com/piranhas-and-us/",
+          "author": "Can Xue",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        }
+      ]
+    },
+    {
+      "issue_url": "https://granta.com/products/granta-168-significant-other/",
+      "issue_label": "Granta 168: Significant Other",
+      "issue_number": 168,
+      "issue_date": "Summer 2024",
+      "piece_count": 12,
+      "pieces": [
+        {
+          "title": "Introduction",
+          "url": "https://granta.com/introduction-significant-other/",
+          "author": "Thomas Meaney",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Private View",
+          "url": "https://granta.com/private-view/",
+          "author": "Sophie Collins",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Two Poems",
+          "url": "https://granta.com/two-poems-zoe-hitzig/",
+          "author": "Zoë Hitzig",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "New Kindness Hatching",
+          "url": "https://granta.com/new-kindness-hatching/",
+          "author": "Jesse Glazzard",
+          "type": "Art & Photography",
+          "edition": "Print"
+        },
+        {
+          "title": "Three Mukhatabat",
+          "url": "https://granta.com/three-mukhatabat/",
+          "author": "Najwan Darwish",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "Bitter North",
+          "url": "https://granta.com/bitter-north/",
+          "author": "Alexandra Tanner",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "The Weight of the Earth",
+          "url": "https://granta.com/the-weight-of-the-earth/",
+          "author": "Debmalya Ray Choudhuri",
+          "type": "Art & Photography",
+          "edition": "Print"
+        },
+        {
+          "title": "Lígia",
+          "url": "https://granta.com/ligia/",
+          "author": "Victor Heringer",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Moon",
+          "url": "https://granta.com/moon-van-huy/",
+          "author": "Bernadette Van-Huy",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "Lovers’ Quarrel",
+          "url": "https://granta.com/lovers-quarrel/",
+          "author": "Tamara Nassar",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "Armance",
+          "url": "https://granta.com/armance-jaeggy/",
+          "author": "Fleur Jaeggy",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Diane",
+          "url": "https://granta.com/diane/",
+          "author": "Avigayl Sharp",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        }
+      ]
+    },
+    {
+      "issue_url": "https://granta.com/products/granta-167-extraction/",
+      "issue_label": "Granta 167: Extraction",
+      "issue_number": 167,
+      "issue_date": "Spring 2024",
+      "piece_count": 13,
+      "pieces": [
+        {
+          "title": "Introduction",
+          "url": "https://granta.com/introduction-extraction/",
+          "author": "Thomas Meaney",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Death by GPS",
+          "url": "https://granta.com/death-by-gps/",
+          "author": "Salvatore Vitale",
+          "type": "Art & Photography",
+          "edition": "Print"
+        },
+        {
+          "title": "On Boredom",
+          "url": "https://granta.com/on-boredom/",
+          "author": "Nuar Alsadir",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Podcast | Rachel Kushner",
+          "url": "https://granta.com/podcast-rachel-kushner/",
+          "author": "Rachel Kushner",
+          "type": "Podcasts",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Power Metals",
+          "url": "https://granta.com/power-metals/",
+          "author": "Nicolas Niarchos",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Sinking Town",
+          "url": "https://granta.com/sinking-town/",
+          "author": "Amitava Kumar",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Feminisms",
+          "url": "https://granta.com/feminisms/",
+          "author": "Nikki Shaner-Bradford",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "You Are the Product",
+          "url": "https://granta.com/you-are-the-product-dalla-rosa/",
+          "author": "Paul Dalla Rosa",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "You Are the Product",
+          "url": "https://granta.com/you-are-the-product-mclaughlin/",
+          "author": "Rosanna McLaughlin",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "You Are the Product",
+          "url": "https://granta.com/you-are-the-product-fishman/",
+          "author": "",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "You Are the Product",
+          "url": "https://granta.com/you-are-the-product-hildyard/",
+          "author": "Daisy Hildyard",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "The Spread",
+          "url": "https://granta.com/the-spread-stacy-skolnik/",
+          "author": "Stacy Skolnik",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Two Poems",
+          "url": "https://granta.com/two-poems-sylvia-legris/",
+          "author": "Sylvia Legris",
+          "type": "Poetry",
+          "edition": "Online Edition"
+        }
+      ]
+    },
+    {
+      "issue_url": "https://granta.com/products/granta-166-generations/",
+      "issue_label": "Granta 166: Generations",
+      "issue_number": 166,
+      "issue_date": "Winter 2024",
+      "piece_count": 25,
+      "pieces": [
+        {
+          "title": "Introduction",
+          "url": "https://granta.com/introduction-generations/",
+          "author": "Thomas Meaney",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Ecce Senex: Stephen James Joyce",
+          "url": "https://granta.com/ecce-senex-stephen-james-joyce/",
+          "author": "James Scudamore",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "The Millennial Mind",
+          "url": "https://granta.com/the-millennial-mind/",
+          "author": "Anton Jäger",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Nearly White Girl Girling on Behalf of Sonic Fluency",
+          "url": "https://granta.com/nearly-white-girl-girling/",
+          "author": "Eve Esfandiari-Denney",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "Yr Dead",
+          "url": "https://granta.com/yr-dead/",
+          "author": "Sam Sax",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "A Good First Marriage is Luck",
+          "url": "https://granta.com/a-good-first-marriage-is-luck/",
+          "author": "Sheila Heti",
+          "type": "Interview",
+          "edition": "Print"
+        },
+        {
+          "title": "You’re a Londoner",
+          "url": "https://granta.com/youre-a-londonder/",
+          "author": "Kalpesh Lathigra",
+          "type": "Art & Photography",
+          "edition": "Print"
+        },
+        {
+          "title": "Lifetimes of the Soviet Union",
+          "url": "https://granta.com/lifetimes-of-the-soviet-union/",
+          "author": "Yuri Slezkine",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Isabel",
+          "url": "https://granta.com/isabel/",
+          "author": "Lillian Fishman",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "The Full Package",
+          "url": "https://granta.com/the-full-package/",
+          "author": "Zoe Dubno",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Ricks & Hern",
+          "url": "https://granta.com/ricks-hern/",
+          "author": "Nico Walker",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "The Life, Old Age and Death of a Woman of the People",
+          "url": "https://granta.com/the-life-old-age-and-death-of-a-woman-of-the-people/",
+          "author": "Didier Eribon",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "The Trouble with Old Men",
+          "url": "https://granta.com/the-trouble-with-old-men/",
+          "author": "Samuel Moyn",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Calais to Dover",
+          "url": "https://granta.com/calais-to-dover/",
+          "author": "Jana Prikryl",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "Five O’Clock Somewhere",
+          "url": "https://granta.com/five-oclock-somewhere/",
+          "author": "Gary Indiana",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Podcast | Sheila Heti",
+          "url": "https://granta.com/podcast-sheila-heti/",
+          "author": "Sheila Heti",
+          "type": "Podcasts",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Podcast | Andrew O’Hagan",
+          "url": "https://granta.com/podcast-andrew-ohagan/",
+          "author": "Andrew O’Hagan",
+          "type": "Podcasts",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Podcast | Brandon Taylor",
+          "url": "https://granta.com/podcast-brandon-taylor/",
+          "author": "Brandon Taylor",
+          "type": "Podcasts",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "At me and beautiful problems",
+          "url": "https://granta.com/at-me-and-beautiful-problems/",
+          "author": "Eve Esfandiari-Denney",
+          "type": "Poetry",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Generation Gap",
+          "url": "https://granta.com/generation-gap-lynne-tillman/",
+          "author": "Lynne Tillman",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Generation Gap",
+          "url": "https://granta.com/generation-gap-kate-zambreno/",
+          "author": "Kate Zambreno",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Generation Gap",
+          "url": "https://granta.com/generation-gap-sarah-moss/",
+          "author": "Sarah Moss",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Generation Gap",
+          "url": "https://granta.com/generation-gap-oluwaseun-olayiwola/",
+          "author": "Oluwaseun Olayiwola",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Generation Gap",
+          "url": "https://granta.com/generation-gap-allen-bratton/",
+          "author": "Allen Bratton",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "And That’s How I Became a Woman",
+          "url": "https://granta.com/and-thats-how-i-became-a-woman/",
+          "author": "Vigdis Hjorth",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        }
+      ]
+    },
+    {
+      "issue_url": "https://granta.com/products/granta-165-deutschland/",
+      "issue_label": "Granta 165: Deutschland",
+      "issue_number": 165,
+      "issue_date": "Autumn 2023",
+      "piece_count": 22,
+      "pieces": [
+        {
+          "title": "Introduction",
+          "url": "https://granta.com/introduction-deutschland/",
+          "author": "Thomas Meaney",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Today We Just Say Germany",
+          "url": "https://granta.com/today-we-just-say-germany/",
+          "author": "Alexander Kluge",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Living with Germanness",
+          "url": "https://granta.com/living-with-germanness/",
+          "author": "Nell Zink",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "We Would Have Told Each Other Everything",
+          "url": "https://granta.com/told-each-other-everything/",
+          "author": "Judith Hermann",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Once Again, Germany Defines Who Is a Jew | Part I",
+          "url": "https://granta.com/once-again-germany-defines-who-is-a-jew-part-i/",
+          "author": "George Prochnik",
+          "type": "Interview",
+          "edition": "Print"
+        },
+        {
+          "title": "Allegro Pastel",
+          "url": "https://granta.com/allegro-pastel/",
+          "author": "Leif Randt",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Europe’s Mistake",
+          "url": "https://granta.com/europes-mistake/",
+          "author": "Jürgen Habermas",
+          "type": "Interview",
+          "edition": "Print"
+        },
+        {
+          "title": "The Killing of a Berlin Power Broker",
+          "url": "https://granta.com/the-killing-of-a-berlin-power-broker/",
+          "author": "Peter Richter",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Out of the Woods",
+          "url": "https://granta.com/out-of-the-woods/",
+          "author": "Elena Helfrecht",
+          "type": "Art & Photography",
+          "edition": "Print"
+        },
+        {
+          "title": "Reunified German Images",
+          "url": "https://granta.com/reunified-german-images/",
+          "author": "Fredric Jameson",
+          "type": "Art & Photography",
+          "edition": "Print"
+        },
+        {
+          "title": "Podcast | Lauren Oyler",
+          "url": "https://granta.com/podcast-lauren-oyler/",
+          "author": "Lauren Oyler",
+          "type": "Podcasts",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "From Zanzibar to Marbach",
+          "url": "https://granta.com/from-zanzibar-to-marbach/",
+          "author": "Abdulrazak Gurnah",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "What the Germans Left Behind",
+          "url": "https://granta.com/what-the-germans-left-behind/",
+          "author": "Anna Parker",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Losing Irina",
+          "url": "https://granta.com/losing-irina/",
+          "author": "Aria Aber",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Don’t Wake Me Up Too Soon",
+          "url": "https://granta.com/dont-wake-me-up-too-soon/",
+          "author": "Daniel Kehlmann",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "In the Unlikely Event of a Loss of Cabin Pressure",
+          "url": "https://granta.com/in-the-unlikely-event-of-a-loss-of-cabin-pressure/",
+          "author": "Juan S. Guse",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Evaporation in the Boundary Zone",
+          "url": "https://granta.com/evaporation-in-the-boundary-zone/",
+          "author": "Ilija Matusko",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "He Cleans",
+          "url": "https://granta.com/he-cleans/",
+          "author": "Valeria Gordeev",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Lentille",
+          "url": "https://granta.com/lentille/",
+          "author": "Urs Mannhart",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "The Invisible Harbour",
+          "url": "https://granta.com/the-invisible-harbour/",
+          "author": "Deniz Utlu",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Once Again, Germany Defines Who Is a Jew | Part II",
+          "url": "https://granta.com/once-again-germany-defines-who-is-a-jew-part-ii/",
+          "author": "George Prochnik",
+          "type": "Interview",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Beginning and End",
+          "url": "https://granta.com/beginning-and-end/",
+          "author": "Lukas Maisel",
+          "type": "Fiction",
+          "edition": "Online Edition"
+        }
+      ]
+    },
+    {
+      "issue_url": "https://granta.com/products/granta-164-last-notes/",
+      "issue_label": "Granta 164: Last Notes",
+      "issue_number": 164,
+      "issue_date": "Summer 2023",
+      "piece_count": 6,
+      "pieces": [
+        {
+          "title": "Introduction",
+          "url": "https://granta.com/introduction-last-notes/",
+          "author": "Sigrid Rausing",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Plainsong",
+          "url": "https://granta.com/plainsong-suzie-howell/",
+          "author": "Suzie Howell",
+          "type": "Art & Photography",
+          "edition": "Print"
+        },
+        {
+          "title": "The Index of Porosity",
+          "url": "https://granta.com/index-of-porosity/",
+          "author": "Adam Mars-Jones",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Animal Rescue",
+          "url": "https://granta.com/animal-rescue/",
+          "author": "Martha Sprackland",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "A Life Where Nothing Happens",
+          "url": "https://granta.com/a-life-where-nothing-happens/",
+          "author": "Mazen Maarouf",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "TonyInterruptor",
+          "url": "https://granta.com/tonyinterruptor/",
+          "author": "Nicola Barker",
+          "type": "Fiction",
+          "edition": "Print"
+        }
+      ]
+    },
+    {
+      "issue_url": "https://granta.com/products/granta-163-best-of-young-british-novelists-5/",
+      "issue_label": "Granta 163: Best of Young British Novelists 5",
+      "issue_number": 163,
+      "issue_date": "Spring 2023",
+      "piece_count": 28,
+      "pieces": [
+        {
+          "title": "Introduction",
+          "url": "https://granta.com/introduction-best-young-british-5/",
+          "author": "Sigrid Rausing",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "A Dying Tongue",
+          "url": "https://granta.com/a-dying-tongue/",
+          "author": "Sarah Bernstein",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Doubtful Sound",
+          "url": "https://granta.com/doubtful-sound/",
+          "author": "Eleanor Catton",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Strangers at the Port",
+          "url": "https://granta.com/strangers-at-the-port/",
+          "author": "Lauren Aimee Curtis",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Wales",
+          "url": "https://granta.com/wales-morris/",
+          "author": "Thomas Morris",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Mrs S",
+          "url": "https://granta.com/mrs-s/",
+          "author": "K Patrick",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Best Last Minute Spa Deal for Under £40",
+          "url": "https://granta.com/best-last-minute-spa/",
+          "author": "Yara Rodrigues Fowler",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Rostrum",
+          "url": "https://granta.com/rostrum/",
+          "author": "Eley Williams",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Eley Williams",
+          "url": "https://granta.com/boybn-eley-williams/",
+          "author": "",
+          "type": "Best of Young",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Olivia Sudjic",
+          "url": "https://granta.com/olivia-sudjic/",
+          "author": "",
+          "type": "Best of Young",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Saba Sams",
+          "url": "https://granta.com/boybn-saba-sams/",
+          "author": "",
+          "type": "Best of Young",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Yara Rodrigues Fowler",
+          "url": "https://granta.com/boybn-yara-rodrigues-fowler/",
+          "author": "",
+          "type": "Best of Young",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "K Patrick",
+          "url": "https://granta.com/boybn-k-patrick/",
+          "author": "",
+          "type": "Best of Young",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Derek Owusu",
+          "url": "https://granta.com/boybn-derek-owusu/",
+          "author": "",
+          "type": "Best of Young",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Thomas Morris",
+          "url": "https://granta.com/boybn-thomas-morris/",
+          "author": "",
+          "type": "Best of Young",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Anna Metcalfe",
+          "url": "https://granta.com/boybn-anna-metcalfe/",
+          "author": "",
+          "type": "Best of Young",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Sophie Mackintosh",
+          "url": "https://granta.com/boybn-sophie-mackintosh/",
+          "author": "",
+          "type": "Best of Young",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Isabella Hammad",
+          "url": "https://granta.com/boybn-isabella-hammad/",
+          "author": "",
+          "type": "Best of Young",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Camilla Grudova",
+          "url": "https://granta.com/boybn-camilla-grudova/",
+          "author": "",
+          "type": "Best of Young",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Lauren Aimee Curtis",
+          "url": "https://granta.com/boybn-lauren-aimee-curtis/",
+          "author": "",
+          "type": "Best of Young",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Tom Crewe",
+          "url": "https://granta.com/boybn-tom-crewe/",
+          "author": "",
+          "type": "Best of Young",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Eliza Clark",
+          "url": "https://granta.com/boybn-eliza-clark/",
+          "author": "",
+          "type": "Best of Young",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Eleanor Catton",
+          "url": "https://granta.com/boybn-eleanor-catton/",
+          "author": "",
+          "type": "Best of Young",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Natasha Brown",
+          "url": "https://granta.com/boybn-natasha-brown/",
+          "author": "",
+          "type": "Best of Young",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Sara Baume",
+          "url": "https://granta.com/boybn-sara-baume/",
+          "author": "",
+          "type": "Best of Young",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Jennifer Atkins",
+          "url": "https://granta.com/boybn-jennifer-atkins/",
+          "author": "",
+          "type": "Best of Young",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Graeme Armstrong",
+          "url": "https://granta.com/boybn-graeme-armstrong/",
+          "author": "",
+          "type": "Best of Young",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Sarah Bernstein",
+          "url": "https://granta.com/boybn-sarah-bernstein/",
+          "author": "",
+          "type": "Best of Young",
+          "edition": "Online Edition"
+        }
+      ]
+    },
+    {
+      "issue_url": "https://granta.com/products/granta-162-definitive-narratives-of-escape/",
+      "issue_label": "Granta 162: Definitive Narratives of Escape",
+      "issue_number": 162,
+      "issue_date": "Winter 2023",
+      "piece_count": 14,
+      "pieces": [
+        {
+          "title": "Introduction",
+          "url": "https://granta.com/introduction-162/",
+          "author": "Sigrid Rausing",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Reproducing Paul",
+          "url": "https://granta.com/reproducing-paul/",
+          "author": "Des Fitzgerald",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "For the Love of Losing",
+          "url": "https://granta.com/for-the-love-of-losing/",
+          "author": "Marina Benjamin",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Hôtel Casanova",
+          "url": "https://granta.com/hotel-casanova-annie-ernaux/",
+          "author": "Annie Ernaux",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "This Is as Far as We Come",
+          "url": "https://granta.com/this-is-as-far-as-we-come/",
+          "author": "Carlos Fonseca",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "What It Promised",
+          "url": "https://granta.com/what-it-promised/",
+          "author": "Cian Oba-Smith",
+          "type": "Art & Photography",
+          "edition": "Print"
+        },
+        {
+          "title": "Ausländer",
+          "url": "https://granta.com/auslander-michael-moritz/",
+          "author": "Michael Moritz",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Biography of X",
+          "url": "https://granta.com/biography-of-x/",
+          "author": "Catherine Lacey",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "To That Silence, I Told Everything",
+          "url": "https://granta.com/to-that-silence-i-told-everything/",
+          "author": "Xiao Yue Shan",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "The Golden Record",
+          "url": "https://granta.com/golden-record/",
+          "author": "Caspar Henderson",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "City by the Sea",
+          "url": "https://granta.com/city-by-the-sea-lathigra/",
+          "author": "Kalpesh Lathigra",
+          "type": "Art & Photography",
+          "edition": "Print"
+        },
+        {
+          "title": "The Last Place We Were Happy",
+          "url": "https://granta.com/tarashea-nesbit-the-last-place/",
+          "author": "TaraShea Nesbit",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Through the Smoke, Through the Veil, Through the Wind",
+          "url": "https://granta.com/smoke-veil-wind-roger-reeves/",
+          "author": "Roger Reeves",
+          "type": "Art & Photography",
+          "edition": "Print"
+        },
+        {
+          "title": "Particulate Matter",
+          "url": "https://granta.com/particulate-matter/",
+          "author": "Amitava Kumar",
+          "type": "Essay",
+          "edition": "Online Edition"
+        }
+      ]
+    },
+    {
+      "issue_url": "https://granta.com/products/granta-161-sister-brother/",
+      "issue_label": "Granta 161: Sister, Brother",
+      "issue_number": 161,
+      "issue_date": "Autumn 2022",
+      "piece_count": 13,
+      "pieces": [
+        {
+          "title": "Introduction",
+          "url": "https://granta.com/introduction-sister-brother/",
+          "author": "",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Nightstand",
+          "url": "https://granta.com/nightstand-nathalie-shapero/",
+          "author": "Natalie Shapero",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "Miniature Twins",
+          "url": "https://granta.com/miniature-twins/",
+          "author": "Omer Friedlander",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Betwixt and Betwin",
+          "url": "https://granta.com/taiye-selasi-betwixt-and-betwin/",
+          "author": "Taiye Selasi",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "The Stripping of Threads",
+          "url": "https://granta.com/stripping-of-threads/",
+          "author": "Jamal Mahjoub",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "The Pain Cave",
+          "url": "https://granta.com/the-pain-cave/",
+          "author": "Lauren Groff",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Ray & Her Sisters",
+          "url": "https://granta.com/ray-her-sisters-sara-baume/",
+          "author": "Sara Baume",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "My Eye",
+          "url": "https://granta.com/my-eye/",
+          "author": "Suzanne Brøgger",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Speaking Brother",
+          "url": "https://granta.com/speaking-brother/",
+          "author": "Will Harris",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Brother Poem",
+          "url": "https://granta.com/brother-poem-will-harris/",
+          "author": "Will Harris",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "Notes on Craft",
+          "url": "https://granta.com/notes-on-craft-lee-lai/",
+          "author": "Lee Lai",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Notes on Craft: Does this Count?",
+          "url": "https://granta.com/notes-on-craft-does-this-count/",
+          "author": "Ben Pester",
+          "type": "Essay",
+          "edition": "Online Edition"
+        },
+        {
+          "title": "Notes on Craft",
+          "url": "https://granta.com/k-patrick-notes-on-craft/",
+          "author": "K Patrick",
+          "type": "Essay",
+          "edition": "Online Edition"
+        }
+      ]
+    },
+    {
+      "issue_url": "https://granta.com/products/granta-160-conflict/",
+      "issue_label": "Granta 160: Conflict",
+      "issue_number": 160,
+      "issue_date": "Summer 2022",
+      "piece_count": 6,
+      "pieces": [
+        {
+          "title": "Introduction",
+          "url": "https://granta.com/introduction-conflict/",
+          "author": "Sigrid Rausing",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "I Am the Word for God and Boy",
+          "url": "https://granta.com/i-am-the-word-for-god-and-boy/",
+          "author": "Aidan Cottrell-Boyce",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Skromnost",
+          "url": "https://granta.com/skromnost-janet-malcolm/",
+          "author": "Janet Malcolm",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "But the Heart in a Sense Is Far from Me Floating Out There",
+          "url": "https://granta.com/but-the-heart-peter-gizzi/",
+          "author": "Peter Gizzi",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "Signs of an Approaching War",
+          "url": "https://granta.com/signs-of-an-approaching-war/",
+          "author": "Volodymyr Rafeyenko",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Having Recently Escaped from the Maws of a Deathly Life, I Am Ready to Begin the Year Anew",
+          "url": "https://granta.com/having-recently-escaped-cisneros/",
+          "author": "Sandra Cisneros",
+          "type": "Poetry",
+          "edition": "Print"
+        }
+      ]
+    },
+    {
+      "issue_url": "https://granta.com/products/granta-159-what-do-you-see/",
+      "issue_label": "Granta 159: What Do You See?",
+      "issue_number": 159,
+      "issue_date": "Spring 2022",
+      "piece_count": 6,
+      "pieces": [
+        {
+          "title": "On Sizewell C",
+          "url": "https://granta.com/on-sizewell-c/",
+          "author": "William Atkins",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Joy and Insecurity in Port-au-Prince",
+          "url": "https://granta.com/joy-and-insecurity-in-port-au-prince/",
+          "author": "Jason Allen-Paisant",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "The Right to Intimacy",
+          "url": "https://granta.com/the-right-to-intimacy/",
+          "author": "Raphaela Rosella",
+          "type": "Art & Photography",
+          "edition": "Print"
+        },
+        {
+          "title": "National Dress",
+          "url": "https://granta.com/national-dress-rebecca-sollom/",
+          "author": "Rebecca Sollom",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Hölzung",
+          "url": "https://granta.com/holzung-muhammad-salah-esther-kinsky/",
+          "author": "Muhammad Salah",
+          "type": "Art & Photography",
+          "edition": "Print"
+        },
+        {
+          "title": "An English Opening",
+          "url": "https://granta.com/an-english-opening/",
+          "author": "Maxim Osipov",
+          "type": "Fiction",
+          "edition": "Print"
+        }
+      ]
+    },
+    {
+      "issue_url": "https://granta.com/products/granta-158-in-the-family/",
+      "issue_label": "Granta 158: In the Family",
+      "issue_number": 158,
+      "issue_date": "Winter 2022",
+      "piece_count": 5,
+      "pieces": [
+        {
+          "title": "Introduction",
+          "url": "https://granta.com/introduction-in-the-family/",
+          "author": "Sigrid Rausing",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Waiting Room",
+          "url": "https://granta.com/waiting-room-will-rees/",
+          "author": "Will Rees",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Prom Notes",
+          "url": "https://granta.com/prom-notes-rachel-long/",
+          "author": "Rachel Long",
+          "type": "Poetry",
+          "edition": "Print"
+        },
+        {
+          "title": "Leavers",
+          "url": "https://granta.com/leavers-lewis-khan/",
+          "author": "Lewis Khan",
+          "type": "Art & Photography",
+          "edition": "Print"
+        },
+        {
+          "title": "The Picnic Pavilion",
+          "url": "https://granta.com/the-picnic-pavilion-debbie-urbanski/",
+          "author": "Debbie Urbanski",
+          "type": "Fiction",
+          "edition": "Print"
+        }
+      ]
+    },
+    {
+      "issue_url": "https://granta.com/products/granta-157-should-we-have-stayed-at-home-new-travel-writing/",
+      "issue_label": "Granta 157: Should We Have Stayed at Home? New Travel Writing",
+      "issue_number": 157,
+      "issue_date": "Autumn 2021",
+      "piece_count": 2,
+      "pieces": [
+        {
+          "title": "Introduction: On Staying at Home",
+          "url": "https://granta.com/introduction-william-atkins/",
+          "author": "William Atkins",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "On Mistaking Whales",
+          "url": "https://granta.com/on-mistaking-whales-bathsheba-demuth/",
+          "author": "Bathsheba Demuth",
+          "type": "Essay",
+          "edition": "Print"
+        }
+      ]
+    },
+    {
+      "issue_url": "https://granta.com/products/granta-156-interiors/",
+      "issue_label": "Granta 156: Interiors",
+      "issue_number": 156,
+      "issue_date": "Summer 2021",
+      "piece_count": 7,
+      "pieces": [
+        {
+          "title": "Introduction",
+          "url": "https://granta.com/introduction-interiors/",
+          "author": "Sigrid Rausing",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "A Place I’d Go To",
+          "url": "https://granta.com/a-place-id-go-to-kathryn-scanlan/",
+          "author": "Kathryn Scanlan",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Soft Pink Light",
+          "url": "https://granta.com/kaitlin-maxwell-lynne-tillman/",
+          "author": "Kaitlin Maxwell",
+          "type": "Art & Photography",
+          "edition": "Print"
+        },
+        {
+          "title": "Stills",
+          "url": "https://granta.com/stills-robbie-lawrence-colin-herd/",
+          "author": "Robbie Lawrence",
+          "type": "Art & Photography",
+          "edition": "Print"
+        },
+        {
+          "title": "Mbiu Dash",
+          "url": "https://granta.com/mbiu-dash-okwiri-oduor/",
+          "author": "Okwiri Oduor",
+          "type": "Fiction",
+          "edition": "Print"
+        },
+        {
+          "title": "Fire and Ice",
+          "url": "https://granta.com/fire-and-ice-debra-gwartney/",
+          "author": "Debra Gwartney",
+          "type": "Essay",
+          "edition": "Print"
+        },
+        {
+          "title": "Up Late",
+          "url": "https://granta.com/up-late-nick-laird/",
+          "author": "Nick Laird",
+          "type": "Poetry",
+          "edition": "Online Edition"
+        }
+      ]
+    },
+    {
+      "issue_url": "https://granta.com/products/granta-155-best-of-young-spanish-language-novelists-2/",
+      "issue_label": "Granta 155: Best of Young Spanish-Language Novelists 2",
+      "issue_number": 155,
+      "issue_date": "Spring 2021",
+      "piece_count": 1,
+      "pieces": [
+        {
+          "title": "Introduction",
+          "url": "https://granta.com/introduction-best-of-young-spanish-language-novelists-2/",
+          "author": "Valerie Miles",
+          "type": "Essay",
+          "edition": "Print"
+        }
+      ]
+    }
+  ]
+}

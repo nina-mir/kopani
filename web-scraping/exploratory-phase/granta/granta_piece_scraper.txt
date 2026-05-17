@@ -1,0 +1,8 @@
+# Single URL:
+python3 granta_piece_scraper.py --url https://granta.com/titch/
+
+# Full issue from the JSON:
+python3 granta_piece_scraper.py --issue-json granta_issues.json --issue-number 173
+
+# All 2024–2026 issues:
+python3 granta_piece_scraper.py --issue-json granta_issues.json --all

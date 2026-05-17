@@ -1,3 +1,4 @@
+## changelog is at the bottom of the document 
 
 ## How to run
 
@@ -16,6 +17,41 @@ The script:
 
 - Leaves title, author, section as null for later piece-level scraping
 
+
+## How to run scrape_threepenny_piece.v0.py
+
+Save the code as `scrape_threepenny_piece.py`, then run it like this:
+
+```bash
+python scrape_threepenny_piece.v0.py "https://threepennyreview.com/samples/acimansp00.html" --out acimansp00.json
+```
+
+If you want to pass issue metadata you already know:
+
+```bash
+python scrape_threepenny_piece.v0.py "https://threepennyreview.com/samples/acimansp00.html" \
+  --issue-season spring \
+  --issue-year 2000 \
+  --out acimansp00.json
+```
+
+If you also know section or issue slug:
+
+```bash
+python scrape_threepenny_piece.v0.py "https://threepennyreview.com/samples/acimansp00.html" \
+  --issue-season spring \
+  --issue-year 2000 \
+  --issue-slug issue-97-spring-2000 \
+  --section essay \
+  --out acimansp00.json
+```
+
+What it does:
+- Follows the sample URL redirect to the canonical Threepenny piece page. 
+- Extracts title, author, main content, and a first-pass author bio guess. 
+- Writes one JSON file for that piece.
+
+A good first test is exactly the Aciman sample you documented, since you already know what fields should appear. 
 
 
 ## Motivation for this specific work
@@ -62,3 +98,35 @@ So, I need a scraper for https://threepennyreview.com/samples/ to scrape all the
 - `issue_season` (parsed from `_su`/`_f`/`_wi`/`_sp`)
 - `issue_year` (parsed from last 2 digits → `13` = 2013)
 - Leave `title`, `author`, `section` as `null`
+
+
+# Changelog - scrape_threepenny_piece.py
+
+## v0.0.1 (2026-05-01)
+
+### Changed
+- **Improved bio detection for last non-empty paragraph**
+  - Previously: script checked last paragraph as-is, including empty `<p>` tags, causing bio detection to fail on some pieces
+  - Now: first filters to non-empty paragraphs, then tests the actual last content paragraph
+  - Fixes issue where pieces with trailing empty `<p>` tags had `author_bio_raw: null` even when bio text was present
+
+### Added
+- **Expanded bio marker detection**
+  - Added possessive author name patterns: `"{Author Name}'s"` and `"{Author Name}'s"`
+  - Added publication-related markers: `"forthcoming"`, `"new book"`, `"new book of"`, `"memoir"`, `"latest book"`
+  - Catches bio paragraphs like "Kim Addonizio's new book of poems... are forthcoming" that were previously missed
+
+- **Minimum word count check for bio paragraphs**
+  - Paragraphs with fewer than 3 words are not considered bio candidates
+  - Prevents false positives on short fragments or navigation text
+
+### Fixed
+- Bio extraction now works correctly on pieces where:
+  - The HTML has empty `<p>` tags at the end of the content container
+  - The bio uses possessive author-name form rather than third-person description
+  - The bio mentions forthcoming publications without using "is the author of" patterns
+
+### Technical Details
+- Modified `looks_like_bio_paragraph()` to add possessive name starts and publication markers
+- Modified `split_content_and_bio()` to filter empty paragraphs before testing last paragraph
+- Maintains conservative approach: only marks paragraph as bio if it matches heuristic patterns
