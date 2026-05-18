@@ -2,8 +2,11 @@
 
 A couple of things worth noting:
 
-Issues 172, 168, 156, 162 show very low counts (1–3 pieces) — these are issues where Granta has only unlocked a small number online so far, likely newer or still being rolled out
+Issues 172, 168, 156, 162 show very low counts (1–3 pieces) — these are issues where Granta has only unlocked
+ a small number online so far, likely newer or still being rolled out
 
-Issues 157–160, 164, 155 are fully open online (no "Online Edition" gating at all), so all pieces on those pages are included
+Issues 157–160, 164, 155 are fully open online (no "Online Edition" gating at all), so all pieces 
+on those pages are included
 
-The type breakdown is: 104 Essay, 73 Fiction, 26 Poetry, 20 Best of Young, 15 Art & Photography, 13 Podcasts, 2 Interview — you may want to filter out Podcasts for Kopani if you're only interested in written work
+The type breakdown is: 104 Essay, 73 Fiction, 26 Poetry, 20 Best of Young, 15 Art & Photography,
+ 13 Podcasts, 2 Interview — you may want to filter out Podcasts for Kopani if you're only interested in written work

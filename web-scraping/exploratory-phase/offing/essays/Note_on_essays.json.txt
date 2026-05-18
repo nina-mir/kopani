@@ -1,0 +1,12 @@
+Done — updated to all 80 essays, spanning from October 2017 through May 2026.
+ The range gives you a solid longitudinal view of the department. 
+ A couple of things worth noting for your Kopani schema:
+
+Entry #68 ("Speak, Unwoman!") has the author listed as [Sarah] Cavar — that's how The Offing published it, 
+with the bracketed name, so it's preserved as-is
+
+The "From the Archives" entries are reposts of older work; you may want to flag those with a separate field 
+(e.g. "is_archive": true) when you load them into the DB
+
+The browser hit a natural stop at 80 — that appears to be the full extent of what loads before the page 
+runs out of entries, so this may be close to the complete essay archive

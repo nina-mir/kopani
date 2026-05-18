@@ -1,0 +1,18 @@
+v0.1.0
+
+# Single URL
+python offing_piece_scraper.v0.1.0.py --url https://theoffingmag.com/essay/...
+
+# Whole department JSON, limit 10, 2s delay
+python offing_piece_scraper.v0.1.0.py --dept-json the_offing_essays.json --limit 10 --delay 2.0
+
+# Overwrite existing files
+python offing_piece_scraper.v0.1.0.py --dept-json the_offing_fiction.json --overwrite
+
+# Custom output root
+python offing_piece_scraper.v0.1.0.py --dept-json the_offing_essays.json --out ./kopani_data
+
+
+
+
+- reading_time comes from here: <meta name="twitter:data2" content="14 minutes" />

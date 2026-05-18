@@ -24,6 +24,7 @@ evergreen_fw25_pieces/
 evergreen/fw*
 granta_pieces/
 *_20*_issue
+offing_pieces/
 
 # Environment Variables
 # Keep sensitive keys and local settings private

@@ -1,0 +1,575 @@
+{
+  "source": "https://theoffingmag.com/department/essay/",
+  "department": "Essay",
+  "total_pieces": 80,
+  "issues": null,
+  "essays": [
+    {
+      "title": "Roadside Attraction",
+      "url": "https://theoffingmag.com/essay/roadside-attraction/",
+      "author": "Zoe Kurland",
+      "type": "Essay",
+      "publication_date": "08 MAY 2026"
+    },
+    {
+      "title": "From the Archives: Cover Yourself, Honey",
+      "url": "https://theoffingmag.com/essay/archive-cover-yourself-honey/",
+      "author": "Rachel Charlene Lewis",
+      "type": "Essay",
+      "publication_date": "30 APR 2026"
+    },
+    {
+      "title": "Brother, She Calls Me",
+      "url": "https://theoffingmag.com/essay/brother-she-calls-me/",
+      "author": "Nwanne Agwu",
+      "type": "Essay",
+      "publication_date": "10 APR 2026"
+    },
+    {
+      "title": "Narrative Arc of No One's Gumara",
+      "url": "https://theoffingmag.com/essay/narrative-arc-of-no-ones-gumara/",
+      "author": "Christine Grimaldi",
+      "type": "Essay",
+      "publication_date": "13 MAR 2026"
+    },
+    {
+      "title": "As the Hammer Fell",
+      "url": "https://theoffingmag.com/essay/as-the-hammer-fell/",
+      "author": "Sara Schiff",
+      "type": "Essay",
+      "publication_date": "13 FEB 2026"
+    },
+    {
+      "title": "From the Archives: Romance, Betrayal, and Fucking",
+      "url": "https://theoffingmag.com/essay/17318/",
+      "author": "Paul Lisicky",
+      "type": "Essay",
+      "publication_date": "05 FEB 2026"
+    },
+    {
+      "title": "The Lorikeet",
+      "url": "https://theoffingmag.com/essay/the-lorikeet/",
+      "author": "Cait Lyn Adamson",
+      "type": "Essay",
+      "publication_date": "11 DEC 2025"
+    },
+    {
+      "title": "Self-Portrait Through Many Doors",
+      "url": "https://theoffingmag.com/essay/self-portrait-through-many-doors/",
+      "author": "Claudia Owusu",
+      "type": "Essay",
+      "publication_date": "13 NOV 2025"
+    },
+    {
+      "title": "Sidelined, or No Pain, No Gain",
+      "url": "https://theoffingmag.com/essay/sidelined-or-no-pain-no-gain/",
+      "author": "Mac Crane",
+      "type": "Essay",
+      "publication_date": "09 OCT 2025"
+    },
+    {
+      "title": "The Spell of Exile",
+      "url": "https://theoffingmag.com/essay/the-spell-of-exile/",
+      "author": "Chris Campanioni",
+      "type": "Essay",
+      "publication_date": "25 SEP 2025"
+    },
+    {
+      "title": "From the Archives: The Den of Earl",
+      "url": "https://theoffingmag.com/essay/archive-the-den-of-earl/",
+      "author": "Joseph Earl Thomas",
+      "type": "Essay",
+      "publication_date": "10 JUL 2025"
+    },
+    {
+      "title": "From the Archives: About My Father's",
+      "url": "https://theoffingmag.com/essay/archive-about-my-fathers/",
+      "author": "Matthew Moser Miller",
+      "type": "Essay",
+      "publication_date": "12 JUN 2025"
+    },
+    {
+      "title": "Whatever Pose You Do, It's Going to Hurt",
+      "url": "https://theoffingmag.com/essay/whatever-pose-you-do-its-going-to-hurt/",
+      "author": "C.E. McKenna",
+      "type": "Essay",
+      "publication_date": "10 APR 2025"
+    },
+    {
+      "title": "Ngoại and the Coral Reef",
+      "url": "https://theoffingmag.com/essay/ngoai-and-the-coral-reef/",
+      "author": "Kyla-Yến Huỳnh Giffin",
+      "type": "Essay",
+      "publication_date": "13 MAR 2025"
+    },
+    {
+      "title": "Every six months or so",
+      "url": "https://theoffingmag.com/essay/every-six-months-or-so/",
+      "author": "Hannah Grieco",
+      "type": "Essay",
+      "publication_date": "13 FEB 2025"
+    },
+    {
+      "title": "To Have (Stuff) and to Hold",
+      "url": "https://theoffingmag.com/essay/to-have-stuff-and-to-hold/",
+      "author": "Sammi LaBue",
+      "type": "Essay",
+      "publication_date": "12 DEC 2024"
+    },
+    {
+      "title": "The Court Trip",
+      "url": "https://theoffingmag.com/essay/the-court-trip/",
+      "author": "Kashawn Taylor",
+      "type": "Essay",
+      "publication_date": "14 NOV 2024"
+    },
+    {
+      "title": "My Hair Is an Archive of My Grief",
+      "url": "https://theoffingmag.com/essay/my-hair-is-an-archive-of-my-grief/",
+      "author": "Jodi M. Savage",
+      "type": "Essay",
+      "publication_date": "10 OCT 2024"
+    },
+    {
+      "title": "The Perils of Girlhood",
+      "url": "https://theoffingmag.com/essay/the-perils-of-girlhood/",
+      "author": "Melissa Fraterrigo",
+      "type": "Essay",
+      "publication_date": "11 APR 2024"
+    },
+    {
+      "title": "Plans for Future Disasters",
+      "url": "https://theoffingmag.com/essay/plans-for-future-disasters/",
+      "author": "Michelle Gurule",
+      "type": "Essay",
+      "publication_date": "08 FEB 2024"
+    },
+    {
+      "title": "Baby Fever",
+      "url": "https://theoffingmag.com/essay/baby-fever/",
+      "author": "Jennifer Givhan",
+      "type": "Essay",
+      "publication_date": "30 JAN 2024"
+    },
+    {
+      "title": "When I Close My Eyes",
+      "url": "https://theoffingmag.com/essay/when-i-close-my-eyes/",
+      "author": "Elena Dudum",
+      "type": "Essay",
+      "publication_date": "20 OCT 2023"
+    },
+    {
+      "title": "Asteroidea",
+      "url": "https://theoffingmag.com/essay/asteroidea/",
+      "author": "Michelle Koufopoulos",
+      "type": "Essay",
+      "publication_date": "12 OCT 2023"
+    },
+    {
+      "title": "Real Needs",
+      "url": "https://theoffingmag.com/essay/real-needs/",
+      "author": "Kira K. Homsher",
+      "type": "Essay",
+      "publication_date": "29 JUN 2023"
+    },
+    {
+      "title": "Everything We Couldn't Be",
+      "url": "https://theoffingmag.com/essay/everything-we-couldnt-be/",
+      "author": "Bea Chang",
+      "type": "Essay",
+      "publication_date": "11 MAY 2023"
+    },
+    {
+      "title": "The Slippage",
+      "url": "https://theoffingmag.com/essay/the-slippage/",
+      "author": "Kate Blakinger",
+      "type": "Essay",
+      "publication_date": "13 APR 2023"
+    },
+    {
+      "title": "A Grove of Guava Trees",
+      "url": "https://theoffingmag.com/essay/a-grove-of-guava-trees/",
+      "author": "Nureena Faruqi",
+      "type": "Essay",
+      "publication_date": "09 MAR 2023"
+    },
+    {
+      "title": "My Year of Light",
+      "url": "https://theoffingmag.com/essay/my-year-of-light/",
+      "author": "Elina Zhang",
+      "type": "Essay",
+      "publication_date": "09 FEB 2023"
+    },
+    {
+      "title": "You",
+      "url": "https://theoffingmag.com/essay/you-2/",
+      "author": "Steph Auteri",
+      "type": "Essay",
+      "publication_date": "08 DEC 2022"
+    },
+    {
+      "title": "Neversink",
+      "url": "https://theoffingmag.com/essay/neversink/",
+      "author": "Dennis James Sweeney",
+      "type": "Essay",
+      "publication_date": "10 NOV 2022"
+    },
+    {
+      "title": "Hazardous Sharps",
+      "url": "https://theoffingmag.com/essay/hazardous-sharps/",
+      "author": "Nancy Roach",
+      "type": "Essay",
+      "publication_date": "13 OCT 2022"
+    },
+    {
+      "title": "Night Shifts",
+      "url": "https://theoffingmag.com/essay/night-shifts/",
+      "author": "Clarissa A. León",
+      "type": "Essay",
+      "publication_date": "22 SEP 2022"
+    },
+    {
+      "title": "Zebrafish",
+      "url": "https://theoffingmag.com/essay/zebrafish/",
+      "author": "Hannah Hindley",
+      "type": "Essay",
+      "publication_date": "08 SEP 2022"
+    },
+    {
+      "title": "Fluctuations",
+      "url": "https://theoffingmag.com/essay/fluctuations/",
+      "author": "Aram Mrjoian",
+      "type": "Essay",
+      "publication_date": "28 JUL 2022"
+    },
+    {
+      "title": "We Defy Augury",
+      "url": "https://theoffingmag.com/essay/we-defy-augury/",
+      "author": "Mika Taylor",
+      "type": "Essay",
+      "publication_date": "14 JUL 2022"
+    },
+    {
+      "title": "Now, You Will Listen",
+      "url": "https://theoffingmag.com/essay/now-you-will-listen/",
+      "author": "Layli Long Soldier",
+      "type": "Essay",
+      "publication_date": "23 JUN 2022"
+    },
+    {
+      "title": "Worm Food Support Group",
+      "url": "https://theoffingmag.com/essay/worm-food-support-group/",
+      "author": "Raejeana Brooks",
+      "type": "Essay",
+      "publication_date": "09 JUN 2022"
+    },
+    {
+      "title": "Ashes Above Us",
+      "url": "https://theoffingmag.com/essay/ashes-above-us/",
+      "author": "Courtney Angela Brkic",
+      "type": "Essay",
+      "publication_date": "14 APR 2022"
+    },
+    {
+      "title": "My Blues",
+      "url": "https://theoffingmag.com/essay/my-blues/",
+      "author": "April Yee",
+      "type": "Essay",
+      "publication_date": "24 MAR 2022"
+    },
+    {
+      "title": "I'll Make You Something",
+      "url": "https://theoffingmag.com/essay/ill-make-you-something/",
+      "author": "Mac Crane",
+      "type": "Essay",
+      "publication_date": "10 MAR 2022"
+    },
+    {
+      "title": "Palimpsest Istanbul",
+      "url": "https://theoffingmag.com/essay/palimpsest-istanbul/",
+      "author": "Hantian Zhang",
+      "type": "Essay",
+      "publication_date": "24 FEB 2022"
+    },
+    {
+      "title": "Surface Tension",
+      "url": "https://theoffingmag.com/essay/surface-tension/",
+      "author": "Gwendolyn Wallace",
+      "type": "Essay",
+      "publication_date": "10 FEB 2022"
+    },
+    {
+      "title": "In Search of Touch",
+      "url": "https://theoffingmag.com/essay/in-search-of-touch/",
+      "author": "Xochitl-Julisa Bermejo",
+      "type": "Essay",
+      "publication_date": "27 JAN 2022"
+    },
+    {
+      "title": "The Night Had Claws",
+      "url": "https://theoffingmag.com/essay/the-night-had-claws/",
+      "author": "Atma Frans",
+      "type": "Essay",
+      "publication_date": "15 NOV 2021"
+    },
+    {
+      "title": "Heavy Lifting",
+      "url": "https://theoffingmag.com/essay/heavy-lifting/",
+      "author": "Catina Bacote",
+      "type": "Essay",
+      "publication_date": "14 OCT 2021"
+    },
+    {
+      "title": "A Free Woman in the Other Half of the Sky",
+      "url": "https://theoffingmag.com/essay/a-free-woman-in-the-other-half-of-the-sky/",
+      "author": "Wang Ping",
+      "type": "Essay",
+      "publication_date": "30 SEP 2021"
+    },
+    {
+      "title": "Holding Water",
+      "url": "https://theoffingmag.com/essay/holding-water/",
+      "author": "Ifeanyichukwu Peter Eze",
+      "type": "Essay",
+      "publication_date": "24 JUN 2021"
+    },
+    {
+      "title": "Headbutt UK",
+      "url": "https://theoffingmag.com/essay/headbutt-uk/",
+      "author": "Ranbir Sidhu",
+      "type": "Essay",
+      "publication_date": "13 MAY 2021"
+    },
+    {
+      "title": "Ol",
+      "url": "https://theoffingmag.com/essay/ol/",
+      "author": "Jemma Kurbanmuradova",
+      "type": "Essay",
+      "publication_date": "25 MAR 2021"
+    },
+    {
+      "title": "We Write Your Name on a Grain of Rice",
+      "url": "https://theoffingmag.com/essay/we-write-your-name-on-a-grain-of-rice/",
+      "author": "Lori Jakiela",
+      "type": "Essay",
+      "publication_date": "11 FEB 2021"
+    },
+    {
+      "title": "Skin",
+      "url": "https://theoffingmag.com/essay/skin/",
+      "author": "Nadia Choudhury",
+      "type": "Essay",
+      "publication_date": "22 OCT 2020"
+    },
+    {
+      "title": "In the Shadows of the Canyon",
+      "url": "https://theoffingmag.com/essay/in-the-shadows-of-the-canyon/",
+      "author": "Will Cordeiro",
+      "type": "Essay",
+      "publication_date": "30 SEP 2020"
+    },
+    {
+      "title": "Object Lessons",
+      "url": "https://theoffingmag.com/essay/object-lessons/",
+      "author": "Erin L. Thompson",
+      "type": "Essay",
+      "publication_date": "29 JUL 2020"
+    },
+    {
+      "title": "Queen of All Spaces",
+      "url": "https://theoffingmag.com/essay/queen-of-all-spaces/",
+      "author": "Ali Black",
+      "type": "Essay",
+      "publication_date": "11 JUN 2020"
+    },
+    {
+      "title": "Bhangra",
+      "url": "https://theoffingmag.com/essay/bhangra/",
+      "author": "Anita Gill",
+      "type": "Essay",
+      "publication_date": "14 MAY 2020"
+    },
+    {
+      "title": "Red Strings",
+      "url": "https://theoffingmag.com/essay/red-strings/",
+      "author": "Kimberly Rooney",
+      "type": "Essay",
+      "publication_date": "07 MAY 2020"
+    },
+    {
+      "title": "The Defense Cascade",
+      "url": "https://theoffingmag.com/essay/the-defense-cascade/",
+      "author": "Lena Crown",
+      "type": "Essay",
+      "publication_date": "12 MAR 2020"
+    },
+    {
+      "title": "The Seven Devils",
+      "url": "https://theoffingmag.com/essay/the-seven-devils/",
+      "author": "Gretchen Schulz",
+      "type": "Essay",
+      "publication_date": "13 FEB 2020"
+    },
+    {
+      "title": "June 9",
+      "url": "https://theoffingmag.com/essay/june-9/",
+      "author": "Cheng Tim Tim",
+      "type": "Essay",
+      "publication_date": "12 DEC 2019"
+    },
+    {
+      "title": "Velvet",
+      "url": "https://theoffingmag.com/essay/velvet/",
+      "author": "William Fargason",
+      "type": "Essay",
+      "publication_date": "14 NOV 2019"
+    },
+    {
+      "title": "Haunted at Home",
+      "url": "https://theoffingmag.com/essay/haunted-at-home/",
+      "author": "Rebecca Jamieson",
+      "type": "Essay",
+      "publication_date": "10 OCT 2019"
+    },
+    {
+      "title": "The Geographies of Violence",
+      "url": "https://theoffingmag.com/essay/the-geographies-of-violence/",
+      "author": "Akhila Kolisetty",
+      "type": "Essay",
+      "publication_date": "26 SEP 2019"
+    },
+    {
+      "title": "Holding Patterns",
+      "url": "https://theoffingmag.com/essay/holding-patterns/",
+      "author": "Daniel Barnum",
+      "type": "Essay",
+      "publication_date": "11 JUL 2019"
+    },
+    {
+      "title": "Smile",
+      "url": "https://theoffingmag.com/essay/smile/",
+      "author": "Tariq Al Haydar",
+      "type": "Essay",
+      "publication_date": "13 JUN 2019"
+    },
+    {
+      "title": "MOVEMENTS OF THE UNCONTROLLABLE BODY PART TWO",
+      "url": "https://theoffingmag.com/essay/movements-of-the-uncontrollable-body-part-two/",
+      "author": "Bronwyn Valentine",
+      "type": "Essay",
+      "publication_date": "09 MAY 2019"
+    },
+    {
+      "title": "Bokeh",
+      "url": "https://theoffingmag.com/essay/bokeh/",
+      "author": "Elena Robidoux",
+      "type": "Essay",
+      "publication_date": "11 APR 2019"
+    },
+    {
+      "title": "Heirlooms",
+      "url": "https://theoffingmag.com/essay/heirlooms/",
+      "author": "Chloe Firetto Toomey",
+      "type": "Essay",
+      "publication_date": "14 MAR 2019"
+    },
+    {
+      "title": "To Keep a Brother Living",
+      "url": "https://theoffingmag.com/essay/to-keep-a-brother-living/",
+      "author": "Kelsey Norris",
+      "type": "Essay",
+      "publication_date": "14 FEB 2019"
+    },
+    {
+      "title": "Speak, Unwoman!",
+      "url": "https://theoffingmag.com/essay/speak-unwoman/",
+      "author": "[Sarah] Cavar",
+      "type": "Essay",
+      "publication_date": "13 DEC 2018"
+    },
+    {
+      "title": "Known Among Universals",
+      "url": "https://theoffingmag.com/essay/known-among-universals/",
+      "author": "Tanya Holtland",
+      "type": "Essay",
+      "publication_date": "15 NOV 2018"
+    },
+    {
+      "title": "Memento Mori",
+      "url": "https://theoffingmag.com/essay/memento-mori/",
+      "author": "Sarah VanGundy",
+      "type": "Essay",
+      "publication_date": "11 OCT 2018"
+    },
+    {
+      "title": "Mother Chimera",
+      "url": "https://theoffingmag.com/essay/mother-chimera/",
+      "author": "Eliza Smith",
+      "type": "Essay",
+      "publication_date": "13 SEP 2018"
+    },
+    {
+      "title": "Falling Days",
+      "url": "https://theoffingmag.com/essay/falling-days/",
+      "author": "Thomas Dai",
+      "type": "Essay",
+      "publication_date": "12 JUL 2018"
+    },
+    {
+      "title": "American Smile",
+      "url": "https://theoffingmag.com/essay/american-smile/",
+      "author": "Dur e Aziz Amna",
+      "type": "Essay",
+      "publication_date": "14 JUN 2018"
+    },
+    {
+      "title": "Sweet Dreams",
+      "url": "https://theoffingmag.com/essay/sweet-dreams/",
+      "author": "Pamela Sneed",
+      "type": "Essay",
+      "publication_date": "10 MAY 2018"
+    },
+    {
+      "title": "Injury",
+      "url": "https://theoffingmag.com/essay/injury/",
+      "author": "Raphael Dagold",
+      "type": "Essay",
+      "publication_date": "12 APR 2018"
+    },
+    {
+      "title": "CLAVICLE",
+      "url": "https://theoffingmag.com/essay/clavicle/",
+      "author": "Anuradha Bhowmik",
+      "type": "Essay",
+      "publication_date": "08 MAR 2018"
+    },
+    {
+      "title": "The Orange Tree",
+      "url": "https://theoffingmag.com/essay/the-orange-tree/",
+      "author": "Austyn Gaffney",
+      "type": "Essay",
+      "publication_date": "08 FEB 2018"
+    },
+    {
+      "title": "Tastes They Left",
+      "url": "https://theoffingmag.com/essay/tastes-they-left/",
+      "author": "Gina Iaquinta",
+      "type": "Essay",
+      "publication_date": "25 JAN 2018"
+    },
+    {
+      "title": "The Blackout",
+      "url": "https://theoffingmag.com/essay/the-blackout/",
+      "author": "Nora Almeida",
+      "type": "Essay",
+      "publication_date": "09 NOV 2017"
+    },
+    {
+      "title": "A Guide To Tropical Seed Saving",
+      "url": "https://theoffingmag.com/essay/a-guide-to-tropical-seed-saving/",
+      "author": "Carmella de los Angeles Guiol",
+      "type": "Essay",
+      "publication_date": "12 OCT 2017"
+    }
+  ]
+}

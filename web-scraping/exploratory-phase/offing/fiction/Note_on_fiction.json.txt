@@ -1,0 +1,15 @@
+The fiction archive is deeper than essays — it reaches back to the journal's founding in late 2015
+
+Two pieces share the same date (03 JUN 2019): 
+"Men Paid Me To Eat" by Natalie Lima and "ghost x garden x grow" by Caroline Mao
+ — both are legitimate separate publications
+
+Two pieces share the same date (09 NOV 2015), same situation:
+ "I Looked For You" and "All The Hard Ways"
+
+"Some Days the Bees are Melancholic" has a dual author (Melissa Goodrich and Dana Diehl)
+ — worth deciding how you want to handle co-authored pieces in your schema
+
+The "From the Archives" reposts appear here too (e.g. Meron Hadero's "Preludes" 
+appears twice — once as the 2016 original and once as a 2025 archive repost), 
+same pattern as the essays
