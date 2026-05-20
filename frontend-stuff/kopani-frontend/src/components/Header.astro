@@ -1,0 +1,115 @@
+---
+const navItems = [
+  { label: "Essays", href: "/essays" },
+  { label: "Fiction", href: "/fiction" },
+  { label: "Poetry", href: "/poetry" },
+  { label: "Interviews", href: "/interviews" },
+  { label: "Art", href: "/art" },
+  { label: "Translation", href: "/translation" },
+  { label: "Reviews", href: "/reviews" },
+];
+---
+
+<header class="border-b-[3px] border-double border-ink">
+  <div class="grid grid-cols-3 items-center px-4 py-4 md:px-10 md:py-6">
+    <!-- Left: hamburger -->
+    <div class="justify-self-start">
+      <button
+        id="nav-toggle"
+        aria-label="Open menu"
+        aria-expanded="false"
+        class="flex flex-col gap-1.5 p-2 md:hidden"
+      >
+        <span class="block h-[2px] w-[22px] bg-ink"></span>
+        <span class="block h-[2px] w-[22px] bg-ink"></span>
+        <span class="block h-[2px] w-[22px] bg-ink"></span>
+      </button>
+    </div>
+
+    <!-- Center: logo -->
+    <a href="/" class="justify-self-center text-center">
+      <h1 class="font-display font-light leading-none tracking-tight text-ink"
+          style="font-size: clamp(2.75rem, 7vw, 5rem);">
+        Kopani
+      </h1>
+      <p class="mt-4 font-body text-sm italic text-umber md:text-[1rem]">
+        The independent literary press, gathered.
+      </p>
+    </a>  
+
+    <!-- Right: utility links (desktop) -->
+    <nav class="hidden justify-self-end gap-5 font-body text-sm text-umber md:flex">
+      <a href="/rss" class="hover:text-prussian">RSS</a>
+      <a href="/submit" class="hover:text-prussian">Submit</a>
+    </nav>
+  </div>
+
+  <!-- Primary nav (desktop only) -->
+  <nav class="hidden border-t border-cream-dark py-3 md:block">
+    <ul class="flex justify-center font-body text-sm uppercase tracking-[0.18em] text-ink">
+      {navItems.map((item, i) => (
+        <li class="flex items-center">
+          <a href={item.href} class="px-4 hover:text-prussian">{item.label}</a>
+          {i < navItems.length - 1 && <span class="text-cream-dark">|</span>}
+        </li>
+      ))}
+    </ul>
+  </nav>
+</header>
+
+<!-- Mobile drawer -->
+<div
+  id="nav-backdrop"
+  class="fixed inset-0 z-40 hidden md:hidden"
+  style="background-color: rgba(28, 18, 8, 0.55);"
+  aria-hidden="true"
+></div>
+
+<aside
+  id="nav-drawer"
+  class="fixed left-0 top-0 z-50 h-full w-[85vw] max-w-[340px] -translate-x-full bg-linen p-6 transition-transform duration-300 ease-out md:hidden"
+  aria-label="Site navigation"
+>
+  <div class="flex items-start justify-between border-b-2 border-umber pb-4">
+    <span class="font-display text-3xl font-light text-ink">Kopani</span>
+    <button id="nav-close" aria-label="Close menu"
+            class="font-display text-3xl leading-none text-ink">×</button>
+  </div>
+
+  <p class="mt-6 font-body text-xs uppercase tracking-[0.2em] text-brick">Browse</p>
+
+  <ul class="mt-4 space-y-3 font-display text-2xl font-light">
+    {navItems.map((item) => (
+      <li><a href={item.href} class="block text-ink hover:text-prussian">{item.label}</a></li>
+    ))}
+  </ul>
+
+  <p class="absolute bottom-6 left-6 right-6 font-body text-sm italic text-umber">
+    Read what the small presses are printing.
+  </p>
+</aside>
+
+<script>
+  const toggle = document.getElementById('nav-toggle');
+  const drawer = document.getElementById('nav-drawer');
+  const backdrop = document.getElementById('nav-backdrop');
+  const closeBtn = document.getElementById('nav-close');
+
+  const open = () => {
+    drawer?.classList.remove('-translate-x-full');
+    backdrop?.classList.remove('hidden');
+    toggle?.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+  };
+  const close = () => {
+    drawer?.classList.add('-translate-x-full');
+    backdrop?.classList.add('hidden');
+    toggle?.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  };
+
+  toggle?.addEventListener('click', open);
+  closeBtn?.addEventListener('click', close);
+  backdrop?.addEventListener('click', close);
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
+</script>

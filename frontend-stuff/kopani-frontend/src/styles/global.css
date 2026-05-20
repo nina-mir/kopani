@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  /* Palette — from design-themes_v0.0.0 */
+  --color-linen: #f5ede0;
+  --color-cream-dark: #e0d0b8;
+  --color-prussian: #2c3e6b;
+  --color-ochre: #8b6914;
+  --color-brick: #c0392b;
+  --color-umber: #3d2b1f;
+  --color-ink: #1c1208;
+
+  /* Typography */
+  --font-display: "Cormorant Garamond", ui-serif, Georgia, serif;
+  --font-body: "IM Fell English", ui-serif, Georgia, serif;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    background-color: var(--color-linen);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    text-wrap: pretty;
+  }
+}
