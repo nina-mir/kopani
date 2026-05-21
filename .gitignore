@@ -11,6 +11,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# database related 
+kopani-db/
+
 # Scraping & Logs
 # Beautiful Soup projects often generate log files or temporary outputs
 *.log
