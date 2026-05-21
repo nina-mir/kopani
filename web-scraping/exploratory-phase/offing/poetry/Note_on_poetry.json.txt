@@ -1,0 +1,16 @@
+295 poetry pieces, March 2015 through May 2026. A few things worth noting for Kopani:
+
+Sub-portfolios — a significant chunk of entries live under nested URL paths rather than the
+ flat /poetry/ slug pattern. Two portfolios appeared: a Youth Portfolio (/poetry/youth-portfolio/...) 
+ running through early 2022 and early 2023, and a Kundiman 20th Anniversary Portfolio
+  (/poetry/kundiman-portfolio/...) published daily through May 2024. You may want to add an optional
+   portfolio field to your schema to capture this grouping.
+
+Co-authored piece — "Kay Sage Silences the Wind" (05 NOV 2025) is credited to "Simone Muench & Jackie K. White" 
+as a single string, since that's how the listing page showed it. The scraper will split this correctly when 
+you run it through offing_piece_scraper (it handles multiple span.byline blocks on the piece page itself).
+
+One duplicate removed — Abbie Kiefer's "Geese in Flight..." appeared twice in the raw browser output; deduped by URL.
+
+Poetry goes back furthest — March 2015, two months earlier than fiction (September 2015), confirming poetry was
+the first department The Offing launched.
