@@ -13,12 +13,14 @@ __pycache__/
 
 # database related 
 kopani-db/
+json/
 
 # Scraping & Logs
 # Beautiful Soup projects often generate log files or temporary outputs
 *.log
 scraped_data/
 tmp/
+amended*
 
 # scraped data must never be made public -- personal use only
 pieces_json*

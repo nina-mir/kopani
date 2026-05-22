@@ -12,6 +12,8 @@
   --color-ink: #1c1208;
 
   /* Typography */
+  --font-secret-service: "secret-service-typewriter", sans-serif;
+  --font-arno: "arno-pro", serif;
   --font-display: "Cormorant Garamond", ui-serif, Georgia, serif;
   --font-body: "IM Fell English", ui-serif, Georgia, serif;
 }
