@@ -110,3 +110,192 @@ Compare this to a "traditional" server-rendered app that runs a SQL query on eve
 So to directly answer your question — yes, you're doing search-and-filter against data already loaded, but it's not "what came back from one query for the homepage." It's the search index, which was specifically built at build time to contain everything searchable about all 1200 pieces. And the answer to "is that slow or fast" is: it's faster than any database-backed search you'd build, because the database round-trip is gone entirely.
 
 The one tradeoff to know about: when you add new pieces or update existing ones, you have to re-run `npm run build` and redeploy. The site is a frozen snapshot until you rebuild. For a literary aggregator updating in batches (you run the scraper, ingest, rebuild), that's perfect. If you wanted real-time updates the moment something is added, you'd need to switch to SSR.
+
+## nina
+Ok, now that I got all the info about integrating the DB, what should I do? I run the ingest script and set up the db, or continue working ont he frontend? 
+
+I am thinking I should get the DB sorted out ASAP and test it and then continue the frontend
+
+## claude
+
+Yes, do the DB first. Right call.
+
+The reasoning: every frontend decision you make from here on out — what fields a Card needs, how a piece-detail page is laid out, what the search index includes — is downstream of "what does the data actually look like when it comes out of the DB." Building UI against an imagined shape leads to refactoring. Building against the real shape doesn't.
+
+You also don't want to discover at hour 47 that some Granta piece has a 400-character title that breaks your card layout, or that the Threepenny translator list renders as `[object Object]` because you forgot to handle a quirk. Better to hit those today, while you have time.
+
+Here's the order I'd do it in. None of this should take long.
+
+**1. Get the DB built locally.** On your laptop:
+```bash
+mkdir kopani-db && cd kopani-db
+# drop schema.sql and ingest.py here
+mkdir json && cp /path/to/all/scraped/*.json json/
+python3 ingest.py --src ./json --db kopani.sqlite --schema schema.sql
+```
+
+If you've got the full ~1200 pieces, expect it to take a few seconds and report some errors — that's fine and informative. Read them. They'll usually be the same pattern repeated (a journal whose extractor needs a small tweak, like the Threepenny translator-as-list issue we already hit). Fix the extractor, re-run, repeat until it's clean or the remaining errors are genuinely weird one-offs you can quarantine.
+
+**2. Eyeball the data.** Don't skip this. Open the DB with the `sqlite3` CLI or any GUI (DB Browser for SQLite, TablePlus, the VS Code SQLite extension all work). Run a few sanity checks:
+
+```sql
+-- Did everything land?
+SELECT j.name, COUNT(*) FROM pieces p JOIN journals j ON j.id=p.journal_id GROUP BY j.id;
+
+-- Any pieces with no contributors? (Shouldn't be, but check.)
+SELECT id, title FROM pieces WHERE id NOT IN (SELECT piece_id FROM piece_contributors);
+
+-- What's falling into 'other'? Tells you what to add to the normalization map.
+SELECT content_type_raw, COUNT(*) FROM pieces WHERE content_type='other' GROUP BY content_type_raw;
+
+-- Any suspiciously empty titles or weird ones?
+SELECT id, title FROM pieces WHERE title IS NULL OR length(title) < 3 OR length(title) > 200;
+
+-- Author count seem reasonable? (Watch for slug collisions — same slug, different real people.)
+SELECT COUNT(*) FROM authors;
+SELECT slug, COUNT(*) FROM authors GROUP BY slug HAVING COUNT(*) > 1;
+```
+
+This is also where you'll catch issues that aren't errors but are *wrong* — like a piece whose date got pulled from the wrong field, or an author whose bio got attached to the wrong piece. Fixing those now is way cheaper than discovering them on a rendered page later.
+
+**3. Get the DB onto the droplet (or at least figure out the path).** You don't have to deploy yet, but know where it'll live. Probably `/srv/kopani/data/kopani.sqlite`. If the droplet isn't set up, that can wait — what matters is you've decided.
+
+**4. Now start the frontend.** Scaffold Astro, install `better-sqlite3`, copy the local `kopani.sqlite` into `./data/`, build `db.ts`, and make `getRecentPieces()` work on the homepage. That's your "everything is wired up" moment. Everything after that is just templates and CSS.
+
+A timing reality check: steps 1–3 should be a single afternoon, maybe an evening. If you're past four hours and still wrestling with the ingest, something's off — ping me with the errors and we'll fix it together rather than have you grind on it.
+
+One thing to resist: don't try to make the DB *perfect* before moving on. The goal of step 2 is "is the data good enough that I trust building UI against it." Not "is every author bio cleanly formatted" — that's polish that can happen anytime. If 95% of pieces look right and the remaining 5% are minor cosmetic issues, ship it and move on. You can always re-run the ingest later; it's idempotent.
+
+Good luck. Build the DB, then come back when the frontend wiring needs a hand.
+
+## nina  author's name
+
+Should the name of authors/persons be first name and last name or just name? What's best for MVP?
+
+## claude
+
+Single `name` field. Don't split.
+
+The reason is the data itself. Look at what you actually have across 1200 pieces:
+
+- "Zheng Xiaoqiong" — Chinese order, family name first, no comma
+- "bell hooks" — intentionally lowercase, no traditional split
+- "J. M. Coetzee" — initials as the given name
+- "Margaret Jull Costa" — three parts, all surname (Jull Costa is the family name)
+- "Ocean Vuong" — given name + family name in English order
+- Possibly someone like "Walatta Petros" — Ethiopian, no Western surname concept
+- "Charles Baudelaire" — easy, but the easy cases don't justify the model
+
+If you make a `first_name` / `last_name` split, you'll spend real time at ingest deciding which half each name belongs in, you'll get it wrong for non-Western authors (which is a real editorial problem for a literary aggregator that publishes voices like Xiaoqiong and Petros), and you'll never get back the time you spent. Worst case, you flatten "Zheng Xiaoqiong" into `first_name="Zheng"`, `last_name="Xiaoqiong"` — which is the opposite of how she'd be alphabetized in Chinese convention. That's not a minor cosmetic issue, it's misnaming people.
+
+A single `name` field treats names as the thing they are — strings the person chose — and trusts the source data, which has already done the work of capturing the name as it should appear.
+
+The two objections people raise to a single field, and why they don't apply here:
+
+**"How will I sort alphabetically?"** You probably don't need to. Your main browse paths are by journal, by date, and by search. If you ever do need an author index, you have two options: sort by `name` directly (which gives Western-style first-name sort, fine for an MVP) or add a separate `sort_name` column later when you actually need it, populated manually for the edge cases. Adding one column later is cheaper than splitting and re-merging.
+
+**"How will I display 'Last, First'?"** You don't have to. Display the name as stored. Most literary publications do this anyway — Granta and The Offing show "Ocean Vuong," not "Vuong, Ocean."
+
+For MVP, single field. If you ever need to alphabetize properly for an A-Z author directory page, that's the moment to add a nullable `sort_name` column. Until then, you're solving a problem you don't have.
+
+Your current schema already has it right — `authors.name TEXT NOT NULL`. Leave it.
+
+## nina : pub.date
+Another question about the publication date of a piece in a f/w 2025 issue? What's its pub date? October 2025?
+
+## claude 
+Honest answer: there isn't a true ISO date for an F/W 2025 piece, and trying to invent one creates more problems than it solves.
+
+Print/digital literary journals publish on seasonal cycles, not on dates. F/W 2025 means "the Fall/Winter 2025 issue" — which might have gone live in September, October, November, or even staggered across all three. The journal itself doesn't think of it as having a single publication date, and neither should your DB.
+
+Your schema already handles this correctly, and you should lean into it:
+
+- `publication_date` (ISO `YYYY-MM-DD`) — leave `NULL` for seasonal issues. Only populate when you have a real per-piece date (Granta and The Offing give you actual dates; use those).
+- `publication_date_display` — `"F/W 2025"`. This is what users see.
+- `issue_metadata_json` — `{"season": "fw", "year": 2025}`. This is what you sort and filter on programmatically.
+
+**For sorting**, don't fake the date. Use a derived "sortable season" value built from `season` + `year`. The convention I'd suggest:
+
+| Season | Sort month |
+|---|---|
+| Spring / SP | 03 |
+| Summer / SU | 06 |
+| Fall / F or F/W (Fall-Winter) | 09 |
+| Winter / W | 12 |
+
+So F/W 2025 sorts at `2025-09`. This is a sort key, not a claim about when the piece was published. Build it in SQL when you need it:
+
+```sql
+SELECT title,
+       publication_date_display,
+       COALESCE(
+         publication_date,                          -- real date if we have one
+         CASE json_extract(issue_metadata_json, '$.season')
+           WHEN 'sp' THEN json_extract(issue_metadata_json,'$.year') || '-03-01'
+           WHEN 'su' THEN json_extract(issue_metadata_json,'$.year') || '-06-01'
+           WHEN 'fw' THEN json_extract(issue_metadata_json,'$.year') || '-09-01'
+           WHEN 'f'  THEN json_extract(issue_metadata_json,'$.year') || '-09-01'
+           WHEN 'w'  THEN json_extract(issue_metadata_json,'$.year') || '-12-01'
+         END
+       ) AS sort_date
+FROM pieces
+ORDER BY sort_date DESC;
+```
+
+Or — cleaner — bake that logic into `ingest.py` and write the synthetic date into a new column like `sort_date` (TEXT, ISO format). Pages and search index then sort on that without needing the CASE every time.
+
+**Why not just set `publication_date = '2025-10-01'` directly?** Two reasons:
+
+1. You lose the distinction between "we know this exact date" and "we guessed." Three years from now someone (maybe you) will see `2025-10-01` and trust it as a fact.
+2. If the journal later says "actually F/W 2025 dropped November 14," you'd have to find and overwrite every faked date, with no audit trail of which were real.
+
+Keeping `publication_date` NULL for seasonal issues preserves the truth. The synthetic sort key gives you the sort order. Display shows users "F/W 2025." Three jobs, three fields, no lying.
+
+For your specific question — yes, October-ish is a reasonable guess for when an F/W issue comes out, but you don't need a guess. Sort by season-start (September for F/W), display "F/W 2025," and you're done.
+
+## CLAUDE: On how delete a row from the DB in case a sraped JSON file  needs to be deleted 
+
+Right — deleting the JSON file does **not** remove the piece from the DB. The ingest only ever inserts and updates; it never deletes. That row will sit there as an orphan after you delete the source file. (This is the "stale rows linger" caveat I mentioned earlier when we talked about re-running.)
+
+So you have two cleanups to do, and order matters a little. Let me also flag something before you delete anything.
+
+**First, a question worth pausing on.** You said it's a Mandarin translation of a piece already in the DB. Is the *other* (English?) version definitely also in your data, and is it correct? If so, deleting the Mandarin duplicate is reasonable. But two things to consider:
+
+- A Mandarin translation isn't necessarily a "duplicate" — it could be a legitimately separate piece (different translator, different publication context). Only you can judge whether Kopani wants both. If you're aggregating across journals, the same work appearing in two languages might actually be *desirable* to keep.
+- If you do keep it, the fix is just giving it a content type, not deleting it.
+
+But assuming you've decided it's a true duplicate you don't want — here's the clean way to remove it.
+
+**Delete the DB row first, then the JSON file.** You need the row's identity, and the easiest stable handle is its `original_url`. Find it:
+
+```sql
+SELECT id, title, original_url FROM pieces WHERE content_type_raw IS NULL;
+```
+
+Then delete it by `original_url` (more reliable than `id`, which can shift on a full re-ingest):
+
+```sql
+DELETE FROM pieces WHERE original_url = 'paste-the-exact-url-here';
+```
+
+Because your schema has `ON DELETE CASCADE` on the junction tables, deleting the piece **automatically removes its `piece_contributors` and `piece_themes` rows too** — no orphaned links. One caveat: this only cascades if `PRAGMA foreign_keys = ON` is set on that connection. The `sqlite3` CLI and DB Browser don't always enable it by default. So run this first in the same session:
+
+```sql
+PRAGMA foreign_keys = ON;
+DELETE FROM pieces WHERE original_url = '...';
+```
+
+**Then delete the JSON file**, so a future re-ingest doesn't resurrect the row.
+
+**One leftover to be aware of:** deleting the piece won't remove any *authors* who were only attached to that piece. If the Mandarin version credited a translator who appears nowhere else, that author row becomes orphaned (harmless, just unused). If you care about tidiness, you can sweep orphaned authors afterward:
+
+```sql
+DELETE FROM authors
+WHERE id NOT IN (SELECT DISTINCT author_id FROM piece_contributors);
+```
+
+That's optional — an unused author row hurts nothing and won't show up on your frontend (which only renders authors via pieces).
+
+**The alternative, if you'd rather not hand-delete from the DB at all:** delete the JSON, then nuke and rebuild the whole DB from scratch — `del kopani.sqlite` then re-run `ingest.py`. Since the ingest reseeds journals and re-reads every file, you get a perfectly clean DB with no orphans, no cascade worries, no manual SQL. At 1469 pieces it takes seconds. **This is honestly the cleaner approach for your situation** — you're still in build phase, the DB is disposable and regenerable, and a full rebuild guarantees the DB exactly mirrors your JSON folder. I'd do this rather than surgical deletes, unless you've made manual edits in the DB you'd lose.
+
+So: decide whether the Mandarin piece is truly unwanted, delete its JSON, then `del kopani.sqlite` and re-run the ingest. Clean slate, no loose ends.
