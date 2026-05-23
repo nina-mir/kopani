@@ -1,0 +1,580 @@
+---
+/**
+ * Kopani editorial card
+ *
+ * Temporary approach: this component can render either:
+ * 1. explicit props passed from a parent page, or
+ * 2. the `placeholderPiece` below while SQLite is not integrated yet.
+ *
+ * Future DB mapping:
+ * - piece.title                 -> title
+ * - piece.subtitle              -> subtitle
+ * - piece.summary ?? meta_description -> dek
+ * - piece.content_type          -> contentType
+ * - piece.publication_date_display ?? publication_date -> dateLabel
+ * - piece.read_time_minutes     -> readTimeMinutes
+ * - piece.word_count_estimate   -> wordCountEstimate
+ * - piece.image_url             -> imageUrl     // use Kopani-owned images only
+ * - piece.source_image_url      -> avoid display unless rights are confirmed
+ * - journals.name               -> journalName
+ * - journals.homepage_url       -> journalUrl
+ * - authors via piece_contributors(role='author')      -> authors
+ * - authors via piece_contributors(role='translator')  -> translators
+ * - authors via piece_contributors(role='visual_artist')-> visualArtists
+ * - pieces.ai_keywords_json     -> aiKeywords
+ */
+
+type Contributor = {
+  name: string;
+  href?: string;
+};
+
+type PieceCard = {
+  title: string;
+  subtitle?: string;
+  dek?: string;
+  contentType: string;
+  href: string;
+  journalName: string;
+  journalUrl: string;
+  authors: Contributor[];
+  translators?: Contributor[];
+  visualArtists?: Contributor[];
+  dateLabel?: string;
+  issueLabel?: string;
+  readTimeMinutes?: number;
+  wordCountEstimate?: number;
+  imageUrl?: string;
+  aiKeywords?: string[];
+  featured?: boolean;
+};
+
+interface Props extends Partial<PieceCard> {
+  piece?: PieceCard;
+}
+
+const placeholderPiece: PieceCard = {
+  title: "The Cartographer's Silence",
+  subtitle: "after a map found in a borrowed book",
+  dek: "A spare, luminous essay about memory, weather, and the coordinates we inherit from other people's stories.",
+  contentType: "Essay",
+  href: "/journals/evergreen-review/the-cartographers-silence",
+  journalName: "Evergreen Review",
+  journalUrl: "https://www.evergreenreview.com/",
+  authors: [{ name: "Mara Iqbal", href: "/authors/mara-iqbal" }],
+  translators: [{ name: "Jonas Reed" }],
+  visualArtists: [{ name: "Lina Park" }],
+  dateLabel: "Spring 2019",
+  issueLabel: "Issue 42",
+  readTimeMinutes: 7,
+  wordCountEstimate: 1850,
+  aiKeywords: ["memory", "maps", "inheritance"],
+  featured: true,
+};
+
+const piece: PieceCard = {
+  ...placeholderPiece,
+  ...Astro.props.piece,
+  ...Astro.props,
+};
+
+const {
+  title,
+  subtitle,
+  dek,
+  contentType,
+  href,
+  journalName,
+  journalUrl,
+  authors,
+  translators = [],
+  visualArtists = [],
+  dateLabel,
+  issueLabel,
+  readTimeMinutes,
+  wordCountEstimate,
+  imageUrl,
+  aiKeywords = [],
+  featured = false,
+} = piece;
+
+const byline = authors.map((author) => author.name).join(", ");
+const metaItems = [
+  dateLabel,
+  issueLabel,
+  readTimeMinutes && `${readTimeMinutes} min read`,
+].filter(Boolean);
+const visibleKeywords = aiKeywords.slice(0, 3);
+const wordCountLabel = wordCountEstimate
+  ? `${wordCountEstimate.toLocaleString()} words`
+  : undefined;
+---
+<article
+  class="
+    group
+    flex
+    min-h-[92vh]
+    flex-col
+    overflow-hidden
+    border
+    border-ink/10
+    bg-linen
+    shadow-[0_1px_0_rgba(28,18,8,0.06)]
+
+    md:aspect-[4/8]
+
+    md:min-h-0
+  "
+>
+  <!--
+        Desktop ratio experiment.
+        Change this freely.
+
+        Examples:
+        md:aspect-[4/5]
+        md:aspect-[3/4]
+        md:aspect-[5/6]
+    -->
+
+  <!--
+    TOP VISUAL AREA
+
+    The image area intentionally occupies roughly half the card.
+    The title and featured badge live ON the image.
+  -->
+  <div class="relative h-1/2 overflow-hidden">
+    <a href={href} class="absolute inset-0 block">
+      {
+        imageUrl ? (
+          <img
+            src={imageUrl}
+            alt=""
+            loading="lazy"
+            class="h-full w-full object-cover transition duration-500 group-hover:scale-[1.02]"
+          />
+        ) : (
+          <!--
+            Editorial fallback texture.
+            Keeping this because it fits Kopani very well.
+          -->
+          <div
+            class="h-full w-full"
+            style="
+              background-image:
+                radial-gradient(circle at 18% 20%, rgba(192,57,43,.18), transparent 28%),
+                linear-gradient(to bottom, rgba(28,18,8,.08), rgba(28,18,8,.18)),
+                repeating-linear-gradient(
+                  135deg,
+                  rgba(28,18,8,.10) 0 1px,
+                  transparent 1px 11px
+                );
+            "
+            aria-hidden="true"
+          />
+        )
+      }
+
+      <!-- subtle readability wash -->
+      <div class="absolute inset-0 bg-linear-to-t from-ink/95 via-ink/20 to-transparent"></div>
+    </a>
+
+    <!-- FEATURED BADGE -->
+    {
+      featured && (
+        <div class="absolute left-4 top-4 z-10">
+          <span
+            class="
+              bg-brick
+              px-3
+              py-1
+              font-body
+              text-[0.65rem]
+              uppercase
+              tracking-[0.22em]
+              text-linen
+            "
+          >
+            Featured
+          </span>
+        </div>
+      )
+    }
+
+    <div class="absolute right-4 top-4 z-10">
+    <!--         
+          IMPORTANT:
+          Kopani links OUT to the original publication.
+          Never render copyrighted body text.
+        -->
+        <a
+          href={href}
+          class="
+            shrink-0
+            border
+            border-ink/15
+            bg-linen
+            px-4
+            py-2
+            font-body
+            text-sm
+            text-ink
+            transition
+            hover:border-prussian/30
+            hover:bg-(--ink) 
+            hover:text-(--cream)
+          "
+          style="
+            background-image:
+            /* light catches the opposite corner */
+            radial-gradient(circle at 82% 80%, rgba(192,57,43,.14), transparent 60%),
+            /* grain runs opposite way */
+            linear-gradient(to top, rgba(28,18,8,.06), rgba(28,18,8,.12)),
+            repeating-linear-gradient(
+              45deg,
+              rgba(28,18,8,.10) 0 1px,
+              transparent 1px 11px
+            );
+             background-color: #f5ede0;  /* keeps it readable */
+
+            /* tiny touches that make it sing */
+            border: 1px solid rgba(28,18,8,.15);
+            padding: 6px 12px;
+            color: var(--ink);
+            font-size: 12px;
+            letter-spacing: 0.05em;
+            box-shadow: 0 1px 0 rgba(255,255,255,.5) inset;  /* subtle paper highlight */
+                      "
+          >
+          Read ↗
+        </a>
+      </div>
+
+    <!-- JOURNAL + OUTBOUND LINK -->
+      <div
+        class="
+          absolute
+          left-4 
+          top-14 
+          z-10
+          flex
+          items-center
+          justify-between
+          gap-4
+        "
+      >
+        <div>
+          <p class="font-body text-xs uppercase tracking-[0.16em] text-ink/45">
+            published in
+          </p>
+
+          <a
+            href={journalUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="
+              mt-1
+              inline-block
+              font-arno
+              text-xl
+              italic
+              text-ochre
+              transition
+              hover:text-prussian
+            "
+          >
+            {journalName}
+          </a>
+        </div>
+
+              </div>
+
+
+    <!--
+      TITLE AREA
+
+      IMPORTANT:
+      Adjust bottom-* to move the title higher/lower.
+
+      Example experiments:
+      bottom-10
+      bottom-12
+      bottom-14
+      bottom-16
+    -->
+    <div class="absolute bottom-14 left-4 right-4 z-10 md:bottom-10">
+      <h2
+        class="
+          font-display
+          text-4xl
+          font-normal
+          text-linen
+          md:text-3xl
+        "
+
+        /*
+          IMPORTANT TITLE LINE SPACING CONTROL
+
+          Change leading-[X] to experiment with wrapped-line spacing.
+
+          Examples:
+          leading-[0.88]
+          leading-[0.95]
+          leading-[1]
+          leading-[1.08]
+
+          This is the MOST important parameter
+          for the visual feel of the title.
+        */
+        style="line-height: 1.6;"
+      >
+        <a href={href}>
+          <!--
+            box-decoration-clone:
+            Creates the editorial trailing background effect.
+
+            Each wrapped line gets its own background box.
+          -->
+          <span
+            class="
+              inline
+              bg-ink/62
+              px-2
+              py-1
+              box-decoration-clone
+            "
+          >
+            {title}
+          </span>
+        </a>
+      </h2>
+
+      {
+        subtitle && (
+          <p
+            class="
+              mt-4
+              max-w-[32ch]
+              bg-brick/80
+              px-2
+              py-1
+              font-arno
+              text-base
+              italic
+              text-linen/90
+              box-decoration-clone
+            "
+          >
+            {subtitle}
+          </p>
+        )
+      }
+    </div>
+  </div>
+
+  <!--
+    LOWER INFORMATION AREA
+
+    IMPORTANT:
+    Kopani NEVER displays article bodies.
+
+    This area is ONLY:
+    - metadata
+    - editorial summary
+    - contributor information
+    - outbound links
+  -->
+  <div
+    class="
+      flex
+      h-1/2
+      flex-col
+      justify-between
+      p-5
+      md:p-6
+    "
+  >
+    <div>
+      <!-- CONTENT TYPE -->
+      <p
+        class="
+          font-body
+          text-[0.68rem]
+          uppercase
+          tracking-[0.22em]
+          text-brick
+        "
+      >
+        {contentType}
+      </p>
+
+      <!-- EDITORIAL SUMMARY / DEK -->
+      {
+        dek && (
+          <p
+            class="
+              mt-4
+              font-arno
+              text-lg
+              leading-relaxed
+              italic
+              text-umber
+            "
+          >
+            {dek}
+          </p>
+        )
+      }
+
+      <!-- META STRIP -->
+      {
+        metaItems.length > 0 && (
+          <div
+            class="
+              mt-5
+              flex
+              flex-wrap
+              gap-x-4
+              gap-y-1
+              border-t
+              border-ink/10
+              pt-4
+              font-body
+              text-sm
+              text-ink/55
+            "
+          >
+            {
+              metaItems.map((item) => (
+                <span>{item}</span>
+              ))
+            }
+
+            {
+              wordCountLabel && (
+                <span>{wordCountLabel}</span>
+              )
+            }
+          </div>
+        )
+      }
+    </div>
+
+    <!-- FOOTER CONTRIBUTORS + JOURNAL -->
+    <div class="mt-8 space-y-4 border-t border-ink/10 pt-4">
+      <!-- AUTHORS -->
+      <div>
+        <p class="font-body text-sm text-ink/85">
+          <span class="text-ink/50">By</span>
+          {" "}
+          {byline}
+        </p>
+
+        <!-- TRANSLATORS -->
+        {
+          translators.length > 0 && (
+            <p class="mt-1 font-body text-sm text-ink/70">
+              <span class="text-ink/50">Translated by</span>
+              {" "}
+              {translators.map((t) => t.name).join(", ")}
+            </p>
+          )
+        }
+
+        <!-- VISUAL ARTISTS -->
+        {
+          visualArtists.length > 0 && (
+            <p class="mt-1 font-body text-sm text-ink/70">
+              <span class="text-ink/50">Visual art by</span>
+              {" "}
+              {visualArtists.map((v) => v.name).join(", ")}
+            </p>
+          )
+        }
+      </div>
+
+      <!-- JOURNAL + OUTBOUND LINK -->
+      <div
+        class="
+          flex
+          items-center
+          justify-between
+          gap-4
+        "
+      >
+        <!-- <div>
+          <p class="font-body text-xs uppercase tracking-[0.16em] text-ink/45">
+            published in
+          </p>
+
+          <a
+            href={journalUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="
+              mt-1
+              inline-block
+              font-arno
+              text-xl
+              italic
+              text-ochre
+              transition
+              hover:text-prussian
+            "
+          >
+            {journalName}
+          </a>
+        </div> -->
+
+        <!--
+          IMPORTANT:
+          Kopani links OUT to the original publication.
+          Never render copyrighted body text.
+        -->
+        <!-- <a
+          href={href}
+          class="
+            shrink-0
+            border
+            border-ink/15
+            bg-linen
+            px-4
+            py-2
+            font-body
+            text-sm
+            text-ink
+            transition
+            hover:border-prussian/30
+            hover:text-prussian
+          "
+        >
+          Read piece ↗
+        </a>
+      </div> -->
+
+      <!-- OPTIONAL AI / EDITORIAL KEYWORDS -->
+      {
+        visibleKeywords.length > 0 && (
+          <div class="flex flex-wrap gap-2 pt-2">
+            {
+              visibleKeywords.map((keyword) => (
+                <span
+                  class="
+                    border
+                    border-ink/10
+                    px-2
+                    py-1
+                    font-body
+                    text-xs
+                    text-ink/55
+                  "
+                >
+                  {keyword}
+                </span>
+              ))
+            }
+          </div>
+        )
+      }
+    </div>
+  </div>
+</article>

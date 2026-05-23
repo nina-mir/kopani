@@ -23,6 +23,10 @@ kopani.sqlite
 scraped_data/
 tmp/
 amended*
+evergreen/json_files/
+fw_2025_issue_exploratory/
+fw_2019_test_scraper_0_2_3/
+_analysis/
 
 # scraped data must never be made public -- personal use only
 pieces_json*
