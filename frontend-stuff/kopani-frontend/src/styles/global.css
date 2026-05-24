@@ -10,10 +10,15 @@
   --color-brick: #c0392b;
   --color-umber: #3d2b1f;
   --color-ink: #1c1208;
+  --color-earth-bron: #7a6a4a;
 
   /* Typography */
   --font-secret-service: "secret-service-typewriter", sans-serif;
   --font-arno: "arno-pro", serif;
+  --font-card-title: "adobe-jenson-pro-display", serif;
+  --font-card-subtitle: "brioso-pro", serif;
+  --font-acumin: "acumin-pro-condensed", sans-serif;
+  --font-mono: "input-mono", monospace;
   --font-display: "Cormorant Garamond", ui-serif, Georgia, serif;
   --font-body: "IM Fell English", ui-serif, Georgia, serif;
 }

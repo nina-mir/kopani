@@ -187,11 +187,11 @@ const wordCountLabel = wordCountEstimate
               bg-brick
               px-3
               py-1
-              font-body
               text-[0.65rem]
               uppercase
               tracking-[0.22em]
               text-linen
+              font-acumin
             "
           >
             Featured
@@ -340,6 +340,7 @@ const wordCountLabel = wordCountEstimate
               bg-ink/62
               px-2
               py-1
+              font-card-title
               box-decoration-clone
             "
           >
@@ -357,10 +358,10 @@ const wordCountLabel = wordCountEstimate
               bg-brick/80
               px-2
               py-1
-              font-arno
               text-base
               italic
               text-linen/90
+              font-card-subtitle
               box-decoration-clone
             "
           >
@@ -397,7 +398,7 @@ const wordCountLabel = wordCountEstimate
       <!-- CONTENT TYPE -->
       <p
         class="
-          font-body
+          font-acumin
           text-[0.68rem]
           uppercase
           tracking-[0.22em]
@@ -413,11 +414,11 @@ const wordCountLabel = wordCountEstimate
           <p
             class="
               mt-4
-              font-arno
               text-lg
               leading-relaxed
-              italic
               text-umber
+              not-italic
+              font-arno
             "
           >
             {dek}
@@ -432,20 +433,19 @@ const wordCountLabel = wordCountEstimate
             class="
               mt-5
               flex
-              flex-wrap
-              gap-x-4
+              md:gap-x-2
               gap-y-1
               border-t
               border-ink/10
               pt-4
-              font-body
-              text-sm
-              text-ink/55
+              font-mono
+              text-[11px]
+              text-earth-bron
             "
           >
             {
               metaItems.map((item) => (
-                <span>{item}</span>
+                <span class="after:content-['·'] after:ml-2 last:after:content-none">{item}</span>
               ))
             }
 
@@ -462,8 +462,8 @@ const wordCountLabel = wordCountEstimate
     <!-- FOOTER CONTRIBUTORS + JOURNAL -->
     <div class="mt-8 space-y-4 border-t border-ink/10 pt-4">
       <!-- AUTHORS -->
-      <div>
-        <p class="font-body text-sm text-ink/85">
+      <div class="font-arno">
+        <p class="text-sm text-ink/85">
           <span class="text-ink/50">By</span>
           {" "}
           {byline}
@@ -472,7 +472,7 @@ const wordCountLabel = wordCountEstimate
         <!-- TRANSLATORS -->
         {
           translators.length > 0 && (
-            <p class="mt-1 font-body text-sm text-ink/70">
+            <p class="mt-1 text-sm text-ink/70">
               <span class="text-ink/50">Translated by</span>
               {" "}
               {translators.map((t) => t.name).join(", ")}
@@ -563,7 +563,7 @@ const wordCountLabel = wordCountEstimate
                     border-ink/10
                     px-2
                     py-1
-                    font-body
+                    font-secret-service
                     text-xs
                     text-ink/55
                   "
