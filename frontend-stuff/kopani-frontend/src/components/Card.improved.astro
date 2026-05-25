@@ -199,6 +199,28 @@ const wordCountLabel = wordCountEstimate
         </div>
       )
     }
+    
+    <!-- CONTENT TYPE -->
+
+    { 
+      contentType &&  (
+      <div class="absolute left-4 top-10 z-10">
+        <p
+          class="
+            font-acumin
+            text-[0.88rem]
+            uppercase
+            tracking-[0.62em]
+            text-prussian
+            font-bold
+          "
+        >
+          {contentType}
+        </p>
+      </div>
+      )
+    }
+
 
     <div class="absolute right-4 top-4 z-10">
     <!--         
@@ -215,7 +237,8 @@ const wordCountLabel = wordCountEstimate
             bg-linen
             px-4
             py-2
-            font-body
+            font-secret-service
+            font-light
             text-sm
             text-ink
             transition
@@ -240,12 +263,13 @@ const wordCountLabel = wordCountEstimate
             border: 1px solid rgba(28,18,8,.15);
             padding: 6px 12px;
             color: var(--ink);
-            font-size: 12px;
+            font-size: 1rem;
             letter-spacing: 0.05em;
             box-shadow: 0 1px 0 rgba(255,255,255,.5) inset;  /* subtle paper highlight */
-                      "
+            "
           >
-          Read ↗
+          read
+          <span class="text-brick"> ↗ </span>
         </a>
       </div>
 
@@ -256,23 +280,15 @@ const wordCountLabel = wordCountEstimate
           left-4 
           top-14 
           z-10
-          flex
-          items-center
-          justify-between
-          gap-4
+          flex-col
+          gap-2
         "
-      >
-        <div>
-          <p class="font-body text-xs uppercase tracking-[0.16em] text-ink/45">
-            published in
-          </p>
-
+        >
           <a
             href={journalUrl}
             target="_blank"
             rel="noopener noreferrer"
             class="
-              mt-1
               inline-block
               font-arno
               text-xl
@@ -284,9 +300,8 @@ const wordCountLabel = wordCountEstimate
           >
             {journalName}
           </a>
-        </div>
 
-              </div>
+      </div>
 
 
     <!--
@@ -302,16 +317,7 @@ const wordCountLabel = wordCountEstimate
       bottom-16
     -->
     <div class="absolute bottom-14 left-4 right-4 z-10 md:bottom-10">
-      <h2
-        class="
-          font-display
-          text-4xl
-          font-normal
-          text-linen
-          md:text-3xl
-        "
-
-        /*
+      <!-- /*
           IMPORTANT TITLE LINE SPACING CONTROL
 
           Change leading-[X] to experiment with wrapped-line spacing.
@@ -324,7 +330,15 @@ const wordCountLabel = wordCountEstimate
 
           This is the MOST important parameter
           for the visual feel of the title.
-        */
+        */ -->
+      <h2
+        class="
+          font-display
+          text-4xl
+          font-normal
+          text-linen
+          md:text-3xl
+        "
         style="line-height: 1.6;"
       >
         <a href={href}>
@@ -389,24 +403,13 @@ const wordCountLabel = wordCountEstimate
       flex
       h-1/2
       flex-col
-      justify-between
       p-5
+      gap-4
       md:p-6
     "
   >
     <div>
-      <!-- CONTENT TYPE -->
-      <p
-        class="
-          font-acumin
-          text-[0.68rem]
-          uppercase
-          tracking-[0.22em]
-          text-brick
-        "
-      >
-        {contentType}
-      </p>
+      
 
       <!-- EDITORIAL SUMMARY / DEK -->
       {
@@ -433,7 +436,7 @@ const wordCountLabel = wordCountEstimate
             class="
               mt-5
               flex
-              md:gap-x-2
+              md:gap-x-1
               gap-y-1
               border-t
               border-ink/10
@@ -460,20 +463,20 @@ const wordCountLabel = wordCountEstimate
     </div>
 
     <!-- FOOTER CONTRIBUTORS + JOURNAL -->
-    <div class="mt-8 space-y-4 border-t border-ink/10 pt-4">
+    <div class="mt-1 space-y-1 border-t border-ink/10 pt-4">
       <!-- AUTHORS -->
-      <div class="font-arno">
+      <div class="font-arno flex gap-2">
         <p class="text-sm text-ink/85">
           <span class="text-ink/50">By</span>
           {" "}
-          {byline}
+          {byline},
         </p>
 
         <!-- TRANSLATORS -->
         {
           translators.length > 0 && (
-            <p class="mt-1 text-sm text-ink/70">
-              <span class="text-ink/50">Translated by</span>
+            <p class=" text-sm text-ink/85">
+              <span class="text-ink/50"> trans. </span>
               {" "}
               {translators.map((t) => t.name).join(", ")}
             </p>
@@ -483,7 +486,7 @@ const wordCountLabel = wordCountEstimate
         <!-- VISUAL ARTISTS -->
         {
           visualArtists.length > 0 && (
-            <p class="mt-1 font-body text-sm text-ink/70">
+            <p class=" font-body text-sm text-ink/85">
               <span class="text-ink/50">Visual art by</span>
               {" "}
               {visualArtists.map((v) => v.name).join(", ")}
@@ -501,56 +504,7 @@ const wordCountLabel = wordCountEstimate
           gap-4
         "
       >
-        <!-- <div>
-          <p class="font-body text-xs uppercase tracking-[0.16em] text-ink/45">
-            published in
-          </p>
-
-          <a
-            href={journalUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="
-              mt-1
-              inline-block
-              font-arno
-              text-xl
-              italic
-              text-ochre
-              transition
-              hover:text-prussian
-            "
-          >
-            {journalName}
-          </a>
-        </div> -->
-
-        <!--
-          IMPORTANT:
-          Kopani links OUT to the original publication.
-          Never render copyrighted body text.
-        -->
-        <!-- <a
-          href={href}
-          class="
-            shrink-0
-            border
-            border-ink/15
-            bg-linen
-            px-4
-            py-2
-            font-body
-            text-sm
-            text-ink
-            transition
-            hover:border-prussian/30
-            hover:text-prussian
-          "
-        >
-          Read piece ↗
-        </a>
-      </div> -->
-
+    
       <!-- OPTIONAL AI / EDITORIAL KEYWORDS -->
       {
         visibleKeywords.length > 0 && (
