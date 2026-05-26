@@ -150,6 +150,43 @@ QUERIES: dict[str, Query] = {
         """,
         empty_message="No author slug collisions found.",
     ),
+    "dek_keyword_coverage": Query(
+        name="dek_keyword_coverage",
+        title="Dek & Keyword Coverage by Journal",
+        description="Per journal: how many pieces have a real dek (summary) and real ai_keywords vs. missing (NULL / empty / 'null' / 'none').",
+        sql="""
+            SELECT
+                j.name AS journal,
+                COUNT(*) AS total,
+                SUM(CASE
+                        WHEN p.summary IS NOT NULL
+                         AND TRIM(p.summary) <> ''
+                         AND LOWER(TRIM(p.summary)) NOT IN ('null', 'none')
+                        THEN 1 ELSE 0
+                    END) AS with_dek,
+                SUM(CASE
+                        WHEN p.summary IS NULL
+                          OR TRIM(p.summary) = ''
+                          OR LOWER(TRIM(p.summary)) IN ('null', 'none')
+                        THEN 1 ELSE 0
+                    END) AS no_dek,
+                SUM(CASE
+                        WHEN p.ai_keywords_json IS NOT NULL
+                         AND LOWER(TRIM(p.ai_keywords_json)) NOT IN ('', '[]', 'null', 'none')
+                        THEN 1 ELSE 0
+                    END) AS with_keywords,
+                SUM(CASE
+                        WHEN p.ai_keywords_json IS NULL
+                          OR LOWER(TRIM(p.ai_keywords_json)) IN ('', '[]', 'null', 'none')
+                        THEN 1 ELSE 0
+                    END) AS no_keywords
+            FROM pieces p
+            JOIN journals j ON j.id = p.journal_id
+            GROUP BY j.id, j.name
+            ORDER BY journal;
+        """,
+        empty_message="No pieces found.",
+    ),
 }
 
 

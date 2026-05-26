@@ -1,0 +1,14 @@
+---
+// src/pages/poetry.astro
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Card from "../components/Card.improved.astro";
+import { getPiecesByContentType } from "../lib/db";
+
+const pieces = getPiecesByContentType("poetry");
+---
+<BaseLayout title="Poetry — Kopani">
+  <h1>Poetry</h1>
+  <section class="grid ...">
+    {pieces.map((piece) => <Card piece={piece} />)}
+  </section>
+</BaseLayout>

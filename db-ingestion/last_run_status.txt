@@ -1,0 +1,83 @@
+May-25-2026
+4:54 PM
+
+(.venv) PS C:\Users\ninam\Documents\IDEAS\kopani\db-ingestion> python .\ingest.v0.4.0.py
+
+Ingest complete -> kopani.sqlite
+  ok:      1469
+  errors:  0
+  per journal:
+    evergreen-review          144
+    granta                    135
+    new-orleans-review        116
+    the-offing                466
+    the-threepenny-review     608
+
+(.venv) PS C:\Users\ninam\Documents\IDEAS\kopani\db-ingestion> python .\query.py
+Pieces by Journal
+=================
+Counts how many pieces landed for each journal.
+Rows: 5
++-----------------------+-------------+
+| journal               | piece_count |
++-----------------------+-------------+
+| The Threepenny Review | 607         |
+| The Offing            | 466         |
+| Evergreen Review      | 144         |
+| Granta                | 135         |
+| New Orleans Review    | 116         |
++-----------------------+-------------+
+
+Dual-Role Contributors
+======================
+Finds contributors listed as both author and translator on the same piece.
+Rows: 2
++----------------------+---------------------------------------+
+| contributor          | piece_title                           |
++----------------------+---------------------------------------+
+| Czeslaw Milosz       | Borderlines                           |
+| Gudani Ramikosi Bila | Tribute to the fallen and Other Poems |
++----------------------+---------------------------------------+
+
+Pieces with No Contributors
+===========================
+Finds pieces that do not appear in piece_contributors.
+Rows: 0
+Every piece has at least one contributor.
+
+Raw Content Types Falling into 'Other'
+======================================
+Shows raw content_type values that were normalized to 'other'.
+Rows: 1
++------------------+-------------+--------------------------------------------------------------+------------------+
+| raw_content_type | piece_count | original_url                                                 | content_type_raw |
++------------------+-------------+--------------------------------------------------------------+------------------+
+| other            | 8           | http://evergreenreview.com/read/the-four-stages-of-cruelt... | other            |
++------------------+-------------+--------------------------------------------------------------+------------------+
+
+Suspicious Titles
+=================
+Finds missing, very short, or unusually long titles.
+Rows: 2
++-----+-------+------------------------------------+------------+--------------+
+| id  | title | original_url                       | journal    | title_length |
++-----+-------+------------------------------------+------------+--------------+
+| 480 | GJ    | https://granta.com/gj-tao-lin      | Granta     | 2            |
+| 665 | Ol    | https://theoffingmag.com/essay/ol/ | The Offing | 2            |
++-----+-------+------------------------------------+------------+--------------+
+
+Author Count
+============
+Counts total authors in the authors table.
+Rows: 1
++--------------+
+| author_count |
++--------------+
+| 1188         |
++--------------+
+
+Author Slug Collisions
+======================
+Finds duplicate author slugs.
+Rows: 0
+No author slug collisions found.

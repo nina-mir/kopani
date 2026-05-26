@@ -5,6 +5,37 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/);
 versions are internal markers, not published releases.
 
 ---
+## [0.5.0] — 2026-05-25
+
+Editorial-field capture for Offing & Evergreen. No schema change.
+
+### Added
+- **Dek → `summary`.** `extract_offing` and `extract_evergreen` now read
+  `derived.dek` into the canonical `summary` field. `upsert_piece` was wired to
+  write `summary` (it previously ignored the column on both insert and update),
+  so deks now land in `pieces.summary` for these two journals.
+- **`descriptor_clause` → `issue_metadata_json`.** Both extractors add
+  `derived.descriptor_clause` as a key inside `issue_metadata`, stored in the
+  existing `issue_metadata_json` column. No new column.
+
+### Fixed
+- **Offing `piece_keywords` dropped.** `extract_offing` hardcoded
+  `ai_keywords = None`, discarding keywords that were present in the source.
+  Now reads `derived.piece_keywords` like Evergreen, so they flow into
+  `ai_keywords_json`.
+
+### Notes
+- Schema unchanged — no migration needed.
+- Re-running is idempotent and re-asserts `summary` from the JSON. Journals that
+  emit no dek (Threepenny, Granta, NOR) will have `summary` set to NULL on
+  re-ingest; switch hunk 3b to `COALESCE(excluded.summary, pieces.summary)` if
+  you ever hand-write summaries into those rows.
+- Bio insights (`author_bio_insights` etc.) remain in `raw_json` only — no
+  column, by design.
+
+
+
+
 ## [0.4.1] - "Added essays & memoir, film_review, music review, art review, book review → review, and video to CONTENT_TYPE_MAP. Reclassified one NULL-type Mandarin translation as essay. Verified: only genuine 'other' (8) remain."
 
 ## [0.4.0] — 2026-05-22

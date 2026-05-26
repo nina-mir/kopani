@@ -325,6 +325,7 @@ def extract_evergreen(d):
     return {
         "title": coalesce(piece.get("title_display"), piece.get("title_tag")),
         "subtitle": None,
+        "summary": coalesce(derived.get("dek")),                       # ADDED
         "slug_source": piece.get("source_slug"),
         "original_url": coalesce(piece.get("originalurl"), piece.get("request_url")),
         "content_type_raw": content_type_raw,
@@ -335,6 +336,7 @@ def extract_evergreen(d):
         "issue_metadata": {
             "season": season, "year": year,
             "section": coalesce(issue.get("section_from_issue")),
+            "descriptor_clause": coalesce(derived.get("descriptor_clause")),   # ADDED
         },
         "meta_description": coalesce((d.get("page_metadata") or {}).get("meta_description")),
         "source_image_url": None,
@@ -438,6 +440,7 @@ def extract_offing(d):
     return {
         "title": coalesce(piece.get("title_display"), piece.get("title_tag")),
         "subtitle": coalesce(piece.get("subtitle")),
+        "summary": coalesce(derived.get("dek")),                       
         "slug_source": piece.get("source_slug"),
         "original_url": coalesce(piece.get("original_url"), piece.get("canonical_url")),
         "content_type_raw": coalesce(piece.get("piece_type")),
@@ -445,12 +448,15 @@ def extract_offing(d):
         "publication_date_display": coalesce(piece.get("date_published_display")),
         "issue_label": coalesce(dept.get("name")),       # Offing has departments, not issues
         "issue_url": coalesce(dept.get("department_url")),
-        "issue_metadata": {"department": coalesce(dept.get("name"))},
+        "issue_metadata": {
+            "department": coalesce(dept.get("name")),
+            "descriptor_clause": coalesce(derived.get("descriptor_clause"))      
+        },
         "meta_description": coalesce(piece.get("meta_description")),
         "source_image_url": coalesce(piece.get("og_image")),
         "read_time_minutes": parse_reading_time(piece.get("reading_time")),
         "word_count_estimate": estimate_word_count(content.get("text")),
-        "ai_keywords": None,
+        "ai_keywords":  derived.get("piece_keywords") or None,
         "contributors": contributors,
     }
 
@@ -558,18 +564,19 @@ def upsert_piece(cur, journal_id, canonical, raw_text):
     cur.execute("""
         INSERT INTO pieces (
             slug, title, subtitle, journal_id, original_url,
-            content_type, content_type_raw, format, meta_description,
+            content_type, content_type_raw, format, summary, meta_description,
             publication_date, publication_date_display,
             word_count_estimate, read_time_minutes,
             source_image_url, issue_label, issue_url, issue_metadata_json,
             ai_keywords_json, ingestion_status, raw_json
-        ) VALUES (?, ?, ?, ?, ?,  ?, ?, ?, ?,  ?, ?,  ?, ?,  ?, ?, ?, ?,  ?, ?, ?)
+        ) VALUES (?, ?, ?, ?, ?,  ?, ?, ?, ?,  ?,  ?, ?,  ?, ?,  ?, ?, ?, ?,  ?, ?, ?)
         ON CONFLICT(original_url) DO UPDATE SET
             slug                     = excluded.slug,
             title                    = excluded.title,
             subtitle                 = excluded.subtitle,
             content_type             = excluded.content_type,
             content_type_raw         = excluded.content_type_raw,
+            summary                  = excluded.summary,
             meta_description         = excluded.meta_description,
             publication_date         = excluded.publication_date,
             publication_date_display = excluded.publication_date_display,
@@ -585,7 +592,7 @@ def upsert_piece(cur, journal_id, canonical, raw_text):
             updated_at               = datetime('now')
     """, (
         slug, title, canonical.get("subtitle"), journal_id, original_url,
-        content_type, content_type_raw, "text/html", canonical.get("meta_description"),
+        content_type, content_type_raw, "text/html", canonical.get("summary"), canonical.get("meta_description"),
         canonical.get("publication_date"), canonical.get("publication_date_display"),
         canonical.get("word_count_estimate"), canonical.get("read_time_minutes"),
         canonical.get("source_image_url"),

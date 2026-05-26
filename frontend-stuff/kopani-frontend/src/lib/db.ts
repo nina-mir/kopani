@@ -23,6 +23,7 @@ export interface PieceCardData {
   dek?: string;
   contentType: string;
   href: string;
+  originalUrl: string;   // piece url on the publishing journal
   journalName: string;
   journalUrl: string;
   authors: CardContributor[];
@@ -50,6 +51,7 @@ interface PieceJoinRow {
   summary: string | null;
   meta_description: string | null;
   content_type: string;
+  original_url: string;
   publication_date: string | null;
   publication_date_display: string | null;
   issue_label: string | null;
@@ -128,6 +130,7 @@ function mapPiece(row: PieceJoinRow): PieceCardData {
     href: `/journals/${row.journal_slug}/${row.slug}`,
     journalName: row.journal_name,
     journalUrl: row.journal_url,
+    originalUrl: row.original_url, // url for the piece directed to the canonical url on the journal
     authors: byRole('author'),
     translators: byRole('translator'),
     visualArtists: byRole('visual_artist'),
@@ -191,6 +194,7 @@ export function getRandomPieceCards(total = 50): PieceCardData[] {
   const placeholders = finalIds.map(() => '?').join(',');
   const pieceRows = db.prepare(`
     SELECT p.id, p.slug, p.title, p.subtitle, p.summary, p.meta_description,
+           p.original_url,
            p.content_type, p.publication_date, p.publication_date_display,
            p.issue_label, p.read_time_minutes, p.word_count_estimate,
            p.image_url, p.ai_keywords_json, p.featured,
@@ -206,6 +210,28 @@ export function getRandomPieceCards(total = 50): PieceCardData[] {
     .map((id) => byId.get(id))
     .filter((r): r is PieceJoinRow => r != null)
     .map(mapPiece);
+}
+
+
+
+
+export function getPiecesByContentType(type: string): PieceCardData[] {
+  // prepare a SELECT (same columns/join as getRandomPieceCards)
+  //   ... WHERE p.content_type = ? ORDER BY p.publication_date DESC
+  // .all(type) → rows
+  // rows.map(mapPiece)
+  const pieceRows = db.prepare(`
+    SELECT p.id, p.slug, p.title, p.subtitle, p.summary, p.meta_description,
+           p.original_url,
+           p.content_type, p.publication_date, p.publication_date_display,
+           p.issue_label, p.read_time_minutes, p.word_count_estimate,
+           p.image_url, p.ai_keywords_json, p.featured,
+           j.slug AS journal_slug, j.name AS journal_name, j.homepage_url AS journal_url
+    FROM pieces p
+    JOIN journals j ON j.id = p.journal_id
+    WHERE p.id IN (${placeholders})
+  `).all(...finalIds) as PieceJoinRow[];
+
 }
 
 export default db;

@@ -37,6 +37,7 @@ type PieceCard = {
   href: string;
   journalName: string;
   journalUrl: string;
+  originalUrl: string;
   authors: Contributor[];
   translators?: Contributor[];
   visualArtists?: Contributor[];
@@ -84,6 +85,7 @@ const {
   dek,
   contentType,
   href,
+  originalUrl,
   journalName,
   journalUrl,
   authors,
@@ -229,7 +231,9 @@ const wordCountLabel = wordCountEstimate
           Never render copyrighted body text.
         -->
         <a
-          href={href}
+          href={originalUrl}
+          target="_blank"
+          rel="noopener noreferrer"          
           class="
             shrink-0
             border
