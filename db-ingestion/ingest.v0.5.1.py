@@ -400,7 +400,8 @@ def extract_granta(d):
         "source_image_url": None,
         "read_time_minutes": None,
         "word_count_estimate": estimate_word_count(content.get("text")),
-        "ai_keywords": None,
+        "ai_keywords": (piece.get("keywords")
+                        or (d.get("page_metadata") or {}).get("keywords")) or None,
         "contributors": contributors,
     }
 

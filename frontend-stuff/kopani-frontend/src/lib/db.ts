@@ -216,10 +216,7 @@ export function getRandomPieceCards(total = 50): PieceCardData[] {
 
 
 export function getPiecesByContentType(type: string): PieceCardData[] {
-  // prepare a SELECT (same columns/join as getRandomPieceCards)
-  //   ... WHERE p.content_type = ? ORDER BY p.publication_date DESC
-  // .all(type) → rows
-  // rows.map(mapPiece)
+
   const pieceRows = db.prepare(`
     SELECT p.id, p.slug, p.title, p.subtitle, p.summary, p.meta_description,
            p.original_url,
@@ -229,8 +226,10 @@ export function getPiecesByContentType(type: string): PieceCardData[] {
            j.slug AS journal_slug, j.name AS journal_name, j.homepage_url AS journal_url
     FROM pieces p
     JOIN journals j ON j.id = p.journal_id
-    WHERE p.id IN (${placeholders})
-  `).all(...finalIds) as PieceJoinRow[];
+    WHERE p.content_type = ? ORDER BY COALESCE(p.publication_date, p.created_at) DESC  
+    `).all(type) as PieceJoinRow[];
+
+  return pieceRows.map(mapPiece)
 
 }
 
