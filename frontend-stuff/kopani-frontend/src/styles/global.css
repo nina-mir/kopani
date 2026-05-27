@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+@import "./card-textures.css";
+
 @theme {
   /* Palette — from design-themes_v0.0.0 */
   --color-linen: #f5ede0;

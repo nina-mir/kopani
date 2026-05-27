@@ -1,0 +1,1415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kopani — Card whimsy explorations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IM+Fell+English:ital@0;1&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --cream:       #f5ede0;
+  --cream-soft:  #efe5d2;
+  --cream-dark:  #e0d0b8;
+  --cream-line:  #d8c8ac;
+  --blue:        #2c3e6b;
+  --blue-deep:   #1f2d50;
+  --ochre:       #8b6914;
+  --ochre-deep:  #6a4f0c;
+  --brick:       #c0392b;
+  --brick-soft:  #d97366;
+  --umber:       #3d2b1f;
+  --umber-deep:  #2a1d14;
+  --ink:         #1c1208;
+  --plate:       #1f1a13;
+
+  --body:    'IM Fell English', Georgia, serif;
+  --display: 'Cormorant Garamond', Georgia, serif;
+  --mono:    'Courier Prime', 'Courier New', monospace;
+  --hand:    'Caveat', cursive;
+}
+
+html, body {
+  background: #e9e0cd;
+  color: var(--ink);
+  font-family: var(--body);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ═══════════════════════════════════════════════
+   PAGE SHELL
+═══════════════════════════════════════════════ */
+.page {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 60px 48px 100px;
+}
+
+.page-head {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  border-bottom: 3px double var(--umber);
+  padding-bottom: 36px;
+  margin-bottom: 56px;
+}
+.page-head h1 {
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.05;
+  letter-spacing: 0.005em;
+  color: var(--ink);
+  margin-bottom: 10px;
+}
+.page-head h1 em { font-style: italic; color: var(--ochre); }
+.page-head .kicker {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--brick);
+  margin-bottom: 18px;
+}
+.page-head p {
+  font-family: var(--body);
+  font-size: 15px;
+  line-height: 1.7;
+  color: #3a2c1a;
+  max-width: 46ch;
+}
+.page-head p em { color: var(--ochre-deep); }
+.page-head .notes {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  line-height: 1.85;
+  color: #4a3820;
+  border-left: 1px solid var(--cream-line);
+  padding-left: 20px;
+}
+.page-head .notes b { color: var(--brick); font-weight: 700; }
+.page-head .notes .row { margin-bottom: 10px; }
+.page-head .notes .num {
+  display: inline-block;
+  width: 22px;
+  color: var(--ochre);
+}
+
+/* SECTION HEADER */
+.sec {
+  margin-bottom: 80px;
+}
+.sec-head {
+  display: flex;
+  align-items: baseline;
+  gap: 18px;
+  border-bottom: 1px solid var(--umber);
+  padding-bottom: 12px;
+  margin-bottom: 36px;
+}
+.sec-head .num {
+  font-family: var(--mono);
+  font-size: 13px;
+  letter-spacing: 0.16em;
+  color: var(--brick);
+}
+.sec-head h2 {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: 0.005em;
+  color: var(--ink);
+}
+.sec-head .lede {
+  margin-left: auto;
+  font-family: var(--body);
+  font-style: italic;
+  font-size: 14px;
+  color: #4a3820;
+  max-width: 52ch;
+  text-align: right;
+}
+
+/* ═══════════════════════════════════════════════
+   CARD SHELL — common to all variations
+═══════════════════════════════════════════════ */
+.mcard {
+  position: relative;
+  width: 380px;
+  background: var(--cream);
+  border: 1px solid var(--cream-dark);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--body);
+  color: var(--ink);
+}
+
+/* COVER */
+.mcard__cover {
+  position: relative;
+  height: 460px;
+  overflow: hidden;
+  background-color: #d6c9ad;
+}
+
+/* base hatched texture — variations override --hatch */
+.mcard__cover::before {
+  content: '';
+  position: absolute; inset: 0;
+  background-image:
+    /* warm vignette top-left */
+    radial-gradient(120% 60% at 18% 25%, rgba(192,57,43,0.10) 0%, transparent 55%),
+    /* diagonal hatch */
+    repeating-linear-gradient(
+      135deg,
+      transparent 0 6px,
+      rgba(28,18,8,0.18) 6px 7px
+    ),
+    /* base cream-to-umber gradient */
+    linear-gradient(
+      to bottom,
+      #ddd0b4 0%,
+      #c8b89a 40%,
+      #6e5a42 78%,
+      #2a1d14 100%
+    );
+}
+
+/* per-genre cover texture overrides (variation B) */
+.mcard--tex-fiction .mcard__cover::before {
+  background-image:
+    radial-gradient(120% 60% at 18% 25%, rgba(192,57,43,0.10) 0%, transparent 55%),
+    repeating-linear-gradient(135deg, transparent 0 6px, rgba(28,18,8,0.18) 6px 7px),
+    linear-gradient(to bottom, #ddd0b4 0%, #c8b89a 40%, #6e5a42 78%, #2a1d14 100%);
+}
+.mcard--tex-nonfiction .mcard__cover::before {
+  background-image:
+    radial-gradient(120% 60% at 18% 25%, rgba(192,57,43,0.10) 0%, transparent 55%),
+    repeating-linear-gradient(0deg, transparent 0 9px, rgba(28,18,8,0.16) 9px 10px),
+    linear-gradient(to bottom, #d8ccb0 0%, #b6a684 42%, #5a4830 78%, #1f150d 100%);
+}
+.mcard--tex-poetry .mcard__cover::before {
+  background-image:
+    radial-gradient(120% 60% at 18% 25%, rgba(192,57,43,0.10) 0%, transparent 55%),
+    repeating-linear-gradient(90deg, transparent 0 14px, rgba(28,18,8,0.16) 14px 15px),
+    linear-gradient(to bottom, #e2d4b4 0%, #c4b48c 42%, #6c573a 78%, #28190e 100%);
+}
+.mcard--tex-interview .mcard__cover::before {
+  background-image:
+    radial-gradient(120% 60% at 18% 25%, rgba(192,57,43,0.10) 0%, transparent 55%),
+    repeating-linear-gradient(45deg, transparent 0 7px, rgba(28,18,8,0.13) 7px 8px),
+    repeating-linear-gradient(135deg, transparent 0 7px, rgba(28,18,8,0.13) 7px 8px),
+    linear-gradient(to bottom, #d6c9aa 0%, #b8a886 42%, #5e4a30 78%, #221710 100%);
+}
+.mcard--tex-translation .mcard__cover::before {
+  background-image:
+    radial-gradient(120% 60% at 18% 25%, rgba(192,57,43,0.10) 0%, transparent 55%),
+    repeating-linear-gradient(45deg, transparent 0 6px, rgba(28,18,8,0.18) 6px 7px),
+    linear-gradient(to bottom, #d4cab2 0%, #b4a888 42%, #564834 78%, #1d160e 100%);
+}
+.mcard--tex-art .mcard__cover::before {
+  background-image:
+    radial-gradient(120% 60% at 18% 25%, rgba(192,57,43,0.10) 0%, transparent 55%),
+    radial-gradient(rgba(28,18,8,0.28) 1.2px, transparent 1.4px),
+    linear-gradient(to bottom, #d6c8a8 0%, #b8a482 42%, #5e4830 78%, #1f160e 100%);
+  background-size: auto, 8px 8px, auto;
+}
+
+/* COVER UI: kicker, source, read, title */
+.mcard__kicker-block {
+  position: absolute;
+  top: 22px;
+  left: 22px;
+  z-index: 3;
+}
+.mcard__kicker {
+  font-family: var(--body);
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.32em;
+  color: var(--blue);
+  text-transform: uppercase;
+  display: block;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+.mcard__source {
+  font-family: var(--display);
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--ochre);
+  letter-spacing: 0.005em;
+  line-height: 1;
+}
+
+/* "read" button — the gold standard the user loves. Faithful recreate. */
+.mcard__read {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  padding: 8px 14px 7px;
+  border: 1px solid rgba(28,18,8,0.55);
+  background:
+    repeating-linear-gradient(
+      135deg,
+      transparent 0 5px,
+      rgba(192,57,43,0.22) 5px 7px
+    ),
+    rgba(245,237,224,0.55);
+  text-decoration: none;
+  transition: transform 0.15s ease;
+}
+.mcard__read .arr { color: var(--brick); font-weight: 700; }
+.mcard__read:hover { transform: translate(-1px,-1px); }
+
+/* title plate (lower-left) */
+.mcard__title {
+  position: absolute;
+  left: 20px;
+  bottom: 22px;
+  z-index: 3;
+  background: var(--plate);
+  color: #f5ede0;
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 34px;
+  letter-spacing: 0.005em;
+  line-height: 1;
+  padding: 14px 18px 16px;
+  max-width: calc(100% - 40px);
+  text-wrap: pretty;
+}
+.mcard--tightbody .mcard__body { padding-top: 18px; }
+
+/* BODY */
+.mcard__body {
+  padding: 24px 24px 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.mcard__dek {
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--ink);
+  text-wrap: pretty;
+}
+.mcard__rule { height: 1px; background: var(--cream-line); }
+
+.mcard__meta {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--umber);
+}
+.mcard__meta li {
+  display: flex; align-items: center; gap: 14px;
+}
+.mcard__meta li:not(:last-child)::after {
+  content: '·';
+  color: var(--ochre);
+}
+
+.mcard__byline {
+  font-family: var(--body);
+  font-size: 14px;
+  color: #4a3820;
+}
+.mcard__byline strong { color: var(--ink); font-weight: 400; }
+.mcard__byline em { color: var(--ochre-deep); font-style: italic; }
+.mcard__byline .div { color: var(--cream-dark); margin: 0 8px; font-style: normal; }
+
+.mcard__tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.mcard__tags li {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--umber);
+  border: 1px solid var(--cream-line);
+  padding: 5px 9px;
+  background: var(--cream-soft);
+}
+
+/* ═══════════════════════════════════════════════
+   VARIATION 1 — LIBRARY SLIP
+═══════════════════════════════════════════════ */
+.mcard__slip {
+  position: absolute;
+  right: 18px;
+  bottom: 22px;
+  z-index: 3;
+  width: 156px;
+  background: #f5ede0;
+  border: 1px solid rgba(28,18,8,0.55);
+  padding: 9px 11px 10px;
+  font-family: var(--mono);
+  font-size: 9.5px;
+  color: var(--ink);
+  letter-spacing: 0.03em;
+  line-height: 1.35;
+  transform: rotate(-1.8deg);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.18);
+}
+.mcard__slip-head {
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  font-size: 8.5px;
+  border-bottom: 1px solid rgba(28,18,8,0.4);
+  padding-bottom: 4px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  display: flex; justify-content: space-between;
+}
+.mcard__slip-head .star { color: var(--brick); }
+.mcard__slip-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px;
+  align-items: baseline;
+  border-bottom: 1px dotted rgba(28,18,8,0.45);
+  padding: 2px 0;
+}
+.mcard__slip-row b { font-weight: 400; opacity: 0.65; font-size: 8.5px; letter-spacing: 0.1em; text-transform: uppercase; }
+.mcard__slip-row span { font-weight: 700; }
+/* paper "tape" holding the slip on */
+.mcard__slip::before {
+  content: '';
+  position: absolute;
+  top: -8px; left: 24px;
+  width: 36px; height: 14px;
+  background: repeating-linear-gradient(135deg, transparent 0 4px, rgba(192,57,43,0.22) 4px 6px), rgba(245,237,224,0.7);
+  border: 1px solid rgba(28,18,8,0.35);
+  transform: rotate(-3deg);
+}
+
+/* ═══════════════════════════════════════════════
+   VARIATION 2 — EDITOR'S WAX SEAL
+═══════════════════════════════════════════════ */
+.mcard__seal {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  z-index: 4;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 35% 30%, rgba(255,255,255,0.18) 0%, transparent 35%),
+    radial-gradient(circle at 65% 75%, rgba(0,0,0,0.25) 0%, transparent 60%),
+    var(--brick);
+  color: #f5ede0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  line-height: 1.25;
+  box-shadow:
+    inset 0 0 0 1px rgba(245,237,224,0.4),
+    inset 0 0 0 4px rgba(192,57,43,0.95),
+    inset 0 0 0 5px rgba(245,237,224,0.35),
+    0 1px 2px rgba(0,0,0,0.3);
+  transform: rotate(-7deg);
+  /* rough wax edge */
+  filter: drop-shadow(0 0 0.5px rgba(0,0,0,0.4));
+}
+.mcard__seal-inner {
+  display: flex; flex-direction: column; align-items: center; gap: 2px;
+}
+.mcard__seal-inner .star { font-size: 14px; line-height: 1; color: #f5ede0; }
+.mcard__seal-inner .small { font-size: 7.5px; opacity: 0.85; letter-spacing: 0.18em; }
+/* when seal is present, shift kicker right */
+.mcard--seal .mcard__kicker-block { left: 130px; }
+
+/* ═══════════════════════════════════════════════
+   VARIATION 3 — MARGINALIA NOTE
+═══════════════════════════════════════════════ */
+.mcard__note {
+  position: absolute;
+  z-index: 3;
+  right: 22px;
+  bottom: 28px;
+  font-family: var(--hand);
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.05;
+  color: var(--brick);
+  transform: rotate(-4deg);
+  text-align: right;
+  max-width: 200px;
+  text-shadow: 0 0 1px rgba(245,237,224,0.6);
+}
+.mcard__note .sig {
+  font-family: var(--hand);
+  font-size: 15px;
+  color: var(--brick);
+  opacity: 0.75;
+  display: block;
+  margin-top: 2px;
+  letter-spacing: 0.03em;
+}
+.mcard__note::before {
+  /* small editor's underline */
+  content: '';
+  position: absolute;
+  right: 0; bottom: -6px;
+  width: 60%;
+  height: 1.5px;
+  background: var(--brick);
+  opacity: 0.6;
+  transform: rotate(-2deg);
+}
+
+/* ═══════════════════════════════════════════════
+   VARIATION 4 — READ-TIME GAUGE
+   (replaces "16 min read" in the meta row)
+═══════════════════════════════════════════════ */
+.mcard__gauge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  color: var(--umber);
+}
+.mcard__gauge-track {
+  position: relative;
+  width: 72px;
+  height: 7px;
+  border-top: 1px solid var(--umber);
+  border-bottom: 1px solid var(--umber);
+  background:
+    /* tick marks */
+    linear-gradient(90deg, transparent 0 calc(20% - 0.5px), var(--umber) calc(20% - 0.5px) calc(20% + 0.5px), transparent calc(20% + 0.5px)) no-repeat,
+    linear-gradient(90deg, transparent 0 calc(40% - 0.5px), var(--umber) calc(40% - 0.5px) calc(40% + 0.5px), transparent calc(40% + 0.5px)) no-repeat,
+    linear-gradient(90deg, transparent 0 calc(60% - 0.5px), var(--umber) calc(60% - 0.5px) calc(60% + 0.5px), transparent calc(60% + 0.5px)) no-repeat,
+    linear-gradient(90deg, transparent 0 calc(80% - 0.5px), var(--umber) calc(80% - 0.5px) calc(80% + 0.5px), transparent calc(80% + 0.5px)) no-repeat;
+}
+.mcard__gauge-fill {
+  position: absolute;
+  inset: 1px 0 1px 0;
+  background: repeating-linear-gradient(135deg, transparent 0 3px, rgba(192,57,43,0.6) 3px 4px);
+  height: calc(100% - 2px);
+}
+.mcard__gauge-dot {
+  position: absolute;
+  top: 50%;
+  width: 9px; height: 9px;
+  background: var(--brick);
+  border: 1px solid var(--umber);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+.mcard__gauge-scale {
+  font-family: var(--mono);
+  font-size: 8.5px;
+  letter-spacing: 0.1em;
+  color: var(--ochre-deep);
+  opacity: 0.85;
+}
+
+/* ═══════════════════════════════════════════════
+   VARIATION 5 — SPINE + INDEX TAB
+   (card-as-physical-journal-on-shelf)
+═══════════════════════════════════════════════ */
+.mcard--spined { padding-left: 14px; }
+.mcard__spine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 14px;
+  background: var(--brick);
+  z-index: 2;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 18px;
+}
+.mcard__spine span {
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #f5ede0;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+.mcard__spine-fiction { background: var(--brick); }
+.mcard__spine-nonfiction { background: var(--blue); }
+.mcard__spine-poetry { background: var(--ochre); }
+.mcard__spine-interview { background: var(--umber); }
+.mcard__tab {
+  position: absolute;
+  top: 28px;
+  left: -2px;
+  z-index: 6;
+  background: var(--cream);
+  border: 1px solid rgba(28,18,8,0.55);
+  border-left: none;
+  padding: 5px 10px 5px 18px;
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 9.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink);
+  box-shadow: 1px 1px 0 rgba(0,0,0,0.12);
+}
+
+/* ═══════════════════════════════════════════════
+   VARIATION 6 — ISSUE STAMP (date-stamp)
+═══════════════════════════════════════════════ */
+.mcard__stamp {
+  position: absolute;
+  top: 16px;
+  right: 92px; /* sit to left of read button */
+  z-index: 3;
+  border: 2px solid var(--blue);
+  color: var(--blue);
+  padding: 5px 10px 4px;
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 9.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  background: rgba(245,237,224,0.4);
+  transform: rotate(-4deg);
+  line-height: 1.1;
+  text-align: center;
+}
+.mcard__stamp small {
+  display: block;
+  font-size: 7.5px;
+  letter-spacing: 0.2em;
+  opacity: 0.8;
+  margin-top: 1px;
+}
+
+/* ═══════════════════════════════════════════════
+   ROW LAYOUTS
+═══════════════════════════════════════════════ */
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px;
+  justify-items: center;
+}
+.row-2 { grid-template-columns: repeat(2, 1fr); }
+.row > .col { display: flex; flex-direction: column; gap: 18px; align-items: center; }
+
+.col-cap {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: var(--umber);
+  text-align: center;
+  max-width: 360px;
+  line-height: 1.6;
+}
+.col-cap b {
+  display: block;
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--brick);
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+/* ═══════════════════════════════════════════════
+   PHONE FRAME — mobile recomposed
+═══════════════════════════════════════════════ */
+.phone-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  justify-items: center;
+}
+.phone {
+  width: 412px;
+  background: var(--cream);
+  border: 1px solid var(--umber);
+  border-radius: 38px;
+  padding: 56px 20px 32px;
+  position: relative;
+}
+.phone::before {
+  content: '';
+  position: absolute;
+  top: 14px; left: 50%; transform: translateX(-50%);
+  width: 110px; height: 26px;
+  background: var(--ink);
+  border-radius: 14px;
+}
+.phone-mast {
+  display: grid;
+  grid-template-columns: 24px 1fr 24px;
+  align-items: center;
+  padding: 6px 4px 14px;
+  border-bottom: 2px double var(--umber);
+  margin-bottom: 18px;
+}
+.phone-mast .burger {
+  display: flex; flex-direction: column; gap: 4px;
+}
+.phone-mast .burger span { width: 20px; height: 1.5px; background: var(--ink); }
+.phone-mast .logo {
+  font-family: var(--display);
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--ink);
+}
+.phone-mast .tag {
+  grid-column: 1/-1;
+  font-family: var(--body);
+  font-style: italic;
+  font-size: 13px;
+  color: var(--ochre);
+  text-align: center;
+  margin-top: 4px;
+}
+.phone .mcard { width: 100%; }
+.phone .mcard + .mcard { margin-top: 24px; }
+.phone .mcard__cover { height: 420px; }
+.phone .mcard__title { font-size: 30px; }
+
+/* ═══════════════════════════════════════════════
+   DESKTOP GRID MOCKUP
+═══════════════════════════════════════════════ */
+.desktop {
+  background: var(--cream);
+  border: 1px solid var(--umber);
+  padding: 0;
+  overflow: hidden;
+}
+.desktop-mast {
+  text-align: center;
+  padding: 28px 40px 18px;
+  border-bottom: 3px double var(--umber);
+}
+.desktop-mast .logo {
+  font-family: var(--display);
+  font-size: 64px;
+  font-weight: 500;
+  color: var(--ink);
+  letter-spacing: 0.005em;
+}
+.desktop-mast .tag {
+  font-family: var(--body);
+  font-style: italic;
+  font-size: 16px;
+  color: var(--ochre);
+  margin-top: 4px;
+}
+.desktop-nav {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  padding: 12px 40px;
+  border-bottom: 1px solid var(--umber);
+}
+.desktop-nav a {
+  font-family: var(--body);
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink);
+  padding: 4px 24px;
+  border-right: 1px solid var(--cream-dark);
+  text-decoration: none;
+}
+.desktop-nav a:last-child { border-right: none; }
+.desktop-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  padding: 40px;
+  background: var(--cream);
+}
+.desktop-grid .mcard { width: 100%; max-width: 420px; margin: 0 auto; }
+.desktop-grid .mcard__cover { height: 500px; }
+
+/* annotation pins (overlay) */
+.pin {
+  position: absolute;
+  z-index: 50;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  color: var(--brick);
+  letter-spacing: 0.06em;
+  background: var(--cream);
+  border: 1px solid var(--brick);
+  padding: 3px 7px;
+  white-space: nowrap;
+}
+.pin::before {
+  content: '';
+  position: absolute;
+  width: 28px; height: 1px;
+  background: var(--brick);
+}
+.pin-tl { top: -10px; left: 60%; transform: translate(0, -100%); }
+.pin-tl::before { left: -28px; bottom: 8px; }
+
+/* ═══════════════════════════════════════════════
+   DIAGNOSIS SECTION
+═══════════════════════════════════════════════ */
+.diag-wrap {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  gap: 60px;
+  align-items: flex-start;
+}
+.diag-list {
+  list-style: none;
+  display: flex; flex-direction: column; gap: 22px;
+}
+.diag-list li {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 10px;
+}
+.diag-list .n {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--brick);
+  letter-spacing: 0.16em;
+}
+.diag-list h4 {
+  font-family: var(--display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 21px;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+.diag-list p {
+  font-family: var(--body);
+  font-size: 14px;
+  line-height: 1.6;
+  color: #3a2c1a;
+  max-width: 56ch;
+}
+
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- ─────────────── HEAD ─────────────── -->
+  <header class="page-head">
+    <div>
+      <div class="kicker">Critique · 26 May 2026 · for K.</div>
+      <h1>The card is gorgeous.<br>The grid is <em>wallpaper.</em></h1>
+      <p>
+        You've built a single object with real gravitas — the hatched cover, the umber plate
+        under the title, the typewriter metadata row, those tag chips, and the pink-tape
+        <em>read</em> button. The trouble isn't the card; it's that you stamped it nine times
+        and every stamp looks the same. Below: six injections that share the read-button's
+        vocabulary (typewriter mono, paper-artifact, soft rotation, brick-red accent), each
+        tied to a specific editorial intention.
+      </p>
+    </div>
+    <div class="notes">
+      <div class="row"><span class="num">01</span><b>Identical texture.</b> Same hatch, same direction, same density on every card.</div>
+      <div class="row"><span class="num">02</span><b>Identical anatomy.</b> Kicker upper-left · read upper-right · plate lower-left · meta · byline · tags. Always.</div>
+      <div class="row"><span class="num">03</span><b>Genre is invisible.</b> Fiction, nonfiction, poetry — all wear the same suit.</div>
+      <div class="row"><span class="num">04</span><b>No curator.</b> Kopani is between the work and the reader, but the cards don't say so.</div>
+      <div class="row"><span class="num">05</span><b>Read-button is the cure.</b> Tape · mono · brick · imperfect angle. Spread that DNA.</div>
+    </div>
+  </header>
+
+  <!-- ─────────────── SECTION 1: Baseline ─────────────── -->
+  <section class="sec">
+    <div class="sec-head">
+      <span class="num">§ 01</span>
+      <h2>Baseline — your current card</h2>
+      <span class="lede">A faithful rebuild so the variations below can sit next to a reference.</span>
+    </div>
+
+    <div class="row row-2" style="grid-template-columns: 380px 1fr; gap:60px; justify-items:flex-start;">
+      <article class="mcard">
+        <div class="mcard__cover">
+          <div class="mcard__kicker-block">
+            <span class="mcard__kicker">N O N F I C T I O N</span>
+            <span class="mcard__source">Evergreen Review</span>
+          </div>
+          <a class="mcard__read" href="#">read <span class="arr">↗</span></a>
+          <h3 class="mcard__title">Cemetery Flowers</h3>
+        </div>
+        <div class="mcard__body">
+          <p class="mcard__dek">A survivor traces the rituals of grief and memory by scattering a friend's ashes in New York Harbor during the AIDS crisis.</p>
+          <div class="mcard__rule"></div>
+          <ul class="mcard__meta">
+            <li>S/S 2025</li>
+            <li>Spring / Summer</li>
+            <li>16 min read</li>
+            <li>3,628 words</li>
+          </ul>
+          <p class="mcard__byline">By <strong>Don Tinling</strong><span class="div">·</span>Visual art by <em>the author</em></p>
+          <ul class="mcard__tags">
+            <li>AIDS crisis</li><li>grief</li><li>funerary rituals</li>
+            <li>New York City</li><li>flowers</li><li>memorial</li>
+          </ul>
+        </div>
+      </article>
+
+      <div class="diag-list" style="padding-top:8px;">
+        <ul class="diag-list">
+          <li><span class="n">A</span>
+            <div><h4>What I'm protecting</h4>
+            <p>The umber plate under the title is a near-perfect editorial move — debossed, label-like, anchors the cover. The pink-tape <em>read</em> button is the personality keystone. The mono metadata row reads like a colophon. None of these change in any of the six variations.</p></div>
+          </li>
+          <li><span class="n">B</span>
+            <div><h4>What I'm willing to break</h4>
+            <p>The kicker block at upper-left isn't sacred — sometimes a seal or a tab carries that information better. The "16 min read" text in the meta row is the weakest moment in an otherwise textured card. The diagonal hatch is one direction out of six possible textures.</p></div>
+          </li>
+          <li><span class="n">C</span>
+            <div><h4>What the variations add</h4>
+            <p>Each injection picks one of: (1) editorial voice — Kopani putting its hand on the card, (2) physical metaphor — slip, seal, stamp, spine, (3) information visualisation — gauge instead of label, (4) per-genre differentiation. They mix in the grid; never use more than two per card.</p></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────── SECTION 2: Six injections ─────────────── -->
+  <section class="sec">
+    <div class="sec-head">
+      <span class="num">§ 02</span>
+      <h2>Six injections, one vocabulary</h2>
+      <span class="lede">All share the read-button's grammar: typewriter mono, brick-red accent, slight tilt, paper artifact. Each tied to a specific editorial reason.</span>
+    </div>
+
+    <!-- Row 1: V1 V2 V3 -->
+    <div class="row">
+
+      <!-- V1 LIBRARY SLIP -->
+      <div class="col">
+        <article class="mcard mcard--slip-card mcard--tex-fiction">
+          <div class="mcard__cover">
+            <div class="mcard__kicker-block">
+              <span class="mcard__kicker">F I C T I O N</span>
+              <span class="mcard__source">Evergreen Review</span>
+            </div>
+            <a class="mcard__read" href="#">read <span class="arr">↗</span></a>
+            <h3 class="mcard__title">The Mechanic</h3>
+
+            <!-- the slip -->
+            <div class="mcard__slip">
+              <div class="mcard__slip-head"><span>Ex Libris · Kopani</span><span class="star">★</span></div>
+              <div class="mcard__slip-row"><b>gathered</b><span>26 MAY '26</span></div>
+              <div class="mcard__slip-row"><b>shelf</b><span>S/S · F-04</span></div>
+              <div class="mcard__slip-row"><b>borrowed</b><span>never</span></div>
+            </div>
+          </div>
+          <div class="mcard__body">
+            <p class="mcard__dek">An Iranian-American father watches his son study the mechanics of an auto repair shop in a quiet neighborhood.</p>
+            <div class="mcard__rule"></div>
+            <ul class="mcard__meta">
+              <li>S/S 2025</li><li>Spring / Summer</li><li>10 min read</li><li>2,221 words</li>
+            </ul>
+            <p class="mcard__byline">By <strong>Siamak Vossoughi</strong><span class="div">·</span>Visual art by <em>Richard Whitten</em></p>
+            <ul class="mcard__tags"><li>fatherhood</li><li>mechanic</li><li>immigration</li><li>work ethic</li></ul>
+          </div>
+        </article>
+        <div class="col-cap"><b>i · library slip</b>An ex-libris card taped to the cover. Carries Kopani's curatorial voice without raising its own. The pink-tape strip echoes the <em>read</em> button — same paper, same era.</div>
+      </div>
+
+      <!-- V2 WAX SEAL -->
+      <div class="col">
+        <article class="mcard mcard--seal mcard--tex-nonfiction">
+          <div class="mcard__cover">
+            <div class="mcard__seal">
+              <div class="mcard__seal-inner">
+                <span class="star">✶</span>
+                <span class="small">Editor's</span>
+                <span class="small">Choice</span>
+              </div>
+            </div>
+            <div class="mcard__kicker-block">
+              <span class="mcard__kicker">N O N F I C T I O N</span>
+              <span class="mcard__source">The New York Review</span>
+            </div>
+            <a class="mcard__read" href="#">read <span class="arr">↗</span></a>
+            <h3 class="mcard__title">Redress and Revolution</h3>
+          </div>
+          <div class="mcard__body">
+            <p class="mcard__dek">A Supreme Court Justice argues that systemic exploitation of land and people necessitates an urgent, peaceful restructuring of American institutions.</p>
+            <div class="mcard__rule"></div>
+            <ul class="mcard__meta">
+              <li>S/S 2025</li><li>Spring / Summer</li><li>11 min read</li><li>2,527 words</li>
+            </ul>
+            <p class="mcard__byline">By <strong>William O. Douglas</strong><span class="div">·</span>Visual art by <em>Rick Meyerowitz</em></p>
+            <ul class="mcard__tags"><li>social justice</li><li>environmentalism</li><li>political protest</li></ul>
+          </div>
+        </article>
+        <div class="col-cap"><b>ii · editor's seal</b>A wax-seal stamp for one card in every five or six. Scarcity is the whole point — used too often it becomes wallpaper. The brick-red answers the tape stripe.</div>
+      </div>
+
+      <!-- V3 MARGINALIA NOTE -->
+      <div class="col">
+        <article class="mcard mcard--tex-poetry">
+          <div class="mcard__cover">
+            <div class="mcard__kicker-block">
+              <span class="mcard__kicker">P O E T R Y</span>
+              <span class="mcard__source">The Kenyon Review</span>
+            </div>
+            <a class="mcard__read" href="#">read <span class="arr">↗</span></a>
+            <h3 class="mcard__title">Seven Elegies</h3>
+            <div class="mcard__note">
+              read it aloud,<br>
+              all the way through
+              <span class="sig">— m.</span>
+            </div>
+          </div>
+          <div class="mcard__body">
+            <p class="mcard__dek">Seven short elegies for the voiceless, in restrained formal language — a debut sequence of great patience and beauty.</p>
+            <div class="mcard__rule"></div>
+            <ul class="mcard__meta">
+              <li>S/S 2025</li><li>Spring / Summer</li><li>7 min read</li><li>1,402 words</li>
+            </ul>
+            <p class="mcard__byline">By <strong>Ocean Vuong</strong></p>
+            <ul class="mcard__tags"><li>elegy</li><li>silence</li><li>witness</li><li>form</li></ul>
+          </div>
+        </article>
+        <div class="col-cap"><b>iii · marginalia</b>The curator's hand showing — a brick-red note in script tilted three degrees off, a single initial. Silent, generous, the opposite of an algorithm.</div>
+      </div>
+    </div>
+
+    <!-- Row 2: V4 V5 V6 -->
+    <div class="row" style="margin-top:80px;">
+
+      <!-- V4 READ-TIME GAUGE -->
+      <div class="col">
+        <article class="mcard mcard--tex-fiction">
+          <div class="mcard__cover">
+            <div class="mcard__kicker-block">
+              <span class="mcard__kicker">F I C T I O N</span>
+              <span class="mcard__source">The Offing</span>
+            </div>
+            <a class="mcard__read" href="#">read <span class="arr">↗</span></a>
+            <h3 class="mcard__title">Plastic Bag</h3>
+          </div>
+          <div class="mcard__body">
+            <p class="mcard__dek">A teenager working at a convenience store observes his mother's strange obsession with collecting plastic bags amid local economic shifts.</p>
+            <div class="mcard__rule"></div>
+            <ul class="mcard__meta">
+              <li>07 Dec 2023</li>
+              <li>Fiction</li>
+              <li>
+                <div class="mcard__gauge">
+                  <span>read</span>
+                  <div class="mcard__gauge-track">
+                    <div class="mcard__gauge-fill" style="width: 72%;"></div>
+                    <div class="mcard__gauge-dot" style="left: 72%;"></div>
+                  </div>
+                  <span class="mcard__gauge-scale">18 min · long</span>
+                </div>
+              </li>
+            </ul>
+            <p class="mcard__byline">By <strong>Tan Tuck Ming</strong></p>
+            <ul class="mcard__tags"><li>immigrant experience</li><li>convenience store</li><li>plastic bags</li></ul>
+          </div>
+        </article>
+        <div class="col-cap"><b>iv · read-time gauge</b>The weakest item in the meta row becomes the most interesting. Five tick marks = 0/5/10/15/20+ min. The pink-stripe fill matches the read button. Quietly diagnostic.</div>
+      </div>
+
+      <!-- V5 SPINE + TAB -->
+      <div class="col">
+        <article class="mcard mcard--spined mcard--tex-interview">
+          <div class="mcard__spine mcard__spine-interview"><span>Interview · S/S '25</span></div>
+          <div class="mcard__tab">Interview</div>
+          <div class="mcard__cover">
+            <div class="mcard__kicker-block">
+              <span class="mcard__kicker">I N T E R V I E W</span>
+              <span class="mcard__source">The Paris Review</span>
+            </div>
+            <a class="mcard__read" href="#">read <span class="arr">↗</span></a>
+            <h3 class="mcard__title">Annie Ernaux on Memory</h3>
+          </div>
+          <div class="mcard__body">
+            <p class="mcard__dek">On the long discipline of writing close to the bone — and what the autobiographical novel still gets wrong about ordinary life.</p>
+            <div class="mcard__rule"></div>
+            <ul class="mcard__meta">
+              <li>S/S 2025</li><li>Spring / Summer</li><li>22 min read</li><li>5,140 words</li>
+            </ul>
+            <p class="mcard__byline">Interviewed by <strong>Madeleine Schwartz</strong></p>
+            <ul class="mcard__tags"><li>memory</li><li>autobiography</li><li>method</li><li>class</li></ul>
+          </div>
+        </article>
+        <div class="col-cap"><b>v · spine + index tab</b>Card-as-physical-journal. Spine colour codes the genre (brick · blue · ochre · umber). The protruding tab is filed wisdom — feels like a Filofax, reads as taxonomy.</div>
+      </div>
+
+      <!-- V6 ISSUE STAMP + HATCH BY GENRE -->
+      <div class="col">
+        <article class="mcard mcard--tex-translation">
+          <div class="mcard__cover">
+            <div class="mcard__kicker-block">
+              <span class="mcard__kicker">T R A N S L A T I O N</span>
+              <span class="mcard__source">Two Lines</span>
+            </div>
+            <div class="mcard__stamp">Received<small>S/S · 2025</small></div>
+            <a class="mcard__read" href="#">read <span class="arr">↗</span></a>
+            <h3 class="mcard__title">From the Flemish</h3>
+          </div>
+          <div class="mcard__body">
+            <p class="mcard__dek">A new translation of Paul van Ostaijen, the Antwerp modernist, whose typographic poems pre-figured the visual essay by sixty years.</p>
+            <div class="mcard__rule"></div>
+            <ul class="mcard__meta">
+              <li>S/S 2025</li><li>Translation</li><li>8 min read</li><li>1,820 words</li>
+            </ul>
+            <p class="mcard__byline">Translated by <strong>David Colmer</strong><span class="div">·</span>from the Flemish of <em>Paul van Ostaijen</em></p>
+            <ul class="mcard__tags"><li>modernism</li><li>Antwerp</li><li>typography</li></ul>
+          </div>
+        </article>
+        <div class="col-cap"><b>vi · issue stamp + hatch-by-genre</b>The mirrored 45° hatch quietly tells you it's a translation; the boxed Prussian-blue "Received" stamp dates the acquisition. The card looks like a manuscript that arrived in the mail.</div>
+      </div>
+    </div>
+
+    <!-- explanatory: per-genre hatch swatches -->
+    <div style="margin-top:80px; display:grid; grid-template-columns: repeat(6, 1fr); gap:20px;">
+      <div style="display:flex; flex-direction:column; gap:10px; align-items:center;">
+        <div class="mcard mcard--tex-fiction" style="width: 160px;"><div class="mcard__cover" style="height: 200px;"></div></div>
+        <div class="col-cap" style="font-size:10px;"><b>Fiction</b>diagonal 135°</div>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:10px; align-items:center;">
+        <div class="mcard mcard--tex-nonfiction" style="width: 160px;"><div class="mcard__cover" style="height: 200px;"></div></div>
+        <div class="col-cap" style="font-size:10px;"><b>Nonfiction</b>horizontal rules</div>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:10px; align-items:center;">
+        <div class="mcard mcard--tex-poetry" style="width: 160px;"><div class="mcard__cover" style="height: 200px;"></div></div>
+        <div class="col-cap" style="font-size:10px;"><b>Poetry</b>wide verticals</div>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:10px; align-items:center;">
+        <div class="mcard mcard--tex-interview" style="width: 160px;"><div class="mcard__cover" style="height: 200px;"></div></div>
+        <div class="col-cap" style="font-size:10px;"><b>Interview</b>crosshatch</div>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:10px; align-items:center;">
+        <div class="mcard mcard--tex-translation" style="width: 160px;"><div class="mcard__cover" style="height: 200px;"></div></div>
+        <div class="col-cap" style="font-size:10px;"><b>Translation</b>mirrored diag.</div>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:10px; align-items:center;">
+        <div class="mcard mcard--tex-art" style="width: 160px;"><div class="mcard__cover" style="height: 200px;"></div></div>
+        <div class="col-cap" style="font-size:10px;"><b>Art</b>halftone dots</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────── SECTION 3: Recomposed desktop grid ─────────────── -->
+  <section class="sec">
+    <div class="sec-head">
+      <span class="num">§ 03</span>
+      <h2>Recomposed — desktop grid</h2>
+      <span class="lede">Three cards, three different injections. No card uses more than two of the six. The grid breathes.</span>
+    </div>
+
+    <div class="desktop">
+      <div class="desktop-mast">
+        <div class="logo">Kopani</div>
+        <div class="tag">The independent literary press, gathered.</div>
+      </div>
+      <nav class="desktop-nav">
+        <a href="#">Essays</a><a href="#">Fiction</a><a href="#">Poetry</a><a href="#">Interviews</a><a href="#">Art</a><a href="#">Translation</a><a href="#">Reviews</a>
+      </nav>
+      <div class="desktop-grid">
+
+        <!-- Card 1: hatch-by-genre + library slip -->
+        <article class="mcard mcard--tex-nonfiction">
+          <div class="mcard__cover">
+            <div class="mcard__kicker-block">
+              <span class="mcard__kicker">N O N F I C T I O N</span>
+              <span class="mcard__source">Evergreen Review</span>
+            </div>
+            <a class="mcard__read" href="#">read <span class="arr">↗</span></a>
+            <h3 class="mcard__title">Cemetery Flowers</h3>
+            <div class="mcard__slip">
+              <div class="mcard__slip-head"><span>Ex Libris · Kopani</span><span class="star">★</span></div>
+              <div class="mcard__slip-row"><b>gathered</b><span>26 MAY '26</span></div>
+              <div class="mcard__slip-row"><b>shelf</b><span>S/S · N-12</span></div>
+              <div class="mcard__slip-row"><b>borrowed</b><span>never</span></div>
+            </div>
+          </div>
+          <div class="mcard__body">
+            <p class="mcard__dek">A survivor traces the rituals of grief and memory by scattering a friend's ashes in New York Harbor during the AIDS crisis.</p>
+            <div class="mcard__rule"></div>
+            <ul class="mcard__meta">
+              <li>S/S 2025</li><li>Spring / Summer</li><li>16 min read</li><li>3,628 words</li>
+            </ul>
+            <p class="mcard__byline">By <strong>Don Tinling</strong><span class="div">·</span>Visual art by <em>the author</em></p>
+            <ul class="mcard__tags"><li>AIDS crisis</li><li>grief</li><li>funerary rituals</li><li>New York City</li></ul>
+          </div>
+        </article>
+
+        <!-- Card 2: hatch-by-genre + editor's seal + gauge -->
+        <article class="mcard mcard--seal mcard--tex-fiction">
+          <div class="mcard__cover">
+            <div class="mcard__seal">
+              <div class="mcard__seal-inner">
+                <span class="star">✶</span>
+                <span class="small">Editor's</span>
+                <span class="small">Choice</span>
+              </div>
+            </div>
+            <div class="mcard__kicker-block">
+              <span class="mcard__kicker">F I C T I O N</span>
+              <span class="mcard__source">Evergreen Review</span>
+            </div>
+            <a class="mcard__read" href="#">read <span class="arr">↗</span></a>
+            <h3 class="mcard__title">The Mechanic</h3>
+          </div>
+          <div class="mcard__body">
+            <p class="mcard__dek">An Iranian-American father watches his son study the mechanics of an auto repair shop in a quiet neighborhood.</p>
+            <div class="mcard__rule"></div>
+            <ul class="mcard__meta">
+              <li>S/S 2025</li><li>Spring / Summer</li>
+              <li>
+                <div class="mcard__gauge">
+                  <span>read</span>
+                  <div class="mcard__gauge-track">
+                    <div class="mcard__gauge-fill" style="width: 40%;"></div>
+                    <div class="mcard__gauge-dot" style="left: 40%;"></div>
+                  </div>
+                  <span class="mcard__gauge-scale">10 min</span>
+                </div>
+              </li>
+            </ul>
+            <p class="mcard__byline">By <strong>Siamak Vossoughi</strong><span class="div">·</span>Visual art by <em>Richard Whitten</em></p>
+            <ul class="mcard__tags"><li>fatherhood</li><li>immigration</li><li>work ethic</li></ul>
+          </div>
+        </article>
+
+        <!-- Card 3: hatch-by-genre + spine/tab -->
+        <article class="mcard mcard--spined mcard--tex-poetry">
+          <div class="mcard__spine mcard__spine-poetry"><span>Poetry · S/S '25</span></div>
+          <div class="mcard__tab">Poetry</div>
+          <div class="mcard__cover">
+            <div class="mcard__kicker-block">
+              <span class="mcard__kicker">P O E T R Y</span>
+              <span class="mcard__source">The Kenyon Review</span>
+            </div>
+            <a class="mcard__read" href="#">read <span class="arr">↗</span></a>
+            <h3 class="mcard__title">Seven Elegies</h3>
+            <div class="mcard__note">
+              read aloud, slow.
+              <span class="sig">— m.</span>
+            </div>
+          </div>
+          <div class="mcard__body">
+            <p class="mcard__dek">Seven short elegies for the voiceless, in restrained formal language — a debut sequence of great patience.</p>
+            <div class="mcard__rule"></div>
+            <ul class="mcard__meta">
+              <li>S/S 2025</li><li>Spring / Summer</li><li>7 min read</li><li>1,402 words</li>
+            </ul>
+            <p class="mcard__byline">By <strong>Ocean Vuong</strong></p>
+            <ul class="mcard__tags"><li>elegy</li><li>silence</li><li>witness</li></ul>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="col-cap" style="margin: 24px auto 0; max-width: 720px;">
+      <b>What changed</b>
+      Same anatomy. Same fonts. Same plate-under-title move. But each card now carries one
+      distinct artifact — slip · seal · gauge · note · tab — and a per-genre cover texture.
+      Three cards next to each other no longer recite the same sentence.
+    </div>
+  </section>
+
+  <!-- ─────────────── SECTION 4: Mobile recomposed ─────────────── -->
+  <section class="sec">
+    <div class="sec-head">
+      <span class="num">§ 04</span>
+      <h2>Recomposed — mobile</h2>
+      <span class="lede">On mobile the cards stack, so variation matters more, not less. A scroll without rhythm is the most boring scroll there is.</span>
+    </div>
+
+    <div class="phone-row">
+
+      <!-- Phone 1: slip card -->
+      <div class="phone">
+        <div class="phone-mast">
+          <div class="burger"><span></span><span></span><span></span></div>
+          <div class="logo">Kopani</div>
+          <div></div>
+          <div class="tag">The independent literary press, gathered.</div>
+        </div>
+
+        <article class="mcard mcard--tex-nonfiction" style="width:100%;">
+          <div class="mcard__cover" style="height:440px;">
+            <div class="mcard__kicker-block">
+              <span class="mcard__kicker">N O N F I C T I O N</span>
+              <span class="mcard__source">Evergreen Review</span>
+            </div>
+            <a class="mcard__read" href="#">read <span class="arr">↗</span></a>
+            <h3 class="mcard__title" style="font-size:32px;">Cemetery Flowers</h3>
+            <div class="mcard__slip">
+              <div class="mcard__slip-head"><span>Ex Libris · Kopani</span><span class="star">★</span></div>
+              <div class="mcard__slip-row"><b>gathered</b><span>26 MAY '26</span></div>
+              <div class="mcard__slip-row"><b>shelf</b><span>S/S · N-12</span></div>
+              <div class="mcard__slip-row"><b>borrowed</b><span>never</span></div>
+            </div>
+          </div>
+          <div class="mcard__body">
+            <p class="mcard__dek">A survivor traces the rituals of grief and memory by scattering a friend's ashes in New York Harbor during the AIDS crisis.</p>
+            <div class="mcard__rule"></div>
+            <ul class="mcard__meta">
+              <li>S/S 2025</li><li>Spring / Summer</li><li>16 min</li><li>3,628 wds</li>
+            </ul>
+            <p class="mcard__byline">By <strong>Don Tinling</strong></p>
+            <ul class="mcard__tags"><li>AIDS crisis</li><li>grief</li><li>NYC</li></ul>
+          </div>
+        </article>
+      </div>
+
+      <!-- Phone 2: seal card -->
+      <div class="phone">
+        <div class="phone-mast">
+          <div class="burger"><span></span><span></span><span></span></div>
+          <div class="logo">Kopani</div>
+          <div></div>
+          <div class="tag">The independent literary press, gathered.</div>
+        </div>
+
+        <article class="mcard mcard--seal mcard--tex-fiction" style="width:100%;">
+          <div class="mcard__cover" style="height:440px;">
+            <div class="mcard__seal">
+              <div class="mcard__seal-inner">
+                <span class="star">✶</span>
+                <span class="small">Editor's</span>
+                <span class="small">Choice</span>
+              </div>
+            </div>
+            <div class="mcard__kicker-block">
+              <span class="mcard__kicker">F I C T I O N</span>
+              <span class="mcard__source">Evergreen Review</span>
+            </div>
+            <a class="mcard__read" href="#">read <span class="arr">↗</span></a>
+            <h3 class="mcard__title" style="font-size:32px;">The Mechanic</h3>
+          </div>
+          <div class="mcard__body">
+            <p class="mcard__dek">An Iranian-American father watches his son study the mechanics of an auto repair shop in a quiet neighborhood.</p>
+            <div class="mcard__rule"></div>
+            <ul class="mcard__meta">
+              <li>S/S 2025</li><li>Spring / Summer</li>
+              <li>
+                <div class="mcard__gauge">
+                  <span>read</span>
+                  <div class="mcard__gauge-track">
+                    <div class="mcard__gauge-fill" style="width: 40%;"></div>
+                    <div class="mcard__gauge-dot" style="left: 40%;"></div>
+                  </div>
+                  <span class="mcard__gauge-scale">10 min</span>
+                </div>
+              </li>
+            </ul>
+            <p class="mcard__byline">By <strong>Siamak Vossoughi</strong></p>
+            <ul class="mcard__tags"><li>fatherhood</li><li>immigration</li></ul>
+          </div>
+        </article>
+      </div>
+
+      <!-- Phone 3: marginalia + spine -->
+      <div class="phone">
+        <div class="phone-mast">
+          <div class="burger"><span></span><span></span><span></span></div>
+          <div class="logo">Kopani</div>
+          <div></div>
+          <div class="tag">The independent literary press, gathered.</div>
+        </div>
+
+        <article class="mcard mcard--spined mcard--tex-poetry" style="width:100%;">
+          <div class="mcard__spine mcard__spine-poetry"><span>Poetry · S/S '25</span></div>
+          <div class="mcard__tab">Poetry</div>
+          <div class="mcard__cover" style="height:440px;">
+            <div class="mcard__kicker-block">
+              <span class="mcard__kicker">P O E T R Y</span>
+              <span class="mcard__source">The Kenyon Review</span>
+            </div>
+            <a class="mcard__read" href="#">read <span class="arr">↗</span></a>
+            <h3 class="mcard__title" style="font-size:32px;">Seven Elegies</h3>
+            <div class="mcard__note">read aloud, slow.<span class="sig">— m.</span></div>
+          </div>
+          <div class="mcard__body">
+            <p class="mcard__dek">Seven short elegies for the voiceless, in restrained formal language — a debut sequence of great patience.</p>
+            <div class="mcard__rule"></div>
+            <ul class="mcard__meta">
+              <li>S/S 2025</li><li>Spring / Summer</li><li>7 min</li><li>1,402 wds</li>
+            </ul>
+            <p class="mcard__byline">By <strong>Ocean Vuong</strong></p>
+            <ul class="mcard__tags"><li>elegy</li><li>witness</li></ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────── CLOSING ─────────────── -->
+  <footer style="border-top: 3px double var(--umber); padding-top: 36px; margin-top:40px;">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px;">
+      <div>
+        <div class="kicker" style="font-family: var(--mono); font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--brick); margin-bottom: 12px;">A small rule of thumb</div>
+        <h3 style="font-family: var(--display); font-style: italic; font-size: 26px; font-weight:500; line-height: 1.25; color: var(--ink); margin-bottom: 14px;">
+          Every card should carry one artifact, never more than two.
+        </h3>
+        <p style="font-family: var(--body); font-size: 14px; line-height: 1.7; color: #3a2c1a; max-width: 56ch;">
+          The hatch-by-genre is the only injection that applies to <em>all</em> cards — it's
+          the bass note. Everything else (seal, slip, note, gauge, tab, stamp) is reserved for
+          a single card per row of three, with at most one card per page getting two. The
+          point is rhythm, not maximalism. The card was never the problem; the absence of
+          variation between cards was.
+        </p>
+      </div>
+      <div style="font-family: var(--mono); font-size: 11.5px; line-height: 1.9; color: #4a3820; border-left: 1px solid var(--cream-line); padding-left: 20px;">
+        <div style="color: var(--brick); font-weight: 700; letter-spacing: 0.18em; margin-bottom: 10px;">NEXT MOVES</div>
+        <div>→ pick 2–3 favourites from §02 to commit to.</div>
+        <div>→ decide if hatch-by-genre is too loud or too quiet at scale.</div>
+        <div>→ test the seal sparingly — once per 6 cards, max.</div>
+        <div>→ the gauge could replace word-count too.</div>
+        <div>→ marginalia notes could rotate from a small set of editor initials.</div>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<template id="__bundler_thumbnail" data-bg-color="#c0392b">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#c0392b"/>
+    <rect x="200" y="200" width="800" height="400" fill="#f5ede0" stroke="#1c1208" stroke-width="3"/>
+    <text x="600" y="430" text-anchor="middle" font-family="Georgia" font-size="100" fill="#1c1208" font-weight="500">whimsy</text>
+  </svg>
+</template>
+
+</body>
+</html>
