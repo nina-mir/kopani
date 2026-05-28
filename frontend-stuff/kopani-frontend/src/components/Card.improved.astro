@@ -24,6 +24,11 @@
  * - pieces.ai_keywords_json     -> aiKeywords
  */
 import { getCardTextureClass } from "../lib/cardVariants";
+import {
+  getReadTimeGaugeLabel,
+  getReadTimeGaugePercent,
+  shouldUseReadTimeGauge,
+} from "../lib/cardVariants";
 
 type Contributor = {
   name: string;
@@ -51,8 +56,13 @@ type PieceCard = {
   featured?: boolean;
 };
 
+// interface Props extends Partial<PieceCard> {
+//   piece?: PieceCard;
+// }
+
 interface Props extends Partial<PieceCard> {
   piece?: PieceCard;
+  index?: number;
 }
 
 const placeholderPiece: PieceCard = {
@@ -102,14 +112,22 @@ const {
 } = piece;
 
 const textureClass = getCardTextureClass(contentType);
+const index = Astro.props.index;
 
 const byline = authors.map((author) => author.name).join(", ");
 const metaItems = [
   dateLabel,
   issueLabel,
-  readTimeMinutes && `${readTimeMinutes} min read`,
 ].filter(Boolean);
-const visibleKeywords = aiKeywords.slice(0, 6);
+
+const useReadTimeGauge =
+  shouldUseReadTimeGauge(index) && Boolean(readTimeMinutes);
+
+const readTimeGaugePercent = getReadTimeGaugePercent(readTimeMinutes);
+const readTimeGaugeLabel = getReadTimeGaugeLabel(readTimeMinutes);
+
+
+const visibleKeywords = aiKeywords.slice(0, 10);
 const wordCountLabel = wordCountEstimate
   ? `${wordCountEstimate.toLocaleString()} words`
   : undefined;
@@ -401,6 +419,7 @@ const wordCountLabel = wordCountEstimate
       gap-4
       md:p-6
     "
+    style="mask-image: linear-gradient(to bottom, black 82%, transparent 100%);"
   >
     <div>
       
@@ -416,13 +435,14 @@ const wordCountLabel = wordCountEstimate
               text-umber
               not-italic
               font-arno
+              line-clamp-4
             "
           >
             {dek}
           </p>
         )
       }
-
+      
       <!-- META STRIP -->
       {
         metaItems.length > 0 && (
@@ -451,6 +471,39 @@ const wordCountLabel = wordCountEstimate
                 <span>{wordCountLabel}</span>
               )
             }
+
+            {
+                readTimeMinutes && (
+                  useReadTimeGauge ? (
+                    <span class="after:content-['·'] after:ml-2 last:after:content-none">
+                      <span class="kopani-card-gauge">
+                        <span class="kopani-card-gauge__label">read</span>
+
+                        <span class="kopani-card-gauge__track">
+                          <span
+                            class="kopani-card-gauge__fill"
+                            style={`width: ${readTimeGaugePercent}%;`}
+                          />
+                          <span
+                            class="kopani-card-gauge__dot"
+                            style={`left: ${readTimeGaugePercent}%;`}
+                          />
+                        </span>
+
+                        <span class="kopani-card-gauge__value">
+                          {readTimeGaugeLabel}
+                        </span>
+                      </span>
+                    </span>
+                  ) : (
+                    <span class="before:content-['·'] after:ml-2 last:after:content-none">
+                      {readTimeMinutes} min read
+                    </span>
+                  )
+                )
+            }
+
+
           </div>
         )
       }

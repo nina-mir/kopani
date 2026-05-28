@@ -7,8 +7,15 @@ import { getPiecesByContentType } from "../lib/db";
 const pieces = getPiecesByContentType("poetry");
 ---
 <BaseLayout title="Poetry — Kopani">
-  <h1>Poetry</h1>
-  <section class="grid ...">
-    {pieces.map((piece) => <Card piece={piece} />)}
+  <section class="border-b border-cream-dark/60 px-4 py-10 md:px-10">
+    <p class="font-body text-xs uppercase tracking-[0.24em] text-brick">Browse</p>
+    <h1 class="mt-4 font-display text-5xl leading-none font-light text-ink md:text-7xl">Poetry</h1>
+  </section>
+
+  <section class="px-4 py-10 md:px-10 md:py-14">
+    <div class="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 xl:grid-cols-3">
+      <!-- {pieces.map((piece) => <Card piece={piece} />)} -->
+      {pieces.map((piece, index) => <Card piece={piece} index={index} />)}
+    </div>
   </section>
 </BaseLayout>

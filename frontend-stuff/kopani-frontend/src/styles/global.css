@@ -2,6 +2,7 @@
 @plugin "@tailwindcss/typography";
 
 @import "./card-textures.css";
+@import "./card-gauge.css";
 
 @theme {
   /* Palette — from design-themes_v0.0.0 */

@@ -1,0 +1,82 @@
+/**
+ * Kopani read-time gauge.
+ *
+ * Used sparingly as a whimsy artifact:
+ * one card per row of three, not every card.
+ */
+
+.kopani-card-gauge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  color: var(--color-umber);
+  white-space: nowrap;
+}
+
+.kopani-card-gauge__label {
+  color: var(--color-umber);
+}
+
+.kopani-card-gauge__track {
+  position: relative;
+  width: 72px;
+  height: 7px;
+  border-top: 1px solid var(--color-umber);
+  border-bottom: 1px solid var(--color-umber);
+  background:
+    linear-gradient(
+      90deg,
+      transparent 0 calc(20% - 0.5px),
+      var(--color-umber) calc(20% - 0.5px) calc(20% + 0.5px),
+      transparent calc(20% + 0.5px)
+    ),
+    linear-gradient(
+      90deg,
+      transparent 0 calc(40% - 0.5px),
+      var(--color-umber) calc(40% - 0.5px) calc(40% + 0.5px),
+      transparent calc(40% + 0.5px)
+    ),
+    linear-gradient(
+      90deg,
+      transparent 0 calc(60% - 0.5px),
+      var(--color-umber) calc(60% - 0.5px) calc(60% + 0.5px),
+      transparent calc(60% + 0.5px)
+    ),
+    linear-gradient(
+      90deg,
+      transparent 0 calc(80% - 0.5px),
+      var(--color-umber) calc(80% - 0.5px) calc(80% + 0.5px),
+      transparent calc(80% + 0.5px)
+    );
+}
+
+.kopani-card-gauge__fill {
+  position: absolute;
+  inset: 1px auto 1px 0;
+  height: calc(100% - 2px);
+  background: repeating-linear-gradient(
+    135deg,
+    transparent 0 3px,
+    rgba(192, 57, 43, 0.65) 3px 4px
+  );
+}
+
+.kopani-card-gauge__dot {
+  position: absolute;
+  top: 50%;
+  width: 9px;
+  height: 9px;
+  border: 1px solid var(--color-umber);
+  border-radius: 999px;
+  background: var(--color-brick);
+  transform: translate(-50%, -50%);
+}
+
+.kopani-card-gauge__value {
+  font-size: 0.58rem;
+  letter-spacing: 0.1em;
+  color: var(--color-ochre);
+}
