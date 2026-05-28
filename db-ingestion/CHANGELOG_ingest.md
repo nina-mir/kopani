@@ -5,6 +5,85 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/);
 versions are internal markers, not published releases.
 
 ---
+## [0.5.2] — 2026-05-27
+
+NOR editorial-field capture. No schema change.
+
+### Fixed
+- **NOR dek, reading time, keywords, descriptor_clause, and publication date
+  all dropped.** `extract_nor` hardcoded `summary`, `read_time_minutes`, and
+  `ai_keywords` to `None` and never read from `derived`, so the Gemini-enriched
+  fields written by the NOR analysis notebook were silently discarded on ingest.
+  `extract_nor` now reads the full set of AI-derived fields from `derived`,
+  mirroring the pattern established in `extract_evergreen` and `extract_offing`:
+  - `derived.dek` → `summary` (`pieces.summary`)
+  - `derived.reading_time` → `read_time_minutes` (`pieces.read_time_minutes`)
+  - `derived.piece_keywords` → `ai_keywords` (`pieces.ai_keywords_json`)
+  - `derived.descriptor_clause` → `issue_metadata.descriptor_clause`
+    (`pieces.issue_metadata_json`)
+  - `derived.issue_year` + `derived.issue_season` → `publication_date_display`
+    (e.g. `"Summer 2024"`, `"Spring–Summer 2022"`, `"2023"` for the Iran issue)
+
+### Notes
+- Schema unchanged — no migration needed.
+- Re-running is idempotent: NOR pieces upsert on `original_url` and the new
+  fields overwrite the previous NULLs.
+- Corrects the claim in [0.5.0] Notes that NOR would have `summary = NULL`
+  on re-ingest — that was the old behavior; it now populates correctly.
+- `upsert_piece` required no changes; it already handles all five fields
+  generically from the canonical dict.
+  
+## [0.5.1] — 2026-05-26
+
+Granta keyword capture. No schema change. **MVP shortcut — see Known debt.**
+
+### Fixed
+- **Granta keywords dropped.** `extract_granta` hardcoded `ai_keywords = None`,
+  discarding the `keywords` array that ships in every Granta file (mirrored at
+  `piece.keywords` and `page_metadata.keywords`). It now reads `piece.keywords`,
+  falls back to `page_metadata.keywords`, and yields `None` only when both are
+  empty — so they flow into `ai_keywords_json` and a genuinely keyword-less
+  piece stores `NULL` rather than an empty array `[]`.
+
+  Single-line change, `extract_granta` return dict:
+  ```python
+  # before
+  "ai_keywords": None,
+  # after
+  "ai_keywords": (piece.get("keywords")
+                  or (d.get("page_metadata") or {}).get("keywords")) or None,
+  ```
+
+### Known debt — RESOLVE IN JUNE
+- **Provenance is mislabeled.** Granta's keywords are *native editorial/SEO*
+  terms, not AI output, but they now live in a column named and documented as
+  "from AI processing" (`ai_keywords_json`, schema line 57). This was taken
+  knowingly to hit the **June 2 MVP deadline** and surface keywords in the Card
+  UI now.
+- **Collision risk.** When Gemini later generates real `piece_keywords` for
+  Granta (the planned pipeline that also produces dek, descriptor_clause, etc.),
+  it will contend with these for the same column. June fix: add a separate
+  `source_keywords_json` column (closer to the "curated editorial vocabulary"
+  the schema reserves at line 101) and migrate these out of `ai_keywords_json`,
+  leaving that column for true AI output across all journals.
+
+### Notes
+- Schema unchanged — no migration needed. Idempotent: re-running upserts on
+  `original_url` and re-asserts the keyword array from the JSON.
+- **Verified on full dataset:** 135 Granta pieces — 122 now carry keywords, 13
+  `NULL`. All 13 NULLs confirmed as honest empties (both `piece.keywords` and
+  `page_metadata.keywords` are `[]` at source): `a-bathroom-of-ones-own`,
+  `a-supposedly-close-friend-i-might-never-see-again`, `china-time-mandarin`,
+  `four-poems-hu-xudong`, `how-asians-spend-the-night-before-dawn`, `perverts`,
+  `podcast-sujatha-gidla`, `reflections-on-a-manuscript-in-exile`, `sivagalai`,
+  `sudheers-mother`, `the-civilian-level`, `thomas-tommy`, `two-poems-franklin-2`.
+- **Still outstanding (separate, no AI needed):** Granta `read_time_minutes`
+  remains `NULL` — `extract_granta` hardcodes it (line 401). Every piece already
+  stores `content.text` and the script computes `word_count_estimate` from it,
+  so reading time is just word count ÷ a words-per-minute constant. Tracked as a
+  follow-up task, not part of this entry.
+
+---
 ## [0.5.0] — 2026-05-25
 
 Editorial-field capture for Offing & Evergreen. No schema change.

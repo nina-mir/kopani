@@ -481,15 +481,20 @@ def extract_nor(d):
             contributors.append({"name": p["name"], "role": "author",
                                  "bio": p["bio"], "order": i})
 
+    year = derived.get("issue_year")
+    season = derived.get("issue_season")
+    display_date = f"{season} {year}" if (season and year) else (str(year) if year else None)
+
     return {
         "title": coalesce(piece.get("title_display"), piece.get("title_tag")),
         "subtitle": None,
+        "summary": coalesce(derived.get("dek")),
         "slug_source": piece.get("source_slug"),
         "original_url": coalesce(piece.get("originalurl"), piece.get("request_url"),
                                  (d.get("page_metadata") or {}).get("canonical_url")),
         "content_type_raw": coalesce(piece.get("piece_type")),
         "publication_date": None,
-        "publication_date_display": coalesce(piece.get("date_published_display")),
+        "publication_date_display": display_date,
         "issue_label": coalesce(issue.get("issue_label")),
         "issue_url": coalesce(issue.get("issue_url")),
         "issue_metadata": {
@@ -497,15 +502,17 @@ def extract_nor(d):
             "section": coalesce(issue.get("section_from_issue")),
             "order_in_section": coalesce(piece.get("order_in_section")),
             "categories": piece.get("categories") or [],
+            "descriptor_clause": coalesce(derived.get("descriptor_clause")),
         },
         "meta_description": None,
         "source_image_url": None,
-        "read_time_minutes": None,
+        "read_time_minutes": parse_reading_time(derived.get("reading_time")),
         "word_count_estimate": estimate_word_count(content.get("text")),
-        "ai_keywords": None,
+        "ai_keywords": derived.get("piece_keywords") or None,
         "contributors": contributors,
     }
 
+    
 EXTRACTORS = {
     "the-threepenny-review": extract_threepenny,
     "evergreen-review": extract_evergreen,
