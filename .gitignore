@@ -36,6 +36,10 @@ evergreen/fw*
 granta_pieces/
 *_20*_issue
 offing_pieces/
+_archived_NO_dek_amended_evergreen
+json_files
+merged
+json_files_for_ai_analysis
 
 # Environment Variables
 # Keep sensitive keys and local settings private
