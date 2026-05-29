@@ -1,0 +1,116 @@
+/**
+ * Kopani spine + index tab artifact.
+ *
+ * Stage 3 artifact.
+ * Used on selected cards only, not all cards.
+ *
+ * The spine stays inside the card so it works with the current
+ * overflow-hidden card shell.
+ */
+
+.kopani-card--spined {
+  position: relative;
+}
+
+/* Full-height left spine */
+.kopani-card-spine {
+  position: absolute;
+  inset-block: 0;
+  left: 0;
+  z-index: 20;
+  width: 14px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 18px;
+  background: var(--color-brick);
+  pointer-events: none;
+}
+
+.kopani-card-spine__label {
+  max-height: 70%;
+  overflow: hidden;
+  color: var(--color-linen);
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  line-height: 1;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  white-space: nowrap;
+}
+
+/* Genre colors */
+.kopani-card-spine--fiction {
+  background: var(--color-brick);
+}
+
+.kopani-card-spine--nonfiction {
+  background: var(--color-prussian);
+}
+
+.kopani-card-spine--poetry {
+  background: var(--color-ochre);
+}
+
+.kopani-card-spine--interview {
+  background: var(--color-umber);
+}
+
+.kopani-card-spine--translation {
+  background: var(--color-prussian);
+}
+
+.kopani-card-spine--art {
+  background: var(--color-brick);
+}
+
+.kopani-card-spine--default {
+  background: var(--color-umber);
+}
+
+/* Small index tab, kept inside card to avoid overflow clipping */
+.kopani-card-tab {
+  position: absolute;
+  top: 1.75rem;
+  left: 14px;
+  z-index: 30;
+  border: 1px solid rgba(28, 18, 8, 0.55);
+  border-left: 0;
+  background: var(--color-linen);
+  padding: 5px 10px 5px 12px;
+  color: var(--color-ink);
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  line-height: 1;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
+  pointer-events: none;
+}
+
+/* Give top-left labels breathing room when the tab is present */
+.kopani-card--spined .kopani-card-top-labels {
+  left: 2.25rem;
+}
+
+/* Keep the title from touching the spine on narrow cards */
+.kopani-card--spined .kopani-card-title-wrap {
+  left: 2.25rem;
+}
+
+/* On very small screens, keep the tab readable but quieter */
+@media (max-width: 480px) {
+  .kopani-card-tab {
+    font-size: 8px;
+    letter-spacing: 0.14em;
+    padding-inline: 10px 8px;
+  }
+
+  .kopani-card-spine__label {
+    font-size: 8px;
+  }
+}

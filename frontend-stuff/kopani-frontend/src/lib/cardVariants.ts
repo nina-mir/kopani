@@ -97,3 +97,88 @@ export function getReadTimeGaugeLabel(readTimeMinutes?: number): string {
 
   return `${readTimeMinutes} min`;
 }
+
+//  stage 3 artifact tab+spine
+
+export type CardSpineName =
+  | "fiction"
+  | "nonfiction"
+  | "poetry"
+  | "interview"
+  | "translation"
+  | "art"
+  | "default";
+
+export type CardSpineVariant = {
+  cardClass: string;
+  spineClass: string;
+  tabLabel: string;
+  spineLabel: string;
+};
+
+/**
+ * Stage 3:
+ * Decide whether this card should receive the spine + tab artifact.
+ *
+ * Current cadence:
+ * - Gauge: index % 3 === 0
+ * - Spine: index % 3 === 1
+ * - Quiet card: index % 3 === 2
+ *
+ * This keeps artifacts from stacking too much while testing.
+ */
+export function shouldUseSpineArtifact(index?: number): boolean {
+  if (typeof index !== "number") return false;
+
+  return index % 3 === 1;
+}
+
+const CONTENT_TYPE_TO_SPINE: Record<string, CardSpineName> = {
+  fiction: "fiction",
+  nonfiction: "nonfiction",
+  essay: "nonfiction",
+  review: "nonfiction",
+  book_review: "nonfiction",
+  art_review: "nonfiction",
+  poetry: "poetry",
+  interview: "interview",
+  translation: "translation",
+  art: "art",
+  visual_art: "art",
+  youth_portfolio: "art",
+};
+
+const SPINE_LABELS: Record<CardSpineName, string> = {
+  fiction: "Fiction",
+  nonfiction: "Essay",
+  poetry: "Poetry",
+  interview: "Interview",
+  translation: "Translation",
+  art: "Art",
+  default: "Kopani",
+};
+
+/**
+ * Return all classes/labels needed to render the spine + tab.
+ */
+export function getSpineVariant(
+  contentType?: string,
+  issueLabel?: string,
+  dateLabel?: string
+): CardSpineVariant {
+  const key = normalizeContentType(contentType);
+  const spine = CONTENT_TYPE_TO_SPINE[key] ?? "default";
+  const tabLabel = SPINE_LABELS[spine];
+
+  const shortDate =
+    issueLabel ??
+    dateLabel ??
+    "Filed";
+
+  return {
+    cardClass: "kopani-card--spined",
+    spineClass: `kopani-card-spine kopani-card-spine--${spine}`,
+    tabLabel,
+    spineLabel: `${tabLabel} · ${shortDate}`,
+  };
+}

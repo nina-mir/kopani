@@ -30,6 +30,11 @@ import {
   shouldUseReadTimeGauge,
 } from "../lib/cardVariants";
 
+import {
+  getSpineVariant,
+  shouldUseSpineArtifact
+} from "../lib/cardVariants";
+
 type Contributor = {
   name: string;
   href?: string;
@@ -126,6 +131,8 @@ const useReadTimeGauge =
 const readTimeGaugePercent = getReadTimeGaugePercent(readTimeMinutes);
 const readTimeGaugeLabel = getReadTimeGaugeLabel(readTimeMinutes);
 
+const useSpineArtifact = shouldUseSpineArtifact(index);
+const spineVariant = getSpineVariant(contentType, issueLabel, dateLabel);
 
 const visibleKeywords = aiKeywords.slice(0, 10);
 const wordCountLabel = wordCountEstimate
@@ -133,22 +140,26 @@ const wordCountLabel = wordCountEstimate
   : undefined;
 ---
 <article
-  class="
-    group
-    flex
-    min-h-[92vh]
-    flex-col
-    overflow-hidden
-    border
-    border-ink/10
-    bg-linen
-    shadow-[0_1px_0_rgba(28,18,8,0.06)]
-
-    md:aspect-[4/8]
-
-    md:min-h-0
-  "
+  class:list={[
+    "group flex min-h-[92vh] flex-col overflow-hidden border border-ink/10 bg-linen shadow-[0_1px_0_rgba(28,18,8,0.06)] md:aspect-[4/8] md:min-h-0",
+    useSpineArtifact && spineVariant.cardClass,
+  ]}
 >
+{
+  useSpineArtifact && (
+    <>
+      <div class={spineVariant.spineClass} aria-hidden="true">
+        <span class="kopani-card-spine__label">
+          {spineVariant.spineLabel}
+        </span>
+      </div>
+
+      <div class="kopani-card-tab" aria-hidden="true">
+        {spineVariant.tabLabel}
+      </div>
+    </>
+  )
+}
   <!--
         Desktop ratio experiment.
         Change this freely.
@@ -214,8 +225,8 @@ const wordCountLabel = wordCountEstimate
 
     { 
       contentType &&  (
-      <div class="absolute left-4 top-10 z-10">
-        <p
+        <div class="kopani-card-top-labels absolute left-4 top-10 z-10">        
+          <p
           class="
             font-acumin
             text-[0.88rem]
@@ -288,6 +299,7 @@ const wordCountLabel = wordCountEstimate
     <!-- JOURNAL + OUTBOUND LINK -->
       <div
         class="
+         kopani-card-top-labels
           absolute
           left-4 
           top-14 
@@ -328,8 +340,7 @@ const wordCountLabel = wordCountEstimate
       bottom-14
       bottom-16
     -->
-    <div class="absolute bottom-14 left-4 right-4 z-10 md:bottom-10">
-      <!-- /*
+    <div class="kopani-card-title-wrap absolute bottom-14 left-4 right-4 z-10 md:bottom-10">      <!-- /*
           IMPORTANT TITLE LINE SPACING CONTROL
 
           Change leading-[X] to experiment with wrapped-line spacing.
