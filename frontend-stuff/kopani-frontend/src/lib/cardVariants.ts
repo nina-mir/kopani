@@ -56,7 +56,7 @@ export function getCardTextureClass(contentType?: string): string {
  * Decide whether this card should use a read-time gauge.
  *
  * Stage 2 rule:
- * One card per row of three gets the gauge.
+ * One card per row of three gets the gauge.  (changed a bit since we are doing index % 6 now. See below!)
  *
  * Assumption:
  * The parent grid renders cards in rows of 3 on desktop.
@@ -64,7 +64,7 @@ export function getCardTextureClass(contentType?: string): string {
 export function shouldUseReadTimeGauge(index?: number): boolean {
   if (typeof index !== "number") return false;
 
-  return index % 3 === 0;
+  return index % 6 === 0 || index % 6 === 4;
 }
 
 /**
@@ -121,16 +121,19 @@ export type CardSpineVariant = {
  * Decide whether this card should receive the spine + tab artifact.
  *
  * Current cadence:
- * - Gauge: index % 3 === 0
- * - Spine: index % 3 === 1
- * - Quiet card: index % 3 === 2
+ * 0 → gauge
+ * 1 → plain
+ * 2 → spine
+ * 3 → plain
+ * 4 → gauge
+ * 5 → plain
  *
  * This keeps artifacts from stacking too much while testing.
  */
 export function shouldUseSpineArtifact(index?: number): boolean {
   if (typeof index !== "number") return false;
 
-  return index % 3 === 1;
+  return index % 6 === 2;
 }
 
 const CONTENT_TYPE_TO_SPINE: Record<string, CardSpineName> = {
