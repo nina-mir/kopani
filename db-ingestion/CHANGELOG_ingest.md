@@ -5,6 +5,52 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/);
 versions are internal markers, not published releases.
 
 ---
+
+## [0.5.3] — 2026-05-29
+
+Threepenny editorial-field capture. No schema change.
+
+### Fixed
+- **Threepenny dek, descriptor_clause, reading time, and subtitle all dropped.**
+  `extract_threepenny` hardcoded `subtitle` and `read_time_minutes` to `None`
+  and never read `dek` or `descriptor_clause`, so the Gemini-enriched fields
+  written by the new Threepenny analysis + amend notebooks were silently
+  discarded on ingest. `extract_threepenny` now reads the full set of
+  AI-derived fields from `derived`, mirroring the pattern established in
+  `extract_offing`, `extract_evergreen`, and `extract_nor`:
+  - `derived.dek` → `summary` (`pieces.summary`)
+  - `derived.reading_time` → `read_time_minutes` (`pieces.read_time_minutes`)
+  - `derived.descriptor_clause` → `issue_metadata.descriptor_clause`
+    (`pieces.issue_metadata_json`)
+  - `derived.subtitle` → `subtitle` (`pieces.subtitle`) — was the
+    hardcoded-`None` case.
+
+### Notes
+- Schema unchanged — no migration needed.
+- **First journal to populate `pieces.subtitle`.** Every previous extractor
+  (`extract_offing`, `extract_evergreen`, `extract_granta`, `extract_nor`)
+  hardcodes `subtitle = None`; they're left untouched and the column stays
+  NULL for those journals. The column has existed since [0.1.0]; only its
+  first writer changed.
+- **`pieces.content_type` will shift for old book / music / film reviews
+  and Table Talk pieces.** The new Threepenny analysis collapses those to
+  `derived.content_type = "essay"` with the granular label in
+  `derived.subtitle`, so on re-ingest the canonical column moves from
+  `"review"` / `"table_talk"` to `"essay"` for those rows. The granular
+  label lives in `pieces.subtitle` instead. By design, agreed during the
+  notebook design pass; no `CONTENT_TYPE_MAP` change.
+- **Nobel data (`bio_insights.nobel_prize`) is preserved in `raw_json` only.**
+  The amend lands it at `derived.author_bio_insights[i].nobel_prize`; no
+  column reads it. Banked for a future Nobel-laureates rail.
+- Re-running is idempotent: Threepenny pieces upsert on `original_url` and
+  the four newly-read fields overwrite their previous NULLs. As with [0.5.0]
+  Notes: re-ingesting before re-running the amend would re-NULL `summary`
+  for unamended pieces; switch hunk 3b to `COALESCE(excluded.summary,
+  pieces.summary)` if you ever hand-write summaries directly into the DB.
+- `upsert_piece` required no changes — already handles all four fields
+  generically from the canonical dict.
+
+
 ## [0.5.2] — 2026-05-27
 
 NOR editorial-field capture. No schema change.
