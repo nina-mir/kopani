@@ -1,0 +1,90 @@
+---
+// src/components/Footer.astro
+const browse = [
+  { label: "Essays", href: "/essays" },
+  { label: "Fiction", href: "/fiction" },
+  { label: "Poetry", href: "/poetry" },
+  { label: "Interviews", href: "/interviews" },
+  { label: "Art", href: "/art" },
+  { label: "Translation", href: "/translation" },
+  { label: "Reviews", href: "/reviews" },
+];
+
+const about = [
+  { label: "For Campuses", href: "/campuses" },
+  { label: "Support a Writer", href: "/support" },
+  { label: "Submit", href: "/submit" },
+  { label: "RSS", href: "/rss" },
+];
+
+const year = new Date().getFullYear();
+---
+<footer class="mt-20 border-t-[3px] border-double border-ink bg-cream/40">
+  <div class="px-4 py-12 md:px-10 md:py-16">
+    <div class="grid grid-cols-1 gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
+      <!-- Wordmark + principle -->
+      <div>
+        <a href="/" class="inline-block">
+          <span class="font-secret-service text-4xl leading-none tracking-tight text-ink/90">
+            Kopani
+          </span>
+        </a>
+        <p class="mt-4 max-w-sm font-arno text-lg italic leading-relaxed text-ochre">
+          The independent literary press, gathered.
+        </p>
+
+        <!-- Rights / principle statement -->
+        <p class="mt-6 max-w-md font-body text-sm leading-relaxed text-umber">
+          Kopani never republishes copyrighted work. We link readers to the
+          original publication and build discovery, metadata, and direct
+          compensation tools around it — so writers, translators, and journals
+          stay at the center.
+        </p>
+      </div>
+
+      <!-- Browse -->
+      <div>
+        <p class="font-body text-xs uppercase tracking-[0.24em] text-brick">
+          Browse
+        </p>
+        <ul class="mt-4 space-y-2 font-body text-sm text-ink">
+          {
+            browse.map((item) => (
+              <li>
+                <a href={item.href} class="hover:text-prussian">
+                  {item.label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+
+      <!-- About / utility -->
+      <div>
+        <p class="font-body text-xs uppercase tracking-[0.24em] text-brick">
+          About
+        </p>
+        <ul class="mt-4 space-y-2 font-body text-sm text-ink">
+          {
+            about.map((item) => (
+              <li>
+                <a href={item.href} class="hover:text-prussian">
+                  {item.label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom rule -->
+    <div
+      class="mt-12 flex flex-col gap-3 border-t border-cream-dark pt-6 font-mono text-[11px] text-earth-bron md:flex-row md:items-center md:justify-between"
+    >
+      <span>© {year} Kopani · Discovery & compensation infrastructure for independent literature.</span>
+      <span class="italic">Read what the small presses are printing.</span>
+    </div>
+  </div>
+</footer>
