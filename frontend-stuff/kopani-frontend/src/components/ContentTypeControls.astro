@@ -1,0 +1,92 @@
+---
+/**
+ * Local filter/sort controls for content-type pages.
+ *
+ * Used on pages like:
+ * - /poetry
+ * - /essays
+ * - /fiction
+ *
+ * Important:
+ * This is NOT the global site search.
+ * This filters/sorts the cards already rendered on the current page.
+ */
+
+interface Props {
+  /**
+   * Human-readable label shown in the UI.
+   * Example: "Poetry", "Essays", "Fiction"
+   */
+  contentTypeLabel: string;
+
+  /**
+   * Optional custom placeholder.
+   * If omitted, we build one from contentTypeLabel.
+   */
+  placeholder?: string;
+}
+
+const {
+  contentTypeLabel,
+  placeholder = `Filter ${contentTypeLabel.toLowerCase()}...`,
+} = Astro.props;
+
+const inputId = `content-filter-${contentTypeLabel.toLowerCase().replace(/\s+/g, "-")}`;
+const sortId = `content-sort-${contentTypeLabel.toLowerCase().replace(/\s+/g, "-")}`;
+---
+
+<section
+  class="border-b border-cream-dark/60 px-4 py-6 md:px-10"
+  aria-label={`${contentTypeLabel} filter and sort controls`}
+>
+  <div class="grid gap-4 md:grid-cols-[1fr_220px_auto] md:items-end">
+    <!-- Local filter -->
+    <div>
+      <label
+        for={inputId}
+        class="block font-body text-xs uppercase tracking-[0.2em] text-brick"
+      >
+        Filter {contentTypeLabel}
+      </label>
+
+      <input
+        id={inputId}
+        data-content-filter-input
+        type="search"
+        autocomplete="off"
+        placeholder={placeholder}
+        class="mt-2 w-full border border-ink/20 bg-linen px-3 py-2 font-arno text-base text-ink placeholder:text-umber/55 focus:border-brick focus:outline-none"
+      />
+    </div>
+
+    <!-- Local sort -->
+    <div>
+      <label
+        for={sortId}
+        class="block font-body text-xs uppercase tracking-[0.2em] text-brick"
+      >
+        Sort
+      </label>
+
+      <select
+        id={sortId}
+        data-content-sort-select
+        class="mt-2 w-full border border-ink/20 bg-linen px-3 py-2 font-body text-sm text-ink focus:border-brick focus:outline-none"
+      >
+        <option value="default">Default order</option>
+        <option value="title-az">Title A-Z</option>
+        <option value="shortest">Shortest first</option>
+        <option value="longest">Longest first</option>
+      </select>
+    </div>
+
+    <!-- Result count / status -->
+    <p
+      data-content-results-status
+      class="font-body text-xs uppercase tracking-[0.16em] text-umber md:pb-2"
+      aria-live="polite"
+    >
+      Showing all
+    </p>
+  </div>
+</section>

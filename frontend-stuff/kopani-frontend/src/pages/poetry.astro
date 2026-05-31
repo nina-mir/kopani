@@ -2,20 +2,57 @@
 // src/pages/poetry.astro
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Card from "../components/Card.improved.astro";
+import ContentTypeControls from "../components/ContentTypeControls.astro";
 import { getPiecesByContentType } from "../lib/db";
 
 const pieces = getPiecesByContentType("poetry");
 ---
+
 <BaseLayout title="Poetry — Kopani">
   <section class="border-b border-cream-dark/60 px-4 py-10 md:px-10">
-    <p class="font-body text-xs uppercase tracking-[0.24em] text-brick">Browse</p>
-    <h1 class="mt-4 font-display text-5xl leading-none font-light text-ink md:text-7xl">Poetry</h1>
+    <p class="font-body text-xs uppercase tracking-[0.24em] text-brick">
+      Browse
+    </p>
+    <h1
+      class="mt-4 font-display text-5xl leading-none font-light text-ink md:text-7xl"
+    >
+      Poetry
+    </h1>
   </section>
 
+  <ContentTypeControls contentTypeLabel="Poetry" />
+
   <section class="px-4 py-10 md:px-10 md:py-14">
-    <div class="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 xl:grid-cols-3">
+    <div
+      class="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 xl:grid-cols-3"
+      data-content-grid
+    >
       <!-- {pieces.map((piece) => <Card piece={piece} />)} -->
-      {pieces.map((piece, index) => <Card piece={piece} index={index} />)}
+      {
+        pieces.map((piece, index) => (
+          <div
+            data-content-card
+            data-search-text={piece.searchText}
+            data-reading-sort={piece.readingSortMinutes ?? ""}
+            data-title={piece.title}
+            data-original-index={index}
+          >
+            <Card piece={piece} index={index} />
+          </div>
+        ))
+      }
     </div>
+
+    <p
+      data-content-empty
+      hidden
+      class="mt-8 font-arno text-xl italic text-ochre"
+    >
+      No poetry pieces match this filter.
+    </p>
   </section>
 </BaseLayout>
+
+<script>
+  import "../scripts/contentTypePage";
+</script>

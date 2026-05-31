@@ -2,7 +2,13 @@
 
 import Database from 'better-sqlite3';
 import path from 'node:path';
-import { buildSearchIndexItem, type SearchIndexItem } from './searchShared';
+import {
+  buildSearchIndexItem,
+  buildSearchText,
+  getReadingSortMinutes,
+  type SearchIndexItem,
+} from './searchShared';
+
 
 const DB_PATH =
   process.env.KOPANI_DB ?? path.join(process.cwd(), 'data', 'kopani.sqlite');
@@ -38,6 +44,17 @@ export interface PieceCardData {
   imageUrl?: string;
   aiKeywords?: string[];
   featured?: boolean;
+    /**
+   * Normalized metadata-only search text.
+   * Used by local content-type page filtering.
+   */
+  searchText: string;
+
+  /**
+   * Effective reading-time sort value.
+   * Uses source read time when available, otherwise estimates from word count.
+   */
+  readingSortMinutes: number | null;
 }
 
 // ---------------------------------------------------------------------------
@@ -136,7 +153,11 @@ function mapPiece(row: PieceJoinRow): PieceCardData {
     try { aiKeywords = JSON.parse(row.ai_keywords_json); } catch { aiKeywords = []; }
   }
 
-  return {
+  const authors = byRole('author');
+  const translators = byRole('translator');
+  const visualArtists = byRole('visual_artist');
+
+  const piece = {
     title: row.title,
     subtitle: clean(row.subtitle),
     dek: clean(row.summary) ?? clean(row.meta_description),
@@ -145,9 +166,9 @@ function mapPiece(row: PieceJoinRow): PieceCardData {
     journalName: row.journal_name,
     journalUrl: row.journal_url,
     originalUrl: row.original_url, // url for the piece directed to the canonical url on the journal
-    authors: byRole('author'),
-    translators: byRole('translator'),
-    visualArtists: byRole('visual_artist'),
+    authors,
+    translators,
+    visualArtists,
     dateLabel: clean(row.publication_date_display) ?? clean(row.publication_date),
     issueLabel: clean(row.issue_label),
     readTimeMinutes: clean(row.read_time_minutes),
@@ -155,6 +176,12 @@ function mapPiece(row: PieceJoinRow): PieceCardData {
     imageUrl: clean(row.image_url), // Kopani-owned only; mostly NULL → fallback texture
     aiKeywords,
     featured: row.featured === 1,
+  };
+
+  return {
+    ...piece,
+    searchText: buildSearchText(piece),
+    readingSortMinutes: getReadingSortMinutes(piece),
   };
 }
 
