@@ -9,11 +9,12 @@ const navItems = [
   { label: "Reviews", href: "/reviews" },
 ];
 ---
+
 <header class="border-b-[3px] border-double border-ink">
   <div
-    class="grid grid-cols-[44px_1fr_44px] items-center px-4 py-4 md:grid-cols-3 md:px-10 md:py-6"
+    class="grid grid-cols-[44px_1fr_44px] items-center px-4 py-4 md:grid-cols-[1fr_auto_1fr] md:px-10 md:py-6"
   >
-    <!-- Left: hamburger -->
+    <!-- Left: hamburger on mobile, desktop search on larger screens -->
     <div class="justify-self-start self-center">
       <button
         id="nav-toggle"
@@ -21,10 +22,15 @@ const navItems = [
         aria-expanded="false"
         class="flex flex-col gap-1.5 p-2 md:hidden"
       >
-        <span class="block h-[2px] w-[22px] bg-ink/80 "></span>
+        <span class="block h-[2px] w-[22px] bg-ink/80"></span>
         <span class="block h-[2px] w-[22px] bg-ink/75"></span>
         <span class="block h-[2px] w-[22px] bg-ink/70"></span>
       </button>
+
+      <!-- Desktop global search.
+           This is intentionally a normal GET form:
+           typing "memory" submits to /search?q=memory.
+      -->
     </div>
 
     <!-- Center: logo -->
@@ -48,21 +54,48 @@ const navItems = [
     <div class="justify-self-end self-center">
       <div class="w-[44px] md:hidden"></div>
 
-      <nav class="hidden gap-5 font-body text-sm text-umber md:flex">
+      <!-- <nav class="hidden gap-5 font-body text-sm text-umber md:flex">
         <a href="/rss" class="hover:text-prussian">RSS</a>
         <a href="/submit" class="hover:text-prussian">Submit</a>
-      </nav>
+      </nav> -->
+        <form
+        action="/search"
+        method="get"
+        role="search"
+        class="hidden w-[260px] md:block lg:w-[320px]"
+      >
+        <label for="global-search-desktop" class="sr-only">Search Kopani</label>
+
+        <div
+          class="flex items-center border border-ink/20 bg-linen/70 shadow-[2px_2px_0_rgba(28,18,8,0.08)] transition focus-within:border-prussian"
+        >
+          <input
+            id="global-search-desktop"
+            name="q"
+            type="search"
+            autocomplete="off"
+            placeholder="Search Kopani"
+            class="min-w-0 flex-1 bg-transparent px-3 py-2 font-body text-sm text-ink outline-none placeholder:text-umber/45"
+          />
+
+          <button
+            type="submit"
+            class="border-l border-ink/15 px-3 py-2 font-body text-xs uppercase tracking-[0.16em] text-umber transition hover:bg-ink hover:text-linen"
+          >
+            Go
+          </button>
+        </div>
+      </form>
+    
     </div>
 
     <!-- Mobile subtitle -->
     <p
-      class="col-span-3 mt-2 whitespace-nowrap text-center font-arno italic font-normal text-[1rem] text-ochre md:hidden"
+      class="col-span-3 mt-2 whitespace-nowrap text-center font-arno text-[1rem] font-normal italic text-ochre md:hidden"
     >
       The independent literary press, gathered.
     </p>
   </div>
-
-  
 </header>
 
 <!-- Primary nav (desktop only) -->
@@ -102,11 +135,46 @@ const navItems = [
     <button
       id="nav-close"
       aria-label="Close menu"
-      class="font-display text-3xl leading-none text-ink">×</button
+      class="font-display text-3xl leading-none text-ink"
     >
+      ×
+    </button>
   </div>
 
-  <p class="mt-6 font-body text-xs uppercase tracking-[0.2em] text-brick">
+  <!-- Mobile global search.
+       It does the same thing as desktop search:
+       submit to /search?q=...
+  -->
+  <form action="/search" method="get" role="search" class="mt-6">
+    <label
+      for="global-search-mobile"
+      class="block font-body text-xs uppercase tracking-[0.2em] text-brick"
+    >
+      Search Kopani
+    </label>
+
+    <div
+      class="mt-3 flex items-center border border-ink/20 bg-linen/80 shadow-[2px_2px_0_rgba(28,18,8,0.08)] focus-within:border-prussian"
+    >
+      <input
+        id="global-search-mobile"
+        name="q"
+        type="search"
+        autocomplete="off"
+        placeholder="Title, author, journal..."
+        class="min-w-0 flex-1 bg-transparent px-3 py-3 font-body text-base text-ink outline-none placeholder:text-umber/45"
+      />
+
+      <button
+        type="submit"
+        class="border-l border-ink/15 px-3 py-3 font-body text-xs uppercase tracking-[0.16em] text-umber hover:bg-ink hover:text-linen"
+      >
+        Go
+      </button>
+    </div>
+  </form>
+
+  <p class="mt-8 font-body text-xs uppercase tracking-[0.2em] text-brick">
     Browse
   </p>
 
@@ -141,6 +209,7 @@ const navItems = [
     toggle?.setAttribute("aria-expanded", "true");
     document.body.style.overflow = "hidden";
   };
+
   const close = () => {
     drawer?.classList.add("-translate-x-full");
     backdrop?.classList.add("hidden");
@@ -151,6 +220,7 @@ const navItems = [
   toggle?.addEventListener("click", open);
   closeBtn?.addEventListener("click", close);
   backdrop?.addEventListener("click", close);
+
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") close();
   });

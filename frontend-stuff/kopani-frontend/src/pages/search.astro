@@ -1,0 +1,103 @@
+---
+// src/pages/search.astro
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Search — Kopani"
+  description="Search Kopani's gathered index of independent literary publishing."
+>
+  <!-- Editorial intro -->
+  <section class="border-b border-cream-dark/60 px-4 py-10 md:px-10">
+    <div class="max-w-3xl">
+      <p class="font-body text-xs uppercase tracking-[0.24em] text-brick">
+        Search
+      </p>
+
+      <h1 class="mt-4 font-display text-5xl leading-none font-light text-ink md:text-7xl">
+        Search the
+        <span class="italic text-ochre">gathered index.</span>
+      </h1>
+
+      <p class="mt-6 max-w-2xl font-arno text-lg leading-relaxed text-umber">
+        Titles, subtitles, authors, translators, visual artists, journals,
+        content types, descriptions, and keywords — all in one quiet field.
+      </p>
+    </div>
+  </section>
+
+  <!-- Search -->
+  <section class="px-4 py-10 md:px-10 md:py-14">
+    <div class="max-w-3xl">
+      <form id="kopani-search-form" role="search">
+        <label
+          for="kopani-search-input"
+          class="block font-body text-xs uppercase tracking-[0.24em] text-brick"
+        >
+          Search Kopani
+        </label>
+
+        <!-- Manuscript line: a single ruled field rather than a boxed input -->
+        <div class="mt-3 border-b border-ink/30 transition-colors focus-within:border-prussian">
+          <input
+            id="kopani-search-input"
+            name="q"
+            type="search"
+            autocomplete="off"
+            placeholder="memory, Granta, translation, poetry…"
+            class="w-full bg-transparent py-3 font-arno text-2xl text-ink outline-none placeholder:italic placeholder:text-umber/40 md:text-3xl"
+          />
+        </div>
+
+        <!-- Controls: quiet row beneath the line -->
+        <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <label
+              for="kopani-search-sort"
+              class="block font-body text-xs uppercase tracking-[0.2em] text-brick"
+            >
+              Sort
+            </label>
+
+            <select
+              id="kopani-search-sort"
+              name="sort"
+              class="mt-2 border-b border-ink/20 bg-transparent py-1 pr-6 font-body text-base text-ink outline-none focus:border-prussian"
+            >
+              <option value="relevance">Relevance</option>
+              <option value="title-az">Title A–Z</option>
+              <option value="shortest">Shortest first</option>
+              <option value="longest">Longest first</option>
+            </select>
+          </div>
+
+          <button
+            type="submit"
+            class="border border-ink bg-ink px-6 py-3 font-body text-sm uppercase tracking-[0.18em] text-linen transition hover:bg-prussian"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+
+      <!-- Status line -->
+      <div
+        id="kopani-search-status"
+        class="mt-8 font-arno text-base italic text-umber"
+        aria-live="polite"
+      >
+        Loading the index…
+      </div>
+
+      <!-- Results -->
+      <div
+        id="kopani-search-results"
+        class="mt-8 grid grid-cols-1 gap-5"
+      ></div>
+    </div>
+  </section>
+
+  <script>
+    import "../scripts/searchPage";
+  </script>
+</BaseLayout>

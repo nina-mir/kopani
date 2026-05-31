@@ -1,6 +1,8 @@
 // src/lib/db.ts
+
 import Database from 'better-sqlite3';
 import path from 'node:path';
+import { buildSearchIndexItem, type SearchIndexItem } from './searchShared';
 
 const DB_PATH =
   process.env.KOPANI_DB ?? path.join(process.cwd(), 'data', 'kopani.sqlite');
@@ -91,6 +93,18 @@ const contributorsStmt = db.prepare(`
   JOIN authors a ON a.id = pc.author_id
   WHERE pc.piece_id = ?
   ORDER BY pc.role, pc.display_order
+`);
+
+const allPiecesForSearchStmt = db.prepare(`
+  SELECT p.id, p.slug, p.title, p.subtitle, p.summary, p.meta_description,
+         p.original_url,
+         p.content_type, p.publication_date, p.publication_date_display,
+         p.issue_label, p.read_time_minutes, p.word_count_estimate,
+         p.image_url, p.ai_keywords_json, p.featured,
+         j.slug AS journal_slug, j.name AS journal_name, j.homepage_url AS journal_url
+  FROM pieces p
+  JOIN journals j ON j.id = p.journal_id
+  ORDER BY COALESCE(p.publication_date, p.created_at) DESC, p.id DESC
 `);
 
 // ---------------------------------------------------------------------------
@@ -231,6 +245,14 @@ export function getPiecesByContentType(type: string): PieceCardData[] {
 
   return pieceRows.map(mapPiece)
 
+}
+
+export function getSearchIndexItems(): SearchIndexItem[] {
+  const pieceRows = allPiecesForSearchStmt.all() as PieceJoinRow[];
+
+  return pieceRows
+    .map(mapPiece)
+    .map(buildSearchIndexItem);
 }
 
 export default db;

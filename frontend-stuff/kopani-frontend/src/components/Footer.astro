@@ -13,8 +13,8 @@ const browse = [
 const about = [
   { label: "For Campuses", href: "/campuses" },
   { label: "Support a Writer", href: "/support" },
-  { label: "Submit", href: "/submit" },
-  { label: "RSS", href: "/rss" },
+  // { label: "Submit", href: "/submit" },
+  // { label: "RSS", href: "/rss" },
 ];
 
 const year = new Date().getFullYear();
@@ -76,6 +76,34 @@ const year = new Date().getFullYear();
             ))
           }
         </ul>
+        <form
+        action="/search"
+        method="get"
+        role="search"
+        class="hidden w-[260px] md:block lg:w-[320px] mt-5"
+      >
+        <label for="global-search-footer" class="sr-only">Search Kopani</label>
+
+        <div
+          class="flex items-center border border-ink/20 bg-linen/70 shadow-[2px_2px_0_rgba(28,18,8,0.08)] transition focus-within:border-prussian"
+        >
+          <input
+            id="global-search-footer"
+            name="q"
+            type="search"
+            autocomplete="off"
+            placeholder="Search Kopani"
+            class="min-w-0 flex-1 bg-transparent px-3 py-2 font-body text-sm text-ink outline-none placeholder:text-umber/45"
+          />
+
+          <button
+            type="submit"
+            class="border-l border-ink/15 px-3 py-2 font-body text-xs uppercase tracking-[0.16em] text-umber transition hover:bg-ink hover:text-linen"
+          >
+            Go
+          </button>
+        </div>
+      </form>
       </div>
     </div>
 
