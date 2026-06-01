@@ -433,7 +433,8 @@ const pilotMailto =
     <div class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2">
       {
         features.map((f) => (
-          <article class="border border-ink/15 bg-linen/60 p-6 shadow-[2px_2px_0_rgba(28,18,8,0.08)]">
+          // <article class="border border-ink/15 bg-linen/60 p-6 shadow-[2px_2px_0_rgba(28,18,8,0.08)]">
+          <article class="border-t border-cream-dark pt-5">
             <h3 class="font-display text-2xl font-light text-ink">{f.title}</h3>
             <p class="mt-3 font-body text-base leading-relaxed text-umber">
               {f.body}
@@ -444,7 +445,10 @@ const pilotMailto =
     </div>
 
     <p class="mt-8 font-arno text-base italic leading-relaxed text-umber">
-      Try the live index with searches like <em>memory</em>, <em>translation</em>,
+      Try the 
+      <a href="/search" class="text-prussian underline decoration-cream-dark underline-offset-4 hover:decoration-prussian">
+        live index
+      </a> with searches like <em>memory</em>, <em>technology</em>, <em>translation</em>,
       <em> Granta</em>, or a contributor name — then imagine the same surface
       filtered to a specific campus, course, or literary program.
     </p>
@@ -640,8 +644,11 @@ const pilotMailto =
       </p>
     </div>
 
-    <div class="mt-10 overflow-hidden border border-ink/15 bg-linen/60 shadow-[2px_2px_0_rgba(28,18,8,0.08)]">
-      <div class="hidden grid-cols-[1.1fr_1fr_0.8fr_1.2fr] gap-4 border-b border-cream-dark px-5 py-3 font-body text-xs uppercase tracking-[0.16em] text-brick md:grid">
+    <!-- <div class="mt-10 overflow-hidden border border-ink/15 bg-linen/60 shadow-[2px_2px_0_rgba(28,18,8,0.08)]"> -->
+    <div class="mt-10 border-t-2 border-ink/10">
+
+      <!-- <div class="hidden grid-cols-[1.1fr_1fr_0.8fr_1.2fr] gap-4 border-b border-cream-dark px-5 py-3 font-body text-xs uppercase tracking-[0.16em] text-brick md:grid"> -->
+      <div class="hidden grid-cols-[1.1fr_1fr_0.8fr_1.2fr] gap-4 border-b-2 border-ink/5 px-0 py-3 font-body text-xs uppercase tracking-[0.16em] text-brick md:grid">
         <span>Contributor</span>
         <span>Campus</span>
         <span>Signal</span>
@@ -650,7 +657,9 @@ const pilotMailto =
 
       {
         proofRows.map((row) => (
-          <article class="grid gap-3 border-b border-cream-dark/70 px-5 py-5 last:border-b-0 md:grid-cols-[1.1fr_1fr_0.8fr_1.2fr] md:gap-4">
+          // <article class="grid gap-3 border-b border-cream-dark/70 px-5 py-5 last:border-b-0 md:grid-cols-[1.1fr_1fr_0.8fr_1.2fr] md:gap-4">
+          <article class="grid gap-3 border-b border-cream-dark/70 py-5 last:border-b-0 md:grid-cols-[1.1fr_1fr_0.8fr_1.2fr] md:gap-4">
+
             <div>
               <p class="font-display text-2xl font-light leading-tight text-ink">
                 {row.contributor}

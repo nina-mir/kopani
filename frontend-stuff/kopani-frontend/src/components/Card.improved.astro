@@ -197,6 +197,8 @@ const wordCountLabel = wordCountEstimate
 
       <!-- subtle readability wash -->
       <div class="absolute inset-0 bg-linear-to-t from-ink/95 via-ink/20 to-transparent"></div>
+        <!-- NEW: top scrim — mirrors the bottom, supports the kicker + journal name -->
+      <div class="absolute inset-x-0 top-0 h-2/5 bg-linear-to-b from-ink/65 via-ink/15 to-transparent"></div>
     </a>
 
     <!-- FEATURED BADGE -->
@@ -232,7 +234,7 @@ const wordCountLabel = wordCountEstimate
             text-[0.88rem]
             uppercase
             tracking-[0.62em]
-            text-prussian
+            text-umber
             font-bold
           "
         >
@@ -313,13 +315,13 @@ const wordCountLabel = wordCountEstimate
             target="_blank"
             rel="noopener noreferrer"
             class="
+              text-linen      
+              transition 
+              hover:text-ochre   
               inline-block
               font-arno
               text-xl
               italic
-              text-ochre
-              transition
-              hover:text-prussian
             "
           >
             {journalName}
