@@ -1,0 +1,769 @@
+---
+// src/pages/campuses.astro
+import BaseLayout from "../layouts/BaseLayout.astro";
+import contributorUniversityRows from "../../data/contributor-universities.json";
+
+type ContributorUniversityRow = {
+  contributor: string;
+  role: "author" | "translator" | "visual_artist" | string;
+  university: string;
+  relationship: "studied" | "worked" | "taught" | string;
+  journal?: string;
+  pieceTitle?: string;
+};
+
+type InstitutionCard = {
+  university: string;
+  contributorCount: number;
+  authorCount: number;
+  translatorCount: number;
+  visualArtistCount: number;
+  studiedCount: number;
+  workedCount: number;
+  pieceCount: number;
+  journalCount: number;
+  sampleContributors: string[];
+};
+
+const rows = contributorUniversityRows as ContributorUniversityRow[];
+
+// MVP cleanup layer: keep the JSON simple, normalize only for display.
+// Add aliases here when you notice common duplicate institution names.
+const UNIVERSITY_ALIASES: Record<string, string> = {
+  NYU: "New York University",
+  Columbia: "Columbia University",
+  Yale: "Yale University",
+  Stanford: "Stanford University",
+  Berkeley: "UC Berkeley",
+  "University of California, Berkeley": "UC Berkeley",
+  "University of California at Berkeley": "UC Berkeley",
+  Harvard: "Harvard University",
+  "Harvard College": "Harvard University",
+  Princeton: "Princeton University",
+  Bard: "Bard College",
+  CalArts: "California Institute of the Arts",
+  UEA: "University of East Anglia",
+  "Wits University": "University of the Witwatersrand",
+};
+
+function cleanName(value: string | undefined): string {
+  return (value ?? "").trim();
+}
+
+function canonicalUniversity(name: string): string {
+  const clean = cleanName(name);
+  return UNIVERSITY_ALIASES[clean] ?? clean;
+}
+
+function isUsefulContributor(name: string): boolean {
+  const clean = cleanName(name).toLowerCase();
+  return Boolean(clean) && clean !== "unknown" && clean !== "the author";
+}
+
+function formatRole(role: string): string {
+  if (role === "visual_artist") return "visual artist";
+  return role.replaceAll("_", " ");
+}
+
+function formatRelationship(relationship: string): string {
+  if (relationship === "studied") return "studied";
+  return "taught / worked";
+}
+
+function uniqueSorted(values: Iterable<string>): string[] {
+  return Array.from(new Set(Array.from(values).filter(Boolean))).sort((a, b) =>
+    a.localeCompare(b),
+  );
+}
+
+function makeInstitutionCards(sourceRows: ContributorUniversityRow[]): InstitutionCard[] {
+  const buckets = new Map<
+    string,
+    {
+      contributors: Set<string>;
+      authors: Set<string>;
+      translators: Set<string>;
+      visualArtists: Set<string>;
+      studied: Set<string>;
+      worked: Set<string>;
+      pieces: Set<string>;
+      journals: Set<string>;
+    }
+  >();
+
+  for (const row of sourceRows) {
+    const contributor = cleanName(row.contributor);
+    const university = canonicalUniversity(row.university);
+
+    if (!isUsefulContributor(contributor) || !university) continue;
+
+    if (!buckets.has(university)) {
+      buckets.set(university, {
+        contributors: new Set(),
+        authors: new Set(),
+        translators: new Set(),
+        visualArtists: new Set(),
+        studied: new Set(),
+        worked: new Set(),
+        pieces: new Set(),
+        journals: new Set(),
+      });
+    }
+
+    const bucket = buckets.get(university)!;
+    bucket.contributors.add(contributor);
+    if (row.pieceTitle) bucket.pieces.add(row.pieceTitle);
+    if (row.journal) bucket.journals.add(row.journal);
+
+    if (row.role === "author") bucket.authors.add(contributor);
+    if (row.role === "translator") bucket.translators.add(contributor);
+    if (row.role === "visual_artist") bucket.visualArtists.add(contributor);
+
+    if (row.relationship === "studied") bucket.studied.add(contributor);
+    else bucket.worked.add(contributor);
+  }
+
+  return Array.from(buckets.entries())
+    .map(([university, bucket]) => ({
+      university,
+      contributorCount: bucket.contributors.size,
+      authorCount: bucket.authors.size,
+      translatorCount: bucket.translators.size,
+      visualArtistCount: bucket.visualArtists.size,
+      studiedCount: bucket.studied.size,
+      workedCount: bucket.worked.size,
+      pieceCount: bucket.pieces.size,
+      journalCount: bucket.journals.size,
+      sampleContributors: uniqueSorted(bucket.contributors).slice(0, 4),
+    }))
+    .sort((a, b) => b.contributorCount - a.contributorCount);
+}
+
+const institutionCards = makeInstitutionCards(rows);
+const topInstitutions = institutionCards.slice(0, 8);
+const maxContributorCount = topInstitutions[0]?.contributorCount ?? 1;
+
+const uniqueContributors = new Set(
+  rows.map((row) => cleanName(row.contributor)).filter(isUsefulContributor),
+);
+const uniqueUniversities = new Set(
+  rows
+    .map((row) => canonicalUniversity(row.university))
+    .filter((value) => value.length > 0),
+);
+const uniquePieces = new Set(
+  rows.map((row) => cleanName(row.pieceTitle)).filter((value) => value.length > 0),
+);
+const uniqueJournals = new Set(
+  rows.map((row) => cleanName(row.journal)).filter((value) => value.length > 0),
+);
+
+const statCards = [
+  {
+    label: "Contributor-campus signals",
+    value: rows.length.toLocaleString(),
+    note: "study, teaching, and affiliation rows from contributor bios",
+  },
+  {
+    label: "Contributors connected",
+    value: uniqueContributors.size.toLocaleString(),
+    note: "writers, translators, and visual artists with campus ties",
+  },
+  {
+    label: "Institutions surfaced",
+    value: uniqueUniversities.size.toLocaleString(),
+    note: "universities, colleges, art schools, and writing programs",
+  },
+  {
+    label: "Pieces with context",
+    value: uniquePieces.size.toLocaleString(),
+    note: `across ${uniqueJournals.size.toLocaleString()} currently indexed journals`,
+  },
+];
+
+const problems = [
+  {
+    n: "01",
+    title: "Discovery is fragmented",
+    body: "Faculty and students search journal by journal, tab by tab, with no shared map of the independent literary press.",
+  },
+  {
+    n: "02",
+    title: "Classroom fit is invisible",
+    body: "Reading time, genre, contributor roles, translation, visual art, and keywords are rarely visible in one place.",
+  },
+  {
+    n: "03",
+    title: "Campus ties disappear",
+    body: "Contributor bios mention MFAs, teaching posts, art schools, and universities, but those signals are scattered and hard to use.",
+  },
+];
+
+const features = [
+  {
+    title: "Metadata-rich discovery",
+    body: "Search by title, author, translator, artist, journal, content type, description, and AI-enriched keywords.",
+  },
+  {
+    title: "Classroom-friendly browsing",
+    body: "Filter and sort by genre and reading time to build sessions around short, medium, or long pieces.",
+  },
+  {
+    title: "Rights-respecting links",
+    body: "Kopani sends readers to the original journal instead of republishing copyrighted body text.",
+  },
+  {
+    title: "Contributor-aware index",
+    body: "Writers, translators, and visual artists are first-class contributors, not hidden metadata.",
+  },
+];
+
+const campusUseCases = [
+  {
+    title: "Syllabus building",
+    body: "Find a ten-minute essay, a translated poem, a short story, or a visual work that fits a single class session.",
+  },
+  {
+    title: "Alumni storytelling",
+    body: "Show a department which contemporary writers, translators, and artists in Kopani are connected to its campus.",
+  },
+  {
+    title: "Library displays",
+    body: "Build campus-specific reading shelves around alumni authors, translated work, visual art, journals, and global ties.",
+  },
+  {
+    title: "Creative writing workshops",
+    body: "Expose students to contemporary models by form, length, voice, journal, contributor role, and literary pathway.",
+  },
+  {
+    title: "Fundraising conversations",
+    body: "Give advancement teams a cultural graph they can use for donor stories, newsletters, and program impact.",
+  },
+  {
+    title: "Literary programming",
+    body: "Identify visiting-writer candidates, conversation pairings, and campus events grounded in real published work.",
+  },
+];
+
+const readingPaths = [
+  {
+    label: "Path 01",
+    title: "Your campus in contemporary literature",
+    body: "A campus-branded collection of contributors who studied, taught, or worked at the institution.",
+  },
+  {
+    label: "Path 02",
+    title: "Intro to contemporary independent literature",
+    body: "Essays, fiction, poetry, art, and interviews that can fit into a first-week course module.",
+  },
+  {
+    label: "Path 03",
+    title: "Translation & world literature",
+    body: "Translated pieces, multilingual contributors, and global university ties for comparative-literature courses.",
+  },
+  {
+    label: "Path 04",
+    title: "Writing the self: memory & place",
+    body: "Memoir, migration, identity, family, region, and the places writers return to.",
+  },
+];
+
+const proofRows = rows
+  .filter((row) =>
+    [
+      "Hala Alyan",
+      "Anne Carson",
+      "D.M. Aderibigbe",
+      "Refaat Alareer",
+      "Paul Chan",
+      "Franny Choi",
+    ].includes(row.contributor),
+  )
+  .filter((row, index, arr) => {
+    const key = `${row.contributor}|${canonicalUniversity(row.university)}|${row.relationship}|${row.journal}|${row.pieceTitle}`;
+    return arr.findIndex((candidate) => `${candidate.contributor}|${canonicalUniversity(candidate.university)}|${candidate.relationship}|${candidate.journal}|${candidate.pieceTitle}` === key) === index;
+  })
+  .slice(0, 9);
+
+const pilotIncludes = [
+  "Access to Kopani's searchable independent-literature index",
+  "A campus-specific contributor graph generated from Kopani metadata",
+  "Reading-time sorting and starter reading paths for faculty",
+  "Top connected alumni, faculty, journals, pieces, and roles",
+  "Rights-respecting outbound links to original journals",
+  "A lightweight campus page or slide-ready data snapshot",
+];
+
+const visionSignals = [
+  "Saved by readers",
+  "Faculty picks",
+  "Assigned in courses",
+  "Supported by patrons",
+  "Journal pathways",
+  "Contributor networks",
+  "Campus affiliations",
+  "Alumni collections",
+];
+
+const pilotMailto =
+  "mailto:hello@kopani.org?subject=Kopani%20Campus%20Pilot&body=Tell%20us%20about%20your%20campus%2C%20department%2C%20library%2C%20or%20writing%20program%20and%20we%E2%80%99ll%20be%20in%20touch.";
+---
+
+<BaseLayout
+  title="For Campuses — Kopani"
+  description="A searchable, rights-respecting campus reading center powered by Kopani's hidden literary alumni graph."
+>
+  <!-- Hero -->
+  <section class="border-b border-cream-dark/60 px-4 py-12 md:px-10 md:py-16">
+    <div class="grid gap-10 lg:grid-cols-[minmax(0,1.12fr)_minmax(320px,0.88fr)] lg:items-end">
+      <div class="max-w-4xl">
+        <p class="font-body text-sm uppercase tracking-[0.24em] text-brick">
+          For Campuses
+        </p>
+
+        <h1 class="mt-4 font-display text-5xl leading-none font-light text-ink md:text-7xl">
+          A campus reading center powered by the
+          <span class="italic text-ochre">hidden literary alumni graph.</span>
+        </h1>
+
+        <p class="mt-6 max-w-2xl font-arno text-xl leading-relaxed text-umber">
+          Kopani helps universities, libraries, and writing programs discover
+          teachable contemporary writing from the independent literary press —
+          then reveals which writers, translators, visual artists, journals,
+          and pieces are connected to their campus.
+        </p>
+
+        <div class="mt-9 flex flex-wrap items-center gap-4">
+          <a
+            href={pilotMailto}
+            class="border border-ink bg-ink px-6 py-3 font-body text-sm uppercase tracking-[0.18em] text-linen transition hover:bg-prussian"
+          >
+            Request a campus pilot
+          </a>
+          <a
+            href="/search"
+            class="border border-ink/30 px-6 py-3 font-body text-sm uppercase tracking-[0.18em] text-ink transition hover:border-prussian hover:text-prussian"
+          >
+            Explore the index ↗
+          </a>
+        </div>
+      </div>
+
+      <aside class="border border-ink/15 bg-linen/70 p-6 shadow-[3px_3px_0_rgba(28,18,8,0.08)]">
+        <p class="font-body text-xs uppercase tracking-[0.22em] text-brick">
+          MVP campus-data snapshot
+        </p>
+        <div class="mt-5 grid grid-cols-2 gap-4">
+          {
+            statCards.map((stat) => (
+              <div class="border-t border-cream-dark pt-4">
+                <p class="font-display text-4xl font-light leading-none text-ink">
+                  {stat.value}
+                </p>
+                <p class="mt-2 font-body text-xs uppercase tracking-[0.16em] text-ochre">
+                  {stat.label}
+                </p>
+              </div>
+            ))
+          }
+        </div>
+        <p class="mt-5 border-t border-cream-dark pt-4 font-body text-sm leading-relaxed text-umber">
+          Prototype signal from the current Kopani index. One row means one
+          contributor has one relationship to one institution; the page
+          aggregates those rows into campus-facing proof points at build time.
+        </p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- The problem -->
+  <section class="border-b border-cream-dark/60 px-4 py-12 md:px-10 md:py-16">
+    <div class="max-w-3xl">
+      <p class="font-body text-sm uppercase tracking-[0.24em] text-brick">
+        The problem
+      </p>
+      <h2 class="mt-4 font-display text-4xl leading-tight font-light text-ink md:text-5xl">
+        The best contemporary writing is
+        <span class="italic text-ochre">hard to assign and hard to track.</span>
+      </h2>
+      <p class="mt-6 max-w-2xl font-arno text-lg leading-relaxed text-umber">
+        Independent journals publish extraordinary fiction, essays, poetry,
+        interviews, translations, and visual work. But it is scattered across
+        many sites, often hidden after publication, and rarely searchable the
+        way teachers, librarians, alumni teams, and writing programs actually
+        need it.
+      </p>
+    </div>
+
+    <div class="mt-10 grid grid-cols-1 gap-6 md:grid-cols-3">
+      {
+        problems.map((p) => (
+          <article class="border border-ink/15 bg-linen/60 p-6 shadow-[2px_2px_0_rgba(28,18,8,0.08)]">
+            <span class="font-mono text-sm text-brick">{p.n}</span>
+            <h3 class="mt-3 font-display text-2xl font-light text-ink">
+              {p.title}
+            </h3>
+            <p class="mt-3 font-body text-base leading-relaxed text-umber">
+              {p.body}
+            </p>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- The product -->
+  <section class="border-b border-cream-dark/60 px-4 py-12 md:px-10 md:py-16">
+    <div class="max-w-3xl">
+      <p class="font-body text-sm uppercase tracking-[0.24em] text-brick">
+        The product
+      </p>
+      <h2 class="mt-4 font-display text-4xl leading-tight font-light text-ink md:text-5xl">
+        A searchable reading center for the
+        <span class="italic text-ochre">independent literary press.</span>
+      </h2>
+      <p class="mt-6 max-w-2xl font-arno text-lg leading-relaxed text-umber">
+        The current Kopani app already turns pieces, journals, contributors,
+        reading time, descriptions, and keywords into a browseable index. For
+        campuses, that index becomes a tool for syllabi, workshops, library
+        displays, alumni storytelling, and literary programming.
+      </p>
+    </div>
+
+    <div class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2">
+      {
+        features.map((f) => (
+          <article class="border border-ink/15 bg-linen/60 p-6 shadow-[2px_2px_0_rgba(28,18,8,0.08)]">
+            <h3 class="font-display text-2xl font-light text-ink">{f.title}</h3>
+            <p class="mt-3 font-body text-base leading-relaxed text-umber">
+              {f.body}
+            </p>
+          </article>
+        ))
+      }
+    </div>
+
+    <p class="mt-8 font-arno text-base italic leading-relaxed text-umber">
+      Try the live index with searches like <em>memory</em>, <em>translation</em>,
+      <em> Granta</em>, or a contributor name — then imagine the same surface
+      filtered to a specific campus, course, or literary program.
+    </p>
+  </section>
+
+  <!-- Alumni graph proof -->
+  <section class="border-b border-cream-dark/60 px-4 py-12 md:px-10 md:py-16">
+    <div class="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
+      <div class="max-w-2xl">
+        <p class="font-body text-sm uppercase tracking-[0.24em] text-brick">
+          The differentiated layer
+        </p>
+        <h2 class="mt-4 font-display text-4xl leading-tight font-light text-ink md:text-5xl">
+          Universities already live inside literary culture.
+          <span class="italic text-ochre">Kopani makes it visible.</span>
+        </h2>
+        <p class="mt-6 font-arno text-lg leading-relaxed text-umber">
+          A contributor bio may mention an MFA program, a teaching post, an art
+          school, or a university community. Alone, each mention is small.
+          Across hundreds of pieces, they become a map: which campuses are
+          connected to contemporary literature, which journals surface those
+          voices, and which pieces can be taught, displayed, supported, or
+          celebrated.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 gap-5 sm:grid-cols-3">
+        <article class="border border-ink/15 bg-linen/60 p-5 shadow-[2px_2px_0_rgba(28,18,8,0.08)]">
+          <p class="font-body text-xs uppercase tracking-[0.2em] text-brick">
+            For faculty
+          </p>
+          <p class="mt-3 font-display text-2xl font-light leading-tight text-ink">
+            Turn campus ties into course-ready reading paths.
+          </p>
+        </article>
+        <article class="border border-ink/15 bg-linen/60 p-5 shadow-[2px_2px_0_rgba(28,18,8,0.08)]">
+          <p class="font-body text-xs uppercase tracking-[0.2em] text-brick">
+            For libraries
+          </p>
+          <p class="mt-3 font-display text-2xl font-light leading-tight text-ink">
+            Build living displays from contemporary journals.
+          </p>
+        </article>
+        <article class="border border-ink/15 bg-linen/60 p-5 shadow-[2px_2px_0_rgba(28,18,8,0.08)]">
+          <p class="font-body text-xs uppercase tracking-[0.2em] text-brick">
+            For advancement
+          </p>
+          <p class="mt-3 font-display text-2xl font-light leading-tight text-ink">
+            Show cultural impact through writers and artists.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Institution leaderboard -->
+  <section class="border-b border-cream-dark/60 px-4 py-12 md:px-10 md:py-16">
+    <div class="max-w-3xl">
+      <p class="font-body text-sm uppercase tracking-[0.24em] text-brick">
+        Campus graph prototype
+      </p>
+      <h2 class="mt-4 font-display text-4xl leading-tight font-light text-ink md:text-5xl">
+        Top institution signals in the
+        <span class="italic text-ochre">current Kopani index.</span>
+      </h2>
+      <p class="mt-6 max-w-2xl font-arno text-lg leading-relaxed text-umber">
+        This is not a finished data product yet. It is a proof-of-direction:
+        Kopani can convert contributor bios into campus-facing intelligence for
+        alumni relations, courses, library programming, and literary outreach.
+      </p>
+    </div>
+
+    <div class="mt-10 grid grid-cols-1 gap-6 xl:grid-cols-[minmax(0,1.1fr)_minmax(320px,0.9fr)]">
+      <div class="border border-ink/15 bg-linen/60 p-5 shadow-[2px_2px_0_rgba(28,18,8,0.08)] md:p-7">
+        <p class="font-body text-xs uppercase tracking-[0.2em] text-brick">
+          Most connected institutions
+        </p>
+        <div class="mt-6 space-y-5">
+          {
+            topInstitutions.map((institution, index) => (
+              <article>
+                <div class="flex items-baseline justify-between gap-4">
+                  <h3 class="font-display text-2xl font-light leading-tight text-ink">
+                    {index + 1}. {institution.university}
+                  </h3>
+                  <span class="font-mono text-sm text-ochre">
+                    {institution.contributorCount} contributors
+                  </span>
+                </div>
+
+                <div class="mt-3 h-2 border border-ink/15 bg-linen">
+                  <div
+                    class="h-full bg-brick/75"
+                    style={`width: ${(institution.contributorCount / maxContributorCount) * 100}%`}
+                  />
+                </div>
+
+                <p class="mt-2 font-body text-sm leading-relaxed text-umber">
+                  {institution.pieceCount} pieces · {institution.journalCount} journals · {institution.studiedCount} studied · {institution.workedCount} taught/worked
+                </p>
+              </article>
+            ))
+          }
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-1">
+        {
+          topInstitutions.slice(0, 4).map((institution) => (
+            <article class="border border-ink/15 bg-linen/60 p-5 shadow-[2px_2px_0_rgba(28,18,8,0.08)]">
+              <p class="font-body text-xs uppercase tracking-[0.18em] text-brick">
+                Campus card
+              </p>
+              <h3 class="mt-3 font-display text-3xl font-light leading-tight text-ink">
+                {institution.university}
+              </h3>
+              <p class="mt-3 font-body text-sm leading-relaxed text-umber">
+                {institution.contributorCount} contributors · {institution.authorCount} writers · {institution.visualArtistCount} visual artists · {institution.translatorCount} translators
+              </p>
+              <p class="mt-3 font-arno text-base italic leading-relaxed text-ochre">
+                {institution.sampleContributors.join(" · ")}
+              </p>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Campus use cases + reading paths -->
+  <section class="border-b border-cream-dark/60 px-4 py-12 md:px-10 md:py-16">
+    <div class="max-w-3xl">
+      <p class="font-body text-sm uppercase tracking-[0.24em] text-brick">
+        Campus use cases
+      </p>
+      <h2 class="mt-4 font-display text-4xl leading-tight font-light text-ink md:text-5xl">
+        Built for classes, programs, libraries, and
+        <span class="italic text-ochre">alumni communities.</span>
+      </h2>
+    </div>
+
+    <div class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        campusUseCases.map((u) => (
+          <article class="border-l-2 border-cream-dark pl-5">
+            <h3 class="font-display text-2xl font-light text-ink">{u.title}</h3>
+            <p class="mt-2 font-body text-base leading-relaxed text-umber">
+              {u.body}
+            </p>
+          </article>
+        ))
+      }
+    </div>
+
+    <div class="mt-14">
+      <p class="font-body text-sm uppercase tracking-[0.2em] text-earth-bron">
+        Sample campus reading paths
+      </p>
+      <div class="mt-5 grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
+        {
+          readingPaths.map((path) => (
+            <article class="border border-ink/15 bg-linen/60 p-6 shadow-[2px_2px_0_rgba(28,18,8,0.08)]">
+              <span class="font-mono text-xs uppercase tracking-[0.18em] text-brick">
+                {path.label}
+              </span>
+              <h3 class="mt-3 font-display text-xl font-light leading-snug text-ink">
+                {path.title}
+              </h3>
+              <p class="mt-3 font-body text-base leading-relaxed text-umber">
+                {path.body}
+              </p>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Proof rows -->
+  <section class="border-b border-cream-dark/60 px-4 py-12 md:px-10 md:py-16">
+    <div class="max-w-3xl">
+      <p class="font-body text-sm uppercase tracking-[0.24em] text-brick">
+        Example signals
+      </p>
+      <h2 class="mt-4 font-display text-4xl leading-tight font-light text-ink md:text-5xl">
+        From scattered bios to
+        <span class="italic text-ochre">campus intelligence.</span>
+      </h2>
+      <p class="mt-6 max-w-2xl font-arno text-lg leading-relaxed text-umber">
+        These rows are intentionally simple. The MVP data can already answer:
+        who is connected to which institution, in what role, through which
+        journal, and through which piece.
+      </p>
+    </div>
+
+    <div class="mt-10 overflow-hidden border border-ink/15 bg-linen/60 shadow-[2px_2px_0_rgba(28,18,8,0.08)]">
+      <div class="hidden grid-cols-[1.1fr_1fr_0.8fr_1.2fr] gap-4 border-b border-cream-dark px-5 py-3 font-body text-xs uppercase tracking-[0.16em] text-brick md:grid">
+        <span>Contributor</span>
+        <span>Campus</span>
+        <span>Signal</span>
+        <span>Journal / piece</span>
+      </div>
+
+      {
+        proofRows.map((row) => (
+          <article class="grid gap-3 border-b border-cream-dark/70 px-5 py-5 last:border-b-0 md:grid-cols-[1.1fr_1fr_0.8fr_1.2fr] md:gap-4">
+            <div>
+              <p class="font-display text-2xl font-light leading-tight text-ink">
+                {row.contributor}
+              </p>
+              <p class="mt-1 font-body text-xs uppercase tracking-[0.16em] text-ochre">
+                {formatRole(row.role)}
+              </p>
+            </div>
+            <p class="font-body text-base leading-relaxed text-umber">
+              {canonicalUniversity(row.university)}
+            </p>
+            <p class="font-body text-base leading-relaxed text-umber">
+              {formatRelationship(row.relationship)}
+            </p>
+            <p class="font-body text-sm leading-relaxed text-umber">
+              <span class="text-ink">{row.journal}</span>
+              {row.pieceTitle && <> · <span class="italic">{row.pieceTitle}</span></>}
+            </p>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Pilot and pricing -->
+  <section class="border-b border-cream-dark/60 px-4 py-12 md:px-10 md:py-16">
+    <div class="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
+      <div>
+        <p class="font-body text-sm uppercase tracking-[0.24em] text-brick">
+          Pilot model
+        </p>
+        <h2 class="mt-4 font-display text-4xl leading-tight font-light text-ink md:text-5xl">
+          Start with annual campus pilots.
+          <span class="italic text-ochre">Scale into infrastructure.</span>
+        </h2>
+        <p class="mt-6 font-arno text-lg leading-relaxed text-umber">
+          The first version can be sold as a lightweight campus reading center:
+          useful for faculty, libraries, writing programs, and advancement
+          teams without requiring student accounts, payments, or a new LMS.
+        </p>
+      </div>
+
+      <article class="border border-ink/15 bg-linen/60 p-6 shadow-[3px_3px_0_rgba(28,18,8,0.08)] md:p-8">
+        <p class="font-body text-xs uppercase tracking-[0.22em] text-brick">
+          Proposed pilot subscription
+        </p>
+        <p class="mt-4 font-display text-5xl font-light leading-none text-ink">
+          $5k–$15k
+        </p>
+        <p class="mt-2 font-body text-sm uppercase tracking-[0.18em] text-ochre">
+          per campus / year
+        </p>
+        <ul class="mt-6 space-y-3 font-body text-base leading-relaxed text-umber">
+          {
+            pilotIncludes.map((item) => (
+              <li class="flex gap-3">
+                <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-brick" />
+                <span>{item}</span>
+              </li>
+            ))
+          }
+        </ul>
+        <a
+          href={pilotMailto}
+          class="mt-8 inline-flex border border-ink bg-ink px-6 py-3 font-body text-sm uppercase tracking-[0.18em] text-linen transition hover:bg-prussian"
+        >
+          Request a pilot
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Bigger vision -->
+  <section class="px-4 py-12 md:px-10 md:py-16">
+    <div class="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-start">
+      <div>
+        <p class="font-body text-sm uppercase tracking-[0.24em] text-brick">
+          Bigger vision
+        </p>
+        <h2 class="mt-4 font-display text-4xl leading-tight font-light text-ink md:text-5xl">
+          Campus discovery is the wedge.
+          <span class="italic text-ochre">The graph is the moat.</span>
+        </h2>
+        <p class="mt-6 font-arno text-lg leading-relaxed text-umber">
+          As faculty assign pieces, readers save them, journals receive traffic,
+          patrons support writers, and campuses build collections, Kopani can
+          become the reputation and compensation layer for independent
+          literature — a rights-respecting system where cultural value can be
+          discovered, measured, and routed back toward writers, translators,
+          artists, and journals.
+        </p>
+      </div>
+
+      <div class="border border-ink/15 bg-linen/60 p-6 shadow-[2px_2px_0_rgba(28,18,8,0.08)]">
+        <p class="font-body text-xs uppercase tracking-[0.22em] text-brick">
+          Signals Kopani can compound over time
+        </p>
+        <div class="mt-5 flex flex-wrap gap-3">
+          {
+            visionSignals.map((signal) => (
+              <span class="border border-ink/15 bg-linen px-3 py-2 font-body text-sm text-umber">
+                {signal}
+              </span>
+            ))
+          }
+        </div>
+        <p class="mt-6 border-t border-cream-dark pt-5 font-body text-sm leading-relaxed text-umber">
+          Today this page is a polished MVP demo. The business logic is already
+          visible: discovery creates use, use creates reputation data, and the
+          reputation graph creates a path toward campus subscriptions, journal
+          tools, patronage, and writer compensation.
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
