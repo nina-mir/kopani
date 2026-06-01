@@ -5,6 +5,37 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/);
 versions are internal markers, not published releases.
 
 ---
+## [migration] — 2026-06-01
+
+Post-ingest data migration. Run via `migrate_nonfiction_to_essay.py`.
+Not part of `ingest.py`; no schema change.
+
+### Changed
+- **`content_type = "nonfiction"` collapsed to `"essay"` across all
+  journals.** ~99 pieces (Evergreen Review, New Orleans Review, and a
+  handful of Threepenny rows) carried the normalized value `"nonfiction"`,
+  while Granta and most of Threepenny used `"essay"`. The split meant the
+  `/essays` page — which queries `getPiecesByContentType("essay")` with an
+  exact `WHERE p.content_type = ?` match — would have silently orphaned the
+  `nonfiction` rows, leaving them on no content-type page. All
+  `nonfiction` rows now read `"essay"`, so the single exact-match query
+  catches the full set.
+
+### Notes
+- **No data loss; fully reversible.** `content_type_raw` is left untouched,
+  preserving the original source value for audit. The migration also writes
+  a timestamped `.bak` copy of `kopani.sqlite` before applying.
+- **No frontend change required.** `cardVariants.ts` already maps both
+  `essay` and `nonfiction` to the same `nonfiction` spine with the label
+  "Essay," so cards render identically before and after; only the canonical
+  column value changed.
+- **Aligns with existing nav.** `Header_improved.astro` already exposes the
+  route as `/essays` with the label "Essays."
+- `updated_at` bumped on every affected row.
+- Idempotent: re-running finds zero `nonfiction` rows and makes no change.
+- **Rebuild required.** `/search-index.json` is generated at build time from
+  `kopani.sqlite` (via `src/pages/search-index.json.ts`), so re-run the
+  Astro build / restart dev after applying for the grouping to take effect.
 
 ## [0.5.3] — 2026-05-29
 
