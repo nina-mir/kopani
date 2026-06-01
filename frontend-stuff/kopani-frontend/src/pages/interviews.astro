@@ -1,14 +1,14 @@
 ---
-// src/pages/poetry.astro
+// src/pages/interviews.astro
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Card from "../components/Card.improved.astro";
 import ContentTypeControls from "../components/ContentTypeControls.astro";
 import { getPiecesByContentType } from "../lib/db";
 
-const pieces = getPiecesByContentType("essay");
+const pieces = getPiecesByContentType("interview");
 ---
 
-<BaseLayout title="Essay — Kopani">
+<BaseLayout title="Interview — Kopani">
   <section class="border-b border-cream-dark/60 px-4 py-10 md:px-10">
     <p class="font-body text-xs uppercase tracking-[0.24em] text-brick">
       Browse
@@ -16,11 +16,11 @@ const pieces = getPiecesByContentType("essay");
     <h1
       class="mt-4 font-display text-5xl leading-none font-light text-ink md:text-7xl"
     >
-      Essay
+      interview
     </h1>
   </section>
 
-  <ContentTypeControls contentTypeLabel="Essay" />
+  <ContentTypeControls contentTypeLabel="Interview" />
 
   <section class="px-4 py-10 md:px-10 md:py-14">
     <div
@@ -48,7 +48,7 @@ const pieces = getPiecesByContentType("essay");
       hidden
       class="mt-8 font-arno text-xl italic text-ochre"
     >
-      Kopani's current curated index has no nonfiction or essay pieces matching this filter.
+      Kopani's current curated index has no interview pieces matching this filter.
     </p>
   </section>
 </BaseLayout>
