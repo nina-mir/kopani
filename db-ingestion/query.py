@@ -150,6 +150,23 @@ QUERIES: dict[str, Query] = {
         """,
         empty_message="No author slug collisions found.",
     ),
+    "content_type_distribution": Query(
+        name="content_type_distribution",
+        title="Content Type Distribution",
+        description="Counts pieces by normalized content_type, broken out per journal.",
+        sql="""
+            SELECT
+                j.name                          AS journal,
+                COALESCE(p.content_type, '(NULL)') AS content_type,
+                COUNT(*)                        AS piece_count,
+                ROUND(COUNT(*) * 100.0 / SUM(COUNT(*)) OVER (PARTITION BY j.name), 1)
+                                                AS pct_of_journal
+            FROM pieces p
+            JOIN journals j ON j.id = p.journal_id
+            GROUP BY j.name, p.content_type
+            ORDER BY j.name, piece_count DESC;
+        """,
+    ),
     "dek_keyword_coverage": Query(
         name="dek_keyword_coverage",
         title="Dek & Keyword Coverage by Journal",
