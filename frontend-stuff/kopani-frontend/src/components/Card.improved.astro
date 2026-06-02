@@ -177,7 +177,7 @@ const wordCountLabel = wordCountEstimate
     The title and featured badge live ON the image.
   -->
   <div class="relative h-1/2 overflow-hidden">
-    <a href={href} class="absolute inset-0 block">
+    <!-- <a href={href} class="absolute inset-0 block"> -->
       {
         imageUrl ? (
           <img
@@ -199,7 +199,7 @@ const wordCountLabel = wordCountEstimate
       <div class="absolute inset-0 bg-linear-to-t from-ink/95 via-ink/20 to-transparent"></div>
         <!-- NEW: top scrim — mirrors the bottom, supports the kicker + journal name -->
       <div class="absolute inset-x-0 top-0 h-2/5 bg-linear-to-b from-ink/65 via-ink/15 to-transparent"></div>
-    </a>
+    <!-- </a> -->
 
     <!-- FEATURED BADGE -->
     {
@@ -366,7 +366,7 @@ const wordCountLabel = wordCountEstimate
         "
         style="line-height: 1.6;"
       >
-        <a href={href}>
+        <!-- <a href={href}> -->
           <!--
             box-decoration-clone:
             Creates the editorial trailing background effect.
@@ -385,7 +385,7 @@ const wordCountLabel = wordCountEstimate
           >
             {title}
           </span>
-        </a>
+        <!-- </a> -->
       </h2>
 
       {
