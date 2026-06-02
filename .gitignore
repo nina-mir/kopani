@@ -14,8 +14,7 @@ __pycache__/
 # database related 
 kopani-db/
 json/
-data/
-kopani.sqlite
+db-ingestion/kopani.sqlite
 kopani.20260601_112514.bak.sqlite
 db_nonfiction_included
 

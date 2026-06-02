@@ -1,0 +1,4625 @@
+[
+  {
+    "university": "Columbia University",
+    "contributorCount": 24,
+    "authorCount": 23,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 16,
+    "taughtCount": 9,
+    "sampleContributors": [
+      "Alice Maynwaring",
+      "Andrew Solomon",
+      "Bonnie Chau"
+    ]
+  },
+  {
+    "university": "NYU",
+    "contributorCount": 17,
+    "authorCount": 15,
+    "translatorCount": 0,
+    "visualArtistCount": 2,
+    "studiedCount": 13,
+    "taughtCount": 4,
+    "sampleContributors": [
+      "Alan Fang",
+      "Ananya Kanai Shah",
+      "Anne Carson"
+    ]
+  },
+  {
+    "university": "The New School",
+    "contributorCount": 14,
+    "authorCount": 13,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 13,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Aekta Khubchandani",
+      "Alyssa Bianca-Pavley",
+      "Briana Bhola"
+    ]
+  },
+  {
+    "university": "New York University",
+    "contributorCount": 11,
+    "authorCount": 10,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 9,
+    "taughtCount": 4,
+    "sampleContributors": [
+      "Anna Meister",
+      "Ben Still",
+      "Carly Stone"
+    ]
+  },
+  {
+    "university": "Sarah Lawrence College",
+    "contributorCount": 9,
+    "authorCount": 9,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 6,
+    "taughtCount": 3,
+    "sampleContributors": [
+      "Joseph Earl Thomas",
+      "Kamilah Aisha Moon",
+      "Michelle Koufopoulos"
+    ]
+  },
+  {
+    "university": "UC Berkeley",
+    "contributorCount": 9,
+    "authorCount": 9,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 4,
+    "taughtCount": 5,
+    "sampleContributors": [
+      "Ava Guihama Olson",
+      "Bernard Williams",
+      "Jenny Xie"
+    ]
+  },
+  {
+    "university": "Boston University",
+    "contributorCount": 8,
+    "authorCount": 6,
+    "translatorCount": 0,
+    "visualArtistCount": 2,
+    "studiedCount": 6,
+    "taughtCount": 2,
+    "sampleContributors": [
+      "Alice Maynwaring",
+      "D.M. Aderibigbe",
+      "Paige Clark"
+    ]
+  },
+  {
+    "university": "University of Michigan",
+    "contributorCount": 8,
+    "authorCount": 7,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 7,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Anne Carson",
+      "Chris Mccormick",
+      "Darina Sikmashvili"
+    ]
+  },
+  {
+    "university": "Yale University",
+    "contributorCount": 8,
+    "authorCount": 6,
+    "translatorCount": 0,
+    "visualArtistCount": 2,
+    "studiedCount": 6,
+    "taughtCount": 2,
+    "sampleContributors": [
+      "Chelsie Malyszek",
+      "Christopher Schade",
+      "Dur E Aziz Amna"
+    ]
+  },
+  {
+    "university": "Bennington College",
+    "contributorCount": 7,
+    "authorCount": 7,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 4,
+    "taughtCount": 3,
+    "sampleContributors": [
+      "Clifford Thompson",
+      "Esther Sun",
+      "Franny Choi"
+    ]
+  },
+  {
+    "university": "Johns Hopkins University",
+    "contributorCount": 7,
+    "authorCount": 7,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 6,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Alan Fang",
+      "Howard Tharsing",
+      "Jenny Xie"
+    ]
+  },
+  {
+    "university": "Northwestern University",
+    "contributorCount": 7,
+    "authorCount": 6,
+    "translatorCount": 1,
+    "visualArtistCount": 0,
+    "studiedCount": 5,
+    "taughtCount": 2,
+    "sampleContributors": [
+      "Clare Cavanagh",
+      "E. Hughes",
+      "Mary South"
+    ]
+  },
+  {
+    "university": "Stanford University",
+    "contributorCount": 7,
+    "authorCount": 7,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 4,
+    "taughtCount": 5,
+    "sampleContributors": [
+      "Armen Davoudian",
+      "Christian Wiman",
+      "Elizabeth Tallent"
+    ]
+  },
+  {
+    "university": "University of Arizona",
+    "contributorCount": 7,
+    "authorCount": 7,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 7,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Hannah Hindley",
+      "Joel Hans",
+      "Melissa Goodrich And Dana Diehl"
+    ]
+  },
+  {
+    "university": "Harvard",
+    "contributorCount": 6,
+    "authorCount": 6,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 4,
+    "taughtCount": 2,
+    "sampleContributors": [
+      "Amanda Gunn",
+      "April Yee",
+      "Stephanie Burt"
+    ]
+  },
+  {
+    "university": "Loyola University New Orleans",
+    "contributorCount": 6,
+    "authorCount": 6,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 6,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Breanna Henry",
+      "Briana Bhola",
+      "Gabriela Barre"
+    ]
+  },
+  {
+    "university": "Washington University in St. Louis",
+    "contributorCount": 6,
+    "authorCount": 6,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 6,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Ameen Animashaun",
+      "Andy Chen",
+      "Justin Danzy"
+    ]
+  },
+  {
+    "university": "Yale",
+    "contributorCount": 6,
+    "authorCount": 5,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 4,
+    "taughtCount": 2,
+    "sampleContributors": [
+      "Alberto Manguel",
+      "Louise Glück",
+      "Max Nelson"
+    ]
+  },
+  {
+    "university": "Brown University",
+    "contributorCount": 5,
+    "authorCount": 5,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 5,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Aaron Apps",
+      "Ananya Kanai Shah",
+      "Dashiel Carrera"
+    ]
+  },
+  {
+    "university": "Florida State University",
+    "contributorCount": 5,
+    "authorCount": 5,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 5,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Alexa Doran",
+      "Caroline Laganas",
+      "D.M. Aderibigbe"
+    ]
+  },
+  {
+    "university": "Princeton",
+    "contributorCount": 5,
+    "authorCount": 5,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 3,
+    "sampleContributors": [
+      "Alexander Nehamas",
+      "C. K. Williams",
+      "Daisy Fried"
+    ]
+  },
+  {
+    "university": "Arizona State University",
+    "contributorCount": 4,
+    "authorCount": 4,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 4,
+    "taughtCount": 2,
+    "sampleContributors": [
+      "Aria Curtis",
+      "Joel Salcido",
+      "Maritza Estrada"
+    ]
+  },
+  {
+    "university": "Bard College",
+    "contributorCount": 4,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 2,
+    "studiedCount": 2,
+    "taughtCount": 2,
+    "sampleContributors": [
+      "Franz Nicolay",
+      "Ken Buhler",
+      "Layli Long Soldier"
+    ]
+  },
+  {
+    "university": "Indiana University",
+    "contributorCount": 4,
+    "authorCount": 4,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 4,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Kien Lam",
+      "Maggie Su",
+      "Megan Giddings"
+    ]
+  },
+  {
+    "university": "San Francisco State University",
+    "contributorCount": 4,
+    "authorCount": 4,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 4,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Jari Bradley",
+      "Neha Bagchi",
+      "Robin Romm"
+    ]
+  },
+  {
+    "university": "School of Visual Arts",
+    "contributorCount": 4,
+    "authorCount": 3,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 2,
+    "taughtCount": 2,
+    "sampleContributors": [
+      "Daniel Goulden",
+      "Jane Ursula Harris",
+      "Sabrina Mansouri"
+    ]
+  },
+  {
+    "university": "School of the Art Institute of Chicago",
+    "contributorCount": 4,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 2,
+    "studiedCount": 3,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Gabrielle Garland",
+      "Pamela Sneed",
+      "Paul Chan"
+    ]
+  },
+  {
+    "university": "Stanford",
+    "contributorCount": 4,
+    "authorCount": 3,
+    "translatorCount": 1,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 3,
+    "sampleContributors": [
+      "Amanda Gunn",
+      "Eavan Boland",
+      "Louise Glück"
+    ]
+  },
+  {
+    "university": "University of California, Berkeley",
+    "contributorCount": 4,
+    "authorCount": 4,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 3,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Brontez Purnell, Miguel Gutierrez",
+      "Chris Mccormick",
+      "Greil Marcus"
+    ]
+  },
+  {
+    "university": "American University of Beirut",
+    "contributorCount": 3,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 2,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Hala Alyan",
+      "Moustafa Farroukh",
+      "Nur Turkmani"
+    ]
+  },
+  {
+    "university": "Emerson College",
+    "contributorCount": 3,
+    "authorCount": 3,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 3,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Allen M. Price",
+      "Isabella Kestermann",
+      "Zack Lesmeister"
+    ]
+  },
+  {
+    "university": "Hunter College",
+    "contributorCount": 3,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 2,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Carl E. Hazlewood",
+      "Kasey Buckley",
+      "Tom Sleigh"
+    ]
+  },
+  {
+    "university": "Institute of American Indian Arts",
+    "contributorCount": 3,
+    "authorCount": 3,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Erika T. Wurth",
+      "Layli Long Soldier",
+      "Tim Carrier"
+    ]
+  },
+  {
+    "university": "Kenyon College",
+    "contributorCount": 3,
+    "authorCount": 3,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 3,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Chau Anh Nguyen",
+      "Edward Moreta Jr.",
+      "Michelle Lin"
+    ]
+  },
+  {
+    "university": "Louisiana State University",
+    "contributorCount": 3,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 3,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Emily Barnett",
+      "Hayley Phillips",
+      "Monterica Sadé Neil"
+    ]
+  },
+  {
+    "university": "Oberlin College",
+    "contributorCount": 3,
+    "authorCount": 3,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Abbey Mei Otis",
+      "Mike Barthel",
+      "Xandria Phillips"
+    ]
+  },
+  {
+    "university": "Oxford University",
+    "contributorCount": 3,
+    "authorCount": 3,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Annie Fan",
+      "James Fenton",
+      "Nur Turkmani"
+    ]
+  },
+  {
+    "university": "Princeton University",
+    "contributorCount": 3,
+    "authorCount": 3,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 2,
+    "sampleContributors": [
+      "Caroline Bynum",
+      "Yusef Komunyakaa",
+      "Ziya Wang"
+    ]
+  },
+  {
+    "university": "UC Riverside",
+    "contributorCount": 3,
+    "authorCount": 3,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 2,
+    "sampleContributors": [
+      "Juan Felipe Herrera",
+      "Sara Borjas",
+      "Sara Ellen Fowler"
+    ]
+  },
+  {
+    "university": "UCLA",
+    "contributorCount": 3,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 2,
+    "studiedCount": 2,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Bonnie Chau",
+      "Christina McPhee",
+      "Richard Schwamb"
+    ]
+  },
+  {
+    "university": "University of Cape Town",
+    "contributorCount": 3,
+    "authorCount": 3,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 3,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Amina Alaoui Soulimani",
+      "Sandile Ngidi",
+      "Yewande Omotoso"
+    ]
+  },
+  {
+    "university": "University of Denver",
+    "contributorCount": 3,
+    "authorCount": 3,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 3,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Dennis James Sweeney",
+      "Mary Helen Callier",
+      "Nikita Andester"
+    ]
+  },
+  {
+    "university": "University of Houston",
+    "contributorCount": 3,
+    "authorCount": 3,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 3,
+    "sampleContributors": [
+      "Kimiko Hahn",
+      "Michael D. Snediker",
+      "Tony Hoagland"
+    ]
+  },
+  {
+    "university": "University of North Texas",
+    "contributorCount": 3,
+    "authorCount": 3,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 2,
+    "sampleContributors": [
+      "Brian Czyzyk",
+      "Corey Marks",
+      "Lauren Kalstad"
+    ]
+  },
+  {
+    "university": "University of Pennsylvania",
+    "contributorCount": 3,
+    "authorCount": 3,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Joseph Earl Thomas",
+      "Katleho Kano Shoro",
+      "Lise Funderburg"
+    ]
+  },
+  {
+    "university": "University of South Florida",
+    "contributorCount": 3,
+    "authorCount": 3,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 3,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Carmella De Los Angeles Guiol",
+      "Kat Lewis",
+      "Shelby Clark"
+    ]
+  },
+  {
+    "university": "University of Washington",
+    "contributorCount": 3,
+    "authorCount": 3,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 3,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Bea Chang",
+      "Mike Barthel",
+      "V. Batyko"
+    ]
+  },
+  {
+    "university": "Virginia Tech",
+    "contributorCount": 3,
+    "authorCount": 3,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Anuradha Bhowmik",
+      "Sophia Terazawa",
+      "Xandria Phillips"
+    ]
+  },
+  {
+    "university": "Warren Wilson College",
+    "contributorCount": 3,
+    "authorCount": 3,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 3,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Kristen Sahaana Surya",
+      "Olivia Olson",
+      "Tommye Blount"
+    ]
+  },
+  {
+    "university": "Art Center College of Design",
+    "contributorCount": 2,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Dean Sameshima",
+      "Sara Ellen Fowler"
+    ]
+  },
+  {
+    "university": "Barnard College",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Alex Watson",
+      "Malu Halasa"
+    ]
+  },
+  {
+    "university": "Bennington Writing Seminars",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "David Lerner Schwartz",
+      "Michelle Koufopoulos"
+    ]
+  },
+  {
+    "university": "Berkeley",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Lilith Acadia",
+      "Susan Sontag"
+    ]
+  },
+  {
+    "university": "Brandeis University",
+    "contributorCount": 2,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Kyla-Yến Huỳnh Giffin",
+      "Susan Hamburger"
+    ]
+  },
+  {
+    "university": "CUNY Graduate Center",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Dan Hernandez",
+      "Morris Dickstein"
+    ]
+  },
+  {
+    "university": "CalArts",
+    "contributorCount": 2,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 2,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Don Tinling",
+      "the author"
+    ]
+  },
+  {
+    "university": "California Institute of the Arts",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Caroline Laganas",
+      "Gabrielle Civil"
+    ]
+  },
+  {
+    "university": "City College of New York",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Jaime Manrique",
+      "Maud Acheampong"
+    ]
+  },
+  {
+    "university": "Colorado College",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 2,
+    "sampleContributors": [
+      "Natanya Ann Pulley",
+      "Nate Marshall"
+    ]
+  },
+  {
+    "university": "Columbia",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Belén Fernández",
+      "Harrison Hill"
+    ]
+  },
+  {
+    "university": "Cornell University",
+    "contributorCount": 2,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Arthur Dove",
+      "Vincent Hiscock"
+    ]
+  },
+  {
+    "university": "Dartmouth College",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Robert Américo Esnard",
+      "Vievee Francis"
+    ]
+  },
+  {
+    "university": "Eastern Washington University",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Court Harler",
+      "Rebecca Morton"
+    ]
+  },
+  {
+    "university": "George Mason University",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Courtney Angela Brkic",
+      "Lena Crown"
+    ]
+  },
+  {
+    "university": "George Washington University",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 2,
+    "sampleContributors": [
+      "Emma Wu",
+      "Mojgan Ghazirad"
+    ]
+  },
+  {
+    "university": "Harvard College",
+    "contributorCount": 2,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Amanda Guest",
+      "Sabrina Helen Li"
+    ]
+  },
+  {
+    "university": "Lesley University",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Darrian Wesley",
+      "Ọna Anosike"
+    ]
+  },
+  {
+    "university": "Maryland Institute College of Art",
+    "contributorCount": 2,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 2,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Izumi Ueda Yuu",
+      "William Downs"
+    ]
+  },
+  {
+    "university": "Minneapolis College of Art and Design",
+    "contributorCount": 2,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 2,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Alexandre Hogue",
+      "Peggy Casey-Friedman"
+    ]
+  },
+  {
+    "university": "Mount Holyoke College",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Caroline Mao",
+      "[Sarah] Cavar"
+    ]
+  },
+  {
+    "university": "New York City College of Technology",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 2,
+    "sampleContributors": [
+      "Nora Almeida",
+      "Robert Ostrom"
+    ]
+  },
+  {
+    "university": "New York Studio School",
+    "contributorCount": 2,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 2,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Amanda Guest",
+      "Eyal Danieli"
+    ]
+  },
+  {
+    "university": "Northern Arizona University",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 2,
+    "sampleContributors": [
+      "Bo Schwabacher",
+      "Will Cordeiro"
+    ]
+  },
+  {
+    "university": "Ohio State University",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Heather Mccabe",
+      "Matthew Sumpter"
+    ]
+  },
+  {
+    "university": "Parsons School of Design",
+    "contributorCount": 2,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 0,
+    "taughtCount": 2,
+    "sampleContributors": [
+      "Emily Barnett",
+      "Nancy Roach"
+    ]
+  },
+  {
+    "university": "Pratt Institute",
+    "contributorCount": 2,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Carl E. Hazlewood",
+      "Maggie Bard"
+    ]
+  },
+  {
+    "university": "Purdue University",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Brian Czyzyk",
+      "Melissa Fraterrigo"
+    ]
+  },
+  {
+    "university": "Randolph College",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Hayley Phillips",
+      "Na Mee"
+    ]
+  },
+  {
+    "university": "Rhodes University",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Sandile Ngidi",
+      "Vonani Bila"
+    ]
+  },
+  {
+    "university": "Rutgers",
+    "contributorCount": 2,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 2,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Susan Hamburger",
+      "jc lenochan"
+    ]
+  },
+  {
+    "university": "Rutgers University",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Hala Alyan",
+      "Ian Macallen"
+    ]
+  },
+  {
+    "university": "Rutgers University-Newark",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Emily Luan",
+      "Jeremy Clark"
+    ]
+  },
+  {
+    "university": "San Diego State University",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Carson Sandell",
+      "Derold Ernest Sligh"
+    ]
+  },
+  {
+    "university": "Seattle University",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 2,
+    "sampleContributors": [
+      "Daemond Arrindell",
+      "Susan Meyers"
+    ]
+  },
+  {
+    "university": "Smith College",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 2,
+    "sampleContributors": [
+      "Marilyn Chin",
+      "Sigrid Nunez"
+    ]
+  },
+  {
+    "university": "Syracuse University",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Mike Barthel",
+      "Nghiem Tran"
+    ]
+  },
+  {
+    "university": "The University of Alabama",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Bronwyn Valentine",
+      "Sammi Bryan"
+    ]
+  },
+  {
+    "university": "UC Irvine",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Michael Ryan",
+      "Vincent Hiscock"
+    ]
+  },
+  {
+    "university": "UC Santa Cruz",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Luling Osofsky",
+      "Todd Newberry"
+    ]
+  },
+  {
+    "university": "UNC Chapel Hill",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Matt Broaddus",
+      "Zinnia Bynum"
+    ]
+  },
+  {
+    "university": "University College London",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Anna Tyor",
+      "Refaat Alareer"
+    ]
+  },
+  {
+    "university": "University of Alabama",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Diamond Forde",
+      "M.K. Foster"
+    ]
+  },
+  {
+    "university": "University of California at Berkeley",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Sagaree Jain",
+      "T. J. Clark"
+    ]
+  },
+  {
+    "university": "University of Chicago",
+    "contributorCount": 2,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Gabrielle Garland",
+      "Rosanna Warren"
+    ]
+  },
+  {
+    "university": "University of East Anglia",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Anna Ziegler",
+      "April Yee"
+    ]
+  },
+  {
+    "university": "University of Georgia",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Danielle Kotrla",
+      "Ed Pavlić"
+    ]
+  },
+  {
+    "university": "University of Idaho",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Gretchen Schulz",
+      "Sarah Vangundy"
+    ]
+  },
+  {
+    "university": "University of Iowa",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "James Galvin",
+      "Tan Tuck Ming"
+    ]
+  },
+  {
+    "university": "University of Johannesburg",
+    "contributorCount": 2,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Lebohang Kganye",
+      "Tshepiso Seleke"
+    ]
+  },
+  {
+    "university": "University of Lagos",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Chinonso Nzeh",
+      "D.M. Aderibigbe"
+    ]
+  },
+  {
+    "university": "University of Massachusetts, Boston",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 2,
+    "sampleContributors": [
+      "Christopher Craig",
+      "Jill McDonough"
+    ]
+  },
+  {
+    "university": "University of Minnesota",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Megan Giddings",
+      "Torrin A. Greathouse"
+    ]
+  },
+  {
+    "university": "University of Nevada, Las Vegas",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Dan Hernandez",
+      "Ernie Wang"
+    ]
+  },
+  {
+    "university": "University of Pittsburgh",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Elina Zhang",
+      "Jari Bradley"
+    ]
+  },
+  {
+    "university": "University of Utah",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Allison Field Bell",
+      "Kasimma"
+    ]
+  },
+  {
+    "university": "University of Wisconsin-Madison",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Thiahera Nurse",
+      "Zack Lesmeister"
+    ]
+  },
+  {
+    "university": "Vanderbilt University",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Kelsey Norris",
+      "Tiana Clark"
+    ]
+  },
+  {
+    "university": "Vermont College of Fine Arts",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Rebecca Jamieson",
+      "Sammi Labue"
+    ]
+  },
+  {
+    "university": "Wits University",
+    "contributorCount": 2,
+    "authorCount": 2,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 2,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Niq Mhlongo",
+      "Vonani Bila"
+    ]
+  },
+  {
+    "university": "Yale School of Art",
+    "contributorCount": 2,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Leila Seyedzadeh",
+      "Mary Mattingly"
+    ]
+  },
+  {
+    "university": "92Y",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Lynn Melnick"
+    ]
+  },
+  {
+    "university": "Agnes Scott College",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Leticia Urieta"
+    ]
+  },
+  {
+    "university": "Alabama School of Fine Arts",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Ashley M. Jones"
+    ]
+  },
+  {
+    "university": "Alabama State University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Jacqueline Allen Trimble"
+    ]
+  },
+  {
+    "university": "Alfred State College of Ceramics",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Sana Musasama"
+    ]
+  },
+  {
+    "university": "American University of Central Asia",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Raphael Dagold"
+    ]
+  },
+  {
+    "university": "Amherst College",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Carmella De Los Angeles Guiol"
+    ]
+  },
+  {
+    "university": "Anglia Ruskin University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Osieka Osinimu Alao"
+    ]
+  },
+  {
+    "university": "Antioch University Los Angeles",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Raejeana Brooks"
+    ]
+  },
+  {
+    "university": "Appalachian State University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Anna Tyor"
+    ]
+  },
+  {
+    "university": "Art Academy of Cincinnati",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Megan Martin"
+    ]
+  },
+  {
+    "university": "Art Center College",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Richard Schwamb"
+    ]
+  },
+  {
+    "university": "Art Institute of Chicago",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Eldzier Cortor"
+    ]
+  },
+  {
+    "university": "Art Students League",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Carol Bruns"
+    ]
+  },
+  {
+    "university": "Ashland University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Lisa Nikolidakis"
+    ]
+  },
+  {
+    "university": "Atlanta College of Art and Design",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "William Downs"
+    ]
+  },
+  {
+    "university": "BASIS",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Melissa Goodrich And Dana Diehl"
+    ]
+  },
+  {
+    "university": "Bard",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "André Aciman"
+    ]
+  },
+  {
+    "university": "Basis Primary",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Melissa Goodrich And Dana Diehl"
+    ]
+  },
+  {
+    "university": "Beaux-arts de Paris",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Merveille Kelekele Kelekele"
+    ]
+  },
+  {
+    "university": "Beijing University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Wang Ping"
+    ]
+  },
+  {
+    "university": "Bezalel Academy",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Eyal Danieli"
+    ]
+  },
+  {
+    "university": "Binghamton University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Matthew Sumpter"
+    ]
+  },
+  {
+    "university": "Boise State University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Gretchen Schulz"
+    ]
+  },
+  {
+    "university": "Bradley University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Darrian Wesley"
+    ]
+  },
+  {
+    "university": "Brooklyn College",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Jemma Kurbanmuradova"
+    ]
+  },
+  {
+    "university": "Brooklyn Institute for Social Research",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Joseph Earl Thomas"
+    ]
+  },
+  {
+    "university": "Bryn Mawr College",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Sanam Sheriff"
+    ]
+  },
+  {
+    "university": "CCNY",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Susan Hamburger"
+    ]
+  },
+  {
+    "university": "CIS-229",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Gregory Powell"
+    ]
+  },
+  {
+    "university": "California College of the Arts",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Betsy Weis"
+    ]
+  },
+  {
+    "university": "California State University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Elisabeth Houston"
+    ]
+  },
+  {
+    "university": "Calvin University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Jane Zwart"
+    ]
+  },
+  {
+    "university": "Case Western Reserve",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Dave Lucas"
+    ]
+  },
+  {
+    "university": "Cedar Crest College",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Ravneet Kaur Sandhu"
+    ]
+  },
+  {
+    "university": "Chapman University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Danielle Shorr"
+    ]
+  },
+  {
+    "university": "Chicago",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Susan Sontag"
+    ]
+  },
+  {
+    "university": "Chico State University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Ibe Liebenberg"
+    ]
+  },
+  {
+    "university": "City University of New York",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Miriam Fried"
+    ]
+  },
+  {
+    "university": "Clarion West Writers Workshop",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Abbey Mei Otis"
+    ]
+  },
+  {
+    "university": "Cleveland Institute of Art",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Babs Reingold"
+    ]
+  },
+  {
+    "university": "College of New Rochelle",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Gregory Powell"
+    ]
+  },
+  {
+    "university": "Columbia University School of the Arts",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Richard Locke"
+    ]
+  },
+  {
+    "university": "Cranbrook Academy of Art",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Ken Weathersby"
+    ]
+  },
+  {
+    "university": "Deep Springs College",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Jennifer Ruth Keller"
+    ]
+  },
+  {
+    "university": "Denison University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Matthew Moser Miller"
+    ]
+  },
+  {
+    "university": "Duke University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Ariel Dorfman"
+    ]
+  },
+  {
+    "university": "East Washington University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Polly Buckingham"
+    ]
+  },
+  {
+    "university": "Emily Carr University",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Diyan Achjadi"
+    ]
+  },
+  {
+    "university": "Escuela Nacional de Artes Plásticas",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Elizabeth Catlett"
+    ]
+  },
+  {
+    "university": "Everglades Correctional Institution",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Chloe Firetto Toomey"
+    ]
+  },
+  {
+    "university": "Florida International University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Chloe Firetto Toomey"
+    ]
+  },
+  {
+    "university": "Fordham University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Cathy Linh Che"
+    ]
+  },
+  {
+    "university": "Fresno City College",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "David Campos"
+    ]
+  },
+  {
+    "university": "Fresno State",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Sara Borjas"
+    ]
+  },
+  {
+    "university": "Georgia Tech",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Victoria Chang"
+    ]
+  },
+  {
+    "university": "Goddard",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Daemond Arrindell"
+    ]
+  },
+  {
+    "university": "Grinnell College",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Sequoia Nagamatsu"
+    ]
+  },
+  {
+    "university": "HKICC Lee Shau Kee School of Creativity",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Cheng Tim Tim"
+    ]
+  },
+  {
+    "university": "Habib University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Zubair Ibrahim Siddiqui"
+    ]
+  },
+  {
+    "university": "Hampshire College",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Colleen Blackard"
+    ]
+  },
+  {
+    "university": "Harvard University",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 1,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Unknown"
+    ]
+  },
+  {
+    "university": "Helen Zell Writers' Program",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Aozora Brockman"
+    ]
+  },
+  {
+    "university": "Hofstra",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Emily Barnett"
+    ]
+  },
+  {
+    "university": "Holy Cross College",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Steve Vineberg"
+    ]
+  },
+  {
+    "university": "Hong Kong Baptist University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Gabriel Awuah Mainoo"
+    ]
+  },
+  {
+    "university": "Howard University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Chinyere Evelyn Uku"
+    ]
+  },
+  {
+    "university": "Humboldt-Universität zu Berlin",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 1,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Unknown"
+    ]
+  },
+  {
+    "university": "Indiana University Indianapolis",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Mitchell L. H. Douglas"
+    ]
+  },
+  {
+    "university": "Institute of Design in Chicago",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Eldzier Cortor"
+    ]
+  },
+  {
+    "university": "Interlochen Center for the Arts",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Francine J. Harris"
+    ]
+  },
+  {
+    "university": "Iowa State University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Rita Mookerjee"
+    ]
+  },
+  {
+    "university": "Iowa Writers Workshop",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Dean Young"
+    ]
+  },
+  {
+    "university": "Iowa Writers’ Workshop",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Dean Young"
+    ]
+  },
+  {
+    "university": "Islamic University of Gaza",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Refaat Alareer"
+    ]
+  },
+  {
+    "university": "John Burroughs School",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Andy Chen"
+    ]
+  },
+  {
+    "university": "Kennesaw State University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Jenny Sadre-Orafai"
+    ]
+  },
+  {
+    "university": "King Saud University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Tariq al Haydar"
+    ]
+  },
+  {
+    "university": "King's College London",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Lara Longo"
+    ]
+  },
+  {
+    "university": "Kuwasawa Design School",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Izumi Ueda Yuu"
+    ]
+  },
+  {
+    "university": "Lahore University of Management Sciences",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Younis B. Azeem"
+    ]
+  },
+  {
+    "university": "Lake Forest College",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Joshua Corey, Michael Anania"
+    ]
+  },
+  {
+    "university": "Leipzig",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Enis Maci"
+    ]
+  },
+  {
+    "university": "Leipzig University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Megan Giddings"
+    ]
+  },
+  {
+    "university": "Lighthouse Writers Workshop",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Jennifer Wortman"
+    ]
+  },
+  {
+    "university": "London School of Economics",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Nur Turkmani"
+    ]
+  },
+  {
+    "university": "Longwood University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Brandon Haffner"
+    ]
+  },
+  {
+    "university": "Los Angeles County Museum of Art",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Rebecca Farr"
+    ]
+  },
+  {
+    "university": "Loyola High School of Los Angeles",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "F. Douglas Brown"
+    ]
+  },
+  {
+    "university": "Loyola Marymount University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Claire Stanford"
+    ]
+  },
+  {
+    "university": "Lynchburg College",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Christian Wiman"
+    ]
+  },
+  {
+    "university": "Macalester College",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Wang Ping"
+    ]
+  },
+  {
+    "university": "Market Photo Workshop",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Sandile Ngidi"
+    ]
+  },
+  {
+    "university": "Mason Gross School of the Arts, Rutgers University",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Amanda Carter"
+    ]
+  },
+  {
+    "university": "Massachusetts College of Art",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Maggie Bard"
+    ]
+  },
+  {
+    "university": "Massachusetts Institute of Technology",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Sharon Lin"
+    ]
+  },
+  {
+    "university": "McCormick Theological Seminary",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Gregory Powell"
+    ]
+  },
+  {
+    "university": "McGill",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Anne Carson"
+    ]
+  },
+  {
+    "university": "Merrimack College",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Andrea Cohen"
+    ]
+  },
+  {
+    "university": "Michener Center for Writers",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Abbey Mei Otis"
+    ]
+  },
+  {
+    "university": "Minnesota State University, Mankato",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Michael Torres"
+    ]
+  },
+  {
+    "university": "Mississippi University for Women",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Melissa Goodnight"
+    ]
+  },
+  {
+    "university": "Montclair State University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Claudia Cortese"
+    ]
+  },
+  {
+    "university": "Morristown-Beard School",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Raphael Dagold"
+    ]
+  },
+  {
+    "university": "National Taiwan University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Lilith Acadia"
+    ]
+  },
+  {
+    "university": "National University of Singapore",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Melissa Goodrich And Dana Diehl"
+    ]
+  },
+  {
+    "university": "New Mexico State University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Allison Field Bell"
+    ]
+  },
+  {
+    "university": "Northeast Ohio Master of Fine Arts program",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Ali Black"
+    ]
+  },
+  {
+    "university": "Northeastern University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Ọna Anosike"
+    ]
+  },
+  {
+    "university": "Northumbria University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Richard O'Brien"
+    ]
+  },
+  {
+    "university": "Oklahoma State",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "C.E. Mckenna"
+    ]
+  },
+  {
+    "university": "Oklahoma State University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Sophie Ezzell"
+    ]
+  },
+  {
+    "university": "Oregon State University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Dennis James Sweeney"
+    ]
+  },
+  {
+    "university": "Oxford",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Bernard Williams"
+    ]
+  },
+  {
+    "university": "Pepperdine University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Caroline Laganas"
+    ]
+  },
+  {
+    "university": "Portland State University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Colleen Burner"
+    ]
+  },
+  {
+    "university": "Pratt Fine Art department",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Leila Seyedzadeh"
+    ]
+  },
+  {
+    "university": "Pratt Graphic Art Center",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Eldzier Cortor"
+    ]
+  },
+  {
+    "university": "Pratt University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Pamela Sneed"
+    ]
+  },
+  {
+    "university": "Providence College",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Ye Chun"
+    ]
+  },
+  {
+    "university": "Purchase College",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Elizabeth Flood"
+    ]
+  },
+  {
+    "university": "Queens College",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Esther Karin Mngodo, Jay Boss Rubin"
+    ]
+  },
+  {
+    "university": "Queens College, The City University of New York",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Kimiko Hahn"
+    ]
+  },
+  {
+    "university": "Queens University, Belfast",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Jane Hirshfield"
+    ]
+  },
+  {
+    "university": "Reed College",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "C.E. Mckenna"
+    ]
+  },
+  {
+    "university": "Regia Accademia di Belle Arti denominati di San Luca",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Moustafa Farroukh"
+    ]
+  },
+  {
+    "university": "Rhode Island College",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Richard Whitten"
+    ]
+  },
+  {
+    "university": "Rhode Island School of Design",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Bo Joseph"
+    ]
+  },
+  {
+    "university": "Rhode Island School of Design (RISD)",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Liz Collins"
+    ]
+  },
+  {
+    "university": "Rutgers University-Camden",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Emma Wu"
+    ]
+  },
+  {
+    "university": "Rutgers University—Newark",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Cat Fitzpatrick"
+    ]
+  },
+  {
+    "university": "Rutgers-Newark",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Ricardo Hernandez"
+    ]
+  },
+  {
+    "university": "Ryerson University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Sandile Ngidi"
+    ]
+  },
+  {
+    "university": "SUNY Binghamton",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Cole Depuy"
+    ]
+  },
+  {
+    "university": "SUNY Buffalo",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Babs Reingold"
+    ]
+  },
+  {
+    "university": "Sackett Street Writers Workshop",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Rachel Lyon"
+    ]
+  },
+  {
+    "university": "San Francisco Art Institute",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Colter Jacobsen"
+    ]
+  },
+  {
+    "university": "Santa Clara University",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Jessica Dunne"
+    ]
+  },
+  {
+    "university": "Santa Fe University of Art and Design",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Matt Donovan"
+    ]
+  },
+  {
+    "university": "School for Poetic Computation",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Todd Anderson"
+    ]
+  },
+  {
+    "university": "School of the Art Institute Chicago",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Maggie Bard"
+    ]
+  },
+  {
+    "university": "School of the Museum of Fine Arts, Boston",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Henry Samelson"
+    ]
+  },
+  {
+    "university": "Skowhegan School of Painting and Sculpture",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Christopher Schade"
+    ]
+  },
+  {
+    "university": "Southern Illinois University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Sequoia Nagamatsu"
+    ]
+  },
+  {
+    "university": "Southern New Hampshire University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Mojgan Ghazirad"
+    ]
+  },
+  {
+    "university": "St. Andrew’s University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "A. L. Kennedy"
+    ]
+  },
+  {
+    "university": "St. John's University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Catina Bacote"
+    ]
+  },
+  {
+    "university": "St. Olaf College",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Sequoia Nagamatsu"
+    ]
+  },
+  {
+    "university": "Stellenbosch University",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Ashley Walters"
+    ]
+  },
+  {
+    "university": "Susquehanna University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Melissa Goodrich And Dana Diehl"
+    ]
+  },
+  {
+    "university": "TCU",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Lisa Nikolidakis"
+    ]
+  },
+  {
+    "university": "Tehran University of Medical Sciences",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Mojgan Ghazirad"
+    ]
+  },
+  {
+    "university": "Tennessee Wesleyan University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Kristin Robertson"
+    ]
+  },
+  {
+    "university": "Texas State University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Leticia Urieta"
+    ]
+  },
+  {
+    "university": "The British American Drama Academy",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Jessalyn Maguire"
+    ]
+  },
+  {
+    "university": "The City College of New York",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Sana Musasama"
+    ]
+  },
+  {
+    "university": "The Cooper Union",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Rickey Laurentiis"
+    ]
+  },
+  {
+    "university": "The London Academy of Music & Dramatic Art",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Jessalyn Maguire"
+    ]
+  },
+  {
+    "university": "The Michener Center for Writers",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Sam Sax"
+    ]
+  },
+  {
+    "university": "The New Writer's Project",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Dalton Day"
+    ]
+  },
+  {
+    "university": "The Ohio State University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Claudia Owusu"
+    ]
+  },
+  {
+    "university": "The University of Colorado, Boulder",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Michelle Gurule"
+    ]
+  },
+  {
+    "university": "The University of Houston",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Adele Williams"
+    ]
+  },
+  {
+    "university": "The University of Michigan",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Nadia Mota"
+    ]
+  },
+  {
+    "university": "The University of Mississippi",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Joshua Nguyen"
+    ]
+  },
+  {
+    "university": "The University of New Mexico",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Jennifer Givhan"
+    ]
+  },
+  {
+    "university": "The University of Texas at Austin",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Kb Brookins"
+    ]
+  },
+  {
+    "university": "Trieste",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Claudio Magris"
+    ]
+  },
+  {
+    "university": "Tulane University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Matthew Sumpter"
+    ]
+  },
+  {
+    "university": "U Mass-Boston",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Jill McDonough"
+    ]
+  },
+  {
+    "university": "UC Riverside-Palm Desert",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "C.E. Mckenna"
+    ]
+  },
+  {
+    "university": "UC San Diego",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Eileen Myles"
+    ]
+  },
+  {
+    "university": "UCLA Extension Writers’ Program",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Ross Showalter"
+    ]
+  },
+  {
+    "university": "UEA",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Nicole Hazan"
+    ]
+  },
+  {
+    "university": "UMass Boston",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Christopher Schade"
+    ]
+  },
+  {
+    "university": "UMass-Boston",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Jill McDonough"
+    ]
+  },
+  {
+    "university": "UNC Wilmington",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Kaylie Saidin"
+    ]
+  },
+  {
+    "university": "UNLV",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Jean Ho"
+    ]
+  },
+  {
+    "university": "USC",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Jean Ho"
+    ]
+  },
+  {
+    "university": "UT Austin",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Christopher Schade"
+    ]
+  },
+  {
+    "university": "University at Buffalo",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Joshua Corey, Michael Anania"
+    ]
+  },
+  {
+    "university": "University of Aberdeen",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Matthew Moser Miller"
+    ]
+  },
+  {
+    "university": "University of Austin, Texas",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Dean Young"
+    ]
+  },
+  {
+    "university": "University of Benin",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Ikechukwu Ogbu"
+    ]
+  },
+  {
+    "university": "University of California at Davis",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Richard Whitten"
+    ]
+  },
+  {
+    "university": "University of California, Merced",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Mai-Linh Hong"
+    ]
+  },
+  {
+    "university": "University of Central Florida",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "David Lerner Schwartz"
+    ]
+  },
+  {
+    "university": "University of Cincinnati",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "David Lerner Schwartz"
+    ]
+  },
+  {
+    "university": "University of Hawai'i at Manoa",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Shawna Yang Ryan"
+    ]
+  },
+  {
+    "university": "University of Illinois at Urbana-Champaign",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Ángel García"
+    ]
+  },
+  {
+    "university": "University of Illinois-Chicago",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Gregory Powell"
+    ]
+  },
+  {
+    "university": "University of Kansas",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Michael Krueger"
+    ]
+  },
+  {
+    "university": "University of Kentucky",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Kasimma"
+    ]
+  },
+  {
+    "university": "University of KwaZulu-Natal",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Sandile Ngidi"
+    ]
+  },
+  {
+    "university": "University of Kwazulu Natal (UKZN)",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Gudani Ramikosi Bila"
+    ]
+  },
+  {
+    "university": "University of Limpopo",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Vonani Bila"
+    ]
+  },
+  {
+    "university": "University of Louisville",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Kristi Maxwell"
+    ]
+  },
+  {
+    "university": "University of Maine, Orono",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Alex Terrell"
+    ]
+  },
+  {
+    "university": "University of Maryland",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "William Fargason"
+    ]
+  },
+  {
+    "university": "University of Maryland, College Park",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "M.K. Foster"
+    ]
+  },
+  {
+    "university": "University of Massachusetts Boston",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Jill McDonough"
+    ]
+  },
+  {
+    "university": "University of Melbourne",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Paige Clark"
+    ]
+  },
+  {
+    "university": "University of Memphis",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Emily Skaja"
+    ]
+  },
+  {
+    "university": "University of Miami",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Leah Silvieus"
+    ]
+  },
+  {
+    "university": "University of Michigan - Ann Arbor",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Sumita Chakraborty"
+    ]
+  },
+  {
+    "university": "University of Michigan, Ann Arbor",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Jennifer Nelson"
+    ]
+  },
+  {
+    "university": "University of Mississippi",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Sophie Ezzell"
+    ]
+  },
+  {
+    "university": "University of Montana",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Stevie Chedid"
+    ]
+  },
+  {
+    "university": "University of Nebraska",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Joshua Corey, Michael Anania"
+    ]
+  },
+  {
+    "university": "University of Nebraska Omaha",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Maritza Estrada"
+    ]
+  },
+  {
+    "university": "University of Nebraska at Kearney",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Theodora Ziolkowski"
+    ]
+  },
+  {
+    "university": "University of Nevada, Reno at Lake Tahoe",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Court Harler"
+    ]
+  },
+  {
+    "university": "University of New Mexico",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Layli Long Soldier"
+    ]
+  },
+  {
+    "university": "University of New Orleans",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Marigny Beter"
+    ]
+  },
+  {
+    "university": "University of Nigeria, Nsukka",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Ifeanyichukwu Peter Eze"
+    ]
+  },
+  {
+    "university": "University of North Carolina at Charlotte",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Melissa Goodnight"
+    ]
+  },
+  {
+    "university": "University of North Carolina at Greensboro",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Emilia Philips"
+    ]
+  },
+  {
+    "university": "University of Notre Dame",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Joseph Earl Thomas"
+    ]
+  },
+  {
+    "university": "University of Pittsburgh at Bradford",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Tanya Holtland"
+    ]
+  },
+  {
+    "university": "University of Pittsburgh at Greensburg",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Lori Jakiela"
+    ]
+  },
+  {
+    "university": "University of Redlands",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Victoria Lynne Mccoy"
+    ]
+  },
+  {
+    "university": "University of Rochester",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Supritha Rajan"
+    ]
+  },
+  {
+    "university": "University of Science and Culture",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Leila Seyedzadeh"
+    ]
+  },
+  {
+    "university": "University of Southern California",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "V. Batyko"
+    ]
+  },
+  {
+    "university": "University of Southern Mississippi",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "D.M. Aderibigbe"
+    ]
+  },
+  {
+    "university": "University of Strathclyde",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "David Kinloch"
+    ]
+  },
+  {
+    "university": "University of Texas at Austin",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Colleen Blackard"
+    ]
+  },
+  {
+    "university": "University of Texas at Dallas",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Sibyl Kempson"
+    ]
+  },
+  {
+    "university": "University of Texas in Austin",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Dean Young"
+    ]
+  },
+  {
+    "university": "University of Texas, Austin",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Dean Young"
+    ]
+  },
+  {
+    "university": "University of Toronto",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Dashiel Carrera"
+    ]
+  },
+  {
+    "university": "University of Venice",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Daniele Del Giudice"
+    ]
+  },
+  {
+    "university": "University of Virginia",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Elizabeth Rogers"
+    ]
+  },
+  {
+    "university": "University of Wisconsin",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Mika Taylor"
+    ]
+  },
+  {
+    "university": "University of Wisconsin - Madison",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Hajjar Baban"
+    ]
+  },
+  {
+    "university": "University of Wyoming",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Luling Osofsky"
+    ]
+  },
+  {
+    "university": "University of Zululand",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Nelson Ratau"
+    ]
+  },
+  {
+    "university": "University of the Arts London",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "April Yee"
+    ]
+  },
+  {
+    "university": "University of the Arts, Bremen",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Sandile Ngidi"
+    ]
+  },
+  {
+    "university": "University of the Witwatersrand",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Ivan Vladislavić"
+    ]
+  },
+  {
+    "university": "Usmanu Danfodiyo University Sokoto",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Zaynab Bobi"
+    ]
+  },
+  {
+    "university": "Utah Tech University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Cindy King"
+    ]
+  },
+  {
+    "university": "Vassar College",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Nghiem Tran"
+    ]
+  },
+  {
+    "university": "Vermont College of the Arts",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Megan Baxter"
+    ]
+  },
+  {
+    "university": "Virginia Commonwealth University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Danielle Kotrla"
+    ]
+  },
+  {
+    "university": "Washburn University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Eric McHenry"
+    ]
+  },
+  {
+    "university": "Washington University in Saint Louis",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Amanda Carter"
+    ]
+  },
+  {
+    "university": "Washington University in St.Louis",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Sanam Sheriff"
+    ]
+  },
+  {
+    "university": "Wellesley College",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Jessalyn Maguire"
+    ]
+  },
+  {
+    "university": "Western Illinois University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Erika T. Wurth"
+    ]
+  },
+  {
+    "university": "Whitney Museum Independent Study Program",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "S Emsaki"
+    ]
+  },
+  {
+    "university": "Williams",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Louise Glück"
+    ]
+  },
+  {
+    "university": "Williams College",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Suiyi Tang"
+    ]
+  },
+  {
+    "university": "Witwatersrand University",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Lebohang Kganye"
+    ]
+  },
+  {
+    "university": "Worcester State University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 0,
+    "taughtCount": 1,
+    "sampleContributors": [
+      "Rita Mookerjee"
+    ]
+  },
+  {
+    "university": "Yale College",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Anna Ziegler"
+    ]
+  },
+  {
+    "university": "Yale School of Drama",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Nastaran Ahmadi"
+    ]
+  },
+  {
+    "university": "Yale Writers’ Workshop",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Joseph Anthony Cáceres"
+    ]
+  },
+  {
+    "university": "York University",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Faye Guenther"
+    ]
+  },
+  {
+    "university": "l’Académie de la Grande Chaumière",
+    "contributorCount": 1,
+    "authorCount": 0,
+    "translatorCount": 0,
+    "visualArtistCount": 1,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Carol Bruns"
+    ]
+  },
+  {
+    "university": "not specified",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "Kashawn Taylor"
+    ]
+  },
+  {
+    "university": "university of virginia",
+    "contributorCount": 1,
+    "authorCount": 1,
+    "translatorCount": 0,
+    "visualArtistCount": 0,
+    "studiedCount": 1,
+    "taughtCount": 0,
+    "sampleContributors": [
+      "p. hodges adams"
+    ]
+  }
+]

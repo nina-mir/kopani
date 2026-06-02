@@ -1,0 +1,5890 @@
+[
+  {
+    "contributor": "André Aciman",
+    "role": "author",
+    "university": "Bard",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Reflections of an Uncertain Jew"
+  },
+  {
+    "contributor": "Lilith Acadia",
+    "role": "author",
+    "university": "Berkeley",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "After an Argument with my Mother"
+  },
+  {
+    "contributor": "Lilith Acadia",
+    "role": "author",
+    "university": "National Taiwan University",
+    "relationship": "worked",
+    "journal": "New Orleans Review",
+    "pieceTitle": "After an Argument with my Mother"
+  },
+  {
+    "contributor": "Osieka Osinimu Alao",
+    "role": "author",
+    "university": "Anglia Ruskin University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "race: all things impure/ all things impaired"
+  },
+  {
+    "contributor": "Tariq al Haydar",
+    "role": "author",
+    "university": "King Saud University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "A Deficiency of Lyricism"
+  },
+  {
+    "contributor": "Nora Almeida",
+    "role": "author",
+    "university": "New York City College of Technology",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "The Blackout"
+  },
+  {
+    "contributor": "Hala Alyan",
+    "role": "author",
+    "university": "American University of Beirut",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: Pray Like You Mean It"
+  },
+  {
+    "contributor": "Hala Alyan",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: Pray Like You Mean It"
+  },
+  {
+    "contributor": "Hala Alyan",
+    "role": "author",
+    "university": "Rutgers University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: Pray Like You Mean It"
+  },
+  {
+    "contributor": "Briana Bhola",
+    "role": "author",
+    "university": "Loyola University New Orleans",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Amel Khalil"
+  },
+  {
+    "contributor": "Dur E Aziz Amna",
+    "role": "author",
+    "university": "Yale University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "American Smile"
+  },
+  {
+    "contributor": "Ameen Animashaun",
+    "role": "author",
+    "university": "Washington University in St. Louis",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "CONFESSION"
+  },
+  {
+    "contributor": "Ọna Anosike",
+    "role": "author",
+    "university": "Northeastern University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "The Return"
+  },
+  {
+    "contributor": "Ọna Anosike",
+    "role": "author",
+    "university": "Lesley University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "The Return"
+  },
+  {
+    "contributor": "Aaron Apps",
+    "role": "author",
+    "university": "Brown University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Two Poems by Aaron Apps"
+  },
+  {
+    "contributor": "Hajjar Baban",
+    "role": "author",
+    "university": "University of Wisconsin - Madison",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Ode to Majid Al- Maskati who"
+  },
+  {
+    "contributor": "Catina Bacote",
+    "role": "author",
+    "university": "St. John's University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Heavy Lifting"
+  },
+  {
+    "contributor": "Neha Bagchi",
+    "role": "author",
+    "university": "San Francisco State University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Tun-tun Goes to Lahore"
+  },
+  {
+    "contributor": "Mike Barthel",
+    "role": "author",
+    "university": "Oberlin College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Museum Piece"
+  },
+  {
+    "contributor": "Mike Barthel",
+    "role": "author",
+    "university": "Syracuse University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Museum Piece"
+  },
+  {
+    "contributor": "Mike Barthel",
+    "role": "author",
+    "university": "University of Washington",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Museum Piece"
+  },
+  {
+    "contributor": "Megan Baxter",
+    "role": "author",
+    "university": "Vermont College of the Arts",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "A Deliberate ThingI Said Once to My Skin"
+  },
+  {
+    "contributor": "Unknown",
+    "role": "translator",
+    "university": "Harvard University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "The Day My Wife Found a Husband"
+  },
+  {
+    "contributor": "Unknown",
+    "role": "translator",
+    "university": "Humboldt-Universität zu Berlin",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "The Day My Wife Found a Husband"
+  },
+  {
+    "contributor": "Anuradha Bhowmik",
+    "role": "author",
+    "university": "Virginia Tech",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "CLAVICLE"
+  },
+  {
+    "contributor": "Caroline Laganas",
+    "role": "author",
+    "university": "California Institute of the Arts",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Bitter"
+  },
+  {
+    "contributor": "Caroline Laganas",
+    "role": "author",
+    "university": "Pepperdine University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Bitter"
+  },
+  {
+    "contributor": "Ali Black",
+    "role": "author",
+    "university": "Northeast Ohio Master of Fine Arts program",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Queen of All Spaces"
+  },
+  {
+    "contributor": "Tommye Blount",
+    "role": "author",
+    "university": "Warren Wilson College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "There Is Always a Face to Tend to"
+  },
+  {
+    "contributor": "Gabriel Awuah Mainoo",
+    "role": "author",
+    "university": "Hong Kong Baptist University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Blue dementia"
+  },
+  {
+    "contributor": "Eavan Boland",
+    "role": "author",
+    "university": "Stanford",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Nostalgia"
+  },
+  {
+    "contributor": "Sara Borjas",
+    "role": "author",
+    "university": "Fresno State",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "A Heart Can Be Broken Only Once, Like A Window"
+  },
+  {
+    "contributor": "Sara Borjas",
+    "role": "author",
+    "university": "UC Riverside",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "A Heart Can Be Broken Only Once, Like A Window"
+  },
+  {
+    "contributor": "Sara Borjas",
+    "role": "author",
+    "university": "UC Riverside",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "A Heart Can Be Broken Only Once, Like A Window"
+  },
+  {
+    "contributor": "Jari Bradley",
+    "role": "author",
+    "university": "San Francisco State University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Involuntary Exits"
+  },
+  {
+    "contributor": "Jari Bradley",
+    "role": "author",
+    "university": "University of Pittsburgh",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Involuntary Exits"
+  },
+  {
+    "contributor": "Courtney Angela Brkic",
+    "role": "author",
+    "university": "George Mason University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Ashes Above Us"
+  },
+  {
+    "contributor": "Matt Broaddus",
+    "role": "author",
+    "university": "UNC Chapel Hill",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Two Poems by Matt Broaddus"
+  },
+  {
+    "contributor": "Matt Broaddus",
+    "role": "author",
+    "university": "UNC Chapel Hill",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Two Poems by Matt Broaddus"
+  },
+  {
+    "contributor": "Rebecca Brock",
+    "role": "author",
+    "university": "Bennington College",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "You Can’t Even RememberWhat I’m Trying to Forget"
+  },
+  {
+    "contributor": "Aozora Brockman",
+    "role": "author",
+    "university": "Helen Zell Writers' Program",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Light and Moon"
+  },
+  {
+    "contributor": "Kb Brookins",
+    "role": "author",
+    "university": "The University of Texas at Austin",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "“Break up with your gender, I’m bored” and “Shot Number 1”"
+  },
+  {
+    "contributor": "Raejeana Brooks",
+    "role": "author",
+    "university": "Antioch University Los Angeles",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Worm Food Support Group"
+  },
+  {
+    "contributor": "F. Douglas Brown",
+    "role": "author",
+    "university": "Loyola High School of Los Angeles",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "PRINCE-TOUMS* FOR 1999: AUTOMATIC"
+  },
+  {
+    "contributor": "Sammi Bryan",
+    "role": "author",
+    "university": "The University of Alabama",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "& The Dirt"
+  },
+  {
+    "contributor": "Polly Buckingham",
+    "role": "author",
+    "university": "East Washington University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Recalibration"
+  },
+  {
+    "contributor": "Colleen Burner",
+    "role": "author",
+    "university": "Portland State University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Excerpt from Sister Golden Calf"
+  },
+  {
+    "contributor": "Zinnia Bynum",
+    "role": "author",
+    "university": "UNC Chapel Hill",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Attempt to Explain How Dysphoria Feels Using Ripley’s Believe It or Not"
+  },
+  {
+    "contributor": "Caroline Bynum",
+    "role": "author",
+    "university": "Princeton University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Object"
+  },
+  {
+    "contributor": "Caroline Bynum",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Object"
+  },
+  {
+    "contributor": "Nicole Hazan",
+    "role": "author",
+    "university": "UEA",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Cake"
+  },
+  {
+    "contributor": "Mary Helen Callier",
+    "role": "author",
+    "university": "University of Denver",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Night-Blooms, Persephone"
+  },
+  {
+    "contributor": "Mary Helen Callier",
+    "role": "author",
+    "university": "University of Denver",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Night-Blooms, Persephone"
+  },
+  {
+    "contributor": "David Campos",
+    "role": "author",
+    "university": "Fresno City College",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "“Guilt Shower” & “Bad Catholic”"
+  },
+  {
+    "contributor": "Tim Carr",
+    "role": "author",
+    "university": "Sarah Lawrence College",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Work"
+  },
+  {
+    "contributor": "Dashiel Carrera",
+    "role": "author",
+    "university": "Brown University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Excerpt from The Deer"
+  },
+  {
+    "contributor": "Dashiel Carrera",
+    "role": "author",
+    "university": "University of Toronto",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Excerpt from The Deer"
+  },
+  {
+    "contributor": "Tim Carrier",
+    "role": "author",
+    "university": "Institute of American Indian Arts",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Incantatory"
+  },
+  {
+    "contributor": "Anne Carson",
+    "role": "author",
+    "university": "NYU",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Peril"
+  },
+  {
+    "contributor": "Anne Carson",
+    "role": "author",
+    "university": "McGill",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "And Reason Remains Undaunted"
+  },
+  {
+    "contributor": "Anne Carson",
+    "role": "author",
+    "university": "University of Michigan",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "And Reason Remains Undaunted"
+  },
+  {
+    "contributor": "Danielle Kotrla",
+    "role": "author",
+    "university": "Virginia Commonwealth University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Calvary & Self-Portrait"
+  },
+  {
+    "contributor": "Danielle Kotrla",
+    "role": "author",
+    "university": "University of Georgia",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Calvary & Self-Portrait"
+  },
+  {
+    "contributor": "[Sarah] Cavar",
+    "role": "author",
+    "university": "Mount Holyoke College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Speak, Unwoman!"
+  },
+  {
+    "contributor": "Sumita Chakraborty",
+    "role": "author",
+    "university": "University of Michigan - Ann Arbor",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "“Most of the Children Who Lived in This House Are Dead. As a Child I Lived Here. Therefore I Am Dead” and Three Poems"
+  },
+  {
+    "contributor": "Bea Chang",
+    "role": "author",
+    "university": "University of Washington",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Everything We Couldn’t Be"
+  },
+  {
+    "contributor": "Victoria Chang",
+    "role": "author",
+    "university": "Georgia Tech",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Juneau"
+  },
+  {
+    "contributor": "Bonnie Chau",
+    "role": "author",
+    "university": "UCLA",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Newfangled Creature"
+  },
+  {
+    "contributor": "Bonnie Chau",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Newfangled Creature"
+  },
+  {
+    "contributor": "Bonnie Chau",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Stevie Versus the Negative Space"
+  },
+  {
+    "contributor": "Cathy Linh Che",
+    "role": "author",
+    "university": "Fordham University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: Becoming Ghost"
+  },
+  {
+    "contributor": "Cathy Linh Che",
+    "role": "author",
+    "university": "Fordham University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Becoming Ghost"
+  },
+  {
+    "contributor": "Andy Chen",
+    "role": "author",
+    "university": "Washington University in St. Louis",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "If, and Longer"
+  },
+  {
+    "contributor": "Andy Chen",
+    "role": "author",
+    "university": "John Burroughs School",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "If, and Longer"
+  },
+  {
+    "contributor": "Marilyn Chin",
+    "role": "author",
+    "university": "Smith College",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "For Mitsuye Yamada on her 90th Birthday"
+  },
+  {
+    "contributor": "Franny Choi",
+    "role": "author",
+    "university": "Bennington College",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: I Guess By Now I Thought I’d Be Done With Shame"
+  },
+  {
+    "contributor": "Franny Choi",
+    "role": "author",
+    "university": "University of Michigan",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "I Guess By Now I Thought I’d Be Done With Shame"
+  },
+  {
+    "contributor": "Mimi Chubb",
+    "role": "author",
+    "university": "Princeton",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Rendering Life Harmless"
+  },
+  {
+    "contributor": "Jason R. Chun",
+    "role": "author",
+    "university": "The New School",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Damnage"
+  },
+  {
+    "contributor": "Ye Chun",
+    "role": "author",
+    "university": "Providence College",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Milk"
+  },
+  {
+    "contributor": "Gabrielle Civil",
+    "role": "author",
+    "university": "California Institute of the Arts",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "from ( g h o s t  g e s t u r e s )"
+  },
+  {
+    "contributor": "Tiana Clark",
+    "role": "author",
+    "university": "Vanderbilt University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: BNA → LAX"
+  },
+  {
+    "contributor": "Tiana Clark",
+    "role": "author",
+    "university": "Vanderbilt University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "BNA → LAX"
+  },
+  {
+    "contributor": "Paige Clark",
+    "role": "author",
+    "university": "Boston University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Conversations with My Brother About Trees"
+  },
+  {
+    "contributor": "Paige Clark",
+    "role": "author",
+    "university": "University of Melbourne",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Conversations with My Brother About Trees"
+  },
+  {
+    "contributor": "T. J. Clark",
+    "role": "author",
+    "university": "University of California at Berkeley",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Malevich Versus Cinema"
+  },
+  {
+    "contributor": "T. J. Clark",
+    "role": "author",
+    "university": "UC Berkeley",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Flying Home"
+  },
+  {
+    "contributor": "Tia Clark",
+    "role": "author",
+    "university": "Indiana University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "The Girl Gets Whatever She Wants"
+  },
+  {
+    "contributor": "Jeremy Clark",
+    "role": "author",
+    "university": "Rutgers University-Newark",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Two Poems"
+  },
+  {
+    "contributor": "Rachel Cohen",
+    "role": "author",
+    "university": "Sarah Lawrence College",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Looking at Poussin"
+  },
+  {
+    "contributor": "Andrea Cohen",
+    "role": "author",
+    "university": "Merrimack College",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Three Walks"
+  },
+  {
+    "contributor": "Tyrese L. Coleman",
+    "role": "author",
+    "university": "Johns Hopkins University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "When They Fight"
+  },
+  {
+    "contributor": "Will Cordeiro",
+    "role": "author",
+    "university": "Northern Arizona University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "In the Shadows of the Canyon"
+  },
+  {
+    "contributor": "Claudia Cortese",
+    "role": "author",
+    "university": "Montclair State University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "“The first mall” and Other Stories"
+  },
+  {
+    "contributor": "Rio Cortez",
+    "role": "author",
+    "university": "Sarah Lawrence College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Two Poems by Rio Cortez"
+  },
+  {
+    "contributor": "Rio Cortez",
+    "role": "author",
+    "university": "NYU",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Two Poems by Rio Cortez"
+  },
+  {
+    "contributor": "Christopher Craig",
+    "role": "author",
+    "university": "University of Massachusetts, Boston",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Here’s What I Don’t Say"
+  },
+  {
+    "contributor": "Ziya Wang",
+    "role": "author",
+    "university": "Princeton University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Credible Threats"
+  },
+  {
+    "contributor": "Ziya Wang",
+    "role": "author",
+    "university": "NYU",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Credible Threats"
+  },
+  {
+    "contributor": "Kathryn Crim",
+    "role": "author",
+    "university": "UC Berkeley",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "On Erving Goffman"
+  },
+  {
+    "contributor": "Lena Crown",
+    "role": "author",
+    "university": "George Mason University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "The Defense Cascade"
+  },
+  {
+    "contributor": "Alexa Doran",
+    "role": "author",
+    "university": "Florida State University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "[now that there is a cum rag I curl & relapse"
+  },
+  {
+    "contributor": "Aria Curtis",
+    "role": "author",
+    "university": "Arizona State University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Turkish Girls"
+  },
+  {
+    "contributor": "Brian Czyzyk",
+    "role": "author",
+    "university": "University of North Texas",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Atmospheric Conditions"
+  },
+  {
+    "contributor": "Mira Rosenthal",
+    "role": "translator",
+    "university": "Stanford",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Wooden Figure of aHunchbacked Dignitary"
+  },
+  {
+    "contributor": "Raphael Dagold",
+    "role": "author",
+    "university": "American University of Central Asia",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Community"
+  },
+  {
+    "contributor": "Raphael Dagold",
+    "role": "author",
+    "university": "Morristown-Beard School",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Community"
+  },
+  {
+    "contributor": "Raphael Dagold",
+    "role": "author",
+    "university": "American University of Central Asia",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Injury"
+  },
+  {
+    "contributor": "Thomas Dai",
+    "role": "author",
+    "university": "Brown University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Falling Days"
+  },
+  {
+    "contributor": "Thomas Dai",
+    "role": "author",
+    "university": "Harvard",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Falling Days"
+  },
+  {
+    "contributor": "Thomas Dai",
+    "role": "author",
+    "university": "University of Arizona",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Falling Days"
+  },
+  {
+    "contributor": "Justin Danzy",
+    "role": "author",
+    "university": "Washington University in St. Louis",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "The very look of it made me thirsty"
+  },
+  {
+    "contributor": "Armen Davoudian",
+    "role": "author",
+    "university": "Stanford University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Alibi"
+  },
+  {
+    "contributor": "Dalton Day",
+    "role": "author",
+    "university": "The New Writer's Project",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Three Poems by Dalton Day"
+  },
+  {
+    "contributor": "Cole Depuy",
+    "role": "author",
+    "university": "SUNY Binghamton",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Labyrinth"
+  },
+  {
+    "contributor": "Cole Depuy",
+    "role": "author",
+    "university": "SUNY Binghamton",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Labyrinth"
+  },
+  {
+    "contributor": "Morris Dickstein",
+    "role": "author",
+    "university": "CUNY Graduate Center",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Memory Unbound"
+  },
+  {
+    "contributor": "Melissa Goodrich And Dana Diehl",
+    "role": "author",
+    "university": "Susquehanna University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Some Days the Bees are Melancholic"
+  },
+  {
+    "contributor": "Melissa Goodrich And Dana Diehl",
+    "role": "author",
+    "university": "University of Arizona",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Some Days the Bees are Melancholic"
+  },
+  {
+    "contributor": "Melissa Goodrich And Dana Diehl",
+    "role": "author",
+    "university": "University of Arizona",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Some Days the Bees are Melancholic"
+  },
+  {
+    "contributor": "Melissa Goodrich And Dana Diehl",
+    "role": "author",
+    "university": "BASIS",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Some Days the Bees are Melancholic"
+  },
+  {
+    "contributor": "Melissa Goodrich And Dana Diehl",
+    "role": "author",
+    "university": "Arizona State University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Some Days the Bees are Melancholic"
+  },
+  {
+    "contributor": "Melissa Goodrich And Dana Diehl",
+    "role": "author",
+    "university": "Arizona State University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Some Days the Bees are Melancholic"
+  },
+  {
+    "contributor": "Melissa Goodrich And Dana Diehl",
+    "role": "author",
+    "university": "National University of Singapore",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Some Days the Bees are Melancholic"
+  },
+  {
+    "contributor": "Melissa Goodrich And Dana Diehl",
+    "role": "author",
+    "university": "Basis Primary",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Some Days the Bees are Melancholic"
+  },
+  {
+    "contributor": "Matt Donovan",
+    "role": "author",
+    "university": "Santa Fe University of Art and Design",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Villa of the Mysteries, Pompeii"
+  },
+  {
+    "contributor": "Ariel Dorfman",
+    "role": "author",
+    "university": "Duke University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Mariana and Ibarra Are Waiting"
+  },
+  {
+    "contributor": "Mitchell L. H. Douglas",
+    "role": "author",
+    "university": "Indiana University Indianapolis",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Mitchell L. H. Douglas and the Contrapuntal"
+  },
+  {
+    "contributor": "Paul Duguid",
+    "role": "author",
+    "university": "UC Berkeley",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Bibliolatry and Its Discontents"
+  },
+  {
+    "contributor": "Safia Elhillo",
+    "role": "author",
+    "university": "The New School",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "alternate ending"
+  },
+  {
+    "contributor": "Robert Américo Esnard",
+    "role": "author",
+    "university": "Dartmouth College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Dendrochronology of a Family Tree"
+  },
+  {
+    "contributor": "Maritza Estrada",
+    "role": "author",
+    "university": "University of Nebraska Omaha",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Manejo"
+  },
+  {
+    "contributor": "Maritza Estrada",
+    "role": "author",
+    "university": "Arizona State University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Manejo"
+  },
+  {
+    "contributor": "Maritza Estrada",
+    "role": "author",
+    "university": "Arizona State University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Manejo"
+  },
+  {
+    "contributor": "Ifeanyichukwu Peter Eze",
+    "role": "author",
+    "university": "University of Nigeria, Nsukka",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Holding Water"
+  },
+  {
+    "contributor": "Annie Fan",
+    "role": "author",
+    "university": "Oxford University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Self Portrait with Rain"
+  },
+  {
+    "contributor": "Alan Fang",
+    "role": "author",
+    "university": "NYU",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Last Boat Home"
+  },
+  {
+    "contributor": "Alan Fang",
+    "role": "author",
+    "university": "Johns Hopkins University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Last Boat Home"
+  },
+  {
+    "contributor": "William Fargason",
+    "role": "author",
+    "university": "University of Maryland",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Velvet"
+  },
+  {
+    "contributor": "William Fargason",
+    "role": "author",
+    "university": "Florida State University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Velvet"
+  },
+  {
+    "contributor": "Camonghne Felix",
+    "role": "author",
+    "university": "NYU",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "On Entropy"
+  },
+  {
+    "contributor": "V. Batyko",
+    "role": "author",
+    "university": "University of Southern California",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Fell & Spectacle"
+  },
+  {
+    "contributor": "V. Batyko",
+    "role": "author",
+    "university": "University of Washington",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Fell & Spectacle"
+  },
+  {
+    "contributor": "James Fenton",
+    "role": "author",
+    "university": "Oxford University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "What Are We Going to DoAbout the New Philip Larkin?"
+  },
+  {
+    "contributor": "Lauren Kalstad",
+    "role": "author",
+    "university": "New York University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Flamingos Dance at Midnight & Storm Chaser"
+  },
+  {
+    "contributor": "Lauren Kalstad",
+    "role": "author",
+    "university": "University of North Texas",
+    "relationship": "worked",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Flamingos Dance at Midnight & Storm Chaser"
+  },
+  {
+    "contributor": "Diamond Forde",
+    "role": "author",
+    "university": "University of Alabama",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Fat Fuck"
+  },
+  {
+    "contributor": "M.K. Foster",
+    "role": "author",
+    "university": "University of Maryland, College Park",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "“Gods of August (II)” and “Song for My Sister’s Body”"
+  },
+  {
+    "contributor": "M.K. Foster",
+    "role": "author",
+    "university": "University of Alabama",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "“Gods of August (II)” and “Song for My Sister’s Body”"
+  },
+  {
+    "contributor": "Sara Ellen Fowler",
+    "role": "author",
+    "university": "Art Center College of Design",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Shed Project Notes, August 30, 2019—La Madera, NM"
+  },
+  {
+    "contributor": "Sara Ellen Fowler",
+    "role": "author",
+    "university": "UC Riverside",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Shed Project Notes, August 30, 2019—La Madera, NM"
+  },
+  {
+    "contributor": "Vievee Francis",
+    "role": "author",
+    "university": "Dartmouth College",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "She Said, ‘Yes, He Loves Me More’"
+  },
+  {
+    "contributor": "Melissa Fraterrigo",
+    "role": "author",
+    "university": "Purdue University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "The Perils of Girlhood"
+  },
+  {
+    "contributor": "Daisy Fried",
+    "role": "author",
+    "university": "Princeton",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Death"
+  },
+  {
+    "contributor": "Michael Fried",
+    "role": "author",
+    "university": "Johns Hopkins University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "The Fallen Jockey"
+  },
+  {
+    "contributor": "Miriam Fried",
+    "role": "author",
+    "university": "City University of New York",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Assimilation"
+  },
+  {
+    "contributor": "Kasimma",
+    "role": "author",
+    "university": "University of Kentucky",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Full of Grace"
+  },
+  {
+    "contributor": "Kasimma",
+    "role": "author",
+    "university": "University of Utah",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Full of Grace"
+  },
+  {
+    "contributor": "Lise Funderburg",
+    "role": "author",
+    "university": "University of Pennsylvania",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Table Talk"
+  },
+  {
+    "contributor": "Cat Fitzpatrick",
+    "role": "author",
+    "university": "Rutgers University—Newark",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Call Out"
+  },
+  {
+    "contributor": "Brontez Purnell, Miguel Gutierrez",
+    "role": "author",
+    "university": "University of California, Berkeley",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Brontez Purnell in Conversation With Miguel Gutierrez"
+  },
+  {
+    "contributor": "Paul Chan",
+    "role": "visual_artist",
+    "university": "School of the Art Institute of Chicago",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Abolish ICE"
+  },
+  {
+    "contributor": "Paul Chan",
+    "role": "visual_artist",
+    "university": "Bard College",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Abolish ICE"
+  },
+  {
+    "contributor": "D.M. Aderibigbe",
+    "role": "author",
+    "university": "University of Lagos",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "To my Nephew, Who Just Turned 13 (Letter to Teenage Version of Myself) and Other Poems"
+  },
+  {
+    "contributor": "D.M. Aderibigbe",
+    "role": "author",
+    "university": "Boston University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "To my Nephew, Who Just Turned 13 (Letter to Teenage Version of Myself) and Other Poems"
+  },
+  {
+    "contributor": "D.M. Aderibigbe",
+    "role": "author",
+    "university": "Florida State University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "To my Nephew, Who Just Turned 13 (Letter to Teenage Version of Myself) and Other Poems"
+  },
+  {
+    "contributor": "D.M. Aderibigbe",
+    "role": "author",
+    "university": "University of Southern Mississippi",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "To my Nephew, Who Just Turned 13 (Letter to Teenage Version of Myself) and Other Poems"
+  },
+  {
+    "contributor": "Refaat Alareer",
+    "role": "author",
+    "university": "University College London",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Narrating Palestine"
+  },
+  {
+    "contributor": "Refaat Alareer",
+    "role": "author",
+    "university": "Islamic University of Gaza",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Narrating Palestine"
+  },
+  {
+    "contributor": "Todd Anderson",
+    "role": "author",
+    "university": "School for Poetic Computation",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Life’s a Ratchet"
+  },
+  {
+    "contributor": "Sébastien Bernard",
+    "role": "author",
+    "university": "The New School",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "A Kurdish family in aspic: Ebru Ojen’s Lojman , the future"
+  },
+  {
+    "contributor": "Alyssa Bianca-Pavley",
+    "role": "author",
+    "university": "The New School",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Assistant"
+  },
+  {
+    "contributor": "Michael Krueger",
+    "role": "visual_artist",
+    "university": "University of Kansas",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Assistant"
+  },
+  {
+    "contributor": "Vonani Bila",
+    "role": "author",
+    "university": "Rhodes University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "She Forgets and Other Poems"
+  },
+  {
+    "contributor": "Vonani Bila",
+    "role": "author",
+    "university": "Wits University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "She Forgets and Other Poems"
+  },
+  {
+    "contributor": "Vonani Bila",
+    "role": "author",
+    "university": "University of Limpopo",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "She Forgets and Other Poems"
+  },
+  {
+    "contributor": "Lebohang Kganye",
+    "role": "visual_artist",
+    "university": "University of Johannesburg",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "She Forgets and Other Poems"
+  },
+  {
+    "contributor": "Lebohang Kganye",
+    "role": "visual_artist",
+    "university": "Witwatersrand University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "She Forgets and Other Poems"
+  },
+  {
+    "contributor": "Gudani Ramikosi Bila",
+    "role": "author",
+    "university": "University of Kwazulu Natal (UKZN)",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Tribute to the fallen and Other Poems"
+  },
+  {
+    "contributor": "Ashley Walters",
+    "role": "visual_artist",
+    "university": "Stellenbosch University",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Tribute to the fallen and Other Poems"
+  },
+  {
+    "contributor": "Babs Reingold",
+    "role": "visual_artist",
+    "university": "SUNY Buffalo",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "River to the River and Other Poems"
+  },
+  {
+    "contributor": "Babs Reingold",
+    "role": "visual_artist",
+    "university": "Cleveland Institute of Art",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "River to the River and Other Poems"
+  },
+  {
+    "contributor": "Liz Collins",
+    "role": "visual_artist",
+    "university": "Rhode Island School of Design (RISD)",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Word and Object and Other Poems"
+  },
+  {
+    "contributor": "Christina McPhee",
+    "role": "visual_artist",
+    "university": "UCLA",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Delusions of Authenticity and Certainty"
+  },
+  {
+    "contributor": "Keller Easterling",
+    "role": "author",
+    "university": "Yale University",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Crooked and Loose"
+  },
+  {
+    "contributor": "Richard Schwamb",
+    "role": "visual_artist",
+    "university": "UCLA",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Crooked and Loose"
+  },
+  {
+    "contributor": "Richard Schwamb",
+    "role": "visual_artist",
+    "university": "Art Center College",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Crooked and Loose"
+  },
+  {
+    "contributor": "Belén Fernández",
+    "role": "author",
+    "university": "Columbia",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Stronghold"
+  },
+  {
+    "contributor": "Moustafa Farroukh",
+    "role": "visual_artist",
+    "university": "Regia Accademia di Belle Arti denominati di San Luca",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Stronghold"
+  },
+  {
+    "contributor": "Moustafa Farroukh",
+    "role": "visual_artist",
+    "university": "American University of Beirut",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Stronghold"
+  },
+  {
+    "contributor": "Tate Gieselmann",
+    "role": "author",
+    "university": "The New School",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Poppet"
+  },
+  {
+    "contributor": "Henry Samelson",
+    "role": "visual_artist",
+    "university": "School of the Museum of Fine Arts, Boston",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Poppet"
+  },
+  {
+    "contributor": "Daniel Goulden",
+    "role": "author",
+    "university": "The New School",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Winter it Didn’t Snow"
+  },
+  {
+    "contributor": "Daniel Goulden",
+    "role": "author",
+    "university": "School of Visual Arts",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Winter it Didn’t Snow"
+  },
+  {
+    "contributor": "David Kinloch",
+    "role": "author",
+    "university": "University of Strathclyde",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Blue Monkeys"
+  },
+  {
+    "contributor": "Rachel Lyon",
+    "role": "author",
+    "university": "Sackett Street Writers Workshop",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Tell Me Truly of My Dear Child If You Have Seen Her Anywhere"
+  },
+  {
+    "contributor": "Rachel Lyon",
+    "role": "author",
+    "university": "Bennington College",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Tell Me Truly of My Dear Child If You Have Seen Her Anywhere"
+  },
+  {
+    "contributor": "Jane Marchant",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Girls of Cottage Grove"
+  },
+  {
+    "contributor": "Eyal Danieli",
+    "role": "visual_artist",
+    "university": "Bezalel Academy",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Homefront: Notes on Gaza, Language, Family, and the Art World"
+  },
+  {
+    "contributor": "Eyal Danieli",
+    "role": "visual_artist",
+    "university": "New York Studio School",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Homefront: Notes on Gaza, Language, Family, and the Art World"
+  },
+  {
+    "contributor": "Niq Mhlongo",
+    "role": "author",
+    "university": "Wits University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "A Walk in the Park"
+  },
+  {
+    "contributor": "Ken Buhler",
+    "role": "visual_artist",
+    "university": "Bard College",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "stome and Other Poems"
+  },
+  {
+    "contributor": "Sandile Ngidi",
+    "role": "author",
+    "university": "University of Cape Town",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Thamsanqa’s Groove / Ziyakhala"
+  },
+  {
+    "contributor": "Merveille Kelekele Kelekele",
+    "role": "visual_artist",
+    "university": "Beaux-arts de Paris",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Thamsanqa’s Groove / Ziyakhala"
+  },
+  {
+    "contributor": "Selen Ozturk",
+    "role": "author",
+    "university": "UC Berkeley",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Fruit Fly and Other Poems"
+  },
+  {
+    "contributor": "Colleen Blackard",
+    "role": "visual_artist",
+    "university": "Hampshire College",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Fruit Fly and Other Poems"
+  },
+  {
+    "contributor": "Colleen Blackard",
+    "role": "visual_artist",
+    "university": "University of Texas at Austin",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Fruit Fly and Other Poems"
+  },
+  {
+    "contributor": "Ed Pavlić",
+    "role": "author",
+    "university": "University of Georgia",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Heaven Knows"
+  },
+  {
+    "contributor": "Hayley Phillips",
+    "role": "author",
+    "university": "Randolph College",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Digging Quartz and Other Poems"
+  },
+  {
+    "contributor": "Hayley Phillips",
+    "role": "author",
+    "university": "Louisiana State University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Digging Quartz and Other Poems"
+  },
+  {
+    "contributor": "Nelson Ratau",
+    "role": "author",
+    "university": "University of Zululand",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Martyred mother and Other Poems"
+  },
+  {
+    "contributor": "Ashley Walters",
+    "role": "visual_artist",
+    "university": "Stellenbosch University",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Martyred mother and Other Poems"
+  },
+  {
+    "contributor": "Amina Alaoui Soulimani",
+    "role": "author",
+    "university": "University of Cape Town",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "On the foreignness of familiarity"
+  },
+  {
+    "contributor": "Peggy Casey-Friedman",
+    "role": "visual_artist",
+    "university": "Minneapolis College of Art and Design",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Tree and Other Poems"
+  },
+  {
+    "contributor": "Nur Turkmani",
+    "role": "author",
+    "university": "Oxford University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "My Year of Magical Realism"
+  },
+  {
+    "contributor": "Nur Turkmani",
+    "role": "author",
+    "university": "London School of Economics",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "My Year of Magical Realism"
+  },
+  {
+    "contributor": "Nur Turkmani",
+    "role": "author",
+    "university": "American University of Beirut",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "My Year of Magical Realism"
+  },
+  {
+    "contributor": "Ashley Walters",
+    "role": "visual_artist",
+    "university": "Stellenbosch University",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "A Lien on Our Minds and Bodies"
+  },
+  {
+    "contributor": "Peyton Haggerty Brown",
+    "role": "visual_artist",
+    "university": "University of Michigan",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Machine™"
+  },
+  {
+    "contributor": "jc lenochan",
+    "role": "visual_artist",
+    "university": "Rutgers",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Arewa Boys"
+  },
+  {
+    "contributor": "Daemond Arrindell",
+    "role": "author",
+    "university": "Seattle University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Infamy and Other Poems"
+  },
+  {
+    "contributor": "Daemond Arrindell",
+    "role": "author",
+    "university": "Goddard",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Infamy and Other Poems"
+  },
+  {
+    "contributor": "Daemond Arrindell",
+    "role": "author",
+    "university": "Seattle University",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Infamy and Other Poems"
+  },
+  {
+    "contributor": "Carl E. Hazlewood",
+    "role": "visual_artist",
+    "university": "Pratt Institute",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Infamy and Other Poems"
+  },
+  {
+    "contributor": "Carl E. Hazlewood",
+    "role": "visual_artist",
+    "university": "Hunter College",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Infamy and Other Poems"
+  },
+  {
+    "contributor": "Colter Jacobsen",
+    "role": "visual_artist",
+    "university": "San Francisco Art Institute",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Music Teacher"
+  },
+  {
+    "contributor": "Stephanie Burt",
+    "role": "author",
+    "university": "Harvard",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "At the Grave of Walter Mondale and Other Poems"
+  },
+  {
+    "contributor": "Betsy Weis",
+    "role": "visual_artist",
+    "university": "California College of the Arts",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "At the Grave of Walter Mondale and Other Poems"
+  },
+  {
+    "contributor": "Betsy Weis",
+    "role": "visual_artist",
+    "university": "NYU",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "At the Grave of Walter Mondale and Other Poems"
+  },
+  {
+    "contributor": "Jessica Dunne",
+    "role": "visual_artist",
+    "university": "Santa Clara University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Rail-track Radio Station"
+  },
+  {
+    "contributor": "Carol Bruns",
+    "role": "visual_artist",
+    "university": "NYU",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "If Bruce Springsteen was a lesbian"
+  },
+  {
+    "contributor": "Carol Bruns",
+    "role": "visual_artist",
+    "university": "Art Students League",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "If Bruce Springsteen was a lesbian"
+  },
+  {
+    "contributor": "Carol Bruns",
+    "role": "visual_artist",
+    "university": "l’Académie de la Grande Chaumière",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "If Bruce Springsteen was a lesbian"
+  },
+  {
+    "contributor": "Gabrielle Garland",
+    "role": "visual_artist",
+    "university": "School of the Art Institute of Chicago",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Robbie gave you a blush pink crystal and Other Poems"
+  },
+  {
+    "contributor": "Gabrielle Garland",
+    "role": "visual_artist",
+    "university": "University of Chicago",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Robbie gave you a blush pink crystal and Other Poems"
+  },
+  {
+    "contributor": "Susan Hamburger",
+    "role": "visual_artist",
+    "university": "Brandeis University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Silent Upon a Peak"
+  },
+  {
+    "contributor": "Susan Hamburger",
+    "role": "visual_artist",
+    "university": "Rutgers",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Silent Upon a Peak"
+  },
+  {
+    "contributor": "Susan Hamburger",
+    "role": "visual_artist",
+    "university": "CCNY",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Silent Upon a Peak"
+  },
+  {
+    "contributor": "Arthur Dove",
+    "role": "visual_artist",
+    "university": "Cornell University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Ford for Mayor"
+  },
+  {
+    "contributor": "Mary Mattingly",
+    "role": "visual_artist",
+    "university": "Yale School of Art",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Origins According to Stone Swimmer and Other Poems"
+  },
+  {
+    "contributor": "Christopher Schade",
+    "role": "visual_artist",
+    "university": "UT Austin",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "My Heart and the Parts of You That Break"
+  },
+  {
+    "contributor": "Christopher Schade",
+    "role": "visual_artist",
+    "university": "Yale University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "My Heart and the Parts of You That Break"
+  },
+  {
+    "contributor": "Christopher Schade",
+    "role": "visual_artist",
+    "university": "Skowhegan School of Painting and Sculpture",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "My Heart and the Parts of You That Break"
+  },
+  {
+    "contributor": "Christopher Schade",
+    "role": "visual_artist",
+    "university": "UMass Boston",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "My Heart and the Parts of You That Break"
+  },
+  {
+    "contributor": "Sibyl Kempson",
+    "role": "author",
+    "university": "University of Texas at Dallas",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "HEXALOGY OF HAGSPLOITATION: Hepzibah 11.21.25"
+  },
+  {
+    "contributor": "Porochista Khakpour, Sahar Delijani",
+    "role": "author",
+    "university": "University of California, Berkeley",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "An Interview with Sahar Delijani"
+  },
+  {
+    "contributor": "Jaime Manrique",
+    "role": "author",
+    "university": "City College of New York",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Picture of Iris Owen"
+  },
+  {
+    "contributor": "Jaime Manrique",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Picture of Iris Owen"
+  },
+  {
+    "contributor": "Alice Maynwaring",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "[DAS VIDEOSPIEL] Beautiful Suffering"
+  },
+  {
+    "contributor": "Alice Maynwaring",
+    "role": "author",
+    "university": "Boston University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "[DAS VIDEOSPIEL] Beautiful Suffering"
+  },
+  {
+    "contributor": "Esther Karin Mngodo, Jay Boss Rubin",
+    "role": "author",
+    "university": "Queens College",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Witness of Nina Mvungi"
+  },
+  {
+    "contributor": "Jerome Ellison Murphy",
+    "role": "author",
+    "university": "New York University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Mother Nature Doesn’t Care If You’re Ignorant"
+  },
+  {
+    "contributor": "Jerome Ellison Murphy",
+    "role": "author",
+    "university": "New York University",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Mother Nature Doesn’t Care If You’re Ignorant"
+  },
+  {
+    "contributor": "S Emsaki",
+    "role": "visual_artist",
+    "university": "Whitney Museum Independent Study Program",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Mother Nature Doesn’t Care If You’re Ignorant"
+  },
+  {
+    "contributor": "Sandile Ngidi",
+    "role": "author",
+    "university": "University of KwaZulu-Natal",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Facing the Unspeakable: An Interview with Zanele Muholi"
+  },
+  {
+    "contributor": "Sandile Ngidi",
+    "role": "author",
+    "university": "Rhodes University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Facing the Unspeakable: An Interview with Zanele Muholi"
+  },
+  {
+    "contributor": "Sandile Ngidi",
+    "role": "author",
+    "university": "Market Photo Workshop",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Facing the Unspeakable: An Interview with Zanele Muholi"
+  },
+  {
+    "contributor": "Sandile Ngidi",
+    "role": "author",
+    "university": "Ryerson University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Facing the Unspeakable: An Interview with Zanele Muholi"
+  },
+  {
+    "contributor": "Sandile Ngidi",
+    "role": "author",
+    "university": "University of the Arts, Bremen",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Facing the Unspeakable: An Interview with Zanele Muholi"
+  },
+  {
+    "contributor": "Chinonso Nzeh",
+    "role": "author",
+    "university": "University of Lagos",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Afụnwaelotanna"
+  },
+  {
+    "contributor": "Carol Bruns",
+    "role": "visual_artist",
+    "university": "NYU",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Afụnwaelotanna"
+  },
+  {
+    "contributor": "Carol Bruns",
+    "role": "visual_artist",
+    "university": "Art Students League",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Afụnwaelotanna"
+  },
+  {
+    "contributor": "Carol Bruns",
+    "role": "visual_artist",
+    "university": "l’Académie de la Grande Chaumière",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Afụnwaelotanna"
+  },
+  {
+    "contributor": "Yewande Omotoso",
+    "role": "author",
+    "university": "University of Cape Town",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Wash Away"
+  },
+  {
+    "contributor": "Sana Musasama",
+    "role": "visual_artist",
+    "university": "The City College of New York",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Wash Away"
+  },
+  {
+    "contributor": "Sana Musasama",
+    "role": "visual_artist",
+    "university": "Alfred State College of Ceramics",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Wash Away"
+  },
+  {
+    "contributor": "Gregory Powell",
+    "role": "author",
+    "university": "University of Illinois-Chicago",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Bioluminescence and Other Poems"
+  },
+  {
+    "contributor": "Gregory Powell",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Bioluminescence and Other Poems"
+  },
+  {
+    "contributor": "Gregory Powell",
+    "role": "author",
+    "university": "McCormick Theological Seminary",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Bioluminescence and Other Poems"
+  },
+  {
+    "contributor": "Gregory Powell",
+    "role": "author",
+    "university": "CIS-229",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Bioluminescence and Other Poems"
+  },
+  {
+    "contributor": "Gregory Powell",
+    "role": "author",
+    "university": "College of New Rochelle",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Bioluminescence and Other Poems"
+  },
+  {
+    "contributor": "William Downs",
+    "role": "visual_artist",
+    "university": "Atlanta College of Art and Design",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Bioluminescence and Other Poems"
+  },
+  {
+    "contributor": "William Downs",
+    "role": "visual_artist",
+    "university": "Maryland Institute College of Art",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Bioluminescence and Other Poems"
+  },
+  {
+    "contributor": "Allen M. Price",
+    "role": "author",
+    "university": "Emerson College",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Schizophrenic Racism"
+  },
+  {
+    "contributor": "Eldzier Cortor",
+    "role": "visual_artist",
+    "university": "Art Institute of Chicago",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Schizophrenic Racism"
+  },
+  {
+    "contributor": "Eldzier Cortor",
+    "role": "visual_artist",
+    "university": "Institute of Design in Chicago",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Schizophrenic Racism"
+  },
+  {
+    "contributor": "Eldzier Cortor",
+    "role": "visual_artist",
+    "university": "Columbia University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Schizophrenic Racism"
+  },
+  {
+    "contributor": "Eldzier Cortor",
+    "role": "visual_artist",
+    "university": "Pratt Graphic Art Center",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Schizophrenic Racism"
+  },
+  {
+    "contributor": "Bo Joseph",
+    "role": "visual_artist",
+    "university": "Rhode Island School of Design",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "When the end begins and Other Poems"
+  },
+  {
+    "contributor": "James Galvin",
+    "role": "author",
+    "university": "University of Iowa",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Another Fable"
+  },
+  {
+    "contributor": "Ge Gao",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "A Survey of My Right Arm"
+  },
+  {
+    "contributor": "Ángel García",
+    "role": "author",
+    "university": "University of Illinois at Urbana-Champaign",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Ángel García and the Personal Research Method"
+  },
+  {
+    "contributor": "Megan Giddings",
+    "role": "author",
+    "university": "University of Minnesota",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: The Alive Sister"
+  },
+  {
+    "contributor": "Megan Giddings",
+    "role": "author",
+    "university": "Leipzig University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: The Alive Sister"
+  },
+  {
+    "contributor": "Megan Giddings",
+    "role": "author",
+    "university": "Indiana University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "The Alive Sister"
+  },
+  {
+    "contributor": "Kyla-Yến Huỳnh Giffin",
+    "role": "author",
+    "university": "Brandeis University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Ngoại and the Coral Reef"
+  },
+  {
+    "contributor": "Jennifer Givhan",
+    "role": "author",
+    "university": "The University of New Mexico",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Baby Fever"
+  },
+  {
+    "contributor": "Heather Gluck",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Glass Delusion"
+  },
+  {
+    "contributor": "Louise Glück",
+    "role": "author",
+    "university": "Williams",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Landscape"
+  },
+  {
+    "contributor": "Louise Glück",
+    "role": "author",
+    "university": "Yale",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "On Revenge"
+  },
+  {
+    "contributor": "Louise Glück",
+    "role": "author",
+    "university": "Yale University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "A Sharply Worded Silence"
+  },
+  {
+    "contributor": "Louise Glück",
+    "role": "author",
+    "university": "Stanford University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "A Sharply Worded Silence"
+  },
+  {
+    "contributor": "Louise Glück",
+    "role": "author",
+    "university": "Yale",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Image"
+  },
+  {
+    "contributor": "Louise Glück",
+    "role": "author",
+    "university": "Stanford",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Image"
+  },
+  {
+    "contributor": "Louise Glück",
+    "role": "author",
+    "university": "Williams",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Summer Night"
+  },
+  {
+    "contributor": "Louise Glück",
+    "role": "author",
+    "university": "Yale",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Olive Trees"
+  },
+  {
+    "contributor": "Louise Glück",
+    "role": "author",
+    "university": "Yale",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Landscape"
+  },
+  {
+    "contributor": "Louise Glück",
+    "role": "author",
+    "university": "Yale",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Portrait of a Dog"
+  },
+  {
+    "contributor": "Louise Glück",
+    "role": "author",
+    "university": "Stanford",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Portrait of a Dog"
+  },
+  {
+    "contributor": "Louise Glück",
+    "role": "author",
+    "university": "Yale",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Night School"
+  },
+  {
+    "contributor": "Louise Glück",
+    "role": "author",
+    "university": "Stanford",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Night School"
+  },
+  {
+    "contributor": "Golden",
+    "role": "author",
+    "university": "New York University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "AND I WILL ALWAYS BE YOUR MOTHER"
+  },
+  {
+    "contributor": "Wancy Young Cho",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "GOOD LUCK, SWEET ORIENTAL BOY"
+  },
+  {
+    "contributor": "Torrin A. Greathouse",
+    "role": "author",
+    "university": "University of Minnesota",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "I Am Beginning to Mistake the Locust’s Song for Silence"
+  },
+  {
+    "contributor": "Stephen Greenblatt",
+    "role": "author",
+    "university": "Harvard",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Miracles"
+  },
+  {
+    "contributor": "Stephen Greenblatt",
+    "role": "author",
+    "university": "Harvard",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "On Berlin"
+  },
+  {
+    "contributor": "Stephen Greenblatt",
+    "role": "author",
+    "university": "Harvard",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Table Talk"
+  },
+  {
+    "contributor": "Faye Guenther",
+    "role": "author",
+    "university": "York University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Excerpt from “Flood Lands” from Swimmers in Winter"
+  },
+  {
+    "contributor": "Carmella De Los Angeles Guiol",
+    "role": "author",
+    "university": "Amherst College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "A Guide To Tropical Seed Saving"
+  },
+  {
+    "contributor": "Carmella De Los Angeles Guiol",
+    "role": "author",
+    "university": "University of South Florida",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "A Guide To Tropical Seed Saving"
+  },
+  {
+    "contributor": "Amanda Gunn",
+    "role": "author",
+    "university": "Stanford",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Happy and Well"
+  },
+  {
+    "contributor": "Amanda Gunn",
+    "role": "author",
+    "university": "Harvard",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Happy and Well"
+  },
+  {
+    "contributor": "Michelle Gurule",
+    "role": "author",
+    "university": "The University of Colorado, Boulder",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Plans for Future Disasters"
+  },
+  {
+    "contributor": "Meron Hadero",
+    "role": "author",
+    "university": "University of Michigan",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: Preludes"
+  },
+  {
+    "contributor": "Meron Hadero",
+    "role": "author",
+    "university": "Yale",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: Preludes"
+  },
+  {
+    "contributor": "Meron Hadero",
+    "role": "author",
+    "university": "Princeton",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: Preludes"
+  },
+  {
+    "contributor": "Meron Hadero",
+    "role": "author",
+    "university": "University of Michigan",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Preludes"
+  },
+  {
+    "contributor": "Kimiko Hahn",
+    "role": "author",
+    "university": "University of Houston",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Kimiko Hahn and the Glosa"
+  },
+  {
+    "contributor": "Kimiko Hahn",
+    "role": "author",
+    "university": "New York University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Kimiko Hahn and the Glosa"
+  },
+  {
+    "contributor": "Kimiko Hahn",
+    "role": "author",
+    "university": "Queens College, The City University of New York",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Kimiko Hahn and the Glosa"
+  },
+  {
+    "contributor": "Malu Halasa",
+    "role": "author",
+    "university": "Barnard College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Mother of All Pigs"
+  },
+  {
+    "contributor": "Malu Halasa",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Mother of All Pigs"
+  },
+  {
+    "contributor": "Joel Hans",
+    "role": "author",
+    "university": "University of Arizona",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "The Cirrus Circus"
+  },
+  {
+    "contributor": "Francine J. Harris",
+    "role": "author",
+    "university": "Interlochen Center for the Arts",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "junebug"
+  },
+  {
+    "contributor": "Dan Hernandez",
+    "role": "author",
+    "university": "University of Nevada, Las Vegas",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "All The Hard Ways"
+  },
+  {
+    "contributor": "Dan Hernandez",
+    "role": "author",
+    "university": "CUNY Graduate Center",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "All The Hard Ways"
+  },
+  {
+    "contributor": "Ricardo Hernandez",
+    "role": "author",
+    "university": "Rutgers-Newark",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "“YOU PASSED JUST HOURS AGO” and “NOTES ON SEROCONVERSION”"
+  },
+  {
+    "contributor": "Juan Felipe Herrera",
+    "role": "author",
+    "university": "UC Riverside",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "almost livin’ almost dyin’"
+  },
+  {
+    "contributor": "Harrison Hill",
+    "role": "author",
+    "university": "Columbia",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Light"
+  },
+  {
+    "contributor": "Hannah Hindley",
+    "role": "author",
+    "university": "University of Arizona",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Zebrafish"
+  },
+  {
+    "contributor": "Jane Hirshfield",
+    "role": "author",
+    "university": "Queens University, Belfast",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "To Be a Person"
+  },
+  {
+    "contributor": "Vincent Hiscock",
+    "role": "author",
+    "university": "Cornell University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "voice in air: afterthought"
+  },
+  {
+    "contributor": "Vincent Hiscock",
+    "role": "author",
+    "university": "UC Irvine",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "voice in air: afterthought"
+  },
+  {
+    "contributor": "Theodora Ziolkowski",
+    "role": "author",
+    "university": "University of Nebraska at Kearney",
+    "relationship": "worked",
+    "journal": "New Orleans Review",
+    "pieceTitle": "History"
+  },
+  {
+    "contributor": "Michelle Phuong Ho",
+    "role": "author",
+    "university": "NYU",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Only Hands"
+  },
+  {
+    "contributor": "Jean Ho",
+    "role": "author",
+    "university": "UNLV",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "The Movers"
+  },
+  {
+    "contributor": "Jean Ho",
+    "role": "author",
+    "university": "USC",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "The Movers"
+  },
+  {
+    "contributor": "Tony Hoagland",
+    "role": "author",
+    "university": "University of Houston",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Rabbit"
+  },
+  {
+    "contributor": "Tanya Holtland",
+    "role": "author",
+    "university": "San Francisco State University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Known Among Universals"
+  },
+  {
+    "contributor": "Tanya Holtland",
+    "role": "author",
+    "university": "University of Pittsburgh at Bradford",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Known Among Universals"
+  },
+  {
+    "contributor": "Mai-Linh Hong",
+    "role": "author",
+    "university": "University of California, Merced",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "“American Sonnet Upon Finding an Old Report Card” and “American Sonnet Whenever [Gaza/Afghanistan/Vietnam/etc.] Gets Called a Land of Bombs”"
+  },
+  {
+    "contributor": "Elisabeth Houston",
+    "role": "author",
+    "university": "California State University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "re-peat! re-verse! re-hearse!"
+  },
+  {
+    "contributor": "Court Harler",
+    "role": "author",
+    "university": "University of Nevada, Reno at Lake Tahoe",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "How to Breathe"
+  },
+  {
+    "contributor": "Court Harler",
+    "role": "author",
+    "university": "Eastern Washington University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "How to Breathe"
+  },
+  {
+    "contributor": "Victoria Hsu",
+    "role": "author",
+    "university": "Washington University in St. Louis",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "“THE GHOST” & “SYMPOSIUM: ‘AND IN TURN THE MUSICAL ART…'”"
+  },
+  {
+    "contributor": "Nancy Huang",
+    "role": "author",
+    "university": "NYU",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Texas"
+  },
+  {
+    "contributor": "E. Hughes",
+    "role": "author",
+    "university": "Northwestern University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Rippling Through the Dark"
+  },
+  {
+    "contributor": "Sophie Ezzell",
+    "role": "author",
+    "university": "Oklahoma State University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "In Love You Learned"
+  },
+  {
+    "contributor": "Sophie Ezzell",
+    "role": "author",
+    "university": "University of Mississippi",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "In Love You Learned"
+  },
+  {
+    "contributor": "Kasey Buckley",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Inheritance"
+  },
+  {
+    "contributor": "Kasey Buckley",
+    "role": "author",
+    "university": "Hunter College",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Inheritance"
+  },
+  {
+    "contributor": "Kristi Maxwell",
+    "role": "author",
+    "university": "University of Louisville",
+    "relationship": "worked",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Into Myself"
+  },
+  {
+    "contributor": "Rita Mookerjee",
+    "role": "author",
+    "university": "Worcester State University",
+    "relationship": "worked",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Is It Even A Diaspora Poem Without The Immigrant Parents’ Story?"
+  },
+  {
+    "contributor": "Sagaree Jain",
+    "role": "author",
+    "university": "University of California at Berkeley",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Border"
+  },
+  {
+    "contributor": "Lori Jakiela",
+    "role": "author",
+    "university": "University of Pittsburgh at Greensburg",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "We Write Your Name on a Grain of Rice"
+  },
+  {
+    "contributor": "Rebecca Jamieson",
+    "role": "author",
+    "university": "Vermont College of Fine Arts",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Haunted at Home"
+  },
+  {
+    "contributor": "Ashley M. Jones",
+    "role": "author",
+    "university": "Alabama School of Fine Arts",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Poem in Which I Am Too Political to Read at Your School"
+  },
+  {
+    "contributor": "Edward Moreta Jr.",
+    "role": "author",
+    "university": "Kenyon College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "in the room that it happens"
+  },
+  {
+    "contributor": "Jennifer Ruth Keller",
+    "role": "author",
+    "university": "Deep Springs College",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "The Great Unknowing"
+  },
+  {
+    "contributor": "A. L. Kennedy",
+    "role": "author",
+    "university": "St. Andrew’s University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Family with Young Children"
+  },
+  {
+    "contributor": "Aekta Khubchandani",
+    "role": "author",
+    "university": "The New School",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Leftovers"
+  },
+  {
+    "contributor": "Cindy King",
+    "role": "author",
+    "university": "Utah Tech University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "No Context"
+  },
+  {
+    "contributor": "Yusef Komunyakaa",
+    "role": "author",
+    "university": "Princeton University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Meditations on a File"
+  },
+  {
+    "contributor": "Michelle Koufopoulos",
+    "role": "author",
+    "university": "Sarah Lawrence College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Asteroidea"
+  },
+  {
+    "contributor": "Michelle Koufopoulos",
+    "role": "author",
+    "university": "Bennington Writing Seminars",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Asteroidea"
+  },
+  {
+    "contributor": "Jemma Kurbanmuradova",
+    "role": "author",
+    "university": "Brooklyn College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Ol"
+  },
+  {
+    "contributor": "Sammi Labue",
+    "role": "author",
+    "university": "Vermont College of Fine Arts",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "To Have (Stuff) and to Hold"
+  },
+  {
+    "contributor": "Caroline Laganas",
+    "role": "author",
+    "university": "California Institute of the Arts",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Marie"
+  },
+  {
+    "contributor": "Caroline Laganas",
+    "role": "author",
+    "university": "Pepperdine University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Marie"
+  },
+  {
+    "contributor": "Kien Lam",
+    "role": "author",
+    "university": "Indiana University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "“Almost” and Two Poems"
+  },
+  {
+    "contributor": "Thomas Laqueur",
+    "role": "author",
+    "university": "UC Berkeley",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Emil Mayer"
+  },
+  {
+    "contributor": "Rickey Laurentiis",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Two Poems by Rickey Laurentiis"
+  },
+  {
+    "contributor": "Rickey Laurentiis",
+    "role": "author",
+    "university": "The Cooper Union",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Two Poems by Rickey Laurentiis"
+  },
+  {
+    "contributor": "Melissa Goodnight",
+    "role": "author",
+    "university": "Mississippi University for Women",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Leavenworth"
+  },
+  {
+    "contributor": "Melissa Goodnight",
+    "role": "author",
+    "university": "University of North Carolina at Charlotte",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Leavenworth"
+  },
+  {
+    "contributor": "Whitney Lee",
+    "role": "author",
+    "university": "Northwestern University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Too Attached"
+  },
+  {
+    "contributor": "Zack Lesmeister",
+    "role": "author",
+    "university": "Emerson College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "“What We Hold” & “Michael; December 24th, 1985”"
+  },
+  {
+    "contributor": "Zack Lesmeister",
+    "role": "author",
+    "university": "University of Wisconsin-Madison",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "“What We Hold” & “Michael; December 24th, 1985”"
+  },
+  {
+    "contributor": "Kat Lewis",
+    "role": "author",
+    "university": "Johns Hopkins University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: 물귀신 | Mul Gwishin"
+  },
+  {
+    "contributor": "Kat Lewis",
+    "role": "author",
+    "university": "University of South Florida",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: 물귀신 | Mul Gwishin"
+  },
+  {
+    "contributor": "Kat Lewis",
+    "role": "author",
+    "university": "Johns Hopkins University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "물귀신 | Mul Gwishin"
+  },
+  {
+    "contributor": "Kat Lewis",
+    "role": "author",
+    "university": "University of South Florida",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "물귀신 | Mul Gwishin"
+  },
+  {
+    "contributor": "Sabrina Helen Li",
+    "role": "author",
+    "university": "Harvard College",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Daughters’ Bodies"
+  },
+  {
+    "contributor": "Ibe Liebenberg",
+    "role": "author",
+    "university": "Chico State University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "PTSD"
+  },
+  {
+    "contributor": "Ibe Liebenberg",
+    "role": "author",
+    "university": "Chico State University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Why I Love Lame Excusesfrom College Freshmen"
+  },
+  {
+    "contributor": "Natalie Lima",
+    "role": "author",
+    "university": "University of Arizona",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Men Paid Me To Eat"
+  },
+  {
+    "contributor": "Michelle Lin",
+    "role": "author",
+    "university": "Kenyon College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Abundant, Useless, & Utterly Mine."
+  },
+  {
+    "contributor": "Sharon Lin",
+    "role": "author",
+    "university": "Massachusetts Institute of Technology",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "when my grandmother sings"
+  },
+  {
+    "contributor": "Marigny Beter",
+    "role": "author",
+    "university": "Loyola University New Orleans",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Lisa Dring"
+  },
+  {
+    "contributor": "Marigny Beter",
+    "role": "author",
+    "university": "University of New Orleans",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Lisa Dring"
+  },
+  {
+    "contributor": "Richard Locke",
+    "role": "author",
+    "university": "Columbia University School of the Arts",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Strict Constructionism"
+  },
+  {
+    "contributor": "Lara Longo",
+    "role": "author",
+    "university": "King's College London",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Motherland"
+  },
+  {
+    "contributor": "Philip Lopate",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "An Archaeological Inquest"
+  },
+  {
+    "contributor": "Phillip Lopate",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Notes on Sontag"
+  },
+  {
+    "contributor": "Pegah Pasalar",
+    "role": "author",
+    "university": "School of the Art Institute of Chicago",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "lost in her hair (monday)"
+  },
+  {
+    "contributor": "Darina Sikmashvili",
+    "role": "author",
+    "university": "University of Michigan",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Love Is a Piano Dropped from a Fourth Story Window"
+  },
+  {
+    "contributor": "David Lerner Schwartz",
+    "role": "author",
+    "university": "University of Cincinnati",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Love Was This Alone"
+  },
+  {
+    "contributor": "David Lerner Schwartz",
+    "role": "author",
+    "university": "Bennington Writing Seminars",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Love Was This Alone"
+  },
+  {
+    "contributor": "David Lerner Schwartz",
+    "role": "author",
+    "university": "University of Central Florida",
+    "relationship": "worked",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Love Was This Alone"
+  },
+  {
+    "contributor": "Emily Luan",
+    "role": "author",
+    "university": "Rutgers University-Newark",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Because I dare not be in awe"
+  },
+  {
+    "contributor": "Dave Lucas",
+    "role": "author",
+    "university": "Case Western Reserve",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "“About Suffering—”"
+  },
+  {
+    "contributor": "Ian Macallen",
+    "role": "author",
+    "university": "Rutgers University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "The Lives of Paul"
+  },
+  {
+    "contributor": "Enis Maci",
+    "role": "author",
+    "university": "Leipzig",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Room 10"
+  },
+  {
+    "contributor": "Claudio Magris",
+    "role": "author",
+    "university": "Trieste",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Reflections on Blindly"
+  },
+  {
+    "contributor": "Jessalyn Maguire",
+    "role": "author",
+    "university": "Wellesley College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "First Kiss"
+  },
+  {
+    "contributor": "Jessalyn Maguire",
+    "role": "author",
+    "university": "The London Academy of Music & Dramatic Art",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "First Kiss"
+  },
+  {
+    "contributor": "Jessalyn Maguire",
+    "role": "author",
+    "university": "The British American Drama Academy",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "First Kiss"
+  },
+  {
+    "contributor": "Chelsie Malyszek",
+    "role": "author",
+    "university": "Yale University",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Unreal Cities"
+  },
+  {
+    "contributor": "Alberto Manguel",
+    "role": "author",
+    "university": "Yale",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "The Muse of Impossibility"
+  },
+  {
+    "contributor": "Caroline Mao",
+    "role": "author",
+    "university": "Mount Holyoke College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "ghost x garden x grow"
+  },
+  {
+    "contributor": "Greil Marcus",
+    "role": "author",
+    "university": "University of California, Berkeley",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Stories of a Bad Song"
+  },
+  {
+    "contributor": "Corey Marks",
+    "role": "author",
+    "university": "University of North Texas",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Actaeon’s Hounds"
+  },
+  {
+    "contributor": "Nate Marshall",
+    "role": "author",
+    "university": "Colorado College",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "“a poem for Justin” and Two Poems"
+  },
+  {
+    "contributor": "Megan Martin",
+    "role": "author",
+    "university": "Art Academy of Cincinnati",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "“ORANGER” and “IN PROCESS”"
+  },
+  {
+    "contributor": "Heather Mccabe",
+    "role": "author",
+    "university": "Ohio State University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Everywhere"
+  },
+  {
+    "contributor": "Chris Mccormick",
+    "role": "author",
+    "university": "University of California, Berkeley",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "“Mother, Godfather, Baby, Priest”"
+  },
+  {
+    "contributor": "Chris Mccormick",
+    "role": "author",
+    "university": "University of Michigan",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "“Mother, Godfather, Baby, Priest”"
+  },
+  {
+    "contributor": "Victoria Lynne Mccoy",
+    "role": "author",
+    "university": "Sarah Lawrence College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "[I can’t bear anymore what happens to the body]"
+  },
+  {
+    "contributor": "Victoria Lynne Mccoy",
+    "role": "author",
+    "university": "University of Redlands",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "[I can’t bear anymore what happens to the body]"
+  },
+  {
+    "contributor": "Jill McDonough",
+    "role": "author",
+    "university": "UMass-Boston",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Ming"
+  },
+  {
+    "contributor": "Jill McDonough",
+    "role": "author",
+    "university": "U Mass-Boston",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "On Jokes"
+  },
+  {
+    "contributor": "Jill McDonough",
+    "role": "author",
+    "university": "UMass-Boston",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Path to Nowhere"
+  },
+  {
+    "contributor": "Jill McDonough",
+    "role": "author",
+    "university": "University of Massachusetts, Boston",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Looking at Saintsand Talking About Robots"
+  },
+  {
+    "contributor": "Jill McDonough",
+    "role": "author",
+    "university": "UMass-Boston",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Sonnet for the Money"
+  },
+  {
+    "contributor": "Jill McDonough",
+    "role": "author",
+    "university": "UMass-Boston",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "In Which I Am Accused ofSleeping My Way to the Top"
+  },
+  {
+    "contributor": "Jill McDonough",
+    "role": "author",
+    "university": "University of Massachusetts, Boston",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Dictionary Poem"
+  },
+  {
+    "contributor": "Jill McDonough",
+    "role": "author",
+    "university": "University of Massachusetts Boston",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "What Kids Don’t Know"
+  },
+  {
+    "contributor": "Eric McHenry",
+    "role": "author",
+    "university": "Washburn University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "For Victor Massey"
+  },
+  {
+    "contributor": "C.E. Mckenna",
+    "role": "author",
+    "university": "Reed College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Whatever Pose You Do, It’s Going to Hurt"
+  },
+  {
+    "contributor": "C.E. Mckenna",
+    "role": "author",
+    "university": "Oklahoma State",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Whatever Pose You Do, It’s Going to Hurt"
+  },
+  {
+    "contributor": "C.E. Mckenna",
+    "role": "author",
+    "university": "UC Riverside-Palm Desert",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Whatever Pose You Do, It’s Going to Hurt"
+  },
+  {
+    "contributor": "Na Mee",
+    "role": "author",
+    "university": "Randolph College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Reunion (Excerpts)"
+  },
+  {
+    "contributor": "Anna Meister",
+    "role": "author",
+    "university": "New York University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Two Poems by Anna Meister"
+  },
+  {
+    "contributor": "Lynn Melnick",
+    "role": "author",
+    "university": "92Y",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Landscape with Rum and Implosion"
+  },
+  {
+    "contributor": "Leonard Michaels",
+    "role": "author",
+    "university": "University of Michigan",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "My Yiddish"
+  },
+  {
+    "contributor": "Leonard Michaels",
+    "role": "author",
+    "university": "UC Berkeley",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Nachman"
+  },
+  {
+    "contributor": "Matthew Moser Miller",
+    "role": "author",
+    "university": "Denison University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: About My Father’s"
+  },
+  {
+    "contributor": "Matthew Moser Miller",
+    "role": "author",
+    "university": "University of Aberdeen",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: About My Father’s"
+  },
+  {
+    "contributor": "Matthew Moser Miller",
+    "role": "author",
+    "university": "University of Michigan",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: About My Father’s"
+  },
+  {
+    "contributor": "Matthew Moser Miller",
+    "role": "author",
+    "university": "Stanford University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: About My Father’s"
+  },
+  {
+    "contributor": "Tan Tuck Ming",
+    "role": "author",
+    "university": "University of Iowa",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Plastic Bag"
+  },
+  {
+    "contributor": "Rita Mookerjee",
+    "role": "author",
+    "university": "Iowa State University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "The Stranger’s Guide to Brothels of Philadelphia, 1849"
+  },
+  {
+    "contributor": "Kamilah Aisha Moon",
+    "role": "author",
+    "university": "Sarah Lawrence College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Initiation"
+  },
+  {
+    "contributor": "Rebecca Morton",
+    "role": "author",
+    "university": "Eastern Washington University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "“Sometimes When She Reaches for Me, I Can Only Think About Birth and Blood” and “Hunger”"
+  },
+  {
+    "contributor": "Nadia Mota",
+    "role": "author",
+    "university": "The University of Michigan",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "grief poem #4, in traffic"
+  },
+  {
+    "contributor": "Elizabeth Rogers",
+    "role": "author",
+    "university": "University of Virginia",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Murky Waters Rising"
+  },
+  {
+    "contributor": "Caroline Laganas",
+    "role": "author",
+    "university": "Florida State University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "My Great-Grandmother Continued to Speak in a Tangled River of Greek"
+  },
+  {
+    "contributor": "Eileen Myles",
+    "role": "author",
+    "university": "UC San Diego",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "HOME"
+  },
+  {
+    "contributor": "Sequoia Nagamatsu",
+    "role": "author",
+    "university": "Grinnell College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Girl Zero"
+  },
+  {
+    "contributor": "Sequoia Nagamatsu",
+    "role": "author",
+    "university": "Southern Illinois University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Girl Zero"
+  },
+  {
+    "contributor": "Sequoia Nagamatsu",
+    "role": "author",
+    "university": "St. Olaf College",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Girl Zero"
+  },
+  {
+    "contributor": "Sabrina Mansouri",
+    "role": "author",
+    "university": "New York University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Nationhood / Woman / Unicorn"
+  },
+  {
+    "contributor": "Sabrina Mansouri",
+    "role": "author",
+    "university": "School of Visual Arts",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Nationhood / Woman / Unicorn"
+  },
+  {
+    "contributor": "Sabrina Mansouri",
+    "role": "author",
+    "university": "Yale",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Nationhood / Woman / Unicorn"
+  },
+  {
+    "contributor": "Unknown",
+    "role": "visual_artist",
+    "university": "New York University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Nationhood / Woman / Unicorn"
+  },
+  {
+    "contributor": "Unknown",
+    "role": "visual_artist",
+    "university": "School of Visual Arts",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Nationhood / Woman / Unicorn"
+  },
+  {
+    "contributor": "Unknown",
+    "role": "visual_artist",
+    "university": "Yale",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Nationhood / Woman / Unicorn"
+  },
+  {
+    "contributor": "Briana Bhola",
+    "role": "author",
+    "university": "The New School",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Naz Riahi"
+  },
+  {
+    "contributor": "Briana Bhola",
+    "role": "author",
+    "university": "Loyola University New Orleans",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Naz Riahi"
+  },
+  {
+    "contributor": "Alexander Nehamas",
+    "role": "author",
+    "university": "Princeton",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "An Essay on Beauty and Judgment"
+  },
+  {
+    "contributor": "Monterica Sadé Neil",
+    "role": "author",
+    "university": "Louisiana State University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Beauty for Butterflies"
+  },
+  {
+    "contributor": "Max Nelson",
+    "role": "author",
+    "university": "Yale",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Choice Specimens"
+  },
+  {
+    "contributor": "Jennifer Nelson",
+    "role": "author",
+    "university": "University of Michigan, Ann Arbor",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Three Poems by Jennifer Nelson"
+  },
+  {
+    "contributor": "Todd Newberry",
+    "role": "author",
+    "university": "UC Santa Cruz",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Aquariums"
+  },
+  {
+    "contributor": "Chau Anh Nguyen",
+    "role": "author",
+    "university": "Kenyon College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Pig Brain"
+  },
+  {
+    "contributor": "Joshua Nguyen",
+    "role": "author",
+    "university": "The University of Mississippi",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "In Praise of my Threaded Eyebrows"
+  },
+  {
+    "contributor": "Franz Nicolay",
+    "role": "author",
+    "university": "Bard College",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Burning Up"
+  },
+  {
+    "contributor": "Stevie Chedid",
+    "role": "author",
+    "university": "University of Montana",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "No Exceptions (A Visit from Yellow-Yellow)"
+  },
+  {
+    "contributor": "Kelsey Norris",
+    "role": "author",
+    "university": "Vanderbilt University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "To Keep a Brother Living"
+  },
+  {
+    "contributor": "Sigrid Nunez",
+    "role": "author",
+    "university": "Smith College",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Naked Sleeper"
+  },
+  {
+    "contributor": "Thiahera Nurse",
+    "role": "author",
+    "university": "University of Wisconsin-Madison",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Some Girls Survive on Their Sorcery Alone"
+  },
+  {
+    "contributor": "Richard O'Brien",
+    "role": "author",
+    "university": "Northumbria University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "A Dubious Triangle"
+  },
+  {
+    "contributor": "Sharon Olds",
+    "role": "author",
+    "university": "NYU",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "5 O’Clockface"
+  },
+  {
+    "contributor": "Sharon Olds",
+    "role": "author",
+    "university": "NYU",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Discandied"
+  },
+  {
+    "contributor": "Sharon Olds",
+    "role": "author",
+    "university": "NYU",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Best Friend Ballad"
+  },
+  {
+    "contributor": "Olivia Olson",
+    "role": "author",
+    "university": "Warren Wilson College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Two Poems by Olivia Olson"
+  },
+  {
+    "contributor": "Ava Guihama Olson",
+    "role": "author",
+    "university": "UC Berkeley",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "We Love Because HE Loved Us First"
+  },
+  {
+    "contributor": "Luling Osofsky",
+    "role": "author",
+    "university": "University of Wyoming",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Wild, Wild East"
+  },
+  {
+    "contributor": "Luling Osofsky",
+    "role": "author",
+    "university": "UC Santa Cruz",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Wild, Wild East"
+  },
+  {
+    "contributor": "Luling Osofsky",
+    "role": "author",
+    "university": "University of Wyoming",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Wild, Wild East"
+  },
+  {
+    "contributor": "Robert Ostrom",
+    "role": "author",
+    "university": "New York City College of Technology",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Three Poems by Robert Ostrom"
+  },
+  {
+    "contributor": "Robert Ostrom",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Three Poems by Robert Ostrom"
+  },
+  {
+    "contributor": "Abbey Mei Otis",
+    "role": "author",
+    "university": "Michener Center for Writers",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Moonkids"
+  },
+  {
+    "contributor": "Abbey Mei Otis",
+    "role": "author",
+    "university": "Clarion West Writers Workshop",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Moonkids"
+  },
+  {
+    "contributor": "Abbey Mei Otis",
+    "role": "author",
+    "university": "Oberlin College",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Moonkids"
+  },
+  {
+    "contributor": "Claudia Owusu",
+    "role": "author",
+    "university": "The Ohio State University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Self-Portrait Through Many Doors"
+  },
+  {
+    "contributor": "Tyrone Palmer",
+    "role": "author",
+    "university": "Northwestern University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Three Poems by Tyrone Palmer"
+  },
+  {
+    "contributor": "Lisa Nikolidakis",
+    "role": "author",
+    "university": "TCU",
+    "relationship": "worked",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Paula Cole’s 2 AM Walgreens Apology"
+  },
+  {
+    "contributor": "Lisa Nikolidakis",
+    "role": "author",
+    "university": "Ashland University",
+    "relationship": "worked",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Paula Cole’s 2 AM Walgreens Apology"
+  },
+  {
+    "contributor": "Sara Peters",
+    "role": "author",
+    "university": "Boston University",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Babysitters"
+  },
+  {
+    "contributor": "Emilia Philips",
+    "role": "author",
+    "university": "University of North Carolina at Greensboro",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "THE UNCANNY VALLEY"
+  },
+  {
+    "contributor": "Xandria Phillips",
+    "role": "author",
+    "university": "Oberlin College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "A FRUIT WE NEVER TASTED"
+  },
+  {
+    "contributor": "Xandria Phillips",
+    "role": "author",
+    "university": "Virginia Tech",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "A FRUIT WE NEVER TASTED"
+  },
+  {
+    "contributor": "Kaylie Saidin",
+    "role": "author",
+    "university": "UNC Wilmington",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "I Know You, Rider"
+  },
+  {
+    "contributor": "Kaylie Saidin",
+    "role": "author",
+    "university": "Loyola University New Orleans",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "I Know You, Rider"
+  },
+  {
+    "contributor": "Allison Field Bell",
+    "role": "author",
+    "university": "New Mexico State University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "The Two Girls"
+  },
+  {
+    "contributor": "Allison Field Bell",
+    "role": "author",
+    "university": "University of Utah",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "The Two Girls"
+  },
+  {
+    "contributor": "Oksana Maksymchuk",
+    "role": "author",
+    "university": "Northwestern University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Personal Credo"
+  },
+  {
+    "contributor": "Charlie Coulter",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Jessamine Chan"
+  },
+  {
+    "contributor": "Supritha Rajan",
+    "role": "author",
+    "university": "University of Rochester",
+    "relationship": "worked",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Homo Accidens"
+  },
+  {
+    "contributor": "Breanna Henry",
+    "role": "author",
+    "university": "Loyola University New Orleans",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Jocelyn Johnson"
+  },
+  {
+    "contributor": "Susan Meyers",
+    "role": "author",
+    "university": "Seattle University",
+    "relationship": "worked",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Unwomaning"
+  },
+  {
+    "contributor": "Shelby Clark",
+    "role": "author",
+    "university": "University of South Florida",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Ida, 2021 & Copperhead Musk"
+  },
+  {
+    "contributor": "Danielle Shorr",
+    "role": "author",
+    "university": "Chapman University",
+    "relationship": "worked",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Grief Teacher"
+  },
+  {
+    "contributor": "Morgan Eklund",
+    "role": "author",
+    "university": "Northwestern University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Our Reeducation of Britney Spears"
+  },
+  {
+    "contributor": "Melanie Hucklebridge",
+    "role": "author",
+    "university": "Loyola University New Orleans",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Mondiant Dogon"
+  },
+  {
+    "contributor": "p. hodges adams",
+    "role": "author",
+    "university": "university of virginia",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "pêche d’enfer"
+  },
+  {
+    "contributor": "Brian Czyzyk",
+    "role": "author",
+    "university": "Purdue University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Dear Francis,"
+  },
+  {
+    "contributor": "Wang Ping",
+    "role": "author",
+    "university": "Beijing University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "A Free Woman in the Other Half of the Sky"
+  },
+  {
+    "contributor": "Wang Ping",
+    "role": "author",
+    "university": "NYU",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "A Free Woman in the Other Half of the Sky"
+  },
+  {
+    "contributor": "Wang Ping",
+    "role": "author",
+    "university": "Macalester College",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "A Free Woman in the Other Half of the Sky"
+  },
+  {
+    "contributor": "Robert Pinsky",
+    "role": "author",
+    "university": "Boston University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Veni, Creator Spiritus"
+  },
+  {
+    "contributor": "Robert Pinsky",
+    "role": "author",
+    "university": "Boston University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "On Thom Gunn"
+  },
+  {
+    "contributor": "Natanya Ann Pulley",
+    "role": "author",
+    "university": "Colorado College",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Excerpt from Did You Find Your Killer Yet?"
+  },
+  {
+    "contributor": "Natasha Rao",
+    "role": "author",
+    "university": "Brown University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "For my Brother"
+  },
+  {
+    "contributor": "Natasha Rao",
+    "role": "author",
+    "university": "NYU",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "For my Brother"
+  },
+  {
+    "contributor": "Adele Williams",
+    "role": "author",
+    "university": "The University of Houston",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Resentful and Ready"
+  },
+  {
+    "contributor": "Nancy Roach",
+    "role": "author",
+    "university": "The New School",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Hazardous Sharps"
+  },
+  {
+    "contributor": "Nancy Roach",
+    "role": "author",
+    "university": "Parsons School of Design",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Hazardous Sharps"
+  },
+  {
+    "contributor": "Kristin Robertson",
+    "role": "author",
+    "university": "Tennessee Wesleyan University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Water Striders"
+  },
+  {
+    "contributor": "Robin Romm",
+    "role": "author",
+    "university": "San Francisco State University",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Lost and Found"
+  },
+  {
+    "contributor": "Shawna Yang Ryan",
+    "role": "author",
+    "university": "University of Hawai'i at Manoa",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "So no one can count the bodies"
+  },
+  {
+    "contributor": "Michael Ryan",
+    "role": "author",
+    "university": "UC Irvine",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "The Examining Room"
+  },
+  {
+    "contributor": "Joel Salcido",
+    "role": "author",
+    "university": "Arizona State University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "You Will Identify My Body By Ear"
+  },
+  {
+    "contributor": "Carson Sandell",
+    "role": "author",
+    "university": "San Diego State University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Memento Vivere"
+  },
+  {
+    "contributor": "Ravneet Kaur Sandhu",
+    "role": "author",
+    "university": "Cedar Crest College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Maharajas in Our City"
+  },
+  {
+    "contributor": "Jodi M. Savage",
+    "role": "author",
+    "university": "New York University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "My Hair Is an Archive of My Grief"
+  },
+  {
+    "contributor": "Jodi M. Savage",
+    "role": "author",
+    "university": "New York University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "My Hair Is an Archive of My Grief"
+  },
+  {
+    "contributor": "Sam Sax",
+    "role": "author",
+    "university": "The Michener Center for Writers",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Story Arc"
+  },
+  {
+    "contributor": "Gretchen Schulz",
+    "role": "author",
+    "university": "University of Idaho",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "The Seven Devils"
+  },
+  {
+    "contributor": "Gretchen Schulz",
+    "role": "author",
+    "university": "Boise State University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "The Seven Devils"
+  },
+  {
+    "contributor": "Bo Schwabacher",
+    "role": "author",
+    "university": "Northern Arizona University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Two Poems by Bo Schwabacher"
+  },
+  {
+    "contributor": "Sophia Terazawa",
+    "role": "author",
+    "university": "Virginia Tech",
+    "relationship": "worked",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Score III // Litany of Torture"
+  },
+  {
+    "contributor": "Ananya Kanai Shah",
+    "role": "author",
+    "university": "Brown University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "My Girls & I"
+  },
+  {
+    "contributor": "Ananya Kanai Shah",
+    "role": "author",
+    "university": "NYU",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "My Girls & I"
+  },
+  {
+    "contributor": "Sanam Sheriff",
+    "role": "author",
+    "university": "Bryn Mawr College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Gratitude"
+  },
+  {
+    "contributor": "Sanam Sheriff",
+    "role": "author",
+    "university": "Washington University in St.Louis",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Gratitude"
+  },
+  {
+    "contributor": "Michael Shewmaker",
+    "role": "author",
+    "university": "Stanford University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "“Auras” and “The Moon”"
+  },
+  {
+    "contributor": "Michael Shewmaker",
+    "role": "author",
+    "university": "Stanford University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "“Auras” and “The Moon”"
+  },
+  {
+    "contributor": "Ross Showalter",
+    "role": "author",
+    "university": "UCLA Extension Writers’ Program",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "A Manual for ASL Students"
+  },
+  {
+    "contributor": "Zubair Ibrahim Siddiqui",
+    "role": "author",
+    "university": "Bennington College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Sun, Suna, Sunaofying"
+  },
+  {
+    "contributor": "Zubair Ibrahim Siddiqui",
+    "role": "author",
+    "university": "Habib University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Sun, Suna, Sunaofying"
+  },
+  {
+    "contributor": "Leah Silvieus",
+    "role": "author",
+    "university": "University of Miami",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Epithalamion with Angel of the Apocalypse"
+  },
+  {
+    "contributor": "Zaynab Bobi",
+    "role": "author",
+    "university": "Usmanu Danfodiyo University Sokoto",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Sixty Seconds in the Body of a Cyborg"
+  },
+  {
+    "contributor": "Emily Skaja",
+    "role": "author",
+    "university": "University of Memphis",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "“I Liked Myself Better as an Exquisite Skeleton” and “Black Lake”"
+  },
+  {
+    "contributor": "Tom Sleigh",
+    "role": "author",
+    "university": "Hunter College",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Triumph"
+  },
+  {
+    "contributor": "Tom Sleigh",
+    "role": "author",
+    "university": "Hunter College",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Net"
+  },
+  {
+    "contributor": "Tom Sleigh",
+    "role": "author",
+    "university": "Hunter College",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "False Teeth"
+  },
+  {
+    "contributor": "Derold Ernest Sligh",
+    "role": "author",
+    "university": "San Diego State University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Occupation"
+  },
+  {
+    "contributor": "Michael D. Snediker",
+    "role": "author",
+    "university": "University of Houston",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "“Inside me, the way elsewhere”: Poetry NOW"
+  },
+  {
+    "contributor": "Pamela Sneed",
+    "role": "author",
+    "university": "Yale University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Sweet Dreams"
+  },
+  {
+    "contributor": "Pamela Sneed",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Sweet Dreams"
+  },
+  {
+    "contributor": "Pamela Sneed",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Sweet Dreams"
+  },
+  {
+    "contributor": "Pamela Sneed",
+    "role": "author",
+    "university": "School of the Art Institute of Chicago",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Sweet Dreams"
+  },
+  {
+    "contributor": "Pamela Sneed",
+    "role": "author",
+    "university": "Pratt University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Sweet Dreams"
+  },
+  {
+    "contributor": "Monica Sok",
+    "role": "author",
+    "university": "NYU",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Missing"
+  },
+  {
+    "contributor": "Monica Sok",
+    "role": "author",
+    "university": "Stanford University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Ode to the Loom"
+  },
+  {
+    "contributor": "Monica Sok",
+    "role": "author",
+    "university": "Stanford University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Ode to the Loom"
+  },
+  {
+    "contributor": "Layli Long Soldier",
+    "role": "author",
+    "university": "Institute of American Indian Arts",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Now, You Will Listen"
+  },
+  {
+    "contributor": "Layli Long Soldier",
+    "role": "author",
+    "university": "Bard College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Now, You Will Listen"
+  },
+  {
+    "contributor": "Layli Long Soldier",
+    "role": "author",
+    "university": "University of New Mexico",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Now, You Will Listen"
+  },
+  {
+    "contributor": "Andrew Solomon",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "On Gay Parenting"
+  },
+  {
+    "contributor": "Susan Sontag",
+    "role": "author",
+    "university": "Berkeley",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Thirty Years Later…"
+  },
+  {
+    "contributor": "Susan Sontag",
+    "role": "author",
+    "university": "Chicago",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Thirty Years Later…"
+  },
+  {
+    "contributor": "Susan Sontag",
+    "role": "author",
+    "university": "Harvard",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Thirty Years Later…"
+  },
+  {
+    "contributor": "Mary South",
+    "role": "author",
+    "university": "Northwestern University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Excerpt from You Will Never Be Forgotten: Not Setsuko"
+  },
+  {
+    "contributor": "Mary South",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Excerpt from You Will Never Be Forgotten: Not Setsuko"
+  },
+  {
+    "contributor": "Younis B. Azeem",
+    "role": "author",
+    "university": "The New School",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Tire Next Time"
+  },
+  {
+    "contributor": "Younis B. Azeem",
+    "role": "author",
+    "university": "Lahore University of Management Sciences",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Tire Next Time"
+  },
+  {
+    "contributor": "Emily Barnett",
+    "role": "visual_artist",
+    "university": "Louisiana State University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Tire Next Time"
+  },
+  {
+    "contributor": "Emily Barnett",
+    "role": "visual_artist",
+    "university": "Parsons School of Design",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Tire Next Time"
+  },
+  {
+    "contributor": "Emily Barnett",
+    "role": "visual_artist",
+    "university": "The New School",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Tire Next Time"
+  },
+  {
+    "contributor": "Emily Barnett",
+    "role": "visual_artist",
+    "university": "Hofstra",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Tire Next Time"
+  },
+  {
+    "contributor": "Petey Brown",
+    "role": "visual_artist",
+    "university": "Boston University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Green World"
+  },
+  {
+    "contributor": "Joseph Anthony Cáceres",
+    "role": "author",
+    "university": "Yale Writers’ Workshop",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Imperial Gas Station"
+  },
+  {
+    "contributor": "Joshua Corey, Michael Anania",
+    "role": "author",
+    "university": "Lake Forest College",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "From AI to Auden: An Interview with Michael Anania (Part One)"
+  },
+  {
+    "contributor": "Joshua Corey, Michael Anania",
+    "role": "author",
+    "university": "University of Nebraska",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "From AI to Auden: An Interview with Michael Anania (Part One)"
+  },
+  {
+    "contributor": "Joshua Corey, Michael Anania",
+    "role": "author",
+    "university": "University at Buffalo",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "From AI to Auden: An Interview with Michael Anania (Part One)"
+  },
+  {
+    "contributor": "Amanda Guest",
+    "role": "visual_artist",
+    "university": "Harvard College",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "From AI to Auden: An Interview with Michael Anania (Part One)"
+  },
+  {
+    "contributor": "Amanda Guest",
+    "role": "visual_artist",
+    "university": "New York Studio School",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "From AI to Auden: An Interview with Michael Anania (Part One)"
+  },
+  {
+    "contributor": "Joshua Corey, Michael Anania",
+    "role": "author",
+    "university": "Lake Forest College",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "From AI to Auden: An Interview with Michael Anania (Part Two)"
+  },
+  {
+    "contributor": "Joshua Corey, Michael Anania",
+    "role": "author",
+    "university": "University of Nebraska",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "From AI to Auden: An Interview with Michael Anania (Part Two)"
+  },
+  {
+    "contributor": "Joshua Corey, Michael Anania",
+    "role": "author",
+    "university": "University at Buffalo",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "From AI to Auden: An Interview with Michael Anania (Part Two)"
+  },
+  {
+    "contributor": "Amanda Guest",
+    "role": "visual_artist",
+    "university": "Harvard College",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "From AI to Auden: An Interview with Michael Anania (Part Two)"
+  },
+  {
+    "contributor": "Amanda Guest",
+    "role": "visual_artist",
+    "university": "New York Studio School",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "From AI to Auden: An Interview with Michael Anania (Part Two)"
+  },
+  {
+    "contributor": "Rick Meyerowitz",
+    "role": "visual_artist",
+    "university": "Boston University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Redress and Revolution"
+  },
+  {
+    "contributor": "Diyan Achjadi",
+    "role": "visual_artist",
+    "university": "Emily Carr University",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "we don’t go after sailors and Other Poems"
+  },
+  {
+    "contributor": "Suzanne Gardinier",
+    "role": "author",
+    "university": "Sarah Lawrence College",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Fort Jabalia: Fourteen ways of looking at white"
+  },
+  {
+    "contributor": "Daniele Del Giudice",
+    "role": "author",
+    "university": "University of Venice",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "A Fictional Inquiry"
+  },
+  {
+    "contributor": "Jane Ursula Harris",
+    "role": "author",
+    "university": "School of Visual Arts",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "My Orphans: Snapshot Stories of An Analog World"
+  },
+  {
+    "contributor": "Don Tinling",
+    "role": "visual_artist",
+    "university": "CalArts",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "In the Odd Hours Before the Games Begin, I Rethink Everything and Other Poems"
+  },
+  {
+    "contributor": "Ashley Walters",
+    "role": "visual_artist",
+    "university": "Stellenbosch University",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "10.10.21 and Other Poems"
+  },
+  {
+    "contributor": "Sean McKay",
+    "role": "author",
+    "university": "The New School",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Gnomon and Umber"
+  },
+  {
+    "contributor": "Alexandre Hogue",
+    "role": "visual_artist",
+    "university": "Minneapolis College of Art and Design",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Gnomon and Umber"
+  },
+  {
+    "contributor": "Ken Weathersby",
+    "role": "visual_artist",
+    "university": "Cranbrook Academy of Art",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "My Life as an Insect and Other Poems"
+  },
+  {
+    "contributor": "Elizabeth Flood",
+    "role": "visual_artist",
+    "university": "Purchase College",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "King Kong Screaming from The Leonardo and Other Poems"
+  },
+  {
+    "contributor": "Ikechukwu Ogbu",
+    "role": "author",
+    "university": "University of Benin",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "My Mother’s Son"
+  },
+  {
+    "contributor": "Elizabeth Catlett",
+    "role": "visual_artist",
+    "university": "Escuela Nacional de Artes Plásticas",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "My Mother’s Son"
+  },
+  {
+    "contributor": "Rebecca Farr",
+    "role": "visual_artist",
+    "university": "Los Angeles County Museum of Art",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Recalibration and Other Poems"
+  },
+  {
+    "contributor": "Izumi Ueda Yuu",
+    "role": "visual_artist",
+    "university": "Kuwasawa Design School",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Babalon and Other Poems"
+  },
+  {
+    "contributor": "Izumi Ueda Yuu",
+    "role": "visual_artist",
+    "university": "Maryland Institute College of Art",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Babalon and Other Poems"
+  },
+  {
+    "contributor": "Tshepiso Seleke",
+    "role": "author",
+    "university": "University of Johannesburg",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Love Language"
+  },
+  {
+    "contributor": "Katleho Kano Shoro",
+    "role": "author",
+    "university": "University of Pennsylvania",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Upon Beige We Hide and Other Poems"
+  },
+  {
+    "contributor": "Dean Sameshima",
+    "role": "visual_artist",
+    "university": "Art Center College of Design",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Naming My Weakness and Other Poems"
+  },
+  {
+    "contributor": "Peggy Casey-Friedman",
+    "role": "visual_artist",
+    "university": "Minneapolis College of Art and Design",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "My Nuclear Family (Part 1)"
+  },
+  {
+    "contributor": "Peggy Casey-Friedman",
+    "role": "visual_artist",
+    "university": "Minneapolis College of Art and Design",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "My Nuclear Family (Part 2)"
+  },
+  {
+    "contributor": "Don Tinling",
+    "role": "author",
+    "university": "CalArts",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Cemetery Flowers"
+  },
+  {
+    "contributor": "the author",
+    "role": "visual_artist",
+    "university": "CalArts",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Cemetery Flowers"
+  },
+  {
+    "contributor": "Anna Tyor",
+    "role": "author",
+    "university": "University College London",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Inanimate Object"
+  },
+  {
+    "contributor": "Anna Tyor",
+    "role": "author",
+    "university": "Appalachian State University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Inanimate Object"
+  },
+  {
+    "contributor": "Amanda Carter",
+    "role": "visual_artist",
+    "university": "Mason Gross School of the Arts, Rutgers University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Inanimate Object"
+  },
+  {
+    "contributor": "Amanda Carter",
+    "role": "visual_artist",
+    "university": "Washington University in Saint Louis",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Inanimate Object"
+  },
+  {
+    "contributor": "Chinyere Evelyn Uku",
+    "role": "author",
+    "university": "Howard University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Oyibo"
+  },
+  {
+    "contributor": "Carol Bruns",
+    "role": "visual_artist",
+    "university": "NYU",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Oyibo"
+  },
+  {
+    "contributor": "Carol Bruns",
+    "role": "visual_artist",
+    "university": "Art Students League",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Oyibo"
+  },
+  {
+    "contributor": "Carol Bruns",
+    "role": "visual_artist",
+    "university": "l’Académie de la Grande Chaumière",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "Oyibo"
+  },
+  {
+    "contributor": "Richard Whitten",
+    "role": "visual_artist",
+    "university": "Yale University",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Mechanic"
+  },
+  {
+    "contributor": "Richard Whitten",
+    "role": "visual_artist",
+    "university": "University of California at Davis",
+    "relationship": "studied",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Mechanic"
+  },
+  {
+    "contributor": "Richard Whitten",
+    "role": "visual_artist",
+    "university": "Rhode Island College",
+    "relationship": "worked",
+    "journal": "Evergreen Review",
+    "pieceTitle": "The Mechanic"
+  },
+  {
+    "contributor": "Claire Stanford",
+    "role": "author",
+    "university": "Loyola Marymount University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "At the Gift Shop in Los Alamos"
+  },
+  {
+    "contributor": "Ben Still",
+    "role": "author",
+    "university": "New York University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "concept pest control"
+  },
+  {
+    "contributor": "Carly Stone",
+    "role": "author",
+    "university": "New York University",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "A Fox Disappearing in the Air"
+  },
+  {
+    "contributor": "Stefen Styrsky",
+    "role": "author",
+    "university": "Johns Hopkins University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "The National Gallery"
+  },
+  {
+    "contributor": "Maggie Su",
+    "role": "author",
+    "university": "Indiana University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Circumnavigation"
+  },
+  {
+    "contributor": "Matthew Sumpter",
+    "role": "author",
+    "university": "Ohio State University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Identities"
+  },
+  {
+    "contributor": "Matthew Sumpter",
+    "role": "author",
+    "university": "Binghamton University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Identities"
+  },
+  {
+    "contributor": "Matthew Sumpter",
+    "role": "author",
+    "university": "Tulane University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Identities"
+  },
+  {
+    "contributor": "Esther Sun",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "“Scene in a Museum From Which I Never Leave” and “Oceanic”"
+  },
+  {
+    "contributor": "Esther Sun",
+    "role": "author",
+    "university": "Bennington College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "“Scene in a Museum From Which I Never Leave” and “Oceanic”"
+  },
+  {
+    "contributor": "Kristen Sahaana Surya",
+    "role": "author",
+    "university": "Warren Wilson College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Grown Up Girls"
+  },
+  {
+    "contributor": "Norie Suzuki",
+    "role": "author",
+    "university": "Sarah Lawrence College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Where the Blue Rests"
+  },
+  {
+    "contributor": "Dennis James Sweeney",
+    "role": "author",
+    "university": "Oregon State University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Neversink"
+  },
+  {
+    "contributor": "Dennis James Sweeney",
+    "role": "author",
+    "university": "University of Denver",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Neversink"
+  },
+  {
+    "contributor": "Elizabeth Tallent",
+    "role": "author",
+    "university": "Stanford University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "The Trouble with Postmortality"
+  },
+  {
+    "contributor": "Elizabeth Tallent",
+    "role": "author",
+    "university": "Stanford University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Flushed, Frenzied, Relentless Me"
+  },
+  {
+    "contributor": "Elizabeth Tallent",
+    "role": "author",
+    "university": "Stanford University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Thinking about The Road"
+  },
+  {
+    "contributor": "Elizabeth Tallent",
+    "role": "author",
+    "university": "Stanford University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Once, with Attention"
+  },
+  {
+    "contributor": "Elizabeth Tallent",
+    "role": "author",
+    "university": "Stanford University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Caressing Repetitions"
+  },
+  {
+    "contributor": "Elizabeth Tallent",
+    "role": "author",
+    "university": "Stanford University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Poets"
+  },
+  {
+    "contributor": "Suiyi Tang",
+    "role": "author",
+    "university": "Williams College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Excerpt from American Symphony: Other White Lies"
+  },
+  {
+    "contributor": "Kashawn Taylor",
+    "role": "author",
+    "university": "not specified",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "The Court Trip"
+  },
+  {
+    "contributor": "Mika Taylor",
+    "role": "author",
+    "university": "University of Wisconsin",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "We Defy Augury"
+  },
+  {
+    "contributor": "Mika Taylor",
+    "role": "author",
+    "university": "University of Arizona",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "We Defy Augury"
+  },
+  {
+    "contributor": "Sophia Terazawa",
+    "role": "author",
+    "university": "University of Arizona",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Daughter’s Guide to Lavender"
+  },
+  {
+    "contributor": "Alex Terrell",
+    "role": "author",
+    "university": "University of Maine, Orono",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "If More of Us Were Sirens"
+  },
+  {
+    "contributor": "Jenny Sadre-Orafai",
+    "role": "author",
+    "university": "Kennesaw State University",
+    "relationship": "worked",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Testing a Pattern / Replicas / Swim, Swam, Swum"
+  },
+  {
+    "contributor": "Justine Teu",
+    "role": "author",
+    "university": "The New School",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Fruition"
+  },
+  {
+    "contributor": "Howard Tharsing",
+    "role": "author",
+    "university": "Johns Hopkins University",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "The Visible and the Invisible"
+  },
+  {
+    "contributor": "Howard Tharsing",
+    "role": "author",
+    "university": "Johns Hopkins University",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "The Visible and the Invisible"
+  },
+  {
+    "contributor": "Matt Rossi",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "The Albatross Riddle"
+  },
+  {
+    "contributor": "Leila Seyedzadeh",
+    "role": "author",
+    "university": "Yale School of Art",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "The Blue Sky"
+  },
+  {
+    "contributor": "Leila Seyedzadeh",
+    "role": "author",
+    "university": "University of Science and Culture",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "The Blue Sky"
+  },
+  {
+    "contributor": "Leila Seyedzadeh",
+    "role": "author",
+    "university": "Pratt Fine Art department",
+    "relationship": "worked",
+    "journal": "New Orleans Review",
+    "pieceTitle": "The Blue Sky"
+  },
+  {
+    "contributor": "Brandon Haffner",
+    "role": "author",
+    "university": "Longwood University",
+    "relationship": "worked",
+    "journal": "New Orleans Review",
+    "pieceTitle": "The Bridge Kids"
+  },
+  {
+    "contributor": "Nikita Andester",
+    "role": "author",
+    "university": "University of Denver",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "The Last Great Artist of Moscow"
+  },
+  {
+    "contributor": "Mojgan Ghazirad",
+    "role": "author",
+    "university": "Tehran University of Medical Sciences",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "The Rose Generation"
+  },
+  {
+    "contributor": "Mojgan Ghazirad",
+    "role": "author",
+    "university": "George Washington University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "The Rose Generation"
+  },
+  {
+    "contributor": "Mojgan Ghazirad",
+    "role": "author",
+    "university": "Southern New Hampshire University",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "The Rose Generation"
+  },
+  {
+    "contributor": "Mojgan Ghazirad",
+    "role": "author",
+    "university": "George Washington University",
+    "relationship": "worked",
+    "journal": "New Orleans Review",
+    "pieceTitle": "The Rose Generation"
+  },
+  {
+    "contributor": "Maud Acheampong",
+    "role": "author",
+    "university": "City College of New York",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "THERE IS SOOT IN YOUR NOSE, A FIRE AT YOUR DOOR, A NOOSE IN YOUR BED"
+  },
+  {
+    "contributor": "Nastaran Ahmadi",
+    "role": "author",
+    "university": "Washington University in St. Louis",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Third Person, or Nastaran Ahmadi writes personal essays about Nastaran Ahmadi"
+  },
+  {
+    "contributor": "Nastaran Ahmadi",
+    "role": "author",
+    "university": "Yale School of Drama",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Third Person, or Nastaran Ahmadi writes personal essays about Nastaran Ahmadi"
+  },
+  {
+    "contributor": "Isabella Kestermann",
+    "role": "author",
+    "university": "Emerson College",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "This Time"
+  },
+  {
+    "contributor": "Isabella Kestermann",
+    "role": "author",
+    "university": "The New School",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "This Time"
+  },
+  {
+    "contributor": "Joseph Earl Thomas",
+    "role": "author",
+    "university": "University of Notre Dame",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: The Den of Earl"
+  },
+  {
+    "contributor": "Joseph Earl Thomas",
+    "role": "author",
+    "university": "University of Pennsylvania",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: The Den of Earl"
+  },
+  {
+    "contributor": "Joseph Earl Thomas",
+    "role": "author",
+    "university": "Sarah Lawrence College",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: The Den of Earl"
+  },
+  {
+    "contributor": "Joseph Earl Thomas",
+    "role": "author",
+    "university": "Brooklyn Institute for Social Research",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: The Den of Earl"
+  },
+  {
+    "contributor": "Clifford Thompson",
+    "role": "author",
+    "university": "Bennington College",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "La Bohème"
+  },
+  {
+    "contributor": "Clifford Thompson",
+    "role": "author",
+    "university": "NYU",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "La Bohème"
+  },
+  {
+    "contributor": "Cheng Tim Tim",
+    "role": "author",
+    "university": "HKICC Lee Shau Kee School of Creativity",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "June 9"
+  },
+  {
+    "contributor": "Gabriela Barre",
+    "role": "author",
+    "university": "Loyola University New Orleans",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Tissa Hami"
+  },
+  {
+    "contributor": "Chloe Firetto Toomey",
+    "role": "author",
+    "university": "Florida International University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Heirlooms"
+  },
+  {
+    "contributor": "Chloe Firetto Toomey",
+    "role": "author",
+    "university": "Florida International University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Heirlooms"
+  },
+  {
+    "contributor": "Chloe Firetto Toomey",
+    "role": "author",
+    "university": "Everglades Correctional Institution",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Heirlooms"
+  },
+  {
+    "contributor": "Michael Torres",
+    "role": "author",
+    "university": "Minnesota State University, Mankato",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Doing Donuts in an ’87 Mustang 5.0"
+  },
+  {
+    "contributor": "Nghiem Tran",
+    "role": "author",
+    "university": "Syracuse University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "“The Lover” and Two Poems"
+  },
+  {
+    "contributor": "Nghiem Tran",
+    "role": "author",
+    "university": "Vassar College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Trespassing"
+  },
+  {
+    "contributor": "Jacqueline Allen Trimble",
+    "role": "author",
+    "university": "Alabama State University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Ethnophaulism for the News"
+  },
+  {
+    "contributor": "Leticia Urieta",
+    "role": "author",
+    "university": "Agnes Scott College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "La Mujer Alacran"
+  },
+  {
+    "contributor": "Leticia Urieta",
+    "role": "author",
+    "university": "Texas State University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "La Mujer Alacran"
+  },
+  {
+    "contributor": "Bronwyn Valentine",
+    "role": "author",
+    "university": "The University of Alabama",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "MOVEMENTS OF THE UNCONTROLLABLE BODY PART TWO"
+  },
+  {
+    "contributor": "Sarah Vangundy",
+    "role": "author",
+    "university": "University of Idaho",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Memento Mori"
+  },
+  {
+    "contributor": "Steve Vineberg",
+    "role": "author",
+    "university": "Holy Cross College",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Deep Sleep"
+  },
+  {
+    "contributor": "Steve Vineberg",
+    "role": "author",
+    "university": "Holy Cross College",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Acting Beneath the Skin"
+  },
+  {
+    "contributor": "Steve Vineberg",
+    "role": "author",
+    "university": "Holy Cross College",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Aeschylus and Freud"
+  },
+  {
+    "contributor": "Ivan Vladislavić",
+    "role": "author",
+    "university": "University of the Witwatersrand",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "101 Detectives"
+  },
+  {
+    "contributor": "Gwendolyn Wallace",
+    "role": "author",
+    "university": "Yale University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Surface Tension"
+  },
+  {
+    "contributor": "Ernie Wang",
+    "role": "author",
+    "university": "University of Nevada, Las Vegas",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Table Talk"
+  },
+  {
+    "contributor": "Rosanna Warren",
+    "role": "author",
+    "university": "University of Chicago",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Soon"
+  },
+  {
+    "contributor": "Rosanna Warren",
+    "role": "author",
+    "university": "Boston University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Palaces"
+  },
+  {
+    "contributor": "Maggie Bard",
+    "role": "author",
+    "university": "Pratt Institute",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Water Damage"
+  },
+  {
+    "contributor": "Maggie Bard",
+    "role": "author",
+    "university": "Massachusetts College of Art",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Water Damage"
+  },
+  {
+    "contributor": "Maggie Bard",
+    "role": "author",
+    "university": "School of the Art Institute Chicago",
+    "relationship": "studied",
+    "journal": "New Orleans Review",
+    "pieceTitle": "Water Damage"
+  },
+  {
+    "contributor": "Alex Watson",
+    "role": "author",
+    "university": "Barnard College",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "On a Hot Night"
+  },
+  {
+    "contributor": "Michael M. Weinstein",
+    "role": "author",
+    "university": "NYU",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "On Devotion"
+  },
+  {
+    "contributor": "Darrian Wesley",
+    "role": "author",
+    "university": "Bradley University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Butch Queen Shade"
+  },
+  {
+    "contributor": "Darrian Wesley",
+    "role": "author",
+    "university": "Lesley University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Butch Queen Shade"
+  },
+  {
+    "contributor": "Phillip B. Williams",
+    "role": "author",
+    "university": "New York University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Excerpt from OURS"
+  },
+  {
+    "contributor": "Bernard Williams",
+    "role": "author",
+    "university": "Oxford",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Philosophy as a Humanistic Discipline"
+  },
+  {
+    "contributor": "Bernard Williams",
+    "role": "author",
+    "university": "UC Berkeley",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Philosophy as a Humanistic Discipline"
+  },
+  {
+    "contributor": "C. K. Williams",
+    "role": "author",
+    "university": "Princeton",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Vile Jelly"
+  },
+  {
+    "contributor": "Christian Wiman",
+    "role": "author",
+    "university": "Stanford University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "The Limit"
+  },
+  {
+    "contributor": "Christian Wiman",
+    "role": "author",
+    "university": "Lynchburg College",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "The Limit"
+  },
+  {
+    "contributor": "Brenda Wineapple",
+    "role": "author",
+    "university": "Columbia University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Belated Recognition"
+  },
+  {
+    "contributor": "Jennifer Wortman",
+    "role": "author",
+    "university": "Lighthouse Writers Workshop",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Which Truth, Patricia?"
+  },
+  {
+    "contributor": "Emma Wu",
+    "role": "author",
+    "university": "Rutgers University-Camden",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Whole-Earth Structure and Plate Tectonics: Figure 14.15 and Figure 14.16"
+  },
+  {
+    "contributor": "Emma Wu",
+    "role": "author",
+    "university": "George Washington University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Whole-Earth Structure and Plate Tectonics: Figure 14.15 and Figure 14.16"
+  },
+  {
+    "contributor": "Erika T. Wurth",
+    "role": "author",
+    "university": "Western Illinois University",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Barry Four Voices"
+  },
+  {
+    "contributor": "Erika T. Wurth",
+    "role": "author",
+    "university": "Institute of American Indian Arts",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "Barry Four Voices"
+  },
+  {
+    "contributor": "Jenny Xie",
+    "role": "author",
+    "university": "UC Berkeley",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: Pigeon Forge"
+  },
+  {
+    "contributor": "Jenny Xie",
+    "role": "author",
+    "university": "Johns Hopkins University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "From the Archives: Pigeon Forge"
+  },
+  {
+    "contributor": "Jenny Xie",
+    "role": "author",
+    "university": "UC Berkeley",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Pigeon Forge"
+  },
+  {
+    "contributor": "Jenny Xie",
+    "role": "author",
+    "university": "Johns Hopkins University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Pigeon Forge"
+  },
+  {
+    "contributor": "Yanyi",
+    "role": "author",
+    "university": "NYU",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "“Inheritance” from The Year of Blue Water"
+  },
+  {
+    "contributor": "S. Yarberry",
+    "role": "author",
+    "university": "Washington University in St. Louis",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "“I KISS THE FIRE IN YOUR HAND, OR CITY-BUILDERS” and “INTIMACY ABSTRACT”"
+  },
+  {
+    "contributor": "April Yee",
+    "role": "author",
+    "university": "Harvard",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "My Blues"
+  },
+  {
+    "contributor": "April Yee",
+    "role": "author",
+    "university": "University of East Anglia",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "My Blues"
+  },
+  {
+    "contributor": "April Yee",
+    "role": "author",
+    "university": "University of the Arts London",
+    "relationship": "worked",
+    "journal": "The Offing",
+    "pieceTitle": "My Blues"
+  },
+  {
+    "contributor": "Dean Young",
+    "role": "author",
+    "university": "Iowa Writers Workshop",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "On Sleep"
+  },
+  {
+    "contributor": "Dean Young",
+    "role": "author",
+    "university": "Iowa Writers Workshop",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Whoz Side U On, Anyway?"
+  },
+  {
+    "contributor": "Dean Young",
+    "role": "author",
+    "university": "University of Austin, Texas",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Vacationland"
+  },
+  {
+    "contributor": "Dean Young",
+    "role": "author",
+    "university": "Iowa Writers’ Workshop",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Resignation Letter"
+  },
+  {
+    "contributor": "Dean Young",
+    "role": "author",
+    "university": "University of Texas, Austin",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Another Long Dayin the Helping Industry"
+  },
+  {
+    "contributor": "Dean Young",
+    "role": "author",
+    "university": "University of Texas in Austin",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Don’t Blame Me,I Voted for a Hallucination"
+  },
+  {
+    "contributor": "Dean Young",
+    "role": "author",
+    "university": "University of Texas, Austin",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Fade Out"
+  },
+  {
+    "contributor": "Clare Cavanagh",
+    "role": "translator",
+    "university": "Northwestern University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Drottningholm"
+  },
+  {
+    "contributor": "Clare Cavanagh",
+    "role": "translator",
+    "university": "Northwestern University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Defenseless"
+  },
+  {
+    "contributor": "Clare Cavanagh",
+    "role": "translator",
+    "university": "Northwestern University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "The Great Poet BashoBegins His Journey"
+  },
+  {
+    "contributor": "Clare Cavanagh",
+    "role": "translator",
+    "university": "Northwestern University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Out Walking with My FatherGrunwald Square, Gliwice"
+  },
+  {
+    "contributor": "Elina Zhang",
+    "role": "author",
+    "university": "University of Pittsburgh",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "My Year of Light"
+  },
+  {
+    "contributor": "Matthew Zhao",
+    "role": "author",
+    "university": "Florida State University",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Gift of God"
+  },
+  {
+    "contributor": "Anna Ziegler",
+    "role": "author",
+    "university": "Yale College",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "After the Opening, 1932"
+  },
+  {
+    "contributor": "Anna Ziegler",
+    "role": "author",
+    "university": "University of East Anglia",
+    "relationship": "studied",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "After the Opening, 1932"
+  },
+  {
+    "contributor": "Hafsa Zulfiqar",
+    "role": "author",
+    "university": "Bennington College",
+    "relationship": "studied",
+    "journal": "The Offing",
+    "pieceTitle": "Small Nightmares I Dream In A Foreign Country"
+  },
+  {
+    "contributor": "Jane Zwart",
+    "role": "author",
+    "university": "Calvin University",
+    "relationship": "worked",
+    "journal": "The Threepenny Review",
+    "pieceTitle": "Parable of the Gamblers"
+  }
+]
