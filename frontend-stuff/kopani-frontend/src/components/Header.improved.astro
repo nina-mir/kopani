@@ -5,134 +5,148 @@ const navItems = [
   { label: "Poetry", href: "/poetry" },
   { label: "Interviews", href: "/interviews" },
   { label: "Art", href: "/art" },
-  // { label: "Translation", href: "/translation" },
-  // { label: "Reviews", href: "/reviews" },
+];
+
+const utilityItems = [
+  { label: "For Campuses", href: "/campuses" },
+  { label: "Support a Writer", href: "/support" },
 ];
 ---
 
-<header class="border-b-[3px] border-double border-ink">
-  <div
-    class="grid grid-cols-[44px_1fr_44px] items-center px-4 py-4 md:grid-cols-[1fr_auto_1fr] md:px-10 md:py-6"
-  >
-    <!-- Left: hamburger on mobile, desktop search on larger screens -->
-    <div class="justify-self-start self-center">
-      <button
-        id="nav-toggle"
-        aria-label="Open menu"
-        aria-expanded="false"
-        class="flex flex-col gap-1.5 p-2 md:hidden"
-      >
-        <span class="block h-[2px] w-[22px] bg-ink/80"></span>
-        <span class="block h-[2px] w-[22px] bg-ink/75"></span>
-        <span class="block h-[2px] w-[22px] bg-ink/70"></span>
-      </button>
-
-      <!-- Desktop global search.
-           This is intentionally a normal GET form:
-           typing "memory" submits to /search?q=memory.
+<div
+  id="site-header"
+  class="sticky top-0 z-30 border-b-[3px] border-double border-ink bg-cream/95 backdrop-blur supports-[backdrop-filter]:bg-cream/85"
+>
+  <header>
+    <div
+      class="grid grid-cols-[44px_1fr_44px] items-center px-4 py-4 transition-all duration-300 md:grid-cols-[1fr_auto_1fr] md:px-10 md:py-6"      data-header-inner
+    >
+      <!-- Left: hamburger.
+           Mobile: always visible.
+           Desktop: hidden at top, visible after scroll.
       -->
-    </div>
+      <div class="justify-self-start self-center">
+        <button
+          id="nav-toggle"
+          aria-label="Open menu"
+          aria-expanded="false"
+          class="flex flex-col gap-1.5 p-2 transition-opacity duration-300 md:pointer-events-none md:opacity-0"
+          data-header-toggle
+        >
+          <span class="block h-[2px] w-[22px] bg-ink/80"></span>
+          <span class="block h-[2px] w-[22px] bg-ink/75"></span>
+          <span class="block h-[2px] w-[22px] bg-ink/70"></span>
+        </button>
+      </div>
 
-    <!-- Center: logo -->
-    <a href="/" class="min-w-0 justify-self-center text-center">
-      <h1
-        class="font-secret-service leading-none tracking-tight text-ink/90"
-        style="font-size: clamp(2.75rem, 7vw, 5rem);"
-      >
-        Kopani
-      </h1>
+      <!-- Center: logo -->
+      <a href="/" class="min-w-0 justify-self-center text-center">
+        <h1
+          class="font-secret-service leading-none tracking-tight text-ink/90 transition-all duration-300"
+          data-header-logo
+          style="font-size: clamp(2.75rem, 7vw, 5rem);"
+        >
+          Kopani
+        </h1>
 
-      <!-- Desktop subtitle -->
+        <!-- Desktop subtitle -->
+        <p
+          class="mt-2 hidden font-arno italic font-normal text-ochre transition-all duration-300 md:block md:text-[1rem] md:tracking-[0.06em]"
+          data-header-byline
+        >
+          The independent literary press, gathered.
+        </p>
+      </a>
+
+      <!-- Right: desktop search, mobile spacer -->
+      <div class="justify-self-end self-center">
+        <div class="w-[44px] md:hidden" data-header-mobile-spacer></div>
+
+        <form
+          action="/search"
+          method="get"
+          role="search"
+          class="hidden w-[260px] transition-all duration-300 md:block lg:w-[320px]"
+          data-header-search
+        >
+          <label for="global-search-desktop" class="sr-only">Search Kopani</label>
+
+          <div
+            class="flex items-center border border-ink/20 bg-linen/70 shadow-[2px_2px_0_rgba(28,18,8,0.08)] transition focus-within:border-prussian focus-within:shadow-[2px_2px_0_rgba(44,62,107,0.18)]"
+          >
+            <input
+              id="global-search-desktop"
+              name="q"
+              type="search"
+              autocomplete="off"
+              placeholder="Search Kopani"
+              class="min-w-0 flex-1 bg-transparent px-3 py-2 font-body text-sm text-ink outline-none placeholder:italic placeholder:text-umber/45"
+            />
+
+            <button
+              type="submit"
+              aria-label="Search"
+              class="self-stretch border-l border-ink/15 px-3 font-mono text-umber transition hover:bg-ink hover:text-linen"
+            >
+              ↗
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Mobile subtitle -->
       <p
-        class="mt-2 hidden font-arno italic font-normal text-ochre md:block md:text-[1rem] md:tracking-[0.06em]"
+        class="col-span-3 mt-2 whitespace-nowrap text-center font-arno text-[1rem] font-normal italic text-ochre transition-all duration-300 md:hidden"
+        data-header-mobile-byline
       >
         The independent literary press, gathered.
       </p>
-    </a>
-
-    <!-- Right: spacer on mobile, utility links on desktop -->
-    <div class="justify-self-end self-center">
-      <div class="w-[44px] md:hidden"></div>
-
-      <!-- <nav class="hidden gap-5 font-body text-sm text-umber md:flex">
-        <a href="/rss" class="hover:text-prussian">RSS</a>
-        <a href="/submit" class="hover:text-prussian">Submit</a>
-      </nav> -->
-        <form
-        action="/search"
-        method="get"
-        role="search"
-        class="hidden w-[260px] md:block lg:w-[320px]"
-      >
-        <label for="global-search-desktop" class="sr-only">Search Kopani</label>
-
-        <div
-          class="flex items-center border border-ink/20 bg-linen/70 shadow-[2px_2px_0_rgba(28,18,8,0.08)] transition focus-within:border-prussian focus-within:shadow-[2px_2px_0_rgba(44,62,107,0.18)]"
-        >
-          <input
-            id="global-search-desktop"
-            name="q"
-            type="search"
-            autocomplete="off"
-            placeholder="Search Kopani"
-            class="min-w-0 flex-1 bg-transparent px-3 py-2 font-body text-sm text-ink outline-none placeholder:italic placeholder:text-umber/45"
-          />
-
-          <button
-            type="submit"
-            aria-label="Search"
-            class="self-stretch border-l border-ink/15 px-3 font-mono text-umber transition hover:bg-ink hover:text-linen"
-          >
-            ↗
-          </button>
-        </div>
-      </form>
-    
     </div>
+  </header>
 
-    <!-- Mobile subtitle -->
-    <p
-      class="col-span-3 mt-2 whitespace-nowrap text-center font-arno text-[1rem] font-normal italic text-ochre md:hidden"
-    >
-      The independent literary press, gathered.
-    </p>
-  </div>
-</header>
-
-<!-- Primary nav (desktop only) -->
-<nav class="hidden border-t border-cream-dark py-3 md:block">
-  <ul
-    class="flex justify-center font-body text-sm uppercase tracking-[0.18em] text-ink"
+  <!-- Primary nav.
+       Desktop only at top.
+       Hidden once the header condenses.
+  -->
+  <nav
+    class="hidden border-t border-cream-dark py-3 transition-all duration-300 md:block"
+    data-primary-nav
   >
-    {
-      navItems.map((item, i) => (
-        <li class="flex items-center">
-          <a href={item.href} class="px-4 hover:text-prussian">
-            {item.label}
-          </a>
-          {i < navItems.length - 1 && <span class="text-cream-dark">|</span>}
-        </li>
-      ))
-    }
-  </ul>
-</nav>
+    <ul
+      class="flex justify-center font-body text-sm uppercase tracking-[0.18em] text-ink"
+    >
+      {
+        navItems.map((item, i) => (
+          <li class="flex items-center">
+            <a href={item.href} class="px-4 hover:text-prussian">
+              {item.label}
+            </a>
+            {i < navItems.length - 1 && <span class="text-cream-dark">|</span>}
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+</div>
 
-<!-- Mobile drawer -->
+<!-- Drawer backdrop: now works on mobile AND desktop -->
 <div
   id="nav-backdrop"
-  class="fixed inset-0 z-40 hidden md:hidden"
+  class="fixed inset-0 z-40 hidden"
   style="background-color: rgba(28, 18, 8, 0.55);"
   aria-hidden="true"
 >
 </div>
 
+<!-- Drawer: now works on mobile AND desktop -->
 <aside
   id="nav-drawer"
-  class="fixed left-0 top-0 z-50 h-full w-[85vw] max-w-[340px] -translate-x-full bg-linen p-6 transition-transform duration-300 ease-out md:hidden"
+  class="fixed left-0 top-0 z-50 h-full w-[85vw] max-w-[360px] -translate-x-full bg-linen p-6 transition-transform duration-300 ease-out"
   aria-label="Site navigation"
 >
   <div class="flex items-start justify-between border-b-2 border-umber pb-4">
-    <span class="font-display text-3xl font-light text-ink">Kopani</span>
+    <span class="font-secret-service text-3xl leading-none text-ink/90">Kopani</span>
+
     <button
       id="nav-close"
       aria-label="Close menu"
@@ -142,10 +156,6 @@ const navItems = [
     </button>
   </div>
 
-  <!-- Mobile global search.
-       It does the same thing as desktop search:
-       submit to /search?q=...
-  -->
   <form action="/search" method="get" role="search" class="mt-6">
     <label
       for="global-search-mobile"
@@ -192,6 +202,22 @@ const navItems = [
     }
   </ul>
 
+  <p class="mt-8 font-body text-xs uppercase tracking-[0.2em] text-brick">
+    Kopani
+  </p>
+
+  <ul class="mt-4 space-y-3 font-display text-2xl font-light">
+    {
+      utilityItems.map((item) => (
+        <li>
+          <a href={item.href} class="block text-ink hover:text-prussian">
+            {item.label}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
   <p
     class="absolute bottom-6 left-6 right-6 font-body text-sm italic text-umber"
   >
@@ -200,6 +226,7 @@ const navItems = [
 </aside>
 
 <script>
+  const siteHeader = document.getElementById("site-header");
   const toggle = document.getElementById("nav-toggle");
   const drawer = document.getElementById("nav-drawer");
   const backdrop = document.getElementById("nav-backdrop");
@@ -219,6 +246,12 @@ const navItems = [
     document.body.style.overflow = "";
   };
 
+  const updateHeaderState = () => {
+    const isCondensed = window.scrollY > 12;
+
+    siteHeader?.classList.toggle("is-condensed", isCondensed);
+  };
+
   toggle?.addEventListener("click", open);
   closeBtn?.addEventListener("click", close);
   backdrop?.addEventListener("click", close);
@@ -226,5 +259,62 @@ const navItems = [
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") close();
   });
+
+  updateHeaderState();
+  window.addEventListener("scroll", updateHeaderState, { passive: true });
 </script>
 
+<style>
+  /*
+    Sticky condensed header behavior.
+
+    At the top:
+    - big literary masthead
+    - byline visible
+    - desktop primary nav visible
+
+    After scroll:
+    - compact app-like header
+    - desktop hamburger appears
+    - bylines disappear
+    - desktop nav collapses away
+  */
+
+  #site-header.is-condensed [data-header-inner] {
+    padding-top: 0.55rem;
+    padding-bottom: 0.55rem;
+  }
+
+  #site-header.is-condensed [data-header-logo] {
+    font-size: clamp(2rem, 4vw, 2.65rem) !important;
+  }
+
+  #site-header.is-condensed [data-header-byline],
+  #site-header.is-condensed [data-header-mobile-byline],
+  #site-header.is-condensed [data-primary-nav] {
+    max-height: 0;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    opacity: 0;
+    overflow: hidden;
+    pointer-events: none;
+  }
+
+  @media (min-width: 768px) {
+    #site-header.is-condensed [data-header-toggle] {
+      pointer-events: auto;
+      opacity: 1;
+    }
+  }
+
+  @media (max-width: 767px) {
+    #site-header.is-condensed [data-header-inner] {
+      grid-template-columns: 44px 1fr 44px;
+    }
+
+    #site-header.is-condensed [data-header-logo] {
+      font-size: 2.25rem !important;
+    }
+  }
+</style>
