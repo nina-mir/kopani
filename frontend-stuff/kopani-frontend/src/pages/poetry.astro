@@ -9,7 +9,7 @@ const pieces = getPiecesByContentType("poetry");
 ---
 
 <BaseLayout title="Poetry — Kopani">
-  <section class="border-b border-cream-dark/60 px-4 py-10 md:px-10">
+  <!-- <section class="border-b border-cream-dark/60 px-4 py-10 md:px-10">
     <p class="font-body text-xs uppercase tracking-[0.24em] text-brick">
       Browse
     </p>
@@ -18,8 +18,35 @@ const pieces = getPiecesByContentType("poetry");
     >
       Poetry
     </h1>
-  </section>
+    <h3>
+      “To be interested in poetry is to be interested in the music and the content that emerges as a function of social life in all of its complexity and richness and pain and beauty.” 
+      Fred Moten 
+    </h3>
+  </section> -->
+<section class="border-b border-cream-dark/60 px-4 py-10 md:px-10">
+  <p class="font-body text-xs uppercase tracking-[0.24em] text-brick">
+    Browse
+  </p>
+  <h1
+    class="mt-4 font-display text-5xl leading-none font-light text-ink md:text-7xl"
+  >
+    Poetry
+  </h1>
 
+  <p class="mt-6 max-w-2xl font-arno text-[1.2rem]  leading-relaxed text-umber">
+    “To be interested in poetry is to be interested in the music and the content
+    that emerges as a function of social life in all of its complexity and
+    richness and pain and beauty.”
+    
+      <a href="https://lunchticket.org/fred-moten-poet/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="mt-2 block text-base not-italic tracking-wide text-ochre transition hover:text-brick"
+    >
+      — Fred Moten, interviewed in <em>Lunch Ticket</em>
+    </a>
+  </p>
+</section>
   <ContentTypeControls contentTypeLabel="Poetry" />
 
   <section class="px-4 py-10 md:px-10 md:py-14">
