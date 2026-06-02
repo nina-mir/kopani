@@ -16,6 +16,8 @@ kopani-db/
 json/
 data/
 kopani.sqlite
+kopani.20260601_112514.bak.sqlite
+db_nonfiction_included
 
 # Scraping & Logs
 # Beautiful Soup projects often generate log files or temporary outputs
@@ -53,6 +55,8 @@ json_files_for_ai_analysis
 
 # build output
 dist/
+
+*.old.astro
 
 # generated types
 .astro/
