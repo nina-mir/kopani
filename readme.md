@@ -1,3 +1,6 @@
+![Kopani — the independent literary press, gathered.](og/og-image-A.png)
+
+
 # Kopani
 
 Kopani is a discovery platform and editorial front page for independent literary journals. It curates standout poems, stories, and essays from small and mid-size magazines and sends readers back to the original publications to read the full work.
