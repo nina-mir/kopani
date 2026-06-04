@@ -1,46 +1,45 @@
-# Astro Starter Kit: Basics
+# Kopani Frontend
 
-```sh
-npm create astro@latest -- --template basics
+Frontend application for Kopani, a rights-respecting discovery platform for the independent literary press.
+
+This app presents real pieces from independent journals in a searchable interface designed for discovery, literary browsing, and future support workflows. It is the public-facing layer of the larger Kopani project.
+
+## What it shows
+
+- A homepage for browsing gathered literary work
+- Search across titles, journals, authors, translators, visual artists, genres, descriptions, keywords, and reading time
+- Structured metadata that makes scattered literary publishing easier to navigate
+- Links back to original journal pages rather than republishing copyrighted material
+
+## Product role
+
+The frontend is where the project’s core ideas become visible:
+
+- Discovery across independent literary journals
+- Better access to contemporary reading for readers and campuses
+- A foundation for contributor, institution, and journal relationship mapping
+- A future support layer tied to specific pieces and verified recipients
+
+## Copyright
+
+Kopani never republishes copyrighted material in the frontend.
+
+The application indexes and presents metadata, summaries, and discovery tools, while routing readers to the original publishers for the full work.
+
+## Development
+
+```bash
+npm install
+npm run dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Build
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+```bash
+npm run build
+npm run preview
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## Status
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+This frontend is part of an actively evolving MVP. Interface details, search behavior, and data presentation are still being refined alongside the ingestion and metadata systems.

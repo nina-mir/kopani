@@ -1,62 +1,52 @@
 ![Kopani — the independent literary press, gathered.](og/kopani-og-editorial.png)
 
-
 # Kopani
 
-Kopani is a discovery platform and editorial front page for independent literary journals. It curates standout poems, stories, and essays from small and mid-size magazines and sends readers back to the original publications to read the full work.
+Kopani is discovery and compensation infrastructure for the independent literary press.
 
-## What this repo contains
+It begins as a rights-respecting literary index that helps readers discover essays, fiction, poetry, interviews, translations, and visual art from independent journals without republishing copyrighted material. Kopani sends readers back to the original journals and is designed to make literary work more discoverable, more legible, and eventually more supportable over time.
 
-- Product and MVP planning documents (roadmaps, schemas, notes)
-- Application code for the Kopani front end and data layer
-- Scraper / ingestion framework (no scraped datasets)
-- Configuration and infrastructure docs
+## Why Kopani
 
-> Note: Scraped data and any private content are stored separately in private infrastructure and are **not** included in this repository.
+Independent journals publish extraordinary work, but much of it becomes hard to find after publication. Readers have to search journal by journal, faculty have limited ways to build contemporary reading lists, and writers, translators, and artists rarely share in the long-term value their work creates.
 
-## High-level goals
+Kopani is built to address that fragmentation by gathering structured metadata across journals into one searchable system.
 
-- Make it easy for readers to discover great work from independent journals.
-- Drive meaningful outbound traffic back to the journals that publish the work.
-- Provide a maintainable ingestion and curation workflow for a small team or solo founder.
+## What the product does
 
-## MVP shape
+- Browses real pieces from independent literary journals on the homepage
+- Supports search across titles, journals, authors, translators, visual artists, genres, descriptions, keywords, and reading time
+- Surfaces publication and contributor metadata in a consistent, searchable format
+- Links readers back to original sources instead of republishing copyrighted work
 
-The initial MVP focuses on:
+## Campus use case
 
-- A curated, magazine-style homepage (“Kopani Post”)
-- Journal profile pages
-- Internal piece pages with short original blurbs and outbound links
-- A simple taxonomy (journal, type, themes)
-- Newsletter signup and basic analytics
+The first business wedge is campuses.
 
-## Running locally
+Kopani can function as a contemporary reading center and a hidden literary alumni graph. The campus layer surfaces contributor-campus relationships from bios, connecting writers, translators, artists, institutions, journals, and pieces that are otherwise scattered across the web.
 
-> These steps are placeholders — adapt them to your actual stack.
+## Long-term vision
 
-```bash
-# clone the repo
-git clone https://github.com/<your-username>/kopani.git
-cd kopani
+Kopani starts with discovery, compounds into a literary reputation graph, and aims to become financial infrastructure for independent publishing.
 
-# install dependencies
-npm install
+The longer-term model is piece-level support: readers, alumni, donors, and institutions should be able to direct support to specific works, with verified routing to writers, translators, visual artists, or rights-approved journal recipients. The prototype explores a future 90/10 model where most support flows to the people and publications that made the work possible.
 
-# start dev server
-npm run dev
-```
+## Copyright
 
-Create a `.env.local` (or equivalent) file based on `.env.example` for any required environment variables.
+Kopani does **not** republish copyrighted material.
 
-## Contributing
+It indexes metadata, search fields, and descriptive information, then directs readers to the original journal pages where the work appears.
 
-This project is in an early experimental phase. Bug reports, suggestions, and lightweight contributions are welcome via issues and pull requests.
+## Repository structure
 
-Before contributing:
+- `frontend-stuff/kopani-frontend/` — frontend application
+- Scraping, ingestion, and metadata workflows — source collection and normalization pipeline
+- Project data/modeling code — structured records, search fields, and schema work
 
-- Avoid committing any secrets or private data.
-- Keep scraped data and proprietary content out of the public repo.
-- Prefer small, focused PRs.
+## Status
+
+This repository is an MVP in active development, focused on ingestion across journals, metadata modeling, discovery UX, and product validation.
+
 
 ## License
 
