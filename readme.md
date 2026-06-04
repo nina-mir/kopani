@@ -1,4 +1,4 @@
-![Kopani — the independent literary press, gathered.](og/og-image-A.png)
+![Kopani — the independent literary press, gathered.](og/kopani-og-editorial.png)
 
 
 # Kopani
