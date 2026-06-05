@@ -1,3 +1,6 @@
+
+
+![Kopani — the independent literary press, gathered.](og/kopani-og-mixtape.jpg)
 # Kopani Frontend
 
 Frontend application for Kopani, a rights-respecting discovery platform for the independent literary press.
