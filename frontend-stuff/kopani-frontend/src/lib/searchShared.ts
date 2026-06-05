@@ -481,3 +481,51 @@ export function sortSearchResults(
     return byScore || compareTitleAsc(a, b);
   });
 }
+
+const GENERIC_DISPLAY_KEYWORDS = new Set([
+  "memory",
+  "grief",
+  "identity",
+  "childhood",
+  "nature",
+  "domesticity",
+  "motherhood",
+  "trauma",
+  "body",
+  "death",
+  "violence",
+  "language",
+  "loss",
+  "family",
+  "desire",
+  "time",
+  "history",
+  "writing",
+  "isolation",
+  "survival",
+  "transformation",
+  "longing",
+  "nostalgia",
+  "love",
+  "absence",
+  "home",
+  "mortality",
+]);
+
+function isIssueLikeKeyword(keyword: string): boolean {
+  return /^granta\s+\d+$/i.test(keyword.trim());
+}
+
+export function getDisplayKeywords(
+  keywords: string[] | undefined,
+  limit = 4,
+): string[] {
+  if (!keywords?.length) return [];
+
+  return keywords
+    .map((keyword) => keyword.trim())
+    .filter(Boolean)
+    .filter((keyword) => !GENERIC_DISPLAY_KEYWORDS.has(keyword.toLowerCase()))
+    .filter((keyword) => !isIssueLikeKeyword(keyword))
+    .slice(0, limit);
+}

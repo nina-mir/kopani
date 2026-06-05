@@ -35,6 +35,8 @@ import {
   shouldUseSpineArtifact
 } from "../lib/cardVariants";
 
+import { getDisplayKeywords } from "../lib/searchShared";
+
 type Contributor = {
   name: string;
   href?: string;
@@ -134,7 +136,8 @@ const readTimeGaugeLabel = getReadTimeGaugeLabel(readTimeMinutes);
 const useSpineArtifact = shouldUseSpineArtifact(index);
 const spineVariant = getSpineVariant(contentType, issueLabel, dateLabel);
 
-const visibleKeywords = aiKeywords.slice(0, 10);
+// const visibleKeywords = aiKeywords.slice(0, 10);
+const visibleKeywords = getDisplayKeywords(aiKeywords, 6);
 const wordCountLabel = wordCountEstimate
   ? `${wordCountEstimate.toLocaleString()} words`
   : undefined;

@@ -204,6 +204,36 @@ QUERIES: dict[str, Query] = {
         """,
         empty_message="No pieces found.",
     ),
+    "top_keywords": Query(
+        name="top_keywords",
+        title="Top 400 AI Keywords by Frequency",
+        description=(
+            "Unnests pieces.ai_keywords_json across all pieces and counts how often "
+            "each keyword appears. Use to audit whether the AI-derived vocabulary "
+            "looks/sounds too Gen-AI. Top 400 by frequency."
+        ),
+        sql="""
+            WITH valid AS (
+                SELECT p.ai_keywords_json AS kw
+                FROM pieces p
+                WHERE p.ai_keywords_json IS NOT NULL
+                  AND json_valid(p.ai_keywords_json)
+                  AND json_type(p.ai_keywords_json) = 'array'
+            )
+            SELECT
+                TRIM(LOWER(je.value)) AS keyword,
+                COUNT(*)             AS frequency,
+                COUNT(DISTINCT je.value) AS distinct_casings
+            FROM valid v,
+                 json_each(v.kw) je
+            WHERE je.value IS NOT NULL
+              AND TRIM(je.value) <> ''
+            GROUP BY keyword
+            ORDER BY frequency DESC, keyword
+            LIMIT 400;
+        """,
+        empty_message="No keywords found in ai_keywords_json.",
+    )
 }
 
 
