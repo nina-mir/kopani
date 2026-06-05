@@ -1,5 +1,4 @@
-![Kopani — the independent literary press, gathered.](frontend-stuff\kopani-frontend\public\og\kopani-og-wordmark.jpg)
-
+![Kopani — the independent literary press, gathered.](frontend-stuff/kopani-frontend/public/og/kopani-og-wordmark.jpg)
 # Kopani
 
 Kopani is discovery and compensation infrastructure for the independent literary press.
