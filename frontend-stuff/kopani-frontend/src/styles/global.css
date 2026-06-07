@@ -4,6 +4,8 @@
 @import "./card-textures.css";
 @import "./card-gauge.css";
 @import "./card-spine.css";
+@import "./card-save.css";
+
 
 @theme {
   /* Palette — from design-themes_v0.0.0 */

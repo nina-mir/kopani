@@ -1,0 +1,105 @@
+/**
+ * Kopani — Save / Saved control  ·  src/styles/card-save.css
+ *
+ * Tactile, rectangular, lowercase. Pairs beside the card "read" button.
+ * Uses the design-theme tokens already exposed by @theme in global.css
+ * (--color-linen, --color-brick, --color-ink, --font-secret-service).
+ *
+ * Import once globally, alongside the other card-*.css files:
+ *   // global.css
+ *   @import "./card-save.css";
+ *
+ * The component only toggles the data-saved attribute; every visual state
+ * below is pure CSS. See "Save Component — Spec.md" for the SaveButton.astro
+ * behavior and the markup contract.
+ *
+ * Markup:
+ *   <button class="k-save" data-saved="false" data-hover="unsave"
+ *           data-mark="bookmark" data-piece="<pieceId>" data-url="<originalUrl>"
+ *           aria-pressed="false" aria-label="Save this piece">
+ *     <svg class="k-save__ico" viewBox="0 0 13 15" aria-hidden="true">
+ *       <path class="k-save__bm" d="M2.4 1.3h8.2a.9.9 0 0 1 .9.9v11.4l-5-3.3-5 3.3V2.2a.9.9 0 0 1 .9-.9z"/>
+ *     </svg>
+ *     <span class="k-save__txt" data-rest="save" data-alt="save"></span>
+ *   </button>
+ *
+ * data-saved : "true" | "false"          — the state (component toggles this)
+ * data-hover : "unsave" | "darken"       — saved-hover behavior
+ * data-mark  : "bookmark" | "check" | "none"
+ */
+
+.k-save{
+  --grain-saved: 1;                 /* set 0 to flatten the saved fill */
+  display: inline-flex;
+  align-items: center;
+  gap: .5em;
+  font-family: var(--font-secret-service);
+  font-size: .82rem;
+  font-weight: 400;
+  letter-spacing: .09em;
+  text-transform: lowercase;
+  line-height: 1;
+  padding: 7px 13px 6px;
+  border: 1px solid rgba(28,18,8,.15);          /* ink/15 */
+  background-color: var(--color-linen);
+  background-image:
+    radial-gradient(circle at 80% 82%, rgba(192,57,43,.12), transparent 62%),
+    linear-gradient(to top, #1c12080d, rgba(28,18,8,.10)),
+    repeating-linear-gradient(-45deg, rgba(28,18,8,.09) 0 1px, transparent 1px 11px);
+  color: var(--color-ink);                      /* ink/70 */
+  box-shadow: 0 1px 0 rgba(255,255,255,.5) inset;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: color .22s ease, border-color .22s ease,
+              background-color .22s ease, box-shadow .22s ease;
+}
+.k-save:focus-visible{ outline: 2px solid var(--color-brick); outline-offset: 2px; }
+
+.k-save__ico{ width: .78em; height: .92em; flex: none; overflow: visible; display: block; }
+.k-save__bm{ fill: none; stroke: currentColor; stroke-width: 1.4; stroke-linejoin: round;
+             transition: fill .22s ease; }
+.k-save__ck{ fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round;
+             stroke-linejoin: round; stroke-dasharray: 22; stroke-dashoffset: 22;
+             transition: stroke-dashoffset .3s ease .04s; }
+
+.k-save__txt::before{ content: attr(data-rest); }
+
+/* unsaved · hover → brick border + text */
+.k-save[data-saved="false"]:hover{
+  border-color: rgba(192,57,43,.42);
+  color: var(--color-brick);
+}
+
+/* saved · rest → brick fill, linen text */
+.k-save[data-saved="true"]{
+  border-color: var(--color-brick);
+  background-color: var(--color-brick);
+  background-image:
+    linear-gradient(to top, rgba(28,18,8,.10), rgba(255,255,255,.05)),
+    repeating-linear-gradient(45deg,
+      rgba(28,18,8,calc(.10 * var(--grain-saved))) 0 1px, transparent 1px 11px);
+  color: var(--color-linen);
+  box-shadow: 0 1px 0 rgba(255,255,255,.14) inset;
+}
+.k-save[data-saved="true"] .k-save__bm{ fill: currentColor; }
+.k-save[data-saved="true"] .k-save__ck{ stroke-dashoffset: 0; }
+
+/* saved · hover → deepen to ink; "unsave" mode also swaps the label */
+.k-save[data-saved="true"][data-hover="unsave"]:hover,
+.k-save[data-saved="true"][data-hover="darken"]:hover{
+  background-color: var(--color-ink);
+  border-color: var(--color-ink);
+  background-image:
+    repeating-linear-gradient(45deg, rgba(255,255,255,.04) 0 1px, transparent 1px 11px);
+}
+.k-save[data-saved="true"][data-hover="unsave"]:hover .k-save__txt::before{ content: attr(data-alt); }
+
+/* check-mark variant: hidden when unsaved, draws in on save */
+.k-save[data-mark="check"][data-saved="false"] .k-save__ico{ width: 0; margin-right: -.5em; }
+.k-save[data-mark="check"][data-saved="false"] .k-save__ck{ opacity: 0; }
+
+@media (prefers-reduced-motion: reduce){
+  .k-save, .k-save *{ transition: none !important; }
+  .k-save[data-saved="false"] .k-save__ck{ stroke-dashoffset: 22; }
+}

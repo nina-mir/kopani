@@ -1,0 +1,211 @@
+---
+/**
+ * Kopani — SaveButton (Phase 1)
+ *
+ * Renders the finished `k-save` control from `card-save.css` (the visual source
+ * of truth — NOT restyled here) and wires the save/unsave behavior:
+ *   - toggles `data-saved` + the four mirrored attrs on click
+ *   - persists to localStorage (`kopani:savedPieces:v1`)
+ *   - keeps every button for the same piece in sync (same page + across tabs)
+ *
+ * Identity: match by `pieceId` first, then `originalUrl`.
+ *
+ * NOTE ON SCOPE: the spec keeps persistence in a separate `src/lib/savedStore.ts`
+ * seam. You asked for a single UI file, so the store lives in the bundled
+ * <script> below, clearly fenced as "STORE". It's a copy-paste away from being
+ * extracted later (for the future API-backed swap) — happy to split it out.
+ */
+interface Props {
+  pieceId: string;                         // primary identity -> data-piece
+  originalUrl: string;                     // fallback identity -> data-url
+  title?: string;                          // stored with the saved record
+  mark?: "bookmark" | "check" | "none";    // which mark SVG to render
+  savedHover?: "unsave" | "darken";        // -> data-hover (CSS owns the behavior)
+  class?: string;                          // extra classes appended to .k-save
+}
+
+const {
+  pieceId,
+  originalUrl,
+  title = "",
+  mark = "bookmark",
+  savedHover = "unsave",
+  class: className = "",
+} = Astro.props;
+---
+
+<button
+  type="button"
+  class:list={["k-save", className]}
+  data-saved="false"
+  data-hover={savedHover}
+  data-mark={mark}
+  data-piece={pieceId}
+  data-url={originalUrl}
+  data-title={title || undefined}
+  aria-pressed="false"
+  aria-label="Save this piece"
+>
+  {
+    mark === "bookmark" && (
+      <svg class="k-save__ico" viewBox="0 0 13 15" aria-hidden="true">
+        <path
+          class="k-save__bm"
+          d="M2.4 1.3h8.2a.9.9 0 0 1 .9.9v11.4l-5-3.3-5 3.3V2.2a.9.9 0 0 1 .9-.9z"
+        />
+      </svg>
+    )
+  }
+  {
+    mark === "check" && (
+      <svg class="k-save__ico" viewBox="0 0 13 13" aria-hidden="true">
+        <path class="k-save__ck" d="M2 7l3 3.2L11.2 3" />
+      </svg>
+    )
+  }
+  <span class="k-save__txt" data-rest="save" data-alt="save"></span>
+</button>
+
+<script>
+  // Astro bundles & dedupes this <script>: it runs ONCE per page regardless of
+  // how many <SaveButton/> instances render. That single run wires every
+  // `.k-save` on the page, which is what gives us cross-instance sync for free.
+
+  // ── STORE ────────────────────────────────────────────────────────────────
+  // The only place that touches localStorage. Extract verbatim into
+  // savedStore.ts when the API-backed version is needed.
+  type Identity = { pieceId?: string; originalUrl?: string };
+  type SavedRecord = {
+    pieceId: string;
+    originalUrl: string;
+    title?: string;
+    savedAt: string;
+  };
+
+  const STORAGE_KEY = "kopani:savedPieces:v1";
+
+  function readAll(): SavedRecord[] {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (!raw) return [];
+      const parsed = JSON.parse(raw);
+      return Array.isArray(parsed) ? (parsed as SavedRecord[]) : [];
+    } catch {
+      return []; // storage disabled / corrupt JSON — fail soft, no console noise on load
+    }
+  }
+
+  function writeAll(records: SavedRecord[]): void {
+    // intentionally NOT wrapped — callers decide how to handle a failed write
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(records));
+  }
+
+  // pieceId first, then originalUrl
+  function matches(a: Identity, b: Identity): boolean {
+    if (a.pieceId && b.pieceId) return a.pieceId === b.pieceId;
+    if (a.originalUrl && b.originalUrl) return a.originalUrl === b.originalUrl;
+    return false;
+  }
+
+  function isSaved(id: Identity): boolean {
+    return readAll().some((rec) => matches(rec, id));
+  }
+
+  // returns the new saved state; may throw if the write fails
+  function toggle(rec: {
+    pieceId: string;
+    originalUrl: string;
+    title?: string;
+  }): boolean {
+    const all = readAll();
+    const idx = all.findIndex((r) => matches(r, rec));
+    let nowSaved: boolean;
+    if (idx >= 0) {
+      all.splice(idx, 1); // dedupe handled by matches()
+      nowSaved = false;
+    } else {
+      all.push({
+        pieceId: rec.pieceId,
+        originalUrl: rec.originalUrl,
+        ...(rec.title ? { title: rec.title } : {}),
+        savedAt: new Date().toISOString(),
+      });
+      nowSaved = true;
+    }
+    writeAll(all);
+    return nowSaved;
+  }
+  // ── /STORE ─────────────────────────────────────────────────────────────────
+
+  const SAVE_EVENT = "kopani:save-changed";
+
+  function idOf(btn: HTMLElement): Identity {
+    return { pieceId: btn.dataset.piece, originalUrl: btn.dataset.url };
+  }
+
+  // Update the five attributes together so visual state + a11y name stay in sync.
+  function applyState(btn: HTMLElement, saved: boolean): void {
+    btn.dataset.saved = saved ? "true" : "false";
+    btn.setAttribute("aria-pressed", saved ? "true" : "false");
+    btn.setAttribute("aria-label", saved ? "Remove from saved" : "Save this piece");
+    const txt = btn.querySelector<HTMLElement>(".k-save__txt");
+    if (txt) {
+      txt.dataset.rest = saved ? "saved" : "save";
+      txt.dataset.alt = saved ? "unsave" : "save";
+    }
+  }
+
+  const buttons = Array.from(
+    document.querySelectorAll<HTMLButtonElement>(".k-save"),
+  );
+
+  // First paint reconcile (best-effort; a brief pre-hydration mismatch is fine).
+  buttons.forEach((btn) => applyState(btn, isSaved(idOf(btn))));
+
+  buttons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const id = idOf(btn);
+      const prev = btn.dataset.saved === "true";
+      const next = !prev;
+
+      // Flip the attributes first…
+      applyState(btn, next);
+
+      // …then persist. Revert on failure.
+      try {
+        const result = toggle({
+          pieceId: id.pieceId ?? "",
+          originalUrl: id.originalUrl ?? "",
+          title: btn.dataset.title || undefined,
+        });
+        if (result !== next) applyState(btn, result); // store had the last word
+        document.dispatchEvent(
+          new CustomEvent(SAVE_EVENT, {
+            detail: {
+              pieceId: id.pieceId,
+              originalUrl: id.originalUrl,
+              saved: result,
+            },
+          }),
+        );
+      } catch (err) {
+        applyState(btn, prev);
+        console.warn("Kopani: could not save state", err);
+      }
+    });
+  });
+
+  // Same-page sync: every button matching the changed piece follows along.
+  document.addEventListener(SAVE_EVENT, (e) => {
+    const detail = (e as CustomEvent).detail as Identity & { saved: boolean };
+    buttons.forEach((b) => {
+      if (matches(idOf(b), detail)) applyState(b, detail.saved);
+    });
+  });
+
+  // Cross-tab sync: re-reconcile from the freshly-written store.
+  window.addEventListener("storage", (e) => {
+    if (e.key !== STORAGE_KEY) return;
+    buttons.forEach((b) => applyState(b, isSaved(idOf(b))));
+  });
+</script>

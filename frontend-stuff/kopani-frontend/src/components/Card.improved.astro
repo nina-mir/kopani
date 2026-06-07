@@ -23,6 +23,7 @@
  * - authors via piece_contributors(role='visual_artist')-> visualArtists
  * - pieces.ai_keywords_json     -> aiKeywords
  */
+import SaveButton from "./SaveButton.astro";
 import { getCardTextureClass } from "../lib/cardVariants";
 import {
   getReadTimeGaugeLabel,
@@ -248,7 +249,7 @@ const wordCountLabel = wordCountEstimate
     }
 
 
-    <div class="absolute right-4 top-4 z-10">
+    <div class="absolute right-4 top-4 z-10 flex gap-1 items-center">
     <!--         
           IMPORTANT:
           Kopani links OUT to the original publication.
@@ -263,8 +264,6 @@ const wordCountLabel = wordCountEstimate
             border
             border-ink/15
             bg-linen
-            px-4
-            py-2
             font-secret-service
             font-light
             text-sm
@@ -289,16 +288,22 @@ const wordCountLabel = wordCountEstimate
 
             /* tiny touches that make it sing */
             border: 1px solid rgba(28,18,8,.15);
-            padding: 6px 12px;
+            padding: 7px 13px 6px;
             color: var(--ink);
-            font-size: 1rem;
-            letter-spacing: 0.05em;
+            font-size: .82rem;
+            line-height: 1;
+            letter-spacing: .09em;
             box-shadow: 0 1px 0 rgba(255,255,255,.5) inset;  /* subtle paper highlight */
             "
           >
           read
-          <span class="text-brick"> ↗ </span>
+          <span class="text-ink font-bold"> ↗ </span>
         </a>
+        <SaveButton
+            pieceId={piece.pieceId ?? piece.originalUrl}
+            originalUrl={piece.originalUrl}
+            title={piece.title}
+          />
       </div>
 
     <!-- JOURNAL + OUTBOUND LINK -->
