@@ -44,6 +44,7 @@ export interface PieceCardData {
   imageUrl?: string;
   aiKeywords?: string[];
   featured?: boolean;
+  pieceId: string;
     /**
    * Normalized metadata-only search text.
    * Used by local content-type page filtering.
@@ -158,6 +159,7 @@ function mapPiece(row: PieceJoinRow): PieceCardData {
   const visualArtists = byRole('visual_artist');
 
   const piece = {
+    pieceId: String(row.id),
     title: row.title,
     subtitle: clean(row.subtitle),
     dek: clean(row.summary) ?? clean(row.meta_description),
